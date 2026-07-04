@@ -93,25 +93,15 @@ Baron was in his early twenties when it happened. Old enough to understand what 
 
 He carried it.
 
-Then Katrina came.
-
-In 2005, when the storm reshaped the city in ways that no one who loved New Orleans has ever fully finished grieving, Baron found himself standing on Decatur Street looking at 941. The building was still there — the French Quarter had survived the flood, sitting as it does on higher ground, its bones intact while whole neighborhoods drowned. But the address that had once been the living room of the French Quarter was a tourist center now. Bland walls. Brochures. The forty-foot ceilings still there, holding up a room that had forgotten what it was for.
+Years later, back on that same stretch of Decatur, Baron stood in front of what 941 had become. A tourist center now. Bland walls. Brochures. The forty-foot ceilings still there, holding up a room that had forgotten what it was for.
 
 He stood on the sidewalk for a long time.
 
-The city he had grown up in was in the process of becoming something else — not destroyed, but altered in a way that felt permanent, the way a scar alters a face. A third of the Black population had left and not come back. The neighborhoods that had shaped the people who had shaped the culture were damaged or emptied or simply gone. New Orleans was fighting to remember itself.
+Baron understood something standing there that he had not fully articulated before. The places that matter don't survive on their own. They survive because someone decides they are worth fighting for. Kaldi's had not been worth fighting for to the person who owned the building. He was not going to make that mistake. Whatever he built, he was going to own. Not lease. Not rent. Own. Something that no landlord could double the price on, no city permit office could indefinitely delay, no Melpomene could take credit for.
 
+The shipping container concept was born in a professional kitchen, but its soul was born on a sidewalk on Decatur Street, standing in front of a building that used to be something and wasn't anymore.
 
-
-[AUTHOR'S NOTE — TO BE ADDED: The Katrina passage in Chapter Zero. Baron's father. Written by the author in his own time and words.]
-
-
-
-Baron understood something standing on that sidewalk that he had not fully articulated before. The places that matter don't survive on their own. They survive because someone decides they are worth fighting for. Kaldi's had not been worth fighting for to the person who owned the building. He was not going to make that mistake. Whatever he built, he was going to own. Not lease. Not rent. Own. Something that no landlord could double the price on, no city permit office could indefinitely delay, no Melpomene could take credit for.
-
-The shipping container concept was born in a professional kitchen, but its soul was born on a sidewalk on Decatur Street in 2005, standing in front of a building that used to be something and wasn't anymore.
-
-He turned up his collar against the post-storm air and walked back into the city.
+He turned up his collar and walked back into the city.
 
 He had work to do.
 
@@ -827,124 +817,81 @@ The blueprint was getting closer to a building.
 
 ## CHAPTER 9: ROE VELVET
 
-﻿CHAPTER 9: ROE VELVET
-
-
 He'd been chasing an idea for three days — ever since a conversation about redfish had circled, as conversations in his head tended to, into someplace stranger. Roe. Velvet cake. A pun so absurd it had kept him up assembling a recipe instead of sleeping, which was, by now, simply how his brain worked.
-
 
 He tested it on the line that afternoon. Rampart ate a slice without commentary, which from Rampart was the highest compliment available.
 
-
 "Well?" Baron asked.
-
 
 Rampart wiped his knife, unhurried. "It's good."
 
-
 "That's it? 'It's good'?"
-
 
 "You want a parade, take it to Calliope. She'll give you the parade." A pause. "Or she won't, and you'll know it's actually good."
 
-
 Baron considered this with the seriousness it deserved. Rampart wasn't wrong. Rampart's silence meant the dish worked. What Baron needed now was someone who'd tell him whether it was interesting — and there was only one person in his life whose verdict on that question he actually trusted.
-
 
 He had Rampart box two slices while he composed himself — an unnecessary theatrical pause that he allowed himself anyway — and carried the cake stand out into the French Quarter night personally, which he almost never did mid-week.
 
-
-________________
-
-
-
+---
 
 Calliope's bar was quiet at this hour, the post-rush lull before last call, a handful of regulars nursing the bottoms of their glasses. She was behind the bar wiping it down when he came through the door with both hands wrapped around a cake stand like he was carrying something fragile and important, which, in his estimation, he was.
 
-
 "You didn't call ahead," she said, not looking up.
-
 
 "Can't call ahead to something I didn't schedule."
 
-
 That got her attention. She set the rag down, took one look at the stand, and the corner of her mouth moved. "What is that."
-
 
 "You will notice," Baron said, lifting the cake stand with both hands like he was presenting a crown, "that I have done the unthinkable." He paused — too long, the way he always did when he wanted the room to lean in. "I have made the roe… wait."
 
-
 He set it down. Didn't smile yet.
-
 
 "For years, the egg has waited at the bow of the boat, on the blini, on the canapé, always playing supporting role. Tonight—" he gestured, almost violently, at the quenelle "—it sits center stage. Atop velvet. Atop my velvet."
 
-
 Calliope leaned both forearms on the bar and studied the cake the way she studied him — steady, unhurried, missing nothing. "This is not fusion," Baron added, suddenly defensive, as if someone had accused him of something. "This is destiny."
-
 
 "Destiny," she repeated, flat. "Last week it was the bisque."
 
-
 "The bisque," Baron said, wounded, "was a different chapter of destiny."
-
 
 She hadn't touched a fork yet. She was still looking at the quenelle like it might do something — sing, maybe, or apologize. She glanced up at Baron, who was watching her the way a man watches a roulette wheel he's already bet on.
 
-
 "You want me to eat the eggs," she said, "off the cake."
-
 
 "I want you," Baron said, "to experience them. Together. As intended by something larger than either of us."
 
-
 "Larger than both of us, easy." She finally pulled a fork from behind the bar.
-
 
 She took the bite — cake, frosting, roe, all of it — and her face did something complicated. Salt first, then sweet right behind it, chasing its tail. She set the fork down slow, like she was giving the moment its due.
 
-
 "Okay," she said. "That's — that's actually a bit. That's a whole bit."
-
 
 "It is a dish."
 
-
 "No. I've watched you run this exact routine on me for two years, Baron. The bisque. The remoulade you wouldn't shut up about in March. I know a bit when I'm being handed one." She picked the fork back up, clearly not done. "You should be charging cover."
-
 
 Something in the cadence of it — charging cover — landed somewhere he hadn't expected, a small, specific click, like a key turning in a lock he hadn't known was there. He didn't have a comeback ready for a second. Calliope noticed. She always noticed.
 
-
 "What," she said.
-
 
 "Nothing." He shook it off. "Filing it away."
 
-
 "For Bayouboujee."
 
-
 "For Bayouboujee."
-
 
 She slid the empty fork back across the bar toward him, a verdict rendered. "Build the menu around that. Whatever else you put on it, that goes on it."
 
-
 Baron took the cake stand back, lighter than when he'd carried it in, already turning the dish over in his head — what to refine, what to leave alone, whether the city was ready for it outside one bar stool past midnight. He said his goodnights and stepped back out into the warm dark, the domain email and the blueprint and all of it sitting a little closer to real than it had an hour ago.
-
 
 He didn't notice he was humming until he was half a block from her door.
 
-
 It took him three more steps to recognize the tune as something he'd heard once, off a side street, a month ago, in a voice that carried without trying.
-
 
 He didn't stop walking. But he made a note — actual ink, actual notebook, tucked into the apron pocket beside his phone — to find out where she played.
 
-
 He still didn't know her name.
-
 
 The city, as it always did, was simply waiting for him to catch up.
 
@@ -1176,7 +1123,7 @@ Baron sat with it. He did not answer quickly, because he was not a man who answe
 
 Connie's question moved through him like a current: *Do you know what you actually want?*
 
-He did. He had known since a sidewalk in 2005, standing in front of a building that used to be something and had been allowed to become nothing. He had known since an insult in a French Quarter kitchen that was supposed to diminish him and had instead clarified him. He had known since the LLC was registered and the domain went live and the blueprint moved from vision to document — since all of it had accumulated into the specific, irreversible knowledge of a man who understands what he's building and why.
+He did. He had known since a sidewalk on Decatur Street, standing in front of a building that used to be something and had been allowed to become nothing. He had known since an insult in a French Quarter kitchen that was supposed to diminish him and had instead clarified him. He had known since the LLC was registered and the domain went live and the blueprint moved from vision to document — since all of it had accumulated into the specific, irreversible knowledge of a man who understands what he's building and why.
 
 Bayouboujee had to be his the way Maison Menture was Menture's. That was the only architecture that would hold.
 
