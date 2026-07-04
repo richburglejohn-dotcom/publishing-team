@@ -22,7 +22,7 @@
 const STORE_CONFIG = {
   bookOne: {
     title: "A Symphony of Love in the Big Easy",
-    amazonUrl: "#",           // paste real Amazon link here
+    amazonUrl: "https://www.amazon.com/dp/B0H2WLJ8JF",
     directBuyUrl: "https://buy.stripe.com/5kQ5kF645bQjghpa1v63K00",
     directBuyEnabled: true
   },
