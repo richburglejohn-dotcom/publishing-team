@@ -8,6 +8,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,600&family=EB+Garamond:ital@0;1&family=Courier+Prime&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
+<script async src="https://js.stripe.com/v3/buy-button.js"></script>
 </head>
 <body>
 
@@ -50,7 +51,11 @@
         <p>Five years later, Olivia is a platinum-selling artist. Baron cooks for the joy of it on a South American coast. Bayouboujee still runs — because the people who loved it wouldn't let it die.</p>
         <div class="button-row" style="justify-content: flex-start; margin-top: 28px; align-items: flex-start;">
           <div>
-            <a href="#" data-buy-direct="bookOne" class="btn btn-primary">Buy Direct</a>
+            <stripe-buy-button
+              buy-button-id="buy_btn_1TpmegRt6JvOV3iXiFsMpepE"
+              publishable-key="pk_live_51ToMDDRt6JvOV3iX01ZzRyTeI88Kgt2L4xuikDSgIraTlh9gFPVsmWwLiR1gTt643Kq502jnHTA7hHORM87l8fkA00Ln7qWYeG"
+            >
+            </stripe-buy-button>
             <span class="btn-note">Secure checkout via Stripe</span>
           </div>
           <div>

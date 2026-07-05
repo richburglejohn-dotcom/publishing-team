@@ -29,7 +29,7 @@ const STORE_CONFIG = {
   scarletFoundation: {
     title: "The Scarlet Foundation",
     amazonUrl: "#",
-    directBuyUrl: "#",
-    directBuyEnabled: false
+    directBuyUrl: "https://buy.stripe.com/5kQ00l0JL9Ib3uDgpT63K02",
+    directBuyEnabled: true
   }
 };
