@@ -157,13 +157,13 @@ These aren't legal filings but are essential business infrastructure for BAYOUBE
   - Start tracking ALL income and expenses immediately — every book sale, every content fee, every business purchase
   - Your CPA will thank you
 
-- [ ] **Separate email for BAYOUBEAUX1070 business** — e.g., info@bayoubeaux1070.com
-  - Domain registration + Google Workspace (~$12/year for domain + $6/month for email)
+- [x] **Separate email for BAYOUBEAUX1070 business** — decided: `bayoubeaux1070@gmail.com`
+  - Use this going forward for all business/brand sign-ups (social accounts, KDP, Stripe, etc.) instead of personal accounts
 
 - [ ] **Baron Vieux / BAYOUBEAUX1070 social media accounts**
   - Confirm all handles are secured: Instagram, Facebook, X (Twitter), TikTok, YouTube
   - Convert to Business/Creator accounts on each platform
-  - Link to business email, not personal
+  - Sign up and link to `bayoubeaux1070@gmail.com`, not personal accounts — some content was previously attached to personal accounts and needs to move
 
 - [ ] **KDP (Amazon Kindle Direct Publishing) — Author/Publisher account**
   - Set up under BAYOUBEAUX1070 as the publisher name
