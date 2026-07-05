@@ -1,3 +1,4 @@
 references/google_token.pkl
 desktop.ini
 media/
+!website/media/
