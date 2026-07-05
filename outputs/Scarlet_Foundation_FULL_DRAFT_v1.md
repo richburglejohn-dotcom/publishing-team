@@ -899,7 +899,7 @@ The city, as it always did, was simply waiting for him to catch up.
 
 # Chapter 10: Rivière
 
-The first time Chef Menture saw Baron Vieux, he didn't say anything about it.
+The first time Chef Menture saw Baron Vieux, he didn't say anything about him.
 
 That was his way — the particular stillness of a man who has spent twenty years watching kitchens and knows the difference between someone performing and someone working. He sat at a corner table at The Tidemark on a Thursday evening, unhurried, a glass of something amber in his hand, and noticed the way a particular cook moved through the line without announcement. Not the executive. Not the sous. The line cook in the second position, running sauté with the specific economy of a man who had trained himself to carry nothing extra.
 
