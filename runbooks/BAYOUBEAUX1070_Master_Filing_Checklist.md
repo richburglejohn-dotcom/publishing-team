@@ -22,6 +22,10 @@ These filing deadlines have passed. Late filings can result in IRS penalties, bu
     - Your EIN notice (einnumber.pdf)
     - Any income or expense records from 2024–2025
     - Your LLC formation documents (see Tier 2)
+  - **Shortlist (researched 2026-07-06):**
+    - **Hymel & Ready** — best fit; lists entertainment/media *and* hospitality as specialties, 30+ years in New Orleans. info@hymelcpas.com, (504) 598-5245. Principal David Hymel: dhymel@hymelcpas.com. 900 Camp St, Suite 452, New Orleans, LA 70130.
+    - **Arete Partners** — focuses on small entrepreneurial ventures, virtual CFO/bookkeeping, since 2011. (855) 502-9755. 8721 Oak St, New Orleans, LA 70118.
+    - **Cressend CPA** — 40+ years serving small businesses, restaurants, and bars specifically. info@cressendcpa.com, (504) 889-1722. 2424 Edenborn Ave #170, Metairie, LA 70001.
 
 - [ ] **Form 1065 — Partnership Return (Tax Year 2024)**
   - Was due: 03/15/2025
