@@ -1,0 +1,453 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//BAYOUBEAUX1070//Publishing Team//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:baronvieux-social-20260707-0@bayoubeaux1070
+DTSTAMP:20260706T103817Z
+DTSTART;VALUE=DATE:20260707
+SUMMARY:Baron Vieux LAUNCH - Facebook
+DESCRIPTION:Post 1 - Page Launch. Source: outputs/facebook-baron-vieux-page-launch-v1.md
+END:VEVENT
+BEGIN:VEVENT
+UID:baronvieux-social-20260707-1@bayoubeaux1070
+DTSTAMP:20260706T103817Z
+DTSTART;VALUE=DATE:20260707
+SUMMARY:Baron Vieux LAUNCH - Instagram
+DESCRIPTION:Post 1 - Page Launch. Source: outputs/instagram-baron-vieux-page-launch-v1.md
+END:VEVENT
+BEGIN:VEVENT
+UID:baronvieux-social-20260707-2@bayoubeaux1070
+DTSTAMP:20260706T103817Z
+DTSTART;VALUE=DATE:20260707
+SUMMARY:Baron Vieux LAUNCH - TikTok
+DESCRIPTION:Script 1 - Making an Exception. Source: outputs/tiktok-baron-vieux-page-launch-v1.md
+END:VEVENT
+BEGIN:VEVENT
+UID:baronvieux-social-20260707-3@bayoubeaux1070
+DTSTAMP:20260706T103817Z
+DTSTART;VALUE=DATE:20260707
+SUMMARY:Baron Vieux LAUNCH - X
+DESCRIPTION:Tweet 1 - Page Launch. Source: outputs/x-baron-vieux-page-launch-v1.md
+END:VEVENT
+BEGIN:VEVENT
+UID:baronvieux-social-20260709-4@bayoubeaux1070
+DTSTAMP:20260706T103817Z
+DTSTART;VALUE=DATE:20260709
+SUMMARY:Baron Vieux - Facebook
+DESCRIPTION:Post 2 - The Elixir. Source: outputs/facebook-baron-vieux-page-launch-v1.md
+END:VEVENT
+BEGIN:VEVENT
+UID:baronvieux-social-20260709-5@bayoubeaux1070
+DTSTAMP:20260706T103817Z
+DTSTART;VALUE=DATE:20260709
+SUMMARY:Baron Vieux - Instagram
+DESCRIPTION:Post 2 - The Elixir. Source: outputs/instagram-baron-vieux-page-launch-v1.md
+END:VEVENT
+BEGIN:VEVENT
+UID:baronvieux-social-20260709-6@bayoubeaux1070
+DTSTAMP:20260706T103817Z
+DTSTART;VALUE=DATE:20260709
+SUMMARY:Baron Vieux - TikTok
+DESCRIPTION:Script 2 - Never Written Down. Source: outputs/tiktok-baron-vieux-page-launch-v1.md
+END:VEVENT
+BEGIN:VEVENT
+UID:baronvieux-social-20260709-7@bayoubeaux1070
+DTSTAMP:20260706T103817Z
+DTSTART;VALUE=DATE:20260709
+SUMMARY:Baron Vieux - X
+DESCRIPTION:Tweet 2 - The Elixir. Source: outputs/x-baron-vieux-page-launch-v1.md
+END:VEVENT
+BEGIN:VEVENT
+UID:baronvieux-social-20260711-8@bayoubeaux1070
+DTSTAMP:20260706T103817Z
+DTSTART;VALUE=DATE:20260711
+SUMMARY:Baron Vieux - Facebook
+DESCRIPTION:Post 3 - On Ownership. Source: outputs/facebook-baron-vieux-page-launch-v1.md
+END:VEVENT
+BEGIN:VEVENT
+UID:baronvieux-social-20260711-9@bayoubeaux1070
+DTSTAMP:20260706T103817Z
+DTSTART;VALUE=DATE:20260711
+SUMMARY:Baron Vieux - Instagram
+DESCRIPTION:Post 3 - On Ownership. Source: outputs/instagram-baron-vieux-page-launch-v1.md
+END:VEVENT
+BEGIN:VEVENT
+UID:baronvieux-social-20260711-10@bayoubeaux1070
+DTSTAMP:20260706T103817Z
+DTSTART;VALUE=DATE:20260711
+SUMMARY:Baron Vieux - TikTok
+DESCRIPTION:Script 3 - Start Your Own. Source: outputs/tiktok-baron-vieux-page-launch-v1.md
+END:VEVENT
+BEGIN:VEVENT
+UID:baronvieux-social-20260711-11@bayoubeaux1070
+DTSTAMP:20260706T103817Z
+DTSTART;VALUE=DATE:20260711
+SUMMARY:Baron Vieux - X
+DESCRIPTION:Tweet 3 - On Ownership. Source: outputs/x-baron-vieux-page-launch-v1.md
+END:VEVENT
+BEGIN:VEVENT
+UID:baronvieux-social-20260712-12@bayoubeaux1070
+DTSTAMP:20260706T103817Z
+DTSTART;VALUE=DATE:20260712
+SUMMARY:Baron Vieux - X (bonus)
+DESCRIPTION:Tweet 7 - The Domain. Source: outputs/x-baron-vieux-page-launch-v1.md
+END:VEVENT
+BEGIN:VEVENT
+UID:baronvieux-social-20260714-13@bayoubeaux1070
+DTSTAMP:20260706T103817Z
+DTSTART;VALUE=DATE:20260714
+SUMMARY:Baron Vieux - Facebook
+DESCRIPTION:Post 4 - The Storage Room. Source: outputs/facebook-baron-vieux-page-launch-v1.md
+END:VEVENT
+BEGIN:VEVENT
+UID:baronvieux-social-20260714-14@bayoubeaux1070
+DTSTAMP:20260706T103817Z
+DTSTART;VALUE=DATE:20260714
+SUMMARY:Baron Vieux - Instagram
+DESCRIPTION:Post 4 - The Storage Room. Source: outputs/instagram-baron-vieux-page-launch-v1.md
+END:VEVENT
+BEGIN:VEVENT
+UID:baronvieux-social-20260714-15@bayoubeaux1070
+DTSTAMP:20260706T103817Z
+DTSTART;VALUE=DATE:20260714
+SUMMARY:Baron Vieux - TikTok
+DESCRIPTION:Script 4 - The Storage Room. Source: outputs/tiktok-baron-vieux-page-launch-v1.md
+END:VEVENT
+BEGIN:VEVENT
+UID:baronvieux-social-20260714-16@bayoubeaux1070
+DTSTAMP:20260706T103817Z
+DTSTART;VALUE=DATE:20260714
+SUMMARY:Baron Vieux - X
+DESCRIPTION:Tweet 4 - The Storage Room. Source: outputs/x-baron-vieux-page-launch-v1.md
+END:VEVENT
+BEGIN:VEVENT
+UID:baronvieux-social-20260716-17@bayoubeaux1070
+DTSTAMP:20260706T103817Z
+DTSTART;VALUE=DATE:20260716
+SUMMARY:Baron Vieux - Facebook
+DESCRIPTION:Post 5 - Origin\, Briefly. Source: outputs/facebook-baron-vieux-page-launch-v1.md
+END:VEVENT
+BEGIN:VEVENT
+UID:baronvieux-social-20260716-18@bayoubeaux1070
+DTSTAMP:20260706T103817Z
+DTSTART;VALUE=DATE:20260716
+SUMMARY:Baron Vieux - Instagram
+DESCRIPTION:Post 5 - Origin. Source: outputs/instagram-baron-vieux-page-launch-v1.md
+END:VEVENT
+BEGIN:VEVENT
+UID:baronvieux-social-20260716-19@bayoubeaux1070
+DTSTAMP:20260706T103817Z
+DTSTART;VALUE=DATE:20260716
+SUMMARY:Baron Vieux - X
+DESCRIPTION:Tweet 5 - Origin Fragment. Source: outputs/x-baron-vieux-page-launch-v1.md
+END:VEVENT
+BEGIN:VEVENT
+UID:baronvieux-social-20260717-20@bayoubeaux1070
+DTSTAMP:20260706T103817Z
+DTSTART;VALUE=DATE:20260717
+SUMMARY:Baron Vieux - X (bonus)
+DESCRIPTION:Tweet 6 - Systems Thinking Flex. Source: outputs/x-baron-vieux-page-launch-v1.md
+END:VEVENT
+BEGIN:VEVENT
+UID:baronvieux-social-20260719-21@bayoubeaux1070
+DTSTAMP:20260706T103817Z
+DTSTART;VALUE=DATE:20260719
+SUMMARY:Baron Vieux - Facebook
+DESCRIPTION:Post 6 - Series Tie-In. Source: outputs/facebook-baron-vieux-page-launch-v1.md
+END:VEVENT
+BEGIN:VEVENT
+UID:baronvieux-social-20260719-22@bayoubeaux1070
+DTSTAMP:20260706T103817Z
+DTSTART;VALUE=DATE:20260719
+SUMMARY:Baron Vieux - Instagram
+DESCRIPTION:Post 6 - Series Tie-In. Source: outputs/instagram-baron-vieux-page-launch-v1.md
+END:VEVENT
+BEGIN:VEVENT
+UID:baronvieux-social-20260719-23@bayoubeaux1070
+DTSTAMP:20260706T103817Z
+DTSTART;VALUE=DATE:20260719
+SUMMARY:Baron Vieux - X
+DESCRIPTION:Tweet 8 - Series Tie-In. Source: outputs/x-baron-vieux-page-launch-v1.md
+END:VEVENT
+BEGIN:VEVENT
+UID:baronvieux-social-20260720-24@bayoubeaux1070
+DTSTAMP:20260706T103817Z
+DTSTART;VALUE=DATE:20260720
+SUMMARY:Author Voice - X
+DESCRIPTION:SF Tweet 1. Source: outputs/social-content-prequel-v1.md
+END:VEVENT
+BEGIN:VEVENT
+UID:baronvieux-social-20260720-25@bayoubeaux1070
+DTSTAMP:20260706T103817Z
+DTSTART;VALUE=DATE:20260720
+SUMMARY:Author Voice - TikTok
+DESCRIPTION:SF Script 2 - Scarlet Elixir. Source: outputs/social-content-prequel-v1.md
+END:VEVENT
+BEGIN:VEVENT
+UID:baronvieux-social-20260721-26@bayoubeaux1070
+DTSTAMP:20260706T103817Z
+DTSTART;VALUE=DATE:20260721
+SUMMARY:Author Voice - Instagram
+DESCRIPTION:SF Post 5 - Series Hook. Source: outputs/social-content-prequel-v1.md
+END:VEVENT
+BEGIN:VEVENT
+UID:baronvieux-social-20260721-27@bayoubeaux1070
+DTSTAMP:20260706T103817Z
+DTSTART;VALUE=DATE:20260721
+SUMMARY:Author Voice - X
+DESCRIPTION:SF Tweet 2. Source: outputs/social-content-prequel-v1.md
+END:VEVENT
+BEGIN:VEVENT
+UID:baronvieux-social-20260722-28@bayoubeaux1070
+DTSTAMP:20260706T103817Z
+DTSTART;VALUE=DATE:20260722
+SUMMARY:Author Voice - Facebook
+DESCRIPTION:SF FB Post 3 - Full Arc Overview. Source: outputs/social-content-prequel-v1.md
+END:VEVENT
+BEGIN:VEVENT
+UID:baronvieux-social-20260722-29@bayoubeaux1070
+DTSTAMP:20260706T103817Z
+DTSTART;VALUE=DATE:20260722
+SUMMARY:Author Voice - X
+DESCRIPTION:B1 Tweet 1. Source: outputs/social-content-book1-deepdive-v1.md
+END:VEVENT
+BEGIN:VEVENT
+UID:baronvieux-social-20260723-30@bayoubeaux1070
+DTSTAMP:20260706T103817Z
+DTSTART;VALUE=DATE:20260723
+SUMMARY:Author Voice - Instagram
+DESCRIPTION:B1 Post 1 - Full Arc Reveal. Source: outputs/social-content-book1-deepdive-v1.md
+END:VEVENT
+BEGIN:VEVENT
+UID:baronvieux-social-20260723-31@bayoubeaux1070
+DTSTAMP:20260706T103817Z
+DTSTART;VALUE=DATE:20260723
+SUMMARY:Author Voice - X
+DESCRIPTION:B1 Tweet 2. Source: outputs/social-content-book1-deepdive-v1.md
+END:VEVENT
+BEGIN:VEVENT
+UID:baronvieux-social-20260724-32@bayoubeaux1070
+DTSTAMP:20260706T103817Z
+DTSTART;VALUE=DATE:20260724
+SUMMARY:Author Voice - X
+DESCRIPTION:SF Tweet 3. Source: outputs/social-content-prequel-v1.md
+END:VEVENT
+BEGIN:VEVENT
+UID:baronvieux-social-20260725-33@bayoubeaux1070
+DTSTAMP:20260706T103817Z
+DTSTART;VALUE=DATE:20260725
+SUMMARY:Author Voice - Instagram
+DESCRIPTION:SF Post 1 - Quote Card (Melpomene's Insult). Source: outputs/social-content-prequel-v1.md
+END:VEVENT
+BEGIN:VEVENT
+UID:baronvieux-social-20260725-34@bayoubeaux1070
+DTSTAMP:20260706T103817Z
+DTSTART;VALUE=DATE:20260725
+SUMMARY:Author Voice - X
+DESCRIPTION:SF Tweet 4. Source: outputs/social-content-prequel-v1.md
+END:VEVENT
+BEGIN:VEVENT
+UID:baronvieux-social-20260726-35@bayoubeaux1070
+DTSTAMP:20260706T103817Z
+DTSTART;VALUE=DATE:20260726
+SUMMARY:Author Voice - X
+DESCRIPTION:B1 Tweet 3. Source: outputs/social-content-book1-deepdive-v1.md
+END:VEVENT
+BEGIN:VEVENT
+UID:baronvieux-social-20260727-36@bayoubeaux1070
+DTSTAMP:20260706T103817Z
+DTSTART;VALUE=DATE:20260727
+SUMMARY:Author Voice - Instagram
+DESCRIPTION:B1 Post 4 - Character Spotlight (Olivia). Source: outputs/social-content-book1-deepdive-v1.md
+END:VEVENT
+BEGIN:VEVENT
+UID:baronvieux-social-20260727-37@bayoubeaux1070
+DTSTAMP:20260706T103817Z
+DTSTART;VALUE=DATE:20260727
+SUMMARY:Author Voice - X
+DESCRIPTION:B1 Tweet 4. Source: outputs/social-content-book1-deepdive-v1.md
+END:VEVENT
+BEGIN:VEVENT
+UID:baronvieux-social-20260727-38@bayoubeaux1070
+DTSTAMP:20260706T103817Z
+DTSTART;VALUE=DATE:20260727
+SUMMARY:Author Voice - TikTok
+DESCRIPTION:B1 Script 4 - Trend Format. Source: outputs/social-content-book1-deepdive-v1.md
+END:VEVENT
+BEGIN:VEVENT
+UID:baronvieux-social-20260728-39@bayoubeaux1070
+DTSTAMP:20260706T103817Z
+DTSTART;VALUE=DATE:20260728
+SUMMARY:Author Voice - Facebook
+DESCRIPTION:B1 FB Post 1 - Full Story Arc. Source: outputs/social-content-book1-deepdive-v1.md
+END:VEVENT
+BEGIN:VEVENT
+UID:baronvieux-social-20260728-40@bayoubeaux1070
+DTSTAMP:20260706T103817Z
+DTSTART;VALUE=DATE:20260728
+SUMMARY:Author Voice - X
+DESCRIPTION:SF Tweet 5. Source: outputs/social-content-prequel-v1.md
+END:VEVENT
+BEGIN:VEVENT
+UID:baronvieux-social-20260729-41@bayoubeaux1070
+DTSTAMP:20260706T103817Z
+DTSTART;VALUE=DATE:20260729
+SUMMARY:Author Voice - Instagram
+DESCRIPTION:SF Post 3 - Character Reveal (Baron). Source: outputs/social-content-prequel-v1.md
+END:VEVENT
+BEGIN:VEVENT
+UID:baronvieux-social-20260729-42@bayoubeaux1070
+DTSTAMP:20260706T103817Z
+DTSTART;VALUE=DATE:20260729
+SUMMARY:Author Voice - X
+DESCRIPTION:SF Tweet 6. Source: outputs/social-content-prequel-v1.md
+END:VEVENT
+BEGIN:VEVENT
+UID:baronvieux-social-20260730-43@bayoubeaux1070
+DTSTAMP:20260706T103817Z
+DTSTART;VALUE=DATE:20260730
+SUMMARY:Author Voice - X
+DESCRIPTION:B1 Tweet 5. Source: outputs/social-content-book1-deepdive-v1.md
+END:VEVENT
+BEGIN:VEVENT
+UID:baronvieux-social-20260731-44@bayoubeaux1070
+DTSTAMP:20260706T103817Z
+DTSTART;VALUE=DATE:20260731
+SUMMARY:Author Voice - X
+DESCRIPTION:B1 Tweet 6. Source: outputs/social-content-book1-deepdive-v1.md
+END:VEVENT
+BEGIN:VEVENT
+UID:baronvieux-social-20260801-45@bayoubeaux1070
+DTSTAMP:20260706T103817Z
+DTSTART;VALUE=DATE:20260801
+SUMMARY:Author Voice - Instagram
+DESCRIPTION:B1 Post 5 - Character Spotlight (Baron). Source: outputs/social-content-book1-deepdive-v1.md
+END:VEVENT
+BEGIN:VEVENT
+UID:baronvieux-social-20260801-46@bayoubeaux1070
+DTSTAMP:20260706T103817Z
+DTSTART;VALUE=DATE:20260801
+SUMMARY:Author Voice - X
+DESCRIPTION:SF Tweet 7. Source: outputs/social-content-prequel-v1.md
+END:VEVENT
+BEGIN:VEVENT
+UID:baronvieux-social-20260802-47@bayoubeaux1070
+DTSTAMP:20260706T103817Z
+DTSTART;VALUE=DATE:20260802
+SUMMARY:Author Voice - X
+DESCRIPTION:SF Tweet 8. Source: outputs/social-content-prequel-v1.md
+END:VEVENT
+BEGIN:VEVENT
+UID:baronvieux-social-20260803-48@bayoubeaux1070
+DTSTAMP:20260706T103817Z
+DTSTART;VALUE=DATE:20260803
+SUMMARY:Author Voice - X
+DESCRIPTION:B1 Tweet 7. Source: outputs/social-content-book1-deepdive-v1.md
+END:VEVENT
+BEGIN:VEVENT
+UID:baronvieux-social-20260803-49@bayoubeaux1070
+DTSTAMP:20260706T103817Z
+DTSTART;VALUE=DATE:20260803
+SUMMARY:Author Voice - TikTok
+DESCRIPTION:SF Script 1 - The Insult. Source: outputs/social-content-prequel-v1.md
+END:VEVENT
+BEGIN:VEVENT
+UID:baronvieux-social-20260804-50@bayoubeaux1070
+DTSTAMP:20260706T103817Z
+DTSTART;VALUE=DATE:20260804
+SUMMARY:Author Voice - Instagram
+DESCRIPTION:SF Post 2 - Behind-the-Story (941 Decatur). Source: outputs/social-content-prequel-v1.md
+END:VEVENT
+BEGIN:VEVENT
+UID:baronvieux-social-20260804-51@bayoubeaux1070
+DTSTAMP:20260706T103817Z
+DTSTART;VALUE=DATE:20260804
+SUMMARY:Author Voice - X
+DESCRIPTION:B1 Tweet 8. (repeat this 16-day block going forward) Source: outputs/social-content-book1-deepdive-v1.md
+END:VEVENT
+BEGIN:VEVENT
+UID:baronvieux-social-20260806-52@bayoubeaux1070
+DTSTAMP:20260706T103817Z
+DTSTART;VALUE=DATE:20260806
+SUMMARY:Author Voice - Instagram
+DESCRIPTION:B1 Post 3 - Quote Card (Community). Source: outputs/social-content-book1-deepdive-v1.md
+END:VEVENT
+BEGIN:VEVENT
+UID:baronvieux-social-20260807-53@bayoubeaux1070
+DTSTAMP:20260706T103817Z
+DTSTART;VALUE=DATE:20260807
+SUMMARY:Author Voice - Facebook
+DESCRIPTION:SF FB Post 1. Source: outputs/social-content-prequel-v1.md
+END:VEVENT
+BEGIN:VEVENT
+UID:baronvieux-social-20260808-54@bayoubeaux1070
+DTSTAMP:20260706T103817Z
+DTSTART;VALUE=DATE:20260808
+SUMMARY:Author Voice - Instagram
+DESCRIPTION:SF Post 4 - Dish Reveal. Source: outputs/social-content-prequel-v1.md
+END:VEVENT
+BEGIN:VEVENT
+UID:baronvieux-social-20260810-55@bayoubeaux1070
+DTSTAMP:20260706T103817Z
+DTSTART;VALUE=DATE:20260810
+SUMMARY:Author Voice - Instagram
+DESCRIPTION:B1 Post 2 - The Turn. Source: outputs/social-content-book1-deepdive-v1.md
+END:VEVENT
+BEGIN:VEVENT
+UID:baronvieux-social-20260810-56@bayoubeaux1070
+DTSTAMP:20260706T103817Z
+DTSTART;VALUE=DATE:20260810
+SUMMARY:Author Voice - TikTok
+DESCRIPTION:B1 Script 1 - Contradiction Hook. Source: outputs/social-content-book1-deepdive-v1.md
+END:VEVENT
+BEGIN:VEVENT
+UID:baronvieux-social-20260815-57@bayoubeaux1070
+DTSTAMP:20260706T103817Z
+DTSTART;VALUE=DATE:20260815
+SUMMARY:Author Voice - Instagram
+DESCRIPTION:B1 Post 6 - Freedom/Ending Tease. Source: outputs/social-content-book1-deepdive-v1.md
+END:VEVENT
+BEGIN:VEVENT
+UID:baronvieux-social-20260816-58@bayoubeaux1070
+DTSTAMP:20260706T103817Z
+DTSTART;VALUE=DATE:20260816
+SUMMARY:Author Voice - Facebook
+DESCRIPTION:B1 FB Post 2. Source: outputs/social-content-book1-deepdive-v1.md
+END:VEVENT
+BEGIN:VEVENT
+UID:baronvieux-social-20260817-59@bayoubeaux1070
+DTSTAMP:20260706T103817Z
+DTSTART;VALUE=DATE:20260817
+SUMMARY:Author Voice - TikTok
+DESCRIPTION:SF Script 3 - I Hate It Here. Source: outputs/social-content-prequel-v1.md
+END:VEVENT
+BEGIN:VEVENT
+UID:baronvieux-social-20260819-60@bayoubeaux1070
+DTSTAMP:20260706T103817Z
+DTSTART;VALUE=DATE:20260819
+SUMMARY:Author Voice - Facebook
+DESCRIPTION:SF FB Post 2. Source: outputs/social-content-prequel-v1.md
+END:VEVENT
+BEGIN:VEVENT
+UID:baronvieux-social-20260824-61@bayoubeaux1070
+DTSTAMP:20260706T103817Z
+DTSTART;VALUE=DATE:20260824
+SUMMARY:Author Voice - TikTok
+DESCRIPTION:B1 Script 2. Source: outputs/social-content-book1-deepdive-v1.md
+END:VEVENT
+BEGIN:VEVENT
+UID:baronvieux-social-20260825-62@bayoubeaux1070
+DTSTAMP:20260706T103817Z
+DTSTART;VALUE=DATE:20260825
+SUMMARY:Author Voice - Facebook
+DESCRIPTION:B1 FB Post 3. Source: outputs/social-content-book1-deepdive-v1.md
+END:VEVENT
+BEGIN:VEVENT
+UID:baronvieux-social-20260831-63@bayoubeaux1070
+DTSTAMP:20260706T103817Z
+DTSTART;VALUE=DATE:20260831
+SUMMARY:Author Voice - TikTok
+DESCRIPTION:B1 Script 3. Source: outputs/social-content-book1-deepdive-v1.md
+END:VEVENT
+END:VCALENDAR
