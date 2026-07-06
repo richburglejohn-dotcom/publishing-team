@@ -1,0 +1,65 @@
+date,platform,file,heading,note
+2026-07-07,Facebook,outputs/facebook-baron-vieux-page-launch-v1.md,### Post 1 — Page Launch / Introduction
+2026-07-07,Instagram,outputs/instagram-baron-vieux-page-launch-v1.md,### Post 1 — Page Launch
+2026-07-07,TikTok,outputs/tiktok-baron-vieux-page-launch-v1.md,### Script 1 — "Making an Exception" (Page Launch)
+2026-07-07,X,outputs/x-baron-vieux-page-launch-v1.md,### Tweet 1 — Page Launch
+2026-07-09,Facebook,outputs/facebook-baron-vieux-page-launch-v1.md,### Post 2 — The Elixir
+2026-07-09,Instagram,outputs/instagram-baron-vieux-page-launch-v1.md,### Post 2 — The Elixir (Quote Card)
+2026-07-09,TikTok,outputs/tiktok-baron-vieux-page-launch-v1.md,### Script 2 — "Never Written Down" (The Elixir)
+2026-07-09,X,outputs/x-baron-vieux-page-launch-v1.md,### Tweet 2 — The Elixir
+2026-07-11,Facebook,outputs/facebook-baron-vieux-page-launch-v1.md,### Post 3 — On Ownership
+2026-07-11,Instagram,outputs/instagram-baron-vieux-page-launch-v1.md,### Post 3 — On Ownership (Quote Card)
+2026-07-11,TikTok,outputs/tiktok-baron-vieux-page-launch-v1.md,### Script 3 — "Start Your Own" (On Ownership)
+2026-07-11,X,outputs/x-baron-vieux-page-launch-v1.md,### Tweet 3 — On Ownership
+2026-07-12,X,outputs/x-baron-vieux-page-launch-v1.md,### Tweet 7 — The Domain
+2026-07-14,Facebook,outputs/facebook-baron-vieux-page-launch-v1.md,### Post 4 — The Storage Room
+2026-07-14,Instagram,outputs/instagram-baron-vieux-page-launch-v1.md,### Post 4 — The Storage Room
+2026-07-14,TikTok,outputs/tiktok-baron-vieux-page-launch-v1.md,### Script 4 — "The Storage Room" (Trend-adjacent, behind-the-scenes)
+2026-07-14,X,outputs/x-baron-vieux-page-launch-v1.md,### Tweet 4 — The Storage Room
+2026-07-16,Facebook,outputs/facebook-baron-vieux-page-launch-v1.md,### Post 5 — Origin, Briefly
+2026-07-16,Instagram,outputs/instagram-baron-vieux-page-launch-v1.md,### Post 5 — Origin (Character Reveal)
+2026-07-16,X,outputs/x-baron-vieux-page-launch-v1.md,### Tweet 5 — Origin Fragment
+2026-07-17,X,outputs/x-baron-vieux-page-launch-v1.md,### Tweet 6 — Systems Thinking Flex
+2026-07-19,Facebook,outputs/facebook-baron-vieux-page-launch-v1.md,### Post 6 — Series Tie-In (softer plug)
+2026-07-19,Instagram,outputs/instagram-baron-vieux-page-launch-v1.md,### Post 6 — Series Tie-In
+2026-07-19,X,outputs/x-baron-vieux-page-launch-v1.md,### Tweet 8 — Series Tie-In
+2026-07-20,X,outputs/social-content-prequel-v1.md,### Tweet 1 — Hook
+2026-07-20,TikTok,outputs/social-content-prequel-v1.md,### TikTok Script 2 — "The Dish That Has No Recipe"
+2026-07-21,Instagram,outputs/social-content-prequel-v1.md,### Post 5 — Series Hook
+2026-07-21,X,outputs/social-content-prequel-v1.md,### Tweet 2 — Quote Fragment
+2026-07-22,Facebook,outputs/social-content-prequel-v1.md,### Facebook Post 3 — Origin Story / Community Post
+2026-07-22,X,outputs/social-content-book1-deepdive-v1.md,### Tweet 1 — Hook
+2026-07-23,Instagram,outputs/social-content-book1-deepdive-v1.md,### Post 1 — Series Hook / Full Arc Reveal
+2026-07-23,X,outputs/social-content-book1-deepdive-v1.md,### Tweet 2 — Narrator Framing Fragment
+2026-07-24,X,outputs/social-content-prequel-v1.md,### Tweet 3 — Teaser / Character
+2026-07-25,Instagram,outputs/social-content-prequel-v1.md,### Post 1 — Quote Card
+2026-07-25,X,outputs/social-content-prequel-v1.md,### Tweet 4 — Dish Teaser
+2026-07-27,Instagram,outputs/social-content-book1-deepdive-v1.md,### Post 4 — Character Spotlight (Olivia, Reframed)
+2026-07-27,TikTok,outputs/social-content-book1-deepdive-v1.md,### TikTok Script 4 — "Books Like This" Trend Format
+2026-07-26,X,outputs/social-content-book1-deepdive-v1.md,### Tweet 3 — Community Hook
+2026-07-27,X,outputs/social-content-book1-deepdive-v1.md,### Tweet 4 — Sobriety Hook
+2026-07-28,Facebook,outputs/social-content-book1-deepdive-v1.md,### Facebook Post 1 — The Deep Dive Reframe (Full Story Arc)
+2026-07-28,X,outputs/social-content-prequel-v1.md,### Tweet 5 — Atmospheric Hook
+2026-07-29,Instagram,outputs/social-content-prequel-v1.md,### Post 3 — Character Reveal
+2026-07-29,X,outputs/social-content-prequel-v1.md,### Tweet 6 — Character Truth
+2026-07-30,X,outputs/social-content-book1-deepdive-v1.md,### Tweet 5 — Tension Teaser
+2026-07-31,X,outputs/social-content-book1-deepdive-v1.md,### Tweet 6 — Character Truth
+2026-08-01,Instagram,outputs/social-content-book1-deepdive-v1.md,### Post 5 — Character Spotlight (Baron, Reframed)
+2026-08-01,X,outputs/social-content-prequel-v1.md,### Tweet 7 — Melpomene Setup
+2026-08-02,X,outputs/social-content-prequel-v1.md,### Tweet 8 — Series Pipeline
+2026-08-03,TikTok,outputs/social-content-prequel-v1.md,### TikTok Script 1 — "The Insult That Built It"
+2026-08-03,X,outputs/social-content-book1-deepdive-v1.md,### Tweet 7 — Friends-as-Heroes
+2026-08-04,Instagram,outputs/social-content-prequel-v1.md,### Post 2 — Behind-the-Story
+2026-08-04,X,outputs/social-content-book1-deepdive-v1.md,### Tweet 8 — Full Arc CTA,"last of the 16-day X block - repeat the block from 2026-07-20 going forward"
+2026-08-06,Instagram,outputs/social-content-book1-deepdive-v1.md,### Post 3 — Quote Card (Community as Salvation)
+2026-08-07,Facebook,outputs/social-content-prequel-v1.md,### Facebook Post 1 — Behind-the-Story (Long Form)
+2026-08-08,Instagram,outputs/social-content-prequel-v1.md,### Post 4 — Dish Reveal
+2026-08-10,Instagram,outputs/social-content-book1-deepdive-v1.md,### Post 2 — The Turn (Triumph to Exhaustion)
+2026-08-10,TikTok,outputs/social-content-book1-deepdive-v1.md,### TikTok Script 1 — "The Part Nobody Talks About"
+2026-08-15,Instagram,outputs/social-content-book1-deepdive-v1.md,### Post 6 — Freedom / Ending Tease
+2026-08-16,Facebook,outputs/social-content-book1-deepdive-v1.md,### Facebook Post 2 — Community as the Real Twist
+2026-08-17,TikTok,outputs/social-content-prequel-v1.md,### TikTok Script 3 — "I Hate It Here"
+2026-08-19,Facebook,outputs/social-content-prequel-v1.md,### Facebook Post 2 — Reader Connection / Character Depth
+2026-08-24,TikTok,outputs/social-content-book1-deepdive-v1.md,### TikTok Script 2 — "Who Saves Them"
+2026-08-25,Facebook,outputs/social-content-book1-deepdive-v1.md,### Facebook Post 3 — Sobriety and Freedom (Author Voice)
+2026-08-31,TikTok,outputs/social-content-book1-deepdive-v1.md,### TikTok Script 3 — "The Ending You Don't Expect"
