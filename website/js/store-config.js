@@ -29,7 +29,11 @@ const STORE_CONFIG = {
   scarletFoundation: {
     title: "The Scarlet Foundation",
     amazonUrl: "#",
-    directBuyUrl: "https://buy.stripe.com/5kQ00l0JL9Ib3uDgpT63K02",
-    directBuyEnabled: true
+    // NOTE: the link this used to hold was a Stripe TEST-mode link and never
+    // worked live. Replace "#" with a real live-mode Payment Link or Buy
+    // Button when ready, then flip directBuyEnabled to true to go live —
+    // no other changes needed, the site does the rest automatically.
+    directBuyUrl: "#",
+    directBuyEnabled: false
   }
 };

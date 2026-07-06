@@ -22,6 +22,25 @@ document.addEventListener('DOMContentLoaded', () => {
       const book = STORE_CONFIG[key];
       if (book && book.amazonUrl) el.href = book.amazonUrl;
     });
+
+    // Wire up "not launched yet" sections: shows a fallback (e.g. "Get
+    // Notified") until directBuyEnabled is true and a real link is set,
+    // then swaps to the buy button automatically. No HTML changes needed
+    // to go live — just update STORE_CONFIG.
+    document.querySelectorAll('[data-buy-toggle]').forEach((wrapper) => {
+      const key = wrapper.getAttribute('data-buy-toggle');
+      const book = STORE_CONFIG[key];
+      if (!book) return;
+      const fallback = wrapper.querySelector('[data-buy-toggle-fallback]');
+      const buyBtn = wrapper.querySelector('[data-buy-toggle-buy]');
+      if (book.directBuyEnabled && book.directBuyUrl && book.directBuyUrl !== '#') {
+        if (buyBtn) {
+          buyBtn.href = book.directBuyUrl;
+          buyBtn.style.display = '';
+        }
+        if (fallback) fallback.style.display = 'none';
+      }
+    });
   }
 
   const toggle = document.querySelector('.nav-toggle');
