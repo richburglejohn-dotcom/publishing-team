@@ -1,4 +1,8 @@
 references/google_token.pkl
+**/google_token.pkl
 desktop.ini
 media/
 !website/media/
+*.gsheet
+*.gdoc
+*.gslides
