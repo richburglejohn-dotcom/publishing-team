@@ -194,13 +194,17 @@ This file is the source of truth for all agents. Read this before working on any
 ### The Scarlet Redfish
 Baron's flagship. The skin must give a perfect, audible *crunch*. Any compromise is a failure. Belongs to Baron — not the restaurant, not the marquee.
 
-**Plating (confirmed from Restaurant Week reference, 2026):**
-- Skin-on redfish fillet, seared skin-side to a deep, cracked crisp, finished with cracked black pepper
-- Bed of tri-color marble potatoes — roasted baby potatoes in gold, red-skinned, and deep purple/black
-- Garnished with pea shoots and delicate herb sprigs over the fillet
+**Note on sourcing:** there are two versions of this dish's development — a formal proposal Baron/the author never actually pitched to the head chef, and what was actually improvised and served under pressure during a Restaurant Week. See `outputs/scarlet-redfish-plating-notes-v1.md` for the full breakdown. The improvised version below is the one with narrative texture (it's Baron's character in action — adapting under strain, using what's on hand); the proposal version is the "as designed" intent.
+
+**Plating (as actually served, Restaurant Week 2026 — the canonical version):**
+- Skin-on redfish fillet, skin seared in reserved garlic-and-onion roasting oil (repurposed from another kitchen prep) to a deep, cracked crisp, finished with cracked black pepper
+- Bed of tri-color marble potatoes — roasted baby potatoes in gold, red-skinned, and deep purple/black — added to round out the plate
+- Garnished with micro pea tendrils
 - Thin rings of red and orange Fresno chilies scattered across the plate and tucked beneath the fish — the "scarlet" accent the dish is named for
-- **Signature service moment:** the Scarlet Elixir is not plated under the fish in the kitchen — it's splashed onto a hot sizzle tray tableside, producing sizzle, steam, and aroma as it hits the metal. This is the dish's "apothecary" theater: presented like a tincture being administered, not just a sauce being poured.
-- **Kitchen reality:** the tableside sizzle-tray moment requires enough front-of-house staff to run the tray out hot. When short-staffed (as happened during a Restaurant Week service), Baron has splashed the Elixir directly onto the fish at the pass instead and plated it dry — the dish survives without the theater, but the signature moment is lost. Useful texture for a scene about strain/short-staffing if one is ever needed.
+- **The glaze:** a honey, white wine, rosemary, and lemon zest reduction, built fresh in a squeeze bottle — **distinct from the book's canonical Scarlet Elixir** (the dark tomato-guajillo reduction from Ch. 7). Do not conflate the two; this brighter glaze is specific to this dish's real-world development and has not been established as the Elixir used across the rest of the series.
+- **Signature service moment:** meant to be splashed onto a hot sizzle tray tableside, producing sizzle, steam, and aroma as it hits the metal — the dish's "apothecary" theater, presented like a tincture being administered. When short-staffed, the tray can't always make it to the table hot, forcing the glaze to be splashed at the pass instead and plated dry. Real texture for a scene about the strain of running Bayouboujee shorthanded.
+
+**As originally proposed (never pitched, not canon):** cippolini onions instead of potatoes, shaved fennel and micro-parsley instead of pea tendrils, convection-roasted at 425°F skin-up rather than pan-seared, glazed with a "honeyed wine reduction" on the vegetables. Swapped for the improvised version when the produce order came up short on fennel and micro-parsley.
 
 **The Crisis Pivot (Mardi Gras Friday — Chapter 4):**
 - Oven glitches, can't reach temp
