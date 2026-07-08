@@ -35,6 +35,17 @@ This file is the source of truth for all agents. Read this before working on any
 
 ---
 
+### Book 3 (Brainstorm — not yet outlined)
+**Working idea:** Bayouboujee's comeback, after Olivia returns from a stretch of time in South America. Leans further into Olivia as performer, tarot reader, and occasional cameo chef with her own creations — deepening a dimension of her character that's true to life (the author's wife performs, reads tarot, and cameos as chef in real life, the inspiration behind Olivia).
+
+**Open questions:**
+- Why South America — travel, performing, running from something, chasing something? How long was she gone?
+- Does Baron go with her, stay and run Bayouboujee solo, or is the container closed during her absence?
+- What does "comeback" mean structurally — a full reopening, a single night, a tour stop?
+- Which of Olivia's own dish creations (if any) get named/detailed on the page, distinct from Baron's signatures?
+
+---
+
 ## Protagonist: Baron Vieux
 
 **Age:** 56 years old (present timeline of the prequel)
