@@ -33,6 +33,8 @@ This file is the source of truth for all agents. Read this before working on any
 
 **End state of manuscript:** Baron has the LLC, the domain, the supplier contacts, the operational blueprint. Bayouboujee doesn't exist yet. The prequel ends with the city making its arrangements — Olivia's voice heard but not yet met.
 
+**Target launch date: 08/21/2026 — Baron Vieux's birthday.** Still blocked on two items before this is realistic: the missing Katrina/father passage in Chapter Zero (author must write it), and the Scarlet Elixir "built on the Gulf Remedy" continuity call from `continuity-report.md`. Both need to close before this date is locked in.
+
 ---
 
 ### Book 3 (Brainstorm — not yet outlined)
