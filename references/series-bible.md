@@ -194,6 +194,14 @@ This file is the source of truth for all agents. Read this before working on any
 ### The Scarlet Redfish
 Baron's flagship. The skin must give a perfect, audible *crunch*. Any compromise is a failure. Belongs to Baron — not the restaurant, not the marquee.
 
+**Plating (confirmed from Restaurant Week reference, 2026):**
+- Skin-on redfish fillet, seared skin-side to a deep, cracked crisp, finished with cracked black pepper
+- Bed of tri-color marble potatoes — roasted baby potatoes in gold, red-skinned, and deep purple/black
+- Garnished with pea shoots and delicate herb sprigs over the fillet
+- Thin rings of red and orange Fresno chilies scattered across the plate and tucked beneath the fish — the "scarlet" accent the dish is named for
+- **Signature service moment:** the Scarlet Elixir is not plated under the fish in the kitchen — it's splashed onto a hot sizzle tray tableside, producing sizzle, steam, and aroma as it hits the metal. This is the dish's "apothecary" theater: presented like a tincture being administered, not just a sauce being poured.
+- **Kitchen reality:** the tableside sizzle-tray moment requires enough front-of-house staff to run the tray out hot. When short-staffed (as happened during a Restaurant Week service), Baron has splashed the Elixir directly onto the fish at the pass instead and plated it dry — the dish survives without the theater, but the signature moment is lost. Useful texture for a scene about strain/short-staffing if one is ever needed.
+
 **The Crisis Pivot (Mardi Gras Friday — Chapter 4):**
 - Oven glitches, can't reach temp
 - Baron calls repair contact, executes manual thermostat bypass while simultaneously reorganizing the line
