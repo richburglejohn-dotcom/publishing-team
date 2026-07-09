@@ -28,7 +28,7 @@ const STORE_CONFIG = {
   },
   scarletFoundation: {
     title: "The Scarlet Foundation",
-    amazonUrl: "#",
+    amazonUrl: "https://www.amazon.com/dp/B0H88D3H58",
     // NOTE: the link this used to hold was a Stripe TEST-mode link and never
     // worked live. Replace "#" with a real live-mode Payment Link or Buy
     // Button when ready, then flip directBuyEnabled to true to go live —
