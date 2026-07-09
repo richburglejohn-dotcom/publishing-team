@@ -13,7 +13,7 @@ This file is the source of truth for all agents. Read this before working on any
 **Status:** Published
 **Summary:** Baron Vieux and Olivia build Bayouboujee together. Their partnership is equal parts business and romance, built on shared ambition and mutual recognition.
 
-### Prequel (In Progress — Draft v10)
+### Prequel (Positioned as a teaser, not the complete origin story — Draft v10)
 **Title:** Culinary Crescendo: The Scarlet Foundation / Satire of New Orleans
 **File:** `Copy of Culinary Crescendo - The Scarlet Foundation (Prequel) v10.docx`
 **Structure:**
@@ -33,7 +33,11 @@ This file is the source of truth for all agents. Read this before working on any
 
 **End state of manuscript:** Baron has the LLC, the domain, the supplier contacts, the operational blueprint. Bayouboujee doesn't exist yet. The prequel ends with the city making its arrangements — Olivia's voice heard but not yet met.
 
-**Target launch date: 08/21/2026 — Baron Vieux's birthday.** Still blocked on two items before this is realistic: the missing Katrina/father passage in Chapter Zero (author must write it), and the Scarlet Elixir "built on the Gulf Remedy" continuity call from `continuity-report.md`. Both need to close before this date is locked in.
+**Author decision (2026-07-09): the prequel ships as-is, positioned as a teaser rather than the complete, definitive origin story.** This resolves both open items:
+- **Katrina/father passage (Chapter Zero):** deliberately left out of this book. Baron's father's death in the storm is heavy, important material — it's being deferred to a later book rather than rushed into the prequel. The `[AUTHOR EXPANSION NEEDED]` marker in `edited-chapters-0-prologue.md` is no longer a blocker for this release; revisit when that story gets its own proper space.
+- **Scarlet Elixir "built on the Gulf Remedy" (Conflict #4, `continuity-report.md`):** resolved as Option 2 — Book 1 Ch. 1's line is Baron speaking loosely/poetically to Olivia, not a literal recipe claim. No manuscript change needed. The prequel's independent-origin account of the Elixir (Ch. 7) stands as canon.
+
+**Target launch date: 08/21/2026 — Baron Vieux's birthday.** No longer blocked.
 
 ---
 
