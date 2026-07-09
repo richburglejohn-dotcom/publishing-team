@@ -35,9 +35,11 @@ This file is the source of truth for all agents. Read this before working on any
 
 **Author decision (2026-07-09): the prequel ships as-is, positioned as a teaser rather than the complete, definitive origin story.** This resolves both open items:
 - **Katrina/father passage (Chapter Zero):** deliberately left out of this book. Baron's father's death in the storm is heavy, important material — it's being deferred to a later book rather than rushed into the prequel. The `[AUTHOR EXPANSION NEEDED]` marker in `edited-chapters-0-prologue.md` is no longer a blocker for this release; revisit when that story gets its own proper space.
-- **Scarlet Elixir "built on the Gulf Remedy" (Conflict #4, `continuity-report.md`):** resolved as Option 1 — the Elixir and the Gulf Remedy remain two separate, independent dishes (author confirmed). A bridge line was added to the end of prequel Chapter 7 acknowledging they share the same flavor philosophy — coastal heat balanced against bright acid — without sharing a recipe. This preserves the prequel's independent-origin account of the Elixir while explaining why Baron might later describe one as "built on" the other in loose/poetic terms when speaking to Olivia in Book 1. Added to `outputs/edited-chapters-1-9.md` and `outputs/Scarlet_Foundation_FULL_DRAFT_v1.md`; the compiled `.docx`/`.epub` versions of the full draft are now stale and need regenerating from the updated `.md`.
+- **Scarlet Elixir "built on the Gulf Remedy" (Conflict #4, `continuity-report.md`):** resolved as Option 1 — the Elixir and the Gulf Remedy remain two separate, independent dishes (author confirmed). A bridge line was added to the end of prequel Chapter 7 acknowledging they share the same flavor philosophy — coastal heat balanced against bright acid — without sharing a recipe. This preserves the prequel's independent-origin account of the Elixir while explaining why Baron might later describe one as "built on" the other in loose/poetic terms when speaking to Olivia in Book 1. Added to `outputs/edited-chapters-1-9.md` and `outputs/Scarlet_Foundation_FULL_DRAFT_v1.md`; the compiled `.docx`/`.epub` were regenerated from the updated `.md` on 2026-07-09.
 
 **Target launch date: 08/21/2026 — Baron Vieux's birthday.** No longer blocked.
+
+**Publisher/ISBN decision (2026-07-09):** Go through KDP for the prequel, same as Book 1 — use KDP's free ISBN rather than purchasing an independent one from Bowker. Consistency with the existing published book was the deciding factor.
 
 ---
 
