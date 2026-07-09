@@ -747,6 +747,8 @@ He wrote nothing down that night. Some formulas don't live on paper — they liv
 
 He called it the Scarlet Elixir.
 
+It was the same instinct — coastal heat balanced against bright acid — that would surface again in another creation entirely, years from now, built from crab and avocado instead of tomato and guajillo. Two separate dishes. Never the same recipe. Only the same conviction that flavor had to fight for itself before it earned a plate.
+
 He told no one. Not yet. This one belonged to him alone — not the Apothecary, not Melpomene, not the executive chef whose name was on the marquee. This was the foundation of his own blueprint. The thing that would outlast the kitchen he was currently surviving.
 
 ---
