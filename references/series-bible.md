@@ -263,7 +263,7 @@ Needs a room to live in. That's all it needs.
 ### Kaldi's — 941 Decatur Street
 Baron's first classroom. Forty-foot ceilings, massive street-facing windows. Academics, musicians, novelists, wanderers. Where Baron learned to read people before they reached the counter. Closed 2000. Now a tourist center — bland walls, brochures. Baron stood in front of it after Katrina in 2005 and decided: *Whatever he built, he was going to own. Not lease. Not rent. Own.*
 
-**CRITICAL AUTHOR NOTE:** Baron lost his father in Katrina. His father drowned when the family home flooded. His mother survived. Most of his family and friends returned to New Orleans. This is the true weight behind the 2005 sidewalk moment. The author will write this addition to Chapter Zero in his own words — no agent should generate this content.
+**Background (not in the prequel — deferred to a later book, see Prequel section above):** Baron lost his father in Katrina. His father drowned when the family home flooded. His mother survived. Most of his family and friends returned to New Orleans. This is the true weight behind the 2005 sidewalk moment, but the author has decided this passage belongs in a future book rather than Chapter Zero — no agent should generate this content, and it is not a blocker for the prequel's release.
 
 ### The Apothecary
 The restaurant where Baron is currently sous chef under Melpomene. French Quarter. The storage room in the back is where the crew keeps a stashed bottle of rum for the post-shift ritual.
