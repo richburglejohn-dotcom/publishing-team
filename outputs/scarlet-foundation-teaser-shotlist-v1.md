@@ -3,6 +3,7 @@
 **Source storyboard:** `Scarlet_Foundation_Storyboard.jpg` (6 panels)
 **Source script:** `tiktok-baron-vieux-page-launch-v1.md` — Script 1
 **Created:** 2026-07-09 — updated for the book being LIVE on Amazon (ASIN B0H88D3H58)
+**Updated 2026-07-10:** Regenerated the storyboard to fix a continuity error — Baron's square-framed black glasses (a signature trait per the series bible) were missing from panels 1 and 2. Panel 5 already had them correct; panels 1 and 2 were edited to match. Panels 3, 4, and 6 unchanged. Verified consistent across all face-visible panels.
 
 The storyboard is a direct visualization of Script 1. This doc locks the two
 together: shot-by-shot timing, voiceover, burned-in text, and per-platform
