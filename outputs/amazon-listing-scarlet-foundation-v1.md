@@ -87,7 +87,11 @@ Setting this up as a series allows Amazon to show both books together, display "
 
 ---
 
-## Notes for Review
+## Status Update (2026-07-09)
+
+The book now has a live Amazon listing (ASIN `B0H88D3H58`), uploaded via a separate session. This draft was very likely the source material for that submission — worth confirming the live listing's actual title/description/keywords still match what's below, since this file wasn't re-verified against the final KDP entry.
+
+## Notes for Review (original, pre-launch)
 
 - The description avoids plot spoilers while hitting the emotional stakes.
 - "The money is not in the recipe. The money is in the system." is a strong closing line that also speaks to the FuturIQ brand audience.
