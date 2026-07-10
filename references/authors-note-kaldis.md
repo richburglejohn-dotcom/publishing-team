@@ -73,3 +73,30 @@ The characters and events depicted are fictionalized, and any resemblance to rea
 - [ ] Receive written confirmation
 - [ ] Finalize Author's Note wording with her input if she wants any changes
 - [ ] Add both notes to final manuscript front/back matter
+
+---
+---
+
+# Bayouboujee — Author's Note (On the Recipes)
+
+*Draft — pending review with Clytemnestra. She's the source, so her input on wording matters more than usual here.*
+
+---
+
+**AUTHOR'S NOTE**
+
+Bayouboujee was a real restaurant before it was a fictional one, and the food in these pages exists because of my wife, Clytemnestra Z. Scott — known to the stage as Rainey Vexen. I was the front of the house: oysters, meeting the room, keeping the floor moving. She was the backbone. Every recipe in this series that carries any real precision — the exact cup, the exact dash, the specific cut — is hers.
+
+Clytemnestra is a songwriter first. She's been writing since she was five years old, in the back seat of her parents' station wagon, and she's written hundreds of songs since. What I didn't understand until I watched her run a kitchen is that she writes recipes the same way she writes a song — every measurement documented like a lyric that has to land exactly right, nothing left to guess at, nothing approximate. Baron Vieux's obsession with precision, his refusal to write anything down until it's earned, all of that came from watching her work.
+
+This book carries her fingerprints more than mine, even where her name doesn't appear on the page. I wanted that written down somewhere true, not just something I said once and let it go.
+
+— Lejohn Richburg III
+
+---
+
+*Status tracker:*
+- [ ] Review wording with Clytemnestra — this note is about her, get her voice/consent on how it's told
+- [ ] Confirm she's comfortable with birth name + stage name both appearing, or prefers one
+- [ ] Decide which recipes/dishes (if any) should carry a direct byline to her in the text itself, beyond this note
+- [ ] Add to final manuscript front/back matter alongside the Kaldi's and Apothecary notes

@@ -212,7 +212,9 @@ These are places where the prequel has enriched or clarified the canon in ways t
 
 ## SECTION 4: CLEAR TO PROCEED
 
-**Overall Assessment: CONDITIONALLY CLEAR TO PROCEED**
+**Overall Assessment: CLEAR TO PROCEED**
+
+**Update (2026-07-09):** Both items below are now resolved by author decision — see `references/series-bible.md`, Prequel section. Conflict #4 resolved as Option (a): a bridge line was added to the end of prequel Chapter 7, confirming the Elixir and Gulf Remedy remain separate dishes that share a flavor philosophy, not a recipe.
 
 The prequel is largely free of continuity conflicts. Character names, races, genders, mannerisms, location details, dish ingredients, flavor descriptions, and career timeline are all handled with high fidelity to the series bible and the published book.
 

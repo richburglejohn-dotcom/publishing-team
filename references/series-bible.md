@@ -13,7 +13,7 @@ This file is the source of truth for all agents. Read this before working on any
 **Status:** Published
 **Summary:** Baron Vieux and Olivia build Bayouboujee together. Their partnership is equal parts business and romance, built on shared ambition and mutual recognition.
 
-### Prequel (In Progress — Draft v10)
+### Prequel (Positioned as a teaser, not the complete origin story — Draft v10)
 **Title:** Culinary Crescendo: The Scarlet Foundation / Satire of New Orleans
 **File:** `Copy of Culinary Crescendo - The Scarlet Foundation (Prequel) v10.docx`
 **Structure:**
@@ -32,6 +32,25 @@ This file is the source of truth for all agents. Read this before working on any
 - Chapter 9: Roe Velvet (Baron's absurdist dessert, Calliope pushes him forward)
 
 **End state of manuscript:** Baron has the LLC, the domain, the supplier contacts, the operational blueprint. Bayouboujee doesn't exist yet. The prequel ends with the city making its arrangements — Olivia's voice heard but not yet met.
+
+**Author decision (2026-07-09): the prequel ships as-is, positioned as a teaser rather than the complete, definitive origin story.** This resolves both open items:
+- **Katrina/father passage (Chapter Zero):** deliberately left out of this book. Baron's father's death in the storm is heavy, important material — it's being deferred to a later book rather than rushed into the prequel. The `[AUTHOR EXPANSION NEEDED]` marker in `edited-chapters-0-prologue.md` is no longer a blocker for this release; revisit when that story gets its own proper space.
+- **Scarlet Elixir "built on the Gulf Remedy" (Conflict #4, `continuity-report.md`):** resolved as Option 1 — the Elixir and the Gulf Remedy remain two separate, independent dishes (author confirmed). A bridge line was added to the end of prequel Chapter 7 acknowledging they share the same flavor philosophy — coastal heat balanced against bright acid — without sharing a recipe. This preserves the prequel's independent-origin account of the Elixir while explaining why Baron might later describe one as "built on" the other in loose/poetic terms when speaking to Olivia in Book 1. Added to `outputs/edited-chapters-1-9.md` and `outputs/Scarlet_Foundation_FULL_DRAFT_v1.md`; the compiled `.docx`/`.epub` were regenerated from the updated `.md` on 2026-07-09.
+
+**Target launch date: 08/21/2026 — Baron Vieux's birthday.** No longer blocked.
+
+**Publisher/ISBN decision (2026-07-09):** Go through KDP for the prequel, same as Book 1 — use KDP's free ISBN rather than purchasing an independent one from Bowker. Consistency with the existing published book was the deciding factor.
+
+---
+
+### Book 3 (Brainstorm — not yet outlined)
+**Working idea:** Bayouboujee's comeback, after Olivia returns from a stretch of time in South America. Leans further into Olivia as performer, tarot reader, and occasional cameo chef with her own creations — deepening a dimension of her character that's true to life (the author's wife performs, reads tarot, and cameos as chef in real life, the inspiration behind Olivia).
+
+**Open questions:**
+- Why South America — travel, performing, running from something, chasing something? How long was she gone?
+- Does Baron go with her, stay and run Bayouboujee solo, or is the container closed during her absence?
+- What does "comeback" mean structurally — a full reopening, a single night, a tour stop?
+- Which of Olivia's own dish creations (if any) get named/detailed on the page, distinct from Baron's signatures?
 
 ---
 
@@ -194,6 +213,18 @@ This file is the source of truth for all agents. Read this before working on any
 ### The Scarlet Redfish
 Baron's flagship. The skin must give a perfect, audible *crunch*. Any compromise is a failure. Belongs to Baron — not the restaurant, not the marquee.
 
+**Note on sourcing:** there are two versions of this dish's development — a formal proposal Baron/the author never actually pitched to the head chef, and what was actually improvised and served under pressure during a Restaurant Week. See `outputs/scarlet-redfish-plating-notes-v1.md` for the full breakdown. The improvised version below is the one with narrative texture (it's Baron's character in action — adapting under strain, using what's on hand); the proposal version is the "as designed" intent.
+
+**Plating (as actually served, Restaurant Week 2026 — the canonical version):**
+- Skin-on redfish fillet, skin seared in reserved garlic-and-onion roasting oil (repurposed from another kitchen prep) to a deep, cracked crisp, finished with cracked black pepper
+- Bed of tri-color marble potatoes — roasted baby potatoes in gold, red-skinned, and deep purple/black — added to round out the plate
+- Garnished with micro pea tendrils
+- Thin rings of red and orange Fresno chilies scattered across the plate and tucked beneath the fish — the "scarlet" accent the dish is named for
+- **The glaze:** a honey, white wine, rosemary, and lemon zest reduction, built fresh in a squeeze bottle — **distinct from the book's canonical Scarlet Elixir** (the dark tomato-guajillo reduction from Ch. 7). Do not conflate the two; this brighter glaze is specific to this dish's real-world development and has not been established as the Elixir used across the rest of the series.
+- **Signature service moment:** meant to be splashed onto a hot sizzle tray tableside, producing sizzle, steam, and aroma as it hits the metal — the dish's "apothecary" theater, presented like a tincture being administered. When short-staffed, the tray can't always make it to the table hot, forcing the glaze to be splashed at the pass instead and plated dry. Real texture for a scene about the strain of running Bayouboujee shorthanded.
+
+**As originally proposed (never pitched, not canon):** cippolini onions instead of potatoes, shaved fennel and micro-parsley instead of pea tendrils, convection-roasted at 425°F skin-up rather than pan-seared, glazed with a "honeyed wine reduction" on the vegetables. Swapped for the improvised version when the produce order came up short on fennel and micro-parsley.
+
 **The Crisis Pivot (Mardi Gras Friday — Chapter 4):**
 - Oven glitches, can't reach temp
 - Baron calls repair contact, executes manual thermostat bypass while simultaneously reorganizing the line
@@ -232,7 +263,7 @@ Needs a room to live in. That's all it needs.
 ### Kaldi's — 941 Decatur Street
 Baron's first classroom. Forty-foot ceilings, massive street-facing windows. Academics, musicians, novelists, wanderers. Where Baron learned to read people before they reached the counter. Closed 2000. Now a tourist center — bland walls, brochures. Baron stood in front of it after Katrina in 2005 and decided: *Whatever he built, he was going to own. Not lease. Not rent. Own.*
 
-**CRITICAL AUTHOR NOTE:** Baron lost his father in Katrina. His father drowned when the family home flooded. His mother survived. Most of his family and friends returned to New Orleans. This is the true weight behind the 2005 sidewalk moment. The author will write this addition to Chapter Zero in his own words — no agent should generate this content.
+**Background (not in the prequel — deferred to a later book, see Prequel section above):** Baron lost his father in Katrina. His father drowned when the family home flooded. His mother survived. Most of his family and friends returned to New Orleans. This is the true weight behind the 2005 sidewalk moment, but the author has decided this passage belongs in a future book rather than Chapter Zero — no agent should generate this content, and it is not a blocker for the prequel's release.
 
 ### The Apothecary
 The restaurant where Baron is currently sous chef under Melpomene. French Quarter. The storage room in the back is where the crew keeps a stashed bottle of rum for the post-shift ritual.
