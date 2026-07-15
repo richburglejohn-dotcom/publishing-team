@@ -423,6 +423,19 @@ VOICE:
 "That's the whole point of the Scarlet Foundation."
 
 TEXT ON SCREEN: "The story of a chef who kept what was his."
+
+---
+
+**Asset ready (2026-07-15):** `outputs/Scarlet_Elixir_Website_Video_FINAL.mp4` —
+finished 40-second cut (tomatoes/guajillos roasting → chile into the
+reduction → Baron to camera → sauce ladled over the redfish → plated
+reveal → "Baron Vieux — Scarlet Elixir" title card), watermark removed,
+runtime matches this script exactly. Built for the website (horizontal
+16:9, 1280x720). **Before posting natively to TikTok, crop/reformat to
+vertical 9:16** — TikTok's algorithm suppresses horizontal/letterboxed
+video, and a straight upload of this cut will underperform. If a VO
+pass is wanted, the "He never wrote it down..." lines above are ready
+to record over it.
 TEXT: "FuturIQ. Coming soon."
 
 CTA: "Follow for the origin story."
