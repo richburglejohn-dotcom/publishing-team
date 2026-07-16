@@ -81,6 +81,20 @@ himself and pulls the wall back down.
 This pairs well as a two-image set (calm precision / defensive flare) the
 same way Baron's early storyboards used contrasting panels to show range.
 
+**Round 1 result and a fix for round 2:** the first wall-up generations
+(`rampart-portrait-wallup-v1-titlecard.jpg`, `rampart-wallup-video-v1.mp4`)
+nailed the pose and expression but landed in a completely different kitchen
+than the calm portrait (modern stainless steel/concrete vs. the calm
+version's open-hearth stone tavern), and added unprompted reddish forearm
+streaking with no basis in the manuscript. If you want a matched pair, lock
+the environment explicitly rather than leaving it to the generator's
+default — use the SETTING block from the Primary Prompt above verbatim
+(open-hearth stone kitchen, copper pots on iron hooks, candlelit bottle
+shelf) and add `no scars or marks beyond a single scar along one cheek` to
+the subject description to suppress the stray forearm detail. The Flow
+version of this fix is written out in full in
+`rampart-portrait-prompt-googleflow.md` under "Clip B-2."
+
 ## Where This Might Be Used
 No image has been submitted or generated for Rampart yet — this prompt is a
 starting point. Once art exists, natural homes for it: an `images/` addition
