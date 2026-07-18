@@ -6,32 +6,31 @@
 
 ---
 
-## The one thing to flag before anything else
+## Decision: Baron hosts, in the same AI voice already established
 
-Rotating characters + full 20–40 min episodes is a real production commitment, not a repost of what's already built. Everything done for Baron so far — Flow/Higgsfield clips, ffmpeg assembly — produces ~5–8 second *silent-except-one-line* video takes. There's no long-form AI voice tool set up in this pipeline, and stitching forty 8-second AI clips into one character monologue would be enormously expensive under the per-generation credit cost you already flagged on the Flow work, plus it would drift on likeness/voice consistency over that many generations.
+Updated per your direction — Baron Vieux hosts the show himself, voiced by the **same AI voice heard in his existing Flow-generated media** (`outputs/Baron_Origin_TikTok_FINAL_v3.mp4`, the Scarlet Elixir video). Not a new voice, not you reading his lines — the actual established Baron voice, kept consistent across every format he appears in.
 
-So the format below is built around what's actually buildable right now, not around solving AI long-form audio first.
+**What I can't do:** I don't have an audio-generation or voice-cloning tool. Same limitation as the video/image work all session — I can't produce the audio myself, only prepare everything needed to hand to whichever tool does. In practice that means:
+1. **Isolate a clean voice reference** from the existing videos — the Origin and Elixir clips both have Baron speaking on a mostly-quiet ambient track, which is exactly the kind of short, clean sample a voice-cloning tool (ElevenLabs and similar services are the standard route) needs to seed a consistent voice. I can pull/export just the audio tracks from those files if useful once you pick a tool.
+2. **Write every episode script in Baron's voice**, formatted as a clean read-aloud script (not manuscript prose) so it drops straight into a TTS/voice-clone tool.
+3. **Flag the real production risk honestly:** the reference material is maybe 20–30 total seconds of Baron's voice across all existing clips. Cloning tools generally want more than that for a stable long-form result — a 20–30 minute episode is a much bigger ask than the 5–8 second clips the voice has only ever been used for. Expect some iteration (and cost, per the same per-generation pricing you flagged on Flow) before an episode-length result sounds stable rather than drifting.
 
-**The fix: you host it in your own real voice.** Lejohn Richburg III, author, talking — same disclosure logic already established for Baron ("readers trust a real 'here's what this is' from the author"). Characters rotate as the *subject* of each episode, not as synthetic co-hosts reading 30 minutes of AI dialogue. Their "presence" comes through:
-- You performing their key lines yourself when you read from the manuscript (this is just narration — no disclosure issue, it's you reading your own book)
-- Short AI-generated clips (the same Flow/Higgsfield format already working) used as a cold open or mid-episode punctuation — 5–15 seconds, clearly a stylized moment, not the whole episode
-- Real quotes, real scenes, real craft/business lessons the character's arc represents
-
-This keeps the AI-disclosure question exactly as simple as it already is for Baron's social clips (per `outputs/baron-vieux-ai-disclosure-v1.md`) instead of opening a much bigger one — an AI "voice" reading 30 minutes of scripted dialogue as if it were a real interview would need a much heavier disclosure treatment than a label on a short clip.
-
-If down the line you want actual synthetic character voices carrying real dialogue for a whole episode, that's a separate tool decision (an ElevenLabs-type voice-cloning service) and a separate disclosure conversation — flagging it as a future option, not solving it here.
+**Disclosure gets heavier here, not lighter.** A short labeled video clip is one thing — TikTok/Meta both have a native "AI info" toggle that does most of the work. A 20–30 minute podcast episode where an AI-voiced fictional character is the entire host has no equivalent native toggle on Spotify/Apple Podcasts/etc. That means the disclosure has to be built into the show itself:
+- A short spoken disclosure, in **your** real voice, at the top of Episode 1 (and referenced in every episode's description) — same "quick note from the author" pattern already used for the pinned social post, just adapted to open the show once rather than repeat every episode
+- The show's platform description/show notes stating plainly that Baron is a fictional character voiced with AI
+- This is the same deliberate voice-break already established as the one exception to "never change the author's voice" — it now also opens the podcast, not just the pinned post
 
 ---
 
 ## Format
 
-**Structure: one supporting character's arc per episode, hosted by you.**
+**Structure: one supporting character's arc per episode, Baron hosts, in AI voice.**
 
-Each episode uses one character from the series bible as the spine — their scene, their conflict, their lesson — and you unpack it two layers at a time:
-1. **The character, in the story** — who they are, their scene(s), read a key passage or two in your own voice
+Each episode uses one character from the series bible as the spine — Baron introduces them, walks through their scene, their conflict, their lesson, in his own voice, first-person, same tone as his existing bios/scripts. Two layers per episode:
+1. **The character, in the story** — Baron sets up who they are and their scene, with a key passage read or paraphrased in his voice
 2. **The real thing underneath** — the craft, ownership, or systems-thinking lesson that character represents, and how it maps to something a listener can use (this is the marketing-funnel engine: every episode gives a real value-add *and* makes someone who's never read the books want to know how the scene actually plays out on the page)
 
-Closes with a CTA: which book, which chapter, "here's where you meet them for real."
+Closes with a CTA in Baron's voice: which book, which chapter, "here's where you meet them for real."
 
 **Episode length:** 20–30 min is more realistic than 40 for a one-person hosted show without a co-host or guest booking pipeline. 40 works once you're comfortable and have a backlog of characters with enough material (Baron, Rampart, and Melpomene can easily carry 30+; Ghost or Farrah can't yet — thin material, would need padding).
 
@@ -57,22 +56,22 @@ Eight episodes is a real, finishable Season 1 — enough to prove the format wit
 ## Why this serves the marketing funnel specifically
 
 - Every episode is really a **guided spoiler-light book tour** — it gives away just enough of a character's real depth to make "go read the actual scene" the natural next step, not a hard sell.
-- It reuses assets you already have (manuscript text, series bible, Baron's existing AI clips) instead of requiring new production infrastructure.
-- It slots into `outputs/scheduled-posting-lookup.csv` as a new content lane: each episode can be chopped into 3–4 short clips (a line you read, the lesson, the CTA) for Instagram/TikTok/X the same week the full episode drops — one recording session, a week of social content.
+- It reuses assets you already have (manuscript text, series bible, Baron's existing AI voice/clips) instead of requiring new production infrastructure.
+- It slots into `outputs/scheduled-posting-lookup.csv` as a new content lane: each episode can be chopped into 3–4 short clips (a line, the lesson, the CTA — all in Baron's voice) for Instagram/TikTok/X the same week the full episode drops — see `outputs/podcast-clip-posting-calendar-plan-v1.md` for exactly how this feeds the calendar.
 - It's the clearest "proof of work" content for FuturIQ's future pitch (per `references/futuriq-vision-sketch-v1.html`) — a real creator building a real cross-media pipeline from one manuscript.
 
 ---
 
 ## What's needed to actually start (not something I can do for you)
 
-- A place to record (any decent USB mic + a quiet room is enough to start — no studio needed)
+- A voice-cloning/TTS tool (ElevenLabs or similar) — I don't have one, so this is the one hard dependency before any episode can actually be produced
 - A hosting platform (Spotify for Podcasters / Buzzsprout / similar — free tiers exist)
 - Intro/outro music (royalty-free, or I can help you find/license options once you pick a platform)
-- A recording cadence — even biweekly is fine for Season 1's 8 episodes
+- A recording/generation cadence — even biweekly is fine for Season 1's 8 episodes
 
 ## What I can do next
-- Write a full episode script (talking points + which manuscript passages to read) for Episode 1 (Baron)
-- Draft the show's own bio/description copy for whichever platform you land on
-- Build the clip-chopping plan so each episode auto-feeds the social calendar
+- Write the full Episode 1 script (Baron's voice, read-aloud format, ready to feed into a TTS/voice-clone tool)
+- Draft the show's own bio/description copy — including the required disclosure line — for whichever platform you land on
+- Pull clean audio-only exports of Baron's existing clips as voice-cloning reference samples, once you've picked a tool
 
 Say the word on any of those and I'll start with Episode 1.
