@@ -93,15 +93,21 @@ Baron was in his early twenties when it happened. Old enough to understand what 
 
 He carried it.
 
-Years later, back on that same stretch of Decatur, Baron stood in front of what 941 had become. A tourist center now. Bland walls. Brochures. The forty-foot ceilings still there, holding up a room that had forgotten what it was for.
+Then Katrina came.
+
+In 2005, when the storm reshaped the city in ways that no one who loved New Orleans has ever fully finished grieving, Baron found himself standing on Decatur Street looking at 941. The building was still there — the French Quarter had survived the flood, sitting as it does on higher ground, its bones intact while whole neighborhoods drowned. But the address that had once been the living room of the French Quarter was a tourist center now. Bland walls. Brochures. The forty-foot ceilings still there, holding up a room that had forgotten what it was for.
 
 He stood on the sidewalk for a long time.
 
-Baron understood something standing there that he had not fully articulated before. The places that matter don't survive on their own. They survive because someone decides they are worth fighting for. Kaldi's had not been worth fighting for to the person who owned the building. He was not going to make that mistake. Whatever he built, he was going to own. Not lease. Not rent. Own. Something that no landlord could double the price on, no city permit office could indefinitely delay, no Melpomene could take credit for.
+The city he had grown up in was in the process of becoming something else — not destroyed, but altered in a way that felt permanent, the way a scar alters a face. A third of the Black population had left and not come back. The neighborhoods that had shaped the people who had shaped the culture were damaged or emptied or simply gone. New Orleans was fighting to remember itself.
 
-The shipping container concept was born in a professional kitchen, but its soul was born on a sidewalk on Decatur Street, standing in front of a building that used to be something and wasn't anymore.
+[AUTHOR'S NOTE — TO BE ADDED: The Katrina passage in Chapter Zero. Baron's father. Written by the author in his own time and words.]
 
-He turned up his collar and walked back into the city.
+Baron understood something standing on that sidewalk that he had not fully articulated before. The places that matter don't survive on their own. They survive because someone decides they are worth fighting for. Kaldi's had not been worth fighting for to the person who owned the building. He was not going to make that mistake. Whatever he built, he was going to own. Not lease. Not rent. Own. Something that no landlord could double the price on, no city permit office could indefinitely delay, no Melpomene could take credit for.
+
+The shipping container concept was born in a professional kitchen, but its soul was born on a sidewalk on Decatur Street in 2005, standing in front of a building that used to be something and wasn't anymore.
+
+He turned up his collar against the post-storm air and walked back into the city.
 
 He had work to do.
 
@@ -747,8 +753,6 @@ He wrote nothing down that night. Some formulas don't live on paper — they liv
 
 He called it the Scarlet Elixir.
 
-It was the same instinct — coastal heat balanced against bright acid — that would surface again in another creation entirely, years from now, built from crab and avocado instead of tomato and guajillo. Two separate dishes. Never the same recipe. Only the same conviction that flavor had to fight for itself before it earned a plate.
-
 He told no one. Not yet. This one belonged to him alone — not the Apothecary, not Melpomene, not the executive chef whose name was on the marquee. This was the foundation of his own blueprint. The thing that would outlast the kitchen he was currently surviving.
 
 ---
@@ -1125,7 +1129,7 @@ Baron sat with it. He did not answer quickly, because he was not a man who answe
 
 Connie's question moved through him like a current: *Do you know what you actually want?*
 
-He did. He had known since a sidewalk on Decatur Street, standing in front of a building that used to be something and had been allowed to become nothing. He had known since an insult in a French Quarter kitchen that was supposed to diminish him and had instead clarified him. He had known since the LLC was registered and the domain went live and the blueprint moved from vision to document — since all of it had accumulated into the specific, irreversible knowledge of a man who understands what he's building and why.
+He did. He had known since a sidewalk in 2005, standing in front of a building that used to be something and had been allowed to become nothing. He had known since an insult in a French Quarter kitchen that was supposed to diminish him and had instead clarified him. He had known since the LLC was registered and the domain went live and the blueprint moved from vision to document — since all of it had accumulated into the specific, irreversible knowledge of a man who understands what he's building and why.
 
 Bayouboujee had to be his the way Maison Menture was Menture's. That was the only architecture that would hold.
 
