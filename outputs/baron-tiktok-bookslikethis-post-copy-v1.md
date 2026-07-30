@@ -1,20 +1,22 @@
 # Baron Vieux — "Books Like This" TikTok Post Copy
 ### Created: 2026-07-28 · Updated: 2026-07-30
-**Video (current):** `outputs/baron-tiktok-bookslikethis-v2.mp4` — v1 plus a narration track for the script's three VOICE lines, mixed under the ambient audio (ducked) with the caption timing re-synced to match.
+**Video (current):** `outputs/baron-tiktok-bookslikethis-v3.mp4` — v2 plus a 5th scene ("The Resolution," supplied 2026-07-30) inserted between the Turn and the CTA, giving the "friends refuse to let it die" / "sober, free, finally living" beat real footage instead of a text-only card. Runtime ~44s.
+**Video (v2, narration, 4 scenes only):** `outputs/baron-tiktok-bookslikethis-v2.mp4` — v1 plus a narration track for the script's three VOICE lines, mixed under the ambient audio (ducked) with the caption timing re-synced to match.
 **Video (v1, captions-only, no narration):** `outputs/baron-tiktok-bookslikethis-v1.mp4` — stitched from 4 clips per `outputs/social-content-book1-deepdive-v1.md`, TikTok Script 4 ("Books Like This" Trend Format)
 
-**IMPORTANT — placeholder narration:** v2's voiceover is generated with `espeak-ng` (a robotic offline text-to-speech engine), not Baron's ElevenLabs voice clone. This environment has no ElevenLabs API key and its network proxy blocks outbound calls to api.elevenlabs.io, so the real cloned-voice narration couldn't be generated here. The espeak-ng track is a placeholder to get the timing/pacing right — swap it for a real ElevenLabs render of the same three lines before this goes out. v2 also runs ~36s instead of 30s (padded a few seconds so the narration isn't rushed, plus a held final frame for the title/CTA text).
+**IMPORTANT — placeholder narration:** the voiceover (v2 and v3) is generated with `espeak-ng` (a robotic offline text-to-speech engine), not Baron's ElevenLabs voice clone. This environment has no ElevenLabs API key and its network proxy blocks outbound calls to api.elevenlabs.io, so the real cloned-voice narration couldn't be generated here. The espeak-ng track is a placeholder to get the timing/pacing right — swap it for a real ElevenLabs render of the same three lines before this goes out.
 
-Source clips (in order):
+Source clips (v3, in order):
 1. Hook — Baron at the bar, black vest, looking down at the book
 2. The Setup — shipping-container exterior at dusk → Baron's portrait, arms crossed
 3. The Turn — Baron at the bar, hands clasped, looking down
-4. CTA — book placed on a candlelit wooden table
+4. **The Resolution** (new) — Baron at the bar, eyes closed, exhaling — upscaled from a 720x1280 preview export to match the others (1080x1920), so it reads slightly softer than the rest
+5. CTA — book placed on a candlelit wooden table
 
 Captions burned in per the script's text cues (branded Playfair Display / parchment-on-scrim treatment, matching the Elixir/Origin/Flashback/Family Meal videos):
 - "Books that will absolutely wreck you (in a good way):"
 - "A sous chef and a blues singer build a restaurant out of a shipping container in New Orleans."
-- "They fall in love." / "They build the dream."
+- "They fall in love. They build the dream."
 - "Then the dream almost destroys them — burnout, addiction, a business on the edge of collapse."
 - "Then their friends refuse to let it die."
 - "They come out the other side — sober, free, finally living."
