@@ -1,6 +1,7 @@
 # Baron Vieux — "Books Like This" TikTok Post Copy
-### Created: 2026-07-28 · Updated: 2026-07-30
-**Video (current):** `outputs/baron-tiktok-bookslikethis-v3.mp4` — v2 plus a 5th scene ("The Resolution," supplied 2026-07-30) inserted between the Turn and the CTA, giving the "friends refuse to let it die" / "sober, free, finally living" beat real footage instead of a text-only card. Runtime ~44s.
+### Created: 2026-07-28 · Updated: 2026-07-31
+**Video (current, ready to post):** `outputs/baron-tiktok-bookslikethis-v4.mp4` — v3 trimmed from ~44s to ~35.7s for TikTok pacing. Cuts were made only in the dead-air gaps between beats (never mid-caption, never mid-narration) — every caption card and VO line is fully intact, just less breathing room between them.
+**Video (v3, 5 scenes + narration, untrimmed):** `outputs/baron-tiktok-bookslikethis-v3.mp4` — v2 plus a 5th scene ("The Resolution," supplied 2026-07-30) inserted between the Turn and the CTA, giving the "friends refuse to let it die" / "sober, free, finally living" beat real footage instead of a text-only card. Runtime ~44s.
 **Video (v2, narration, 4 scenes only):** `outputs/baron-tiktok-bookslikethis-v2.mp4` — v1 plus a narration track for the script's three VOICE lines, mixed under the ambient audio (ducked) with the caption timing re-synced to match.
 **Video (v1, captions-only, no narration):** `outputs/baron-tiktok-bookslikethis-v1.mp4` — stitched from 4 clips per `outputs/social-content-book1-deepdive-v1.md`, TikTok Script 4 ("Books Like This" Trend Format)
 
