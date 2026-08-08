@@ -52,6 +52,13 @@ This file is the source of truth for all agents. Read this before working on any
 - What does "comeback" mean structurally — a full reopening, a single night, a tour stop?
 - Which of Olivia's own dish creations (if any) get named/detailed on the page, distinct from Baron's signatures?
 
+**Lore thread (2026-08-08, not yet canon):** "A time-displaced specter" — the idea that Baron and Olivia have found each other before, in other times. Author's instinct is to keep this *felt, not literal* — the series is otherwise grounded and semi-autobiographical, so a confirmed reincarnation mechanic would be a bigger genre swing than the tone currently supports. Candidate directions, none chosen yet:
+- Played through Olivia's lens, not Baron's — she's the tarot reader, recognition is already her trade; he's the skeptic who won't name what he feels. Tension comes from her knowing something he won't let himself believe.
+- A recurring motif rather than a flashback — a specific card that keeps turning up, a phrase he's "always said" but can't place, a taste of something he shouldn't recognize.
+- Tied to the *place* as much as the two of them — echoes the core series theme (someone has to decide a place is worth fighting for) if the venue itself has been fought for before, under other names, in other decades.
+- Never confirmed as literally true — stays texture, not plot mechanic, unless a later book deliberately decides to spend it.
+- Visual note: the black-and-white noir aesthetic already used for Olivia's tarot-scene reference art and the "Baron meeting Olivia at the bar" clip (chandelier, tufted booth, "LIVE PERFORMANCES" stage) already reads as vintage/period rather than present-day — an accidental head start on this idea if it goes forward.
+
 ---
 
 ## Protagonist: Baron Vieux
@@ -193,6 +200,7 @@ This file is the source of truth for all agents. Read this before working on any
 - Not yet met. Not yet named. The city is making its arrangements.
 - In Book 1: blues/jazz singer, tarot reader. Together she and Baron build Bayouboujee.
 - Her full introduction: *A Symphony of Love in the Big Easy*.
+- **"The Meet-Cute" (named 2026-08-08):** the author's name for the scene of Baron finally walking up to Olivia's tarot table after months of only hearing her voice — visualized in `docs/media/baron-meeting-olivia.mp4`, featured on the website Media page under that title.
 
 ### Theron
 - Baron's cousin. Fiercely loyal.
