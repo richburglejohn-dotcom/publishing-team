@@ -1,10 +1,12 @@
 # Google Flow Video Prompt Package
-## "Roe Velvet" — Baron & Olivia's First Real Meeting (Chapter 9)
-### Created: 2026-08-08
+## "Roe Velvet" — Baron Tests the Dish on Calliope (Chapter 9)
+### Created: 2026-08-08 · Revised: 2026-08-08 (v2 — correct cast)
 
 Structured for sequential scene-by-scene input into Google Flow. Each scene is written as a self-contained ~8-second clip. Character reference blocks are repeated in each prompt to help maintain visual consistency across generations — adjust freely if Flow drifts on a feature.
 
-**Revision note:** this replaces an earlier draft of this prompt package that specified the wrong dish — an orange velvet cake with cream-cheese frosting and orange salmon roe. The clips generated from it were trashed (wrong cake, wrong room — see notes below). This version corrects the dish to match Chapter 9 and the approved "Roe Velvet" key art: dark red velvet cake, dark chocolate frosting, black caviar. It also corrects the setting: Baron carries the cake **out of the Apothecary's kitchen and into Calliope's bar next door** — these are two separate, adjoining locations per the series bible, not one restaurant with a dining room.
+**Revision history:**
+- v1 had two things wrong and has been superseded: it put the wrong dish in frame (orange velvet cake / cream-cheese frosting / orange salmon roe instead of the dark red velvet / chocolate frosting / black caviar established in the approved key art), and it put the wrong character in the bar. **Olivia does not appear in Chapter 9.** The manuscript actually merged into the book (`outputs/Scarlet_Foundation_FULL_DRAFT_v1.md`) and the series bible's own chapter outline ("Calliope pushes him forward") both confirm it's **Calliope**, at **her own bar**, who tastes the cake. Olivia is only the unnamed voice Baron hums on the walk back — still unmet at this point in the story.
+- This version (v2) rebuilds the scene list around Calliope and folds in the background details from the approved "ROE VELVET" still (Sazerac Rye bottles, dark wood bar counter, candle, string lights, blurred arched doorway) so the video reads as the same room as the poster.
 
 ---
 
@@ -12,79 +14,86 @@ Structured for sequential scene-by-scene input into Google Flow. Each scene is w
 
 **Baron Vieux** — Lean, deliberate build, dark-skinned, sharp-featured, looks younger than he is until you see his eyes. Square-framed black glasses. Gray chef's coat, worn leather apron tied at the waist. Calm, theatrical confidence in his movements — a man who treats plating like a stage entrance. **Do not attempt to render embroidered text on the coat** ("Baron Vieux" / "Bayouboujee") — small cursive lettering on fabric has repeatedly come out garbled in Flow generations; leave the coat plain and add any lettering in post if needed.
 
-**Olivia Marigny** — Jazz and blues singer, late twenties, warm brown skin, natural curls pulled back loosely, the relaxed self-possession of a performer off the clock. Simple dark top, small gold hoop earrings. Expressive face — she reacts with her whole body, not just her eyes.
+**Calliope** — Black woman, confident and steady behind her own bar, sharp-eyed and unhurried, the kind of presence that watches people reveal what their faces work to conceal. Simple, practical bartender's outfit, sleeves rolled, a rag over one shoulder or in hand from wiping down the counter. **No prior reference art exists for Calliope** — this is the first time she's being visualized. Treat the first clean generation of her as the new reference to match in every scene after.
 
-**Rampart** — Lead cook, built broad like a shipping container, bald, dark-skinned, deep sheen of kitchen sweat, gray beard, a faint scar on the cheek. Economical movements. Dry, unimpressed energy that masks real affection for Baron.
+**Rampart** — Lead cook, built broad like a shipping container, bald, dark-skinned, deep sheen of kitchen sweat, gray beard, a faint scar on the cheek. Economical movements. Dry, unimpressed energy that masks real affection for Baron. Appears only in Scene 1 (the kitchen) — he does not go to Calliope's bar.
 
-**The dish (Roe Velvet)** — A dense, dark red velvet cake, glossy dark chocolate frosting, a single quenelle of black caviar centered on top, a small rosemary sprig beside it. Served on a dark wooden cake stand. This is the same dish shown in the approved "ROE VELVET" key art — match its color and styling exactly, not a lighter cake, not cream-cheese frosting, not orange roe.
+**The dish (Roe Velvet)** — A dense, dark red velvet cake, glossy dark chocolate frosting, a single quenelle of black caviar centered on top, a small rosemary sprig beside it. Served on a dark wooden cake stand. Match the approved "ROE VELVET" key art exactly — not a lighter cake, not cream-cheese frosting, not orange roe.
 
-**Setting** — The Apothecary, a French Quarter restaurant kitchen, exposed brick, late at night after the dinner rush, the crew mostly cleared out. Calliope's bar, a separate, smaller neighboring bar Baron walks to next door — warm low amber light, jazz-club intimacy, a handful of regulars, string lights, bottles of rye behind the bar. The two locations should read as distinct: cooler, harsher kitchen light vs. warm, dim bar light.
+**Setting — the Apothecary kitchen** — French Quarter restaurant kitchen, exposed brick, stainless steel pass, late at night after the dinner rush, cooler and harsher light than the bar.
 
----
-
-### SCENE 1 — The Quiet Bar
-**Visual:** Wide shot, dim warm bar interior late at night — Calliope's, not the Apothecary's dining room. Olivia sits alone at the end of the bar, a candle and a half-finished drink in front of her. Camera slowly pushes in.
-**Mood/Lighting:** Low amber light, intimate, jazz-club warmth.
-**Audio:** Soft ambient bar murmur, distant clinking of glasses, a low blues melody under the scene.
+**Setting — Calliope's bar** — A separate, smaller neighboring bar Baron walks to. Dim, warm amber light. Dark wood bar counter. Bottles of Sazerac Rye visible on the back shelf. A candle burning in a glass holder near where the cake will sit. Soft string lights and a few blurred regulars/an arched doorway or window in the background, out of focus. Quiet at this hour — the post-rush lull before last call.
 
 ---
 
-### SCENE 2 — The Cake at the Pass
-**Visual:** Close-up, Baron's hands placing the finished Roe Velvet cake — dark red velvet, dark chocolate frosting, black caviar quenelle, rosemary sprig — on a dark wooden stand at the kitchen pass. He adjusts the plate a half-inch, exhales, composes himself.
+### SCENE 1 — The Taste Test
+**Visual:** Medium shot in the Apothecary kitchen. Rampart eats a slice of the Roe Velvet at the pass without comment, wipes his knife. Baron watches him, waiting for a reaction.
+**Dialogue (Baron):** "Well?"
+**Dialogue (Rampart):** "It's good."
+**Dialogue (Baron):** "That's it? 'It's good'?"
+**Dialogue (Rampart):** "You want a parade, take it to Calliope. She'll give you the parade. Or she won't, and you'll know it's actually good."
 **Mood/Lighting:** Cooler kitchen light, shallow depth of field, steel and heat-lamp glow in the background.
-**Audio:** Kitchen ambiance, the clink of the cake stand on stainless steel.
+**Audio:** Kitchen ambiance, the clink of a plate, dialogue lines.
 
 ---
 
-### SCENE 3 — The Walk-Out
-**Visual:** Tracking shot from behind Baron as he carries the cake stand out of the kitchen's back door and down the sidewalk to the bar next door, chin slightly raised, walking like a man making an entrance.
-**Mood/Lighting:** Transition from cool kitchen light, briefly outside under a streetlamp, into the warm amber glow of the bar doorway.
+### SCENE 2 — The Walk-Out
+**Visual:** Tracking shot from behind Baron as he carries the cake stand out of the kitchen's back door and down the sidewalk into the French Quarter night, toward the bar next door, chin slightly raised, walking like a man carrying something fragile and important.
+**Mood/Lighting:** Transition from cool kitchen light, briefly outside under a streetlamp, into the warm amber glow of the bar doorway ahead.
 **Audio:** Footsteps, night street ambiance, bar noise fading up as he reaches the door.
 
 ---
 
-### SCENE 4 — The Reveal
-**Visual:** Medium shot, Baron sets the cake down in front of Olivia at the bar, lifting both hands theatrically as he presents it, leaning in slightly on the pause.
-**Dialogue (Baron, voiceover or lip-sync):** "You will notice that I have done the unthinkable. I have made the roe... wait."
-**Mood/Lighting:** Warm spotlight feel on the cake and Baron's face.
-**Audio:** Room hush, dialogue line, a faint suppressed laugh from off-camera (Rampart, who followed him over).
+### SCENE 3 — The Reveal
+**Visual:** Wide-to-medium shot as Baron pushes through the door into Calliope's bar — dark wood counter, Sazerac Rye bottles on the shelf behind, candlelight, string lights and a blurred doorway/window in the background. Calliope is behind the bar wiping it down, doesn't look up right away. Baron sets the cake stand down and lifts both hands theatrically, presenting it.
+**Dialogue (Calliope):** "You didn't call ahead."
+**Dialogue (Baron):** "Can't call ahead to something I didn't schedule."
+**Dialogue (Baron):** "You will notice that I have done the unthinkable. I have made the roe... wait."
+**Mood/Lighting:** Warm spotlight feel on the cake and Baron's face against the dim bar.
+**Audio:** Room hush, dialogue lines, the quiet clink of the cake stand on the wood counter.
+
+---
+
+### SCENE 4 — Destiny
+**Visual:** Medium shot, Calliope leans both forearms on the bar, studying the cake the way she studies Baron — steady, unhurried. Baron gestures at the quenelle.
+**Dialogue (Baron):** "This is not fusion. This is destiny."
+**Dialogue (Calliope):** "Destiny. Last week it was the bisque."
+**Dialogue (Baron):** "The bisque was a different chapter of destiny."
+**Mood/Lighting:** Warm amber bar light, candle glow catching both faces.
+**Audio:** Quiet bar ambiance under the dialogue.
 
 ---
 
 ### SCENE 5 — The Quenelle, Close-Up
-**Visual:** Extreme close-up, slow push-in on the single glossy black caviar quenelle centered on the dark chocolate frosting, the rosemary sprig catching the candlelight beside it.
-**Mood/Lighting:** High detail, warm key light, slight glisten on the caviar.
+**Visual:** Extreme close-up, slow push-in on the single glossy black caviar quenelle centered on the dark chocolate frosting, the rosemary sprig and candlelight catching beside it.
+**Mood/Lighting:** High detail, warm key light from the nearby candle, slight glisten on the caviar.
 **Audio:** Quiet musical sting or single sustained low note.
 
 ---
 
-### SCENE 6 — Rampart's Dry Reaction
-**Visual:** Medium shot, Rampart leaning in the bar doorway behind Baron, arms crossed, not looking up, the faintest smirk.
-**Dialogue (Rampart):** "Destiny. Last week it was the bisque."
-**Mood/Lighting:** Cooler light from the street/doorway behind him, contrasted against the warm bar glow in the foreground blur.
-**Audio:** Faint street noise under the line.
+### SCENE 6 — Calliope's Bite
+**Visual:** Close-up on Calliope's face as she finally takes the bite — cake, frosting, caviar together. Her expression shifts through surprise into something more complicated and pleased. She sets the fork down slowly.
+**Dialogue (Calliope):** "Okay. That's — that's actually a bit. That's a whole bit."
+**Dialogue (Baron):** "It is a dish."
+**Dialogue (Calliope):** "No. I've watched you run this exact routine on me for two years, Baron. I know a bit when I'm being handed one. You should be charging cover."
+**Mood/Lighting:** Soft warm candlelight on her face, shallow focus, the bar softly blurred behind her.
+**Audio:** Light bar ambiance, dialogue lines.
 
 ---
 
-### SCENE 7 — Olivia's First Bite
-**Visual:** Close-up on Olivia's face as she takes the bite — cake, frosting, and caviar together. Her expression shifts through surprise, then something more delighted. She sets the fork down slowly.
-**Dialogue (Olivia):** "Okay. That's a whole bit."
-**Mood/Lighting:** Soft warm light on her face, shallow focus, background softly blurred.
-**Audio:** Light room ambiance, her line, a small laugh.
-
----
-
-### SCENE 8 — The Walk Back
-**Visual:** Wide shot, Baron walking back down the sidewalk toward the kitchen door, lighter in his step than when he walked out, a small private smile forming. He starts humming, almost inaudibly.
+### SCENE 7 — The Walk Back
+**Visual:** Wide shot, Baron carrying the empty cake stand back down the sidewalk toward the kitchen, lighter in his step than when he walked out, a small private smile forming. He starts humming, almost inaudibly.
 **Mood/Lighting:** Warm bar light behind him fading toward the cooler kitchen glow as he exits frame.
 **Audio:** Faint hum from Baron, ambient street sound as the scene closes.
 
 ---
 
 ### Production Notes
-- Recommend generating in order 1→8 for continuity momentum, even though Flow treats each as independent — visual consistency holds up better when character and dish descriptions are pasted fresh each time rather than relied on from memory.
-- **Dish color/style is the thing to check first on every generated clip** before moving on — dark red velvet crumb, dark chocolate frosting, black caviar. If Flow drifts back toward a pale cake or orange roe, regenerate that scene immediately rather than continuing the batch.
+- Recommend generating in order 1→7 for continuity momentum, even though Flow treats each as independent — visual consistency holds up better when character and dish descriptions are pasted fresh each time rather than relied on from memory.
+- **Dish color/style is the thing to check first on every generated clip** before moving on — dark red velvet crumb, dark chocolate frosting, black caviar. If Flow drifts back toward a pale cake or orange roe, regenerate that scene immediately.
+- **Calliope has no prior reference art.** Whatever her first clean generation looks like (Scene 1... actually Scene 3, her first appearance) becomes the reference to paste back into later scene prompts if Flow drifts on her face/build.
 - Coat embroidery: left plain in the prompt on purpose (see character reference above) — do not ask Flow to render "Baron Vieux" / "Bayouboujee" text on fabric.
 - For the post-production pass: the established `delogo` watermark removal and per-clip `loudnorm` pipeline apply the same way as prior videos. Scene 5 (the quenelle close-up) is a good candidate for a slight slow-motion stretch in the edit.
-- Scene 4's dialogue and Scene 6/7 reactions are pulled directly from the Chapter 9 draft for continuity with the manuscript.
-- Setting is two locations, not one: the Apothecary's kitchen (Baron's workplace) and Calliope's bar next door (where Olivia is). Keep the lighting distinct between them so Scene 3's walk reads as a real transition.
+- All dialogue is pulled directly from the Chapter 9 draft (`outputs/Scarlet_Foundation_FULL_DRAFT_v1.md`) for continuity with the manuscript.
+- Rampart appears only in Scene 1 (the kitchen) — do not carry him over to the bar scenes; he isn't in that part of the chapter.
+- Olivia does not appear anywhere in this scene — do not include her. She's introduced elsewhere in the story.
