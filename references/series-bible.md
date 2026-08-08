@@ -200,6 +200,7 @@ This file is the source of truth for all agents. Read this before working on any
 - Not yet met. Not yet named. The city is making its arrangements.
 - In Book 1: blues/jazz singer, tarot reader. Together she and Baron build Bayouboujee.
 - Her full introduction: *A Symphony of Love in the Big Easy*.
+- **"The Meet-Cute" (named 2026-08-08):** the author's name for the scene of Baron finally walking up to Olivia's tarot table after months of only hearing her voice — visualized in `docs/media/baron-meeting-olivia.mp4`, featured on the website Media page under that title.
 
 ### Theron
 - Baron's cousin. Fiercely loyal.
