@@ -27,7 +27,7 @@ Structured for sequential scene-by-scene input into Google Flow. Each scene is w
 ---
 
 ### SCENE 1 — The Taste Test
-**Visual:** Medium two-shot in the Apothecary kitchen, Baron in the foreground and in focus, watching intently, hands still half-raised from setting the plate down. Rampart is beside/across from him, in frame but slightly softer focus, eating a slice of the Roe Velvet at the pass without comment, wiping his knife. The camera favors Baron's anticipation, not Rampart's chewing.
+**Visual:** Close-up, camera positioned just behind Rampart's shoulder, looking past him at Baron. Rampart's shoulder and the back/side of his head fill the near foreground, out of focus and dim. Baron's face fills the center of frame, sharp focus, well-lit, watching intently, hands still half-raised from setting the plate down. Rampart's knife and the plated slice are visible low in frame, blurred. This is a shot of Baron's face, seen past Rampart — not a shot of Rampart eating.
 **Dialogue (Baron):** "Well?"
 **Dialogue (Rampart):** "It's good."
 **Dialogue (Baron):** "That's it? 'It's good'?"
