@@ -14,7 +14,7 @@ Vertical ~9:16 throughout, matching TikTok. Photorealistic, cinematic, shallow d
 
 **Baron Vieux** — Lean, deliberate build, dark-skinned, sharp-featured, square-framed black glasses, short hair. Gray chef's coat or plain dark apron. **Do not render embroidered coat text.**
 
-**Theron** — Baron's cousin, fiercely loyal, works the Bayouboujee kitchen. A real reference photo exists (author has it, pending upload) — once available, paste its description in here and match it across Scenes 5B/5C instead of using the generic build below. Until then: late 20s/30s Black man, casual workwear.
+**Theron** — Baron's cousin, fiercely loyal, works the Bayouboujee kitchen. Likeness reference from a real photo (2026-08-10, group photo, leftmost man): slim, lean build, medium-brown skin, short dark hair, clean-shaven, warm genuine smile with a slight gap in his upper teeth when smiling. Black button-up shirt, top button open (no tie), sleeves down, tucked into black slacks with a brown belt. Relaxed, easygoing bearing.
 
 **Jamara** — Olivia's best friend, manages Bayouboujee's operations. **Staying generic for now** — no reference photo yet (author may source one from Facebook later; if that happens, get a quick heads-up to her before her likeness goes into public-facing promotional video). Generic build: Black woman, late 20s/30s, practical clothing, capable energy.
 
