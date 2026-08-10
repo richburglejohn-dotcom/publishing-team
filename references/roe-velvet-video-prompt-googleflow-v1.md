@@ -12,7 +12,7 @@ Structured for sequential scene-by-scene input into Google Flow. Each scene is w
 
 ### CHARACTER REFERENCE (reuse across all scenes)
 
-**Baron Vieux** — Lean, deliberate build, dark-skinned, sharp-featured, looks younger than he is until you see his eyes. Square-framed black glasses. Gray chef's coat, worn leather apron tied at the waist. Calm, theatrical confidence in his movements — a man who treats plating like a stage entrance. **Do not attempt to render embroidered text on the coat** ("Baron Vieux" / "Bayouboujee") — small cursive lettering on fabric has repeatedly come out garbled in Flow generations; leave the coat plain and add any lettering in post if needed.
+**Baron Vieux** — Lean, deliberate build, dark-skinned, sharp-featured, looks younger than he is until you see his eyes. Square-framed black glasses. His chef's coat is **charcoal gray, not white** — a distinct medium-gray fabric, double-breasted, not the standard white chef's whites. Worn leather apron tied at the waist. Calm, theatrical confidence in his movements — a man who treats plating like a stage entrance. **Do not attempt to render embroidered text on the coat** ("Baron Vieux" / "Bayouboujee") — small cursive lettering on fabric has repeatedly come out garbled in Flow generations; leave the coat plain and add any lettering in post if needed.
 
 **Calliope** — Black woman, confident and steady behind her own bar, sharp-eyed and unhurried, the kind of presence that watches people reveal what their faces work to conceal. Simple, practical bartender's outfit, sleeves rolled, a rag over one shoulder or in hand from wiping down the counter. **No prior reference art exists for Calliope** — this is the first time she's being visualized. Treat the first clean generation of her as the new reference to match in every scene after.
 
@@ -27,7 +27,7 @@ Structured for sequential scene-by-scene input into Google Flow. Each scene is w
 ---
 
 ### SCENE 1 — The Taste Test
-**Visual:** Close-up, camera positioned just behind Rampart's shoulder, looking past him at Baron. Rampart's shoulder and the back/side of his head fill the near foreground, out of focus and dim. Baron's face fills the center of frame, sharp focus, well-lit, watching intently, hands still half-raised from setting the plate down. Rampart's knife and the plated slice are visible low in frame, blurred. This is a shot of Baron's face, seen past Rampart — not a shot of Rampart eating.
+**Visual:** Close-up, camera positioned just behind Rampart's shoulder, looking past him at Baron. Rampart's shoulder and the back/side of his head fill the near foreground, out of focus and dim. Baron's face fills the center of frame, sharp focus, well-lit, watching intently, hands still half-raised from setting the plate down, wearing his charcoal-gray chef's coat. Low in frame, blurred but still identifiable: a slice of dense dark red velvet cake with glossy dark chocolate frosting, topped with a quenelle of black caviar and a small rosemary sprig — not a plain cake, not a pale crumb, not a berry garnish. Rampart's knife is visible near the plate. This is a shot of Baron's face, seen past Rampart — not a shot of Rampart eating.
 **Dialogue (Baron):** "Well?"
 **Dialogue (Rampart):** "It's good."
 **Dialogue (Baron):** "That's it? 'It's good'?"
