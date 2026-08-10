@@ -14,9 +14,9 @@ Vertical ~9:16 throughout, matching TikTok. Photorealistic, cinematic, shallow d
 
 **Baron Vieux** — Lean, deliberate build, dark-skinned, sharp-featured, square-framed black glasses, short hair. Gray chef's coat or plain dark apron. **Do not render embroidered coat text.**
 
-**Theron** — Baron's cousin, fiercely loyal, works the Bayouboujee kitchen. No prior reference art — keep his look plausible and consistent within this shot sequence (late 20s/30s Black man, casual workwear).
+**Theron** — Baron's cousin, fiercely loyal, works the Bayouboujee kitchen. A real reference photo exists (author has it, pending upload) — once available, paste its description in here and match it across Scenes 5B/5C instead of using the generic build below. Until then: late 20s/30s Black man, casual workwear.
 
-**Jamara** — Olivia's best friend, manages Bayouboujee's operations. No prior reference art — consistent within this sequence (Black woman, late 20s/30s, practical clothing, capable energy).
+**Jamara** — Olivia's best friend, manages Bayouboujee's operations. **Staying generic for now** — no reference photo yet (author may source one from Facebook later; if that happens, get a quick heads-up to her before her likeness goes into public-facing promotional video). Generic build: Black woman, late 20s/30s, practical clothing, capable energy.
 
 **Setting — Bayouboujee** — the converted shipping-container restaurant/music venue. Exposed steel container walls, warm string lights, a small stage for live music, an open kitchen line. Signage, where visible, reads "BAYOUBOUJEE" — not any other restaurant name.
 
