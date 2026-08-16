@@ -1,0 +1,17 @@
+FACEBOOK AD SET - A/B TEST
+
+VERSION A (CLEAN - intimate_bar_portrait.webp):
+Primary Text: The Turn. Some nights don't ask you to explain. They ask you to stay. The quiet love that holds when the light is low.
+Headline: The Turn — Bayoubeaux1070
+Description: From the Culinary Crescendo universe
+CTA: Learn More
+
+VERSION B (TITLED - couple_bar_portrait.webp):
+Primary Text: Some love stories aren't loud. They're whispered under one light, at the end of a long day.
+Headline: The Turn
+Description: Now Available
+
+BOTH:
+Format: 4x5 Portrait (1080x1350)
+Ad-Safe: Yes - no alcohol, corrected hands, no text violations (Version A is best for delivery)
+Page: Bayoubeaux1070
