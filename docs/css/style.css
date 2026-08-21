@@ -412,6 +412,28 @@ h2.section-title {
   font-family: var(--font-mono);
 }
 
+/* ---------- FuturIQ ---------- */
+
+.futuriq-panel {
+  background: var(--panel);
+  border: 1px solid var(--border-hair);
+  padding: 60px 40px;
+  text-align: center;
+}
+
+.futuriq-logo {
+  max-width: 340px;
+  width: 100%;
+  height: auto;
+  margin: 0 auto 28px;
+}
+
+.futuriq-panel p {
+  color: var(--parchment-dim);
+  max-width: 560px;
+  margin: 0 auto 32px;
+}
+
 /* ---------- Footer ---------- */
 
 .site-footer {

@@ -15,6 +15,8 @@ Updated per your direction — Baron Vieux hosts the show himself, voiced by the
 2. **Write every episode script in Baron's voice**, formatted as a clean read-aloud script (not manuscript prose) so it drops straight into a TTS/voice-clone tool.
 3. **Flag the real production risk honestly:** the reference material is maybe 20–30 total seconds of Baron's voice across all existing clips. Cloning tools generally want more than that for a stable long-form result — a 20–30 minute episode is a much bigger ask than the 5–8 second clips the voice has only ever been used for. Expect some iteration (and cost, per the same per-generation pricing you flagged on Flow) before an episode-length result sounds stable rather than drifting.
 
+**Update (2026-08-21):** two more voice samples were filed from Drive — `references/baron-vieux-voice-reference.mp3` (8 sec, dedicated reference sample) and `outputs/tiktok_book1_voiceover_v1.mp3` (42 sec, existing TikTok voiceover). That brings total clean Baron audio to roughly 70–90 seconds across all sources combined — better than the 20–30 seconds this doc originally flagged, though likely still on the thin side for a stable 20-minute clone without iteration. Still no voice-clone/TTS tool picked — that remains the actual hard dependency before Episode 1's audio can be produced.
+
 **Disclosure gets heavier here, not lighter.** A short labeled video clip is one thing — TikTok/Meta both have a native "AI info" toggle that does most of the work. A 20–30 minute podcast episode where an AI-voiced fictional character is the entire host has no equivalent native toggle on Spotify/Apple Podcasts/etc. That means the disclosure has to be built into the show itself:
 - A short spoken disclosure, in **your** real voice, at the top of Episode 1 (and referenced in every episode's description) — same "quick note from the author" pattern already used for the pinned social post, just adapted to open the show once rather than repeat every episode
 - The show's platform description/show notes stating plainly that Baron is a fictional character voiced with AI
@@ -70,8 +72,11 @@ Eight episodes is a real, finishable Season 1 — enough to prove the format wit
 - A recording/generation cadence — even biweekly is fine for Season 1's 8 episodes
 
 ## What I can do next
-- Write the full Episode 1 script (Baron's voice, read-aloud format, ready to feed into a TTS/voice-clone tool)
+- ~~Write the full Episode 1 script~~ — done, see `outputs/podcast-episode-1-baron-script-v1.md`
+- ~~Write Episode 2~~ — done, see `outputs/podcast-episode-2-rampart-script-v1.md` ("The Wall" — Rampart), grounded directly in the storage-room debrief, the Friday-rush allergy confrontation, and the POS-crash handoff from Chapters 1–3, plus the Roe Velvet cake scene from Chapter 9
+- ~~Write Episode 3~~ — done, see `outputs/podcast-episode-3-melpomene-script-v1.md` ("The Insult" — Melpomene), grounded in the Friday-rush oven failure and the post-shift bar confrontation from Chapters 3 and 5; deliberately plays him as competent and afraid rather than a flat antagonist, per this doc's original angle for the episode
+- Continue writing ahead through the Season 1 lineup (Calliope next) so the script backlog is ready the moment a voice-clone tool is picked — scripts don't block on tooling, only the actual audio does
 - Draft the show's own bio/description copy — including the required disclosure line — for whichever platform you land on
 - Pull clean audio-only exports of Baron's existing clips as voice-cloning reference samples, once you've picked a tool
 
-Say the word on any of those and I'll start with Episode 1.
+**Status as of 2026-08-21:** 3 of 8 Season 1 scripts written (Baron, Rampart, Melpomene). Still blocked only on picking a TTS/voice-clone tool — everything else (scripts, voice reference audio, posting-calendar integration) is either done or ready to go.

@@ -1,0 +1,82 @@
+# Google Flow Video Prompt Package
+## "Roe Velvet" — Baron & Olivia's First Real Meeting (Chapter 9)
+
+Structured for sequential scene-by-scene input into Google Flow. Each scene is written as a self-contained ~8-second clip. Character reference blocks are repeated in each prompt to help maintain visual consistency across generations — adjust freely if Flow drifts on a feature.
+
+---
+
+### CHARACTER REFERENCE (reuse across all scenes)
+
+**Baron Vieux** — Lean, deliberate build, dark-skinned, sharp-featured, looks younger than he is until you see his eyes. Square-framed black glasses. Gray chef's coat embroidered "Baron Vieux" on the left chest, "Bayouboujee" on the right. Worn leather apron tied at the waist. Calm, theatrical confidence in his movements — a man who treats plating like a stage entrance.
+
+**Olivia Marigny** — Jazz and blues singer, late twenties, warm brown skin, natural curls pulled back loosely, the relaxed self-possession of a performer off the clock. Simple dark top, small gold hoop earrings. Expressive face — she reacts with her whole body, not just her eyes.
+
+**Rampart** — Lead cook, built broad like a shipping container, bald, dark-skinned, deep sheen of kitchen sweat. Economical movements. Dry, unimpressed energy that masks real affection for Baron.
+
+**Setting** — The Apothecary, a New Orleans restaurant kitchen and bar, late at night after the dinner rush. Warm low light, exposed brick, the glow of pass-through heat lamps, soft jazz bleeding faintly from the dining room.
+
+---
+
+### SCENE 1 — The Quiet Bar
+**Visual:** Wide shot, dim warm restaurant interior late at night. Olivia sits alone at the end of the bar facing the kitchen pass, a half-finished plate in front of her. Steam rises faintly from the kitchen window behind her. Camera slowly pushes in.
+**Mood/Lighting:** Low amber light, intimate, jazz-club warmth.
+**Audio:** Soft ambient restaurant murmur, distant clinking of dishes, a low blues melody under the scene.
+
+---
+
+### SCENE 2 — The Cake at the Pass
+**Visual:** Close-up, Baron's hands placing a finished two-layer orange velvet cake on a stand at the kitchen pass. Pale cream cheese frosting, smooth sides. He adjusts the plate a half-inch, exhales, composes himself.
+**Mood/Lighting:** Warm kitchen light, shallow depth of field, steam and heat-lamp glow in the background.
+**Audio:** Kitchen ambiance, the clink of the cake stand on stainless steel.
+
+---
+
+### SCENE 3 — The Walk-Out
+**Visual:** Tracking shot from behind Baron as he carries the cake stand out of the kitchen and across the dining room toward Olivia, chin slightly raised, walking like a man making an entrance.
+**Mood/Lighting:** Transition from cool kitchen light to warmer dining room ambiance.
+**Audio:** Footsteps, room noise fading up.
+
+---
+
+### SCENE 4 — The Reveal
+**Visual:** Medium shot, Baron sets the cake down in front of Olivia, lifting both hands theatrically as he presents it, leaning in slightly on the pause.
+**Dialogue (Baron, voiceover or lip-sync):** "You will notice that I have done the unthinkable. I have made the roe... wait."
+**Mood/Lighting:** Warm spotlight feel on the cake and Baron's face.
+**Audio:** Room hush, dialogue line, a faint suppressed laugh from off-camera (Rampart).
+
+---
+
+### SCENE 5 — The Quenelle, Close-Up
+**Visual:** Extreme close-up, slow push-in on the single glossy orange roe quenelle at the center of the white-frosted cake, candied orange peel scattered at the base catching the light.
+**Mood/Lighting:** High detail, warm key light, slight glisten on the roe.
+**Audio:** Quiet musical sting or single sustained low note.
+
+---
+
+### SCENE 6 — Rampart's Dry Reaction
+**Visual:** Medium shot, Rampart at the kitchen line in the background, not looking up, wiping a knife, the faintest smirk.
+**Dialogue (Rampart):** "Destiny. Last week it was the bisque."
+**Mood/Lighting:** Cooler kitchen light, contrasted against the warm dining room in the foreground blur.
+**Audio:** Kitchen clatter under the line.
+
+---
+
+### SCENE 7 — Olivia's First Bite
+**Visual:** Close-up on Olivia's face as she takes the bite — cake, frosting, and roe together. Her expression shifts through surprise, then something more delighted. She sets the fork down slowly.
+**Dialogue (Olivia):** "Okay. That's a whole bit."
+**Mood/Lighting:** Soft warm light on her face, shallow focus, background softly blurred.
+**Audio:** Light room ambiance, her line, a small laugh.
+
+---
+
+### SCENE 8 — The Walk Back
+**Visual:** Wide shot, Baron walking back toward the kitchen, lighter in his step than when he walked out, a small private smile forming. He starts humming, almost inaudibly.
+**Mood/Lighting:** Warm light fading toward the cooler kitchen glow as he exits frame.
+**Audio:** Faint hum from Baron, ambient restaurant sound swelling slightly as the scene closes.
+
+---
+
+### Production Notes
+- Recommend generating in order 1→8 for continuity momentum, even though Flow treats each as independent — visual consistency holds up better when character descriptions are pasted fresh each time rather than relied on from memory.
+- For the post-production pass: your established `delogo` watermark removal and per-clip `loudnorm` pipeline should apply the same way as the Baron cooking video. Scene 5 (the quenelle close-up) is a good candidate for a slight slow-motion stretch in the edit.
+- Scene 4's dialogue and Scene 6/7 reactions are pulled directly from the Chapter 9 draft for continuity with the manuscript.
