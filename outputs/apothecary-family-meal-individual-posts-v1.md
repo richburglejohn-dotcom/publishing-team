@@ -8,6 +8,8 @@
 
 **Spoiler policy:** No plot spoilers. This is atmosphere and character, not story beats from the manuscript's actual chapters.
 
+**Update (2026-08-21):** the full-crew group shot requested in `references/apothecary-family-meal-group-scene-prompt-v1.md` came back and held up well on QA (Baron's glasses/coat, correct crew race mix, Ghost correctly out of kitchen whites) — filed as `outputs/apothecary-family-meal-anchor-v1.png`. Use it as the lead/cover image for this set (a seventh "anchor" post ahead of the six solo ones, or as a pinned opener) rather than treating the six solo portraits below as the only visual for this batch.
+
 ---
 
 ### Post 1 — Baron Vieux
