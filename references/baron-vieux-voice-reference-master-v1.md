@@ -1,7 +1,7 @@
 # Baron Vieux — Master Voice Reference
 ### Created: 2026-08-22
 
-**Purpose:** one canonical, consistent voice for Baron Vieux across every format — podcast, TikTok, Instagram, YouTube — instead of each new piece of content re-deriving "what he sounds like" from whatever clip is closest at hand. This doc is the single source of truth. Point every future voice-generation task here rather than duplicating instructions elsewhere.
+**Purpose:** one canonical, consistent voice for Baron Vieux wherever he appears on camera in Flow-generated video (TikTok, Instagram, YouTube) — instead of each new clip re-deriving "what he sounds like." Also documents the separate, unrelated ElevenLabs voice-clone setup for the author's own voice (podcast hosting/narration) so the two don't get conflated. Point every future voice-generation task here rather than duplicating instructions elsewhere.
 
 ---
 
@@ -34,33 +34,31 @@
 
 **Flagging one part as unverified rather than settled fact:** the source doc also claims an "Orbit / Eclipse / Lyra / Vega / Dipper / Pegasus / Ursa / Nova" generation replaced the original 5 voices. Those names don't match the star/constellation naming convention of the other 30 (real Gemini TTS voices), so this may be Gemini extrapolating rather than confirmed — test before relying on it. Same caution applies to the exact `@Voice: Charon` prompt syntax itself: added to `baron-origin-tiktok-prompt-googleflow.md` and `scarlet-elixir-website-video-prompt-v2-googleflow.md` as of this update, but not yet confirmed working in an actual Flow generation.
 
-**Practical split:** use `@Voice: Charon` directly in Flow prompts for anything generated *as new Flow video*. Use an ElevenLabs clone (below) seeded from the voice bank for anything that needs audio on its own — TikTok voiceovers laid over other visuals, podcast narration — since Flow has no text-in/audio-out mode outside of generating a full video clip.
+**Practical split, finalized 2026-08-22:** use `@Voice: Charon` directly in Flow prompts for anything generated *as new Flow video* — that's the complete answer for Baron appearing on camera in TikTok/Instagram clips. **ElevenLabs is not for Baron.** Per your direction, the podcast is now hosted by real people (you, possibly guests), not Baron — so the ElevenLabs clone below is of **your own voice**, for author-voice narration/hosting convenience, not a second Baron voice. Baron has no standalone-audio need left uncovered: his only voice use case is Flow video, which `@Voice: Charon` already handles.
 
 ---
 
-## The standard to lock in (audio-only generation)
+## ElevenLabs — this is for the author's voice, not Baron's
 
-**Confirmed 2026-08-22:** the voice heard in the Flow-generated clips (Origin, Scarlet Elixir, etc.) isn't a callable voice ID with standalone audio output — it can only be "extracted as mp4," meaning it's baked into generated video with no guaranteed consistency across new Flow generations even with the same voice tag. That's exactly why the voice bank above pulls audio *out of* those existing clips rather than relying on Flow alone. The fix: feed that extracted audio into a dedicated voice-clone tool to make it portable for anything that isn't a fresh Flow video.
+**Scope correction (2026-08-22):** everything below originally assumed Baron needed a portable voice clone for hosting the podcast. That's no longer the case — see `culinary-crescendo-podcast-concept-v1.md`'s reversal. The voice bank above stays useful as Flow prompt reference material (matching Baron's established tone/performance descriptor when writing new `@Voice: Charon` scenes), but it's not going into an ElevenLabs clone anymore.
 
-1. **Pick one tool and stay on it.** ElevenLabs is the one referenced throughout this project's planning docs and is the standard route for this kind of instant voice cloning — recommended default unless there's a reason to use something else.
-2. **Create exactly one voice profile**, named consistently (suggest: `Baron Vieux — Official`), seeded with `baron-vieux-voice-master-v1.mp3` (or all five files individually, if the tool accepts multiple reference uploads — that's usually the higher-quality path since the tool can weight across genuinely different line readings rather than one concatenated file).
-3. **Record the Voice ID here** once created, so every future generation — podcast episodes, TikTok scripts, anything — references this same ID instead of a new tool/voice each time:
+If you want an ElevenLabs clone of your own voice (for podcast narration/hosting without re-recording every episode, or other author-voice content):
+
+1. **Record or gather ~30–90 seconds of your own clean speech** the same way this doc's voice bank was built for Baron — a few clean clips is enough for a solid instant clone.
+2. **Create one voice profile**, named clearly (suggest: `Lejohn Richburg III — Author Voice`), seeded with that audio.
+3. **Record the Voice ID here** once created:
 
    ```
    Tool: [ElevenLabs / other]
    Voice ID: [fill in once created]
    Created: [date]
+   Used for: author narration / podcast hosting (not Baron)
    ```
 
-4. **Every future script** written for Baron (podcast episodes, TikTok scripts, Reels) should note at the top which voice profile/ID it's meant to be generated with, the same way `podcast-episode-1-baron-script-v1.md` already notes it's for "Baron's AI voice."
+## Disclosure
 
-## Disclosure — non-negotiable, not optional
-
-Every piece of content using this cloned voice needs the same AI-voice disclosure already established for this project (see `outputs/baron-vieux-ai-disclosure-v1.md` and the disclosure section of `culinary-crescendo-podcast-concept-v1.md`):
-- Short-form (TikTok/Reels): platform-native "AI info" labels where available, plus the disclosure already baked into the pinned posts.
-- Long-form (podcast): a spoken disclosure in the author's real voice, once, at the top of Episode 1, referenced in every episode's show notes.
-
-This doesn't change with a "designated consistent voice" — if anything it matters more, since one identifiable voice profile used everywhere makes the AI-generated nature of the character more consistent to disclose, not less.
+- **Baron in Flow video (`@Voice: Charon`):** still a fictional AI-voiced character — keep using the existing disclosure pattern (`outputs/baron-vieux-ai-disclosure-v1.md`, platform-native "AI info" labels).
+- **Author narration via an ElevenLabs clone of your own voice:** much lighter bar — a real person's own voice, AI-generated. A simple one-time note in show notes/description ("some narration uses an AI voice model of the host's own voice") is good practice, not the heavier fictional-character disclosure this doc originally planned around.
 
 ## What still has to happen outside this repo
-I don't have a voice-cloning/TTS tool available to me — I can consolidate source material and write scripts, but I can't create the actual voice profile or generate audio. Once you've created the profile and have a Voice ID, tell me and I'll fill in the block above and update every script doc to reference it explicitly.
+I don't have a voice-cloning/TTS tool available to me — I can consolidate source material and write scripts, but I can't create the actual voice profile or generate audio. Once you've created an ElevenLabs profile of your own voice and have a Voice ID, tell me and I'll fill in the block above.
