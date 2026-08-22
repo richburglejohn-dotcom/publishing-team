@@ -18,19 +18,21 @@
 - **Baron's own voice work (Flow's `@Voice: Charon`, the voice bank) stays scoped to what it's actually for now: Baron appearing on camera/in-clip in Flow-generated video content** (TikTok/Instagram), not hosting long-form audio. See `references/baron-vieux-voice-reference-master-v1.md`.
 - **Light disclosure, if you use an ElevenLabs clone of your own voice for any segment:** a simple, one-time note in the show description ("some narration uses an AI voice model of the host's own voice") is good practice, but nowhere near the "fictional character voiced by AI" bar this doc originally planned around.
 
-**Open question this reversal raises, not yet resolved:** Episodes 1–3 (`podcast-episode-1-baron-script-v1.md`, `-2-rampart-script-v1.md`, `-3-melpomene-script-v1.md`) are all written in **Baron's first-person voice** — "I" is Baron throughout. If you're hosting as yourself, those scripts need to become author-voice, third-person about Baron and the cast ("Baron says...", not "I..."), not just get read by a different voice. Worth a decision before writing Episode 4: rewrite the existing three, or treat them as the Baron-hosted draft that's now retired in favor of a fresh author-voice Episode 1.
+**Resolved 2026-08-22 — format confirmed:** you host, in your real voice (live or ElevenLabs-assisted for throughput). Not a co-hosted human+AI on-air format — "AI-assisted" describes the production process (writing, planning, editing, same as the rest of this project), not a second voice on the mic. Worth the show saying so explicitly, since it's the exact same positioning as FuturIQ's own tagline — this podcast doubles as proof-of-work for that pitch, not just marketing for the books.
+
+Episodes 1–3 (`podcast-episode-1-baron-script-v1.md`, `-2-rampart-script-v1.md`, `-3-melpomene-script-v1.md`) are being rewritten from Baron's first-person voice to author-voice, third-person, rather than discarded — the scene grounding and structure in them is solid, only the narrating voice changes.
 
 ---
 
 ## Format
 
-**Structure: one supporting character's arc per episode, Baron hosts, in AI voice.**
+**Structure: one supporting character's arc per episode, author-hosted (you), in your own voice.**
 
-Each episode uses one character from the series bible as the spine — Baron introduces them, walks through their scene, their conflict, their lesson, in his own voice, first-person, same tone as his existing bios/scripts. Two layers per episode:
-1. **The character, in the story** — Baron sets up who they are and their scene, with a key passage read or paraphrased in his voice
+Each episode uses one character from the series bible as the spine — you introduce them, walk through their scene, their conflict, their lesson, third-person, same tone as the author-voice content elsewhere in this project (`social-content-book1-deepdive-v1.md`, `social-content-prequel-v1.md`). Two layers per episode:
+1. **The character, in the story** — you set up who they are and their scene, with a key passage read or paraphrased
 2. **The real thing underneath** — the craft, ownership, or systems-thinking lesson that character represents, and how it maps to something a listener can use (this is the marketing-funnel engine: every episode gives a real value-add *and* makes someone who's never read the books want to know how the scene actually plays out on the page)
 
-Closes with a CTA in Baron's voice: which book, which chapter, "here's where you meet them for real."
+Closes with a CTA in your voice: which book, which chapter, "here's where you meet them for real."
 
 **Episode length:** 20–30 min is more realistic than 40 for a one-person hosted show without a co-host or guest booking pipeline. 40 works once you're comfortable and have a backlog of characters with enough material (Baron, Rampart, and Melpomene can easily carry 30+; Ghost or Farrah can't yet — thin material, would need padding).
 
