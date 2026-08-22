@@ -32,7 +32,7 @@ The publishing practice behind Culinary Crescendo — out in the open now.
 
 Two books. One pipeline. Built in public.
 
-Inquiries open — reach out at bayoubeaux1070@gmail.com.
+Inquiries open — link in bio.
 
 **Hashtags:** #FuturIQ #CulinaryCrescendo #AIAssistedPublishing #IndieAuthor #Bayoubeaux1070 #SelfPublishing #WritingCommunity #BookTok #PublishingTips
 
@@ -41,5 +41,5 @@ Inquiries open — reach out at bayoubeaux1070@gmail.com.
 ## Posting notes
 - Same image, same day, both platforms — standard cross-post pattern already used for other launch content (see `social-posting-calendar-v1.md`).
 - Facebook copy explains the "why" in full; Instagram stays quote-card short per this project's established platform split (see `instagram-baron-vieux-page-launch-v1.md` for the same pattern).
-- **Instagram CTA is the email directly, not "link in bio"** — the Instagram bio link currently points to `bayoubeauxllc.com/books`, not the new FuturIQ section, so a "link in bio" CTA would've sent people to the wrong page. Fixed by pointing the caption at `bayoubeaux1070@gmail.com` instead. If you'd rather keep "link in bio," update the bio link to the FuturIQ section first and I'll swap the copy back.
-- The inquiry CTA on the site (`docs/index.html#futuriq`) goes to the same `bayoubeaux1070@gmail.com` — consistent with both posts.
+- **Instagram CTA is back to "link in bio"** — the Instagram bio link is being updated to point at the FuturIQ section (`bayoubeauxllc.com#futuriq`) instead of `/books`, so the CTA now matches. Confirm the bio link is actually live before posting.
+- The inquiry CTA on the site itself (`docs/index.html#futuriq`) still goes to `bayoubeaux1070@gmail.com` — that's unchanged, this only affects how people get to the site.

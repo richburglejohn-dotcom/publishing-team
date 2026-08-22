@@ -44,7 +44,7 @@ VOICE:
 
 TEXT ON SCREEN: "FuturIQ — bayoubeauxllc.com"
 
-CTA: "Follow for the pipeline. Email's in the bio if you want in."
+CTA: "Follow for the pipeline. Link's in the bio if you want in."
 
 ---
 
@@ -52,4 +52,4 @@ CTA: "Follow for the pipeline. Email's in the bio if you want in."
 - Script 1 leads — same "both, at the same time" hook already used in the Facebook caption, kept consistent across platforms for anyone who sees more than one post.
 - Script 2 has stronger retention potential if there's appetite for a screen-record montage (showing the actual manuscript/repo work), since process/behind-the-scenes content already outperforms talking-head clips for this account (see the posting notes in `tiktok-baron-vieux-page-launch-v1.md`).
 - Burned-in captions required — same standing rule as every other video asset in this project.
-- CTA in Script 2 says "email's in the bio" rather than "link in bio" — same fix applied to the Instagram launch post, since the TikTok bio link (if any) isn't confirmed to point at the FuturIQ section either. Confirm before posting, or swap back to a link CTA once the bio is set.
+- CTA in Script 2 is back to "link's in the bio" — the bio link is being updated to point at the FuturIQ section (`bayoubeauxllc.com#futuriq`). Confirm it's actually live before posting.
