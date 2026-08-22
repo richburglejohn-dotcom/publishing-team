@@ -90,6 +90,14 @@ These are the structural pieces your business needs to operate legally and profe
   - If you haven't created one, this is a priority — a business attorney or legal service (LegalZoom, Rocket Lawyer) can help
   - This document is also required by most banks to open a business account
 
+### FuturIQ Brand Structure
+
+- [ ] **Confirm FuturIQ's entity structure with your CPA/attorney once hired**
+  - FuturIQ (the AI-assisted publishing practice, launched 2026-08) is not a separate legal entity — it's a new brand/service line intended to run through BAYOUBEAUX1070 LLC
+  - Likely correct structure: **DBA / trade name** of BAYOUBEAUX1070 LLC, not a new LLC and not a sole proprietorship
+  - If you want "FuturIQ" formally on record (e.g. to open a bank account or payment processor under that name specifically), Louisiana allows an LLC to register additional trade names with the Secretary of State — confirm whether that's necessary or if operating under it informally is sufficient
+  - Do this **after** the Tier 1 overdue items are resolved — layering a second brand onto an LLC with open compliance issues (unfiled 1065s, no CPA yet) is exactly the kind of decision to make with professional guidance, not before
+
 ### Business Bank Account
 
 - [ ] **Open a dedicated business checking account for BAYOUBEAUX1070**
