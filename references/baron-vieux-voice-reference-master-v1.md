@@ -24,9 +24,23 @@
 
 ---
 
-## The standard to lock in
+## Google Flow's native voice tags (for Flow-generated video specifically)
 
-**Confirmed 2026-08-22:** the voice heard in the Flow-generated clips (Origin, Scarlet Elixir, etc.) isn't a callable voice ID on Google's side — it can only be "extracted as mp4," meaning it's baked into generated video with no separate text-in/audio-out access and no guaranteed consistency across new Flow generations. That's exactly why the voice bank above pulls audio *out of* those existing clips rather than trying to reference a Flow voice ID directly — there isn't one. The fix is the same either way: feed that extracted audio into a dedicated voice-clone tool to make it portable.
+**Added 2026-08-22, via Gemini** (see the shared "Gemini to Claude Strategy & Ideas Hub" Drive doc and its linked "Google Flow Voice Reference & Character Audio Guide"). This refines, rather than replaces, the "no callable ID" note below — Flow does have named base voice presets selectable by prompt tag; what it doesn't have is a *custom clone of Baron specifically* with a persistent ID the way ElevenLabs would produce.
+
+- **Baron Vieux → `@Voice: Charon`** — deep, steady, resonant baritone. Performance descriptor: *"Speak in a calm, steady baritone. Deliberate pacing, confident, devoid of panic, subtle warmth."*
+- **Olivia Marigny → `@Voice: Aoede`** (or `Lyra`) — warm, expressive, melodic. Performance descriptor: *"Smooth, relaxed blues-singer cadence, warm tone, expressive and engaging."*
+- Full 30-voice system library (all named after stars/constellations, matches known Gemini TTS voice architecture): Achernar, Achird, Algenib, Algieba, Alnilam, Aoede, Autonoe, Callirrhoe, Charon, Despina, Enceladus, Erinome, Fenrir, Gacrux, Iapetus, Kore, Laomedeia, Leda, Orus, Puck, Pulcherrima, Rasalgethi, Sadachbia, Sadaltager, Schedar, Sulafat, Umbriel, Vindemiatrix, Zephyr, Zubenelgenubi.
+
+**Flagging one part as unverified rather than settled fact:** the source doc also claims an "Orbit / Eclipse / Lyra / Vega / Dipper / Pegasus / Ursa / Nova" generation replaced the original 5 voices. Those names don't match the star/constellation naming convention of the other 30 (real Gemini TTS voices), so this may be Gemini extrapolating rather than confirmed — test before relying on it. Same caution applies to the exact `@Voice: Charon` prompt syntax itself: added to `baron-origin-tiktok-prompt-googleflow.md` and `scarlet-elixir-website-video-prompt-v2-googleflow.md` as of this update, but not yet confirmed working in an actual Flow generation.
+
+**Practical split:** use `@Voice: Charon` directly in Flow prompts for anything generated *as new Flow video*. Use an ElevenLabs clone (below) seeded from the voice bank for anything that needs audio on its own — TikTok voiceovers laid over other visuals, podcast narration — since Flow has no text-in/audio-out mode outside of generating a full video clip.
+
+---
+
+## The standard to lock in (audio-only generation)
+
+**Confirmed 2026-08-22:** the voice heard in the Flow-generated clips (Origin, Scarlet Elixir, etc.) isn't a callable voice ID with standalone audio output — it can only be "extracted as mp4," meaning it's baked into generated video with no guaranteed consistency across new Flow generations even with the same voice tag. That's exactly why the voice bank above pulls audio *out of* those existing clips rather than relying on Flow alone. The fix: feed that extracted audio into a dedicated voice-clone tool to make it portable for anything that isn't a fresh Flow video.
 
 1. **Pick one tool and stay on it.** ElevenLabs is the one referenced throughout this project's planning docs and is the standard route for this kind of instant voice cloning — recommended default unless there's a reason to use something else.
 2. **Create exactly one voice profile**, named consistently (suggest: `Baron Vieux — Official`), seeded with `baron-vieux-voice-master-v1.mp3` (or all five files individually, if the tool accepts multiple reference uploads — that's usually the higher-quality path since the tool can weight across genuinely different line readings rather than one concatenated file).

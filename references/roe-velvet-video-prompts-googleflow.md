@@ -7,9 +7,9 @@ Structured for sequential scene-by-scene input into Google Flow. Each scene is w
 
 ### CHARACTER REFERENCE (reuse across all scenes)
 
-**Baron Vieux** — Lean, deliberate build, dark-skinned, sharp-featured, looks younger than he is until you see his eyes. Square-framed black glasses. Gray chef's coat embroidered "Baron Vieux" on the left chest, "Bayouboujee" on the right. Worn leather apron tied at the waist. Calm, theatrical confidence in his movements — a man who treats plating like a stage entrance.
+**Baron Vieux** — Lean, deliberate build, dark-skinned, sharp-featured, looks younger than he is until you see his eyes. Square-framed black glasses. Gray chef's coat embroidered "Baron Vieux" on the left chest, "Bayouboujee" on the right. Worn leather apron tied at the waist. Calm, theatrical confidence in his movements — a man who treats plating like a stage entrance. **Voice tag:** `@Voice: Charon` (per `references/baron-vieux-voice-reference-master-v1.md`).
 
-**Olivia Marigny** — Jazz and blues singer, late twenties, warm brown skin, natural curls pulled back loosely, the relaxed self-possession of a performer off the clock. Simple dark top, small gold hoop earrings. Expressive face — she reacts with her whole body, not just her eyes.
+**Olivia Marigny** — Jazz and blues singer, late twenties, warm brown skin, natural curls pulled back loosely, the relaxed self-possession of a performer off the clock. Simple dark top, small gold hoop earrings. Expressive face — she reacts with her whole body, not just her eyes. **Voice tag:** `@Voice: Aoede`.
 
 **Rampart** — Lead cook, built broad like a shipping container, bald, dark-skinned, deep sheen of kitchen sweat. Economical movements. Dry, unimpressed energy that masks real affection for Baron.
 
