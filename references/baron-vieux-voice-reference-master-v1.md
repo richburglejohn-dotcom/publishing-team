@@ -26,6 +26,8 @@
 
 ## The standard to lock in
 
+**Confirmed 2026-08-22:** the voice heard in the Flow-generated clips (Origin, Scarlet Elixir, etc.) isn't a callable voice ID on Google's side — it can only be "extracted as mp4," meaning it's baked into generated video with no separate text-in/audio-out access and no guaranteed consistency across new Flow generations. That's exactly why the voice bank above pulls audio *out of* those existing clips rather than trying to reference a Flow voice ID directly — there isn't one. The fix is the same either way: feed that extracted audio into a dedicated voice-clone tool to make it portable.
+
 1. **Pick one tool and stay on it.** ElevenLabs is the one referenced throughout this project's planning docs and is the standard route for this kind of instant voice cloning — recommended default unless there's a reason to use something else.
 2. **Create exactly one voice profile**, named consistently (suggest: `Baron Vieux — Official`), seeded with `baron-vieux-voice-master-v1.mp3` (or all five files individually, if the tool accepts multiple reference uploads — that's usually the higher-quality path since the tool can weight across genuinely different line readings rather than one concatenated file).
 3. **Record the Voice ID here** once created, so every future generation — podcast episodes, TikTok scripts, anything — references this same ID instead of a new tool/voice each time:
