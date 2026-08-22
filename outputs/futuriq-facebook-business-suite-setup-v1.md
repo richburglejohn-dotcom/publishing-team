@@ -14,6 +14,8 @@ Copy-paste content for creating the FuturIQ business profile in Meta Business Su
 FuturIQ
 ```
 
+**Known quirk (2026-08-22):** Meta's business portfolio name validator rejected "FuturIQ" outright ("must accurately reflect your business") — cause appears to be the internal capital in the middle of the word (no space before "IQ"). Adding a space — **"Futur IQ"** — passed validation. The business *portfolio* name is an internal/admin label in Business Suite, not necessarily public-facing, so this doesn't need to affect the actual Page name — set the Page itself to "FuturIQ" (no space) to match the website, logo, and post copy.
+
 ## Category
 Try, in order of fit: **Publisher** → **Book Publisher** → **Business Consultant** (whichever Meta's category list actually offers — naming varies by region/account type).
 
