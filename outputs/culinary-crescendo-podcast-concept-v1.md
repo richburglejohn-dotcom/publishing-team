@@ -4,6 +4,8 @@
 
 **Brief:** rotating cast of series characters, purpose = marketing funnel for the books, format = full 20–40 min episodes.
 
+**Status (2026-08-24): Episode 1 is produced, clips cut.** `outputs/podcast-ep1-baron-origin-FULL.mp3` — 12.93 min, generated via ElevenLabs from `outputs/podcast-episode-1-tts-ready.txt`. The three social clips are also cut (timestamps found via word-position estimation cross-checked against detected pause points in the audio, not manual listening): `podcast-ep1-clipA-coldopen.mp3` (0:00–0:20.8), `podcast-ep1-clipB-lesson.mp3` (11:31.4–12:02.0), `podcast-ep1-clipC-cta.mp3` (12:26.4–end). All audio-only — still need a paired visual before posting to Instagram/TikTok per the posting-calendar plan (a static image works; these aren't native video).
+
 ---
 
 ## Decision (superseded 2026-08-22): real people host, not Baron
