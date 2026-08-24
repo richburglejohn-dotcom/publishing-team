@@ -16,11 +16,12 @@
 | `scarlet-elixir-clip3-speaking-v2.mp3` | 8.0 sec | `outputs/Scarlet_Elixir_Clip3_Baron_speaking_v2.mp4` |
 | `dedicated-reference-sample.mp3` | 8.0 sec | Filed directly from Drive 2026-08-21, purpose-built reference sample |
 | `tiktok-book1-voiceover.mp3` | 41.8 sec | `outputs/tiktok_book1_voiceover_v1.mp3` — voiceover from an already-published TikTok post |
-| **`baron-vieux-voice-master-v1.mp3`** | **90.8 sec** | **All five, concatenated into one file** — use this one if a tool wants a single upload |
+| `baron-vieux-voice-sample-2026-08-24.mp3` | 30.1 sec | Uploaded directly 2026-08-24, purpose-made clean sample |
+| **`baron-vieux-voice-master-v1.mp3`** | **90.8 sec** | **The original five, concatenated** — not yet regenerated to include the 2026-08-24 sample; do that before any future clone/reference use if the full set is needed in one file |
 
 **Ruled out during this pass:** `outputs/yt-ep2-trailer.mp4` and `yt-ep3-trailer.mp4` have no audio track at all (silent trailers). `outputs/baron-flashback-kaldis-titlecard-v1.mp4` is ambient-only per its own posting notes — no dialogue, so it's not usable as a voice sample despite featuring Baron on screen.
 
-**90.8 seconds total** is comfortably past the minimum most voice-cloning tools want for a stable instant clone (ElevenLabs' own guidance is as little as ~30 seconds of clean audio for a good instant clone), and easily enough for anything TikTok/Instagram-length (15–60 sec clips). It's still on the thinner side for a stable 20+ minute podcast episode without some iteration — see `culinary-crescendo-podcast-concept-v1.md` for that specific caveat.
+**~121 seconds total** across six individual samples. Since Baron's only remaining voice use case is Flow's `@Voice: Charon` for on-camera video (not a standalone clone — see below), this bank now mainly serves as reference material for writing consistent `@Voice: Charon` performance descriptors, rather than clone-training input.
 
 ---
 
