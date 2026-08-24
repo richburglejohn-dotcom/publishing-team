@@ -3,6 +3,8 @@
 ### Created: 2026-07-18 | Rewritten 2026-08-22 for author-voice hosting
 ### Author-voice, third person — read-aloud script for you (Lejohn), live or ElevenLabs-assisted
 
+**Produced 2026-08-24:** full episode audio generated and filed at `outputs/podcast-ep1-baron-origin-FULL.mp3` (12.93 min). This script is now historical/reference — the audio is the actual deliverable. Clip A/B/C cuts for social still need to be extracted from that file.
+
 **Format notes:**
 - Everything inside a plain paragraph is spoken text.
 - Bold bracketed lines like **[beat]** or **[pause]** are stage direction, not dialogue — don't voice them.

@@ -4,6 +4,8 @@
 
 **Brief:** rotating cast of series characters, purpose = marketing funnel for the books, format = full 20–40 min episodes.
 
+**Status (2026-08-24): Episode 1 is produced.** `outputs/podcast-ep1-baron-origin-FULL.mp3` — 12.93 min, generated via ElevenLabs from `outputs/podcast-episode-1-tts-ready.txt`. First real episode, not just a script. Still needed before it can post: the three social clip cuts (A/B/C markers, see `podcast-clip-posting-calendar-plan-v1.md`) haven't been extracted from this audio yet — no speech-alignment tool available in this session, so cutting those needs either manual timestamps from a listen-through or an external tool.
+
 ---
 
 ## Decision (superseded 2026-08-22): real people host, not Baron
