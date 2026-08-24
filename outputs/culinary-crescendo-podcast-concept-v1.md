@@ -6,33 +6,33 @@
 
 ---
 
-## Decision: Baron hosts, in the same AI voice already established
+## Decision (superseded 2026-08-22): real people host, not Baron
 
-Updated per your direction — Baron Vieux hosts the show himself, voiced by the **same AI voice heard in his existing Flow-generated media** (`outputs/Baron_Origin_TikTok_FINAL_v3.mp4`, the Scarlet Elixir video). Not a new voice, not you reading his lines — the actual established Baron voice, kept consistent across every format he appears in.
+**Reversed per your direction on 2026-08-22 — the podcast will be hosted by real people (you, and potentially other real guests), not Baron Vieux as an AI-voiced character.** The section below is kept for history; skip to the update at the bottom for the current plan.
 
-**What I can't do:** I don't have an audio-generation or voice-cloning tool. Same limitation as the video/image work all session — I can't produce the audio myself, only prepare everything needed to hand to whichever tool does. In practice that means:
-1. **Isolate a clean voice reference** from the existing videos — the Origin and Elixir clips both have Baron speaking on a mostly-quiet ambient track, which is exactly the kind of short, clean sample a voice-cloning tool (ElevenLabs and similar services are the standard route) needs to seed a consistent voice. I can pull/export just the audio tracks from those files if useful once you pick a tool.
-2. **Write every episode script in Baron's voice**, formatted as a clean read-aloud script (not manuscript prose) so it drops straight into a TTS/voice-clone tool.
-3. **Flag the real production risk honestly:** the reference material is maybe 20–30 total seconds of Baron's voice across all existing clips. Cloning tools generally want more than that for a stable long-form result — a 20–30 minute episode is a much bigger ask than the 5–8 second clips the voice has only ever been used for. Expect some iteration (and cost, per the same per-generation pricing you flagged on Flow) before an episode-length result sounds stable rather than drifting.
+~~Updated per your direction — Baron Vieux hosts the show himself, voiced by the same AI voice heard in his existing Flow-generated media. Not a new voice, not you reading his lines — the actual established Baron voice, kept consistent across every format he appears in.~~
 
-**Update (2026-08-21):** two more voice samples were filed from Drive — `references/baron-vieux-voice-reference.mp3` (8 sec, dedicated reference sample) and `outputs/tiktok_book1_voiceover_v1.mp3` (42 sec, existing TikTok voiceover). That brings total clean Baron audio to roughly 70–90 seconds across all sources combined — better than the 20–30 seconds this doc originally flagged, though likely still on the thin side for a stable 20-minute clone without iteration. Still no voice-clone/TTS tool picked — that remains the actual hard dependency before Episode 1's audio can be produced.
+**What changes with real hosts:**
+- **No fictional-AI-host disclosure problem.** The heavy disclosure requirement below (built for "an AI-voiced fictional character is the entire host, with no platform-native toggle to lean on") no longer applies — a real person hosting a podcast about their own books doesn't trigger it.
+- **Voice-clone dependency is now optional, not blocking.** You can host live/recorded as yourself, full stop. If you'd rather not re-record every episode, an ElevenLabs clone of **your own voice** (not Baron's) is a legitimate convenience tool — but it's a nice-to-have for throughput, not a hard dependency the way a fictional character's voice was.
+- **Baron's own voice work (Flow's `@Voice: Charon`, the voice bank) stays scoped to what it's actually for now: Baron appearing on camera/in-clip in Flow-generated video content** (TikTok/Instagram), not hosting long-form audio. See `references/baron-vieux-voice-reference-master-v1.md`.
+- **Light disclosure, if you use an ElevenLabs clone of your own voice for any segment:** a simple, one-time note in the show description ("some narration uses an AI voice model of the host's own voice") is good practice, but nowhere near the "fictional character voiced by AI" bar this doc originally planned around.
 
-**Disclosure gets heavier here, not lighter.** A short labeled video clip is one thing — TikTok/Meta both have a native "AI info" toggle that does most of the work. A 20–30 minute podcast episode where an AI-voiced fictional character is the entire host has no equivalent native toggle on Spotify/Apple Podcasts/etc. That means the disclosure has to be built into the show itself:
-- A short spoken disclosure, in **your** real voice, at the top of Episode 1 (and referenced in every episode's description) — same "quick note from the author" pattern already used for the pinned social post, just adapted to open the show once rather than repeat every episode
-- The show's platform description/show notes stating plainly that Baron is a fictional character voiced with AI
-- This is the same deliberate voice-break already established as the one exception to "never change the author's voice" — it now also opens the podcast, not just the pinned post
+**Resolved 2026-08-22 — format confirmed:** you host, in your real voice (live or ElevenLabs-assisted for throughput). Not a co-hosted human+AI on-air format — "AI-assisted" describes the production process (writing, planning, editing, same as the rest of this project), not a second voice on the mic. Worth the show saying so explicitly, since it's the exact same positioning as FuturIQ's own tagline — this podcast doubles as proof-of-work for that pitch, not just marketing for the books.
+
+Episodes 1–3 (`podcast-episode-1-baron-script-v1.md`, `-2-rampart-script-v1.md`, `-3-melpomene-script-v1.md`) are being rewritten from Baron's first-person voice to author-voice, third-person, rather than discarded — the scene grounding and structure in them is solid, only the narrating voice changes.
 
 ---
 
 ## Format
 
-**Structure: one supporting character's arc per episode, Baron hosts, in AI voice.**
+**Structure: one supporting character's arc per episode, author-hosted (you), in your own voice.**
 
-Each episode uses one character from the series bible as the spine — Baron introduces them, walks through their scene, their conflict, their lesson, in his own voice, first-person, same tone as his existing bios/scripts. Two layers per episode:
-1. **The character, in the story** — Baron sets up who they are and their scene, with a key passage read or paraphrased in his voice
+Each episode uses one character from the series bible as the spine — you introduce them, walk through their scene, their conflict, their lesson, third-person, same tone as the author-voice content elsewhere in this project (`social-content-book1-deepdive-v1.md`, `social-content-prequel-v1.md`). Two layers per episode:
+1. **The character, in the story** — you set up who they are and their scene, with a key passage read or paraphrased
 2. **The real thing underneath** — the craft, ownership, or systems-thinking lesson that character represents, and how it maps to something a listener can use (this is the marketing-funnel engine: every episode gives a real value-add *and* makes someone who's never read the books want to know how the scene actually plays out on the page)
 
-Closes with a CTA in Baron's voice: which book, which chapter, "here's where you meet them for real."
+Closes with a CTA in your voice: which book, which chapter, "here's where you meet them for real."
 
 **Episode length:** 20–30 min is more realistic than 40 for a one-person hosted show without a co-host or guest booking pipeline. 40 works once you're comfortable and have a backlog of characters with enough material (Baron, Rampart, and Melpomene can easily carry 30+; Ghost or Farrah can't yet — thin material, would need padding).
 

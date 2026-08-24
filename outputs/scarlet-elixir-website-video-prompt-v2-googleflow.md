@@ -40,6 +40,7 @@ sound of gentle simmering and a soft clink of the spoon.
 ```
 
 ## Clip 3 — Baron at the Counter (~8 sec)
+**Voice tag:** `@Voice: Charon` per `references/baron-vieux-voice-reference-master-v1.md` — this is the one clip in this package where Baron actually speaks. Unverified syntax as of 2026-08-22; test before relying on it.
 ```
 Medium shot of a Black man in his late 30s, square black-framed glasses,
 dark vest over a white shirt, standing at a candlelit kitchen counter

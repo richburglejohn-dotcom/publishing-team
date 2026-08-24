@@ -37,6 +37,8 @@ Using the two images provided:
 
 ---
 
+**Voice tag (per `references/baron-vieux-voice-reference-master-v1.md`):** `@Voice: Charon` — Flow's base preset for Baron Vieux. Add this tag to each clip's prompt below once confirmed working; unverified syntax as of 2026-08-22, test on one clip before applying to all three.
+
 ## Clip 1 — "It wasn't a business plan" (0:00–0:05, ~5 sec)
 ```
 A close talking-head shot, shoulders up, of a Black man in his 40s with

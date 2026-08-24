@@ -1,107 +1,108 @@
 # The Apothecary Sessions — Episode 1
 ## "The Origin" — Baron Vieux
-### Created: 2026-07-18 | Read-aloud script for TTS / voice-clone (Baron's AI voice)
+### Created: 2026-07-18 | Rewritten 2026-08-22 for author-voice hosting
+### Author-voice, third person — read-aloud script for you (Lejohn), live or ElevenLabs-assisted
 
-**Format notes for whoever generates this:**
-- Everything inside a plain paragraph is spoken text — paste it straight into the tool.
-- Bold bracketed lines like **[beat]** or **[pause]** are stage direction, not dialogue — strip them before generating, or leave them if the tool respects pause tags. Either way, don't voice them.
-- `>>> CLIP A / B / C` markers show exactly where the three social clips from `outputs/podcast-clip-posting-calendar-plan-v1.md` come from — cut those spans directly out of the finished episode audio, no separate re-recording needed.
-- This script does **not** include the author's spoken disclosure — that's a separate short recording, in Lejohn's real voice, that plays before this episode starts (per `outputs/culinary-crescendo-podcast-concept-v1.md`). Don't fold it into Baron's track.
-- Runtime target: ~2,800–3,200 words spoken ≈ 20–24 minutes at a measured pace. Trim or let breathe depending on how the clone actually paces.
+**Format notes:**
+- Everything inside a plain paragraph is spoken text.
+- Bold bracketed lines like **[beat]** or **[pause]** are stage direction, not dialogue — don't voice them.
+- `>>> CLIP A / B / C` markers show exactly where the three social clips from `outputs/podcast-clip-posting-calendar-plan-v1.md` come from — cut those spans directly out of the finished episode audio.
+- **Superseded note:** this script originally had Baron narrating in his own first-person AI voice. Per the 2026-08-22 decision (see `culinary-crescendo-podcast-concept-v1.md`), the podcast is author-hosted instead — this version is the same scene material and structure, rewritten so you're telling the listener about your character, not performing as him. No AI-voiced fictional host, so the heavy disclosure requirement that version needed no longer applies.
+- Runtime target: ~2,800–3,200 words spoken ≈ 20–24 minutes at a measured pace.
 
 ---
 
 >>> CLIP A START (cold open, ~15-20 sec — ends at the marked cut)
 
-People ask where Baron Vieux started.
+People ask me where Baron Vieux started.
 
 **[beat]**
 
-It wasn't a business plan. It wasn't a pitch deck, or a brand, or a five-year projection somebody printed and put in a binder. It started with three dollars and forty cents.
+It wasn't a business plan. It wasn't a pitch deck, or a brand, or a five-year projection somebody printed and put in a binder. In the story, it starts with three dollars and forty cents.
 
 >>> CLIP A END
 
 **[pause]**
 
-I want to tell you about that, because everybody wants the version where the empire shows up fully formed — the container, the menu, the name on the door. That's not this story. This is the twenty years before any of that. This is Kaldi's.
+Let me tell you about that, because everybody wants the version where the empire shows up fully formed — the container, the menu, the name on the door. That's not this story. This is the twenty years before any of that. This is Kaldi's.
 
 ---
 
 ## Segment 1 — 941 Decatur
 
-Nineteen-ninety-something. I'm a teenager standing on the corner of Decatur Street in the French Quarter, and there's a building that smells like roasted coffee and possibility, and I don't have a title yet, I don't have a trajectory yet, I'm just a kid who needed a job.
+Nineteen-ninety-something. Baron's a teenager standing on the corner of Decatur Street in the French Quarter, and there's a building that smells like roasted coffee and possibility. No title yet. No trajectory yet. Just a kid who needed a job.
 
-Kaldi's gave me my first real classroom. Not the drinks — the drinks were easy. The real education happened across the counter. Every night at close, the drawer had to balance. Every transaction accounted for. No rounding, no "close enough." The numbers either told you the truth, or they told you something had gone wrong, and it was your job to find out what.
+Kaldi's gives him his first real classroom. Not the drinks — the drinks are easy. The real education happens across the counter. Every night at close, the drawer has to balance. Every transaction accounted for. No rounding, no "close enough." The numbers either tell you the truth, or they tell you something's gone wrong, and it's your job to find out what.
 
-The first time my drawer came up short, it was three dollars and forty cents. Small by any measure. I stayed forty-five minutes after my shift retracing every single transaction until I found it — a missed modifier on a drink, entered wrong at the register. Three dollars and forty cents. I fixed it, I logged it, and I never made that specific mistake again.
+The first time his drawer comes up short, it's three dollars and forty cents. Small by any measure. He stays forty-five minutes after his shift retracing every single transaction until he finds it — a missed modifier on a drink, entered wrong at the register. Three dollars and forty cents. He fixes it, logs it, and never makes that specific mistake again.
 
 **[pause]**
 
-That's the whole philosophy, if you want it in one sentence. Inventory discipline either lives in you or it doesn't. It started at a coffee counter, not a kitchen.
+That's the whole philosophy behind this character, if you want it in one sentence. Inventory discipline either lives in you or it doesn't. It started at a coffee counter, not a kitchen — and I wanted that on the page before he ever touches a knife.
 
-There was a woman who came in every Tuesday — studying music at Tulane, a spiral notebook always open in front of her. I learned her order before she reached the counter. That became conversation. Conversation became her telling me about San Juan — the way the ocean sounded different there, the way food tasted like someone's grandmother and smelled like the coast. She invited me down the summer before she graduated.
+There's a woman who comes in every Tuesday — studying music at Tulane, a spiral notebook always open in front of her. He learns her order before she reaches the counter. That becomes conversation. Conversation becomes her telling him about San Juan — the way the ocean sounds different there, the way food tastes like someone's grandmother and smells like the coast. She invites him down the summer before she graduates.
 
-I went. And on a street in San Juan, eating something I still can't fully describe, a seed got planted that I wouldn't understand for another two decades. Flavor was a language. Every culture spoke it differently. Every version was worth learning.
+He goes. And on a street in San Juan, eating something he still can't fully describe, a seed gets planted that he won't understand for another two decades. Flavor is a language. Every culture speaks it differently. Every version is worth learning.
 
-Kaldi's closed in 2000. Rent doubled, the owners couldn't meet it, and in its place came the kind of blank-walled tourist operation that exists in every city and belongs to none of them. I carried that building with me a long time after it was gone.
+Kaldi's closes in 2000, in the story. Rent doubles, the owners can't meet it, and in its place comes the kind of blank-walled tourist operation that exists in every city and belongs to none of them. Baron carries that building with him a long time after it's gone.
 
 ---
 
 ## Segment 2 — The years that don't look like cooking
 
-Here's the part people skip when they tell an origin story, because it doesn't sound like the origin story they wanted. Between that coffee counter and a chef's coat, there's almost two decades that has nothing to do with food on paper.
+Here's the part I almost cut when I was building his backstory, because it doesn't sound like the origin story readers expect. Between that coffee counter and a chef's coat, there's almost two decades that has nothing to do with food on paper.
 
-Sales. Telecom. I was the best rep in south Texas at one point, and I spent most of my time on the floor doing something nobody trains you for — talking someone down from the edge of their own frustration. Slow your register. Give them a clear next step. Make them feel like the situation is already under control, even in the ninety seconds before it actually is. That's not a metaphor. That's the actual skill. I didn't know it yet, but I was building the exact thing that would later let me stand at a pass during a full meltdown and not raise my voice once.
+Sales. Telecom. Best rep in south Texas at one point, and he spends most of his time on the floor doing something nobody trains you for — talking someone down from the edge of their own frustration. Slow your register. Give them a clear next step. Make them feel like the situation is already under control, even in the ninety seconds before it actually is. That's not a metaphor. That's the actual skill. He doesn't know it yet, but he's building the exact thing that'll later let him stand at a pass during a full meltdown and not raise his voice once.
 
-Then I ran a cafe — all of it, the whole operation. Cut inventory costs by forty percent. Learned to read a kitchen as a supply chain before I ever worked one. Then I went and studied networking and systems — servers, infrastructure, the architecture underneath things that look simple from the outside but aren't.
+Then he runs a cafe — all of it, the whole operation. Cuts inventory costs by forty percent. Learns to read a kitchen as a supply chain before he ever works in one. Then networking and systems — servers, infrastructure, the architecture underneath things that look simple from the outside but aren't.
 
-None of that reads like a chef's resume. And that's exactly the point I'm making. Every single piece of it was preparation. I just didn't know yet what it was preparing me for.
+None of that reads like a chef's resume. And that's exactly the point I was making by including it. Every single piece of it is preparation. He just doesn't know yet what it's preparing him for.
 
 ---
 
 ## Segment 3 — The Humbling
 
-Two-thousand-twenty. The world goes remote, and everything I'd built a career on top of stops needing a body in a room. So I do the thing that makes no sense on paper. I apply for a line cook job.
+Two-thousand-twenty, in the story. The world goes remote, and everything he'd built a career on top of stops needing a body in a room. So he does the thing that makes no sense on paper. He applies for a line cook job.
 
-I walk into that kitchen forty-something years old, standing at a prep station in a borrowed apron, holding a knife I don't actually know how to hold correctly yet. Everything I'd been — the management, the systems, the credentials — none of it means anything at that station. I'm starting completely over.
+He walks into that kitchen forty-something years old, standing at a prep station in a borrowed apron, holding a knife he doesn't actually know how to hold correctly yet. Everything he'd been — the management, the systems, the credentials — none of it means anything at that station. He's starting completely over.
 
-The chef who hired me — Conti Jasper — hired me knowing my resume made no conventional sense. He saw something else. His kitchen had no radio. Not one day, the whole time. He didn't need one. He was the rhythm.
+The chef who hires him — Conti Jasper — hires him knowing his resume makes no conventional sense. Conti sees something else. His kitchen has no radio. Not one day, the whole time. He doesn't need one. He is the rhythm.
 
 **[pause]**
 
-I want to tell you the radish story, because it's the whole relationship in about ten seconds. I'm working prep, I hold up something I've cut, and he looks at it — really looks at it — and says, completely serious: "That is a female watermelon. Small. Round. Pink on the outside. Handle it accordingly."
+I want to tell you the radish story, because it's the whole relationship in about ten seconds. Baron's working prep, holds up something he's cut, and Conti looks at it — really looks at it — and says, completely serious: "That is a female watermelon. Small. Round. Pink on the outside. Handle it accordingly."
 
 **[beat]**
 
-It was a radish. It was always a radish. But that's how he corrected you — with humor, never with judgment. Never once did he make me feel small for not knowing something. He just handed you the truth wrapped in something you'd remember.
+It's a radish. It's always a radish. But that's how Conti corrects him — with humor, never with judgment. Never once does he make Baron feel small for not knowing something. He just hands him the truth wrapped in something he'll remember.
 
-Somewhere between that radish and the end of my first year, I stopped being a man who was learning to cook, and I became a man who wanted to be a chef. That's not the same thing. One's a skill. The other's an identity. He gave me both.
+Somewhere between that radish and the end of his first year, Baron stops being a man who's learning to cook, and becomes a man who wants to be a chef. That's not the same thing. One's a skill. The other's an identity. Conti gives him both.
 
 ---
 
 ## Segment 4 — Zero margin for error
 
-From there it's Peche, where I learned that classical technique isn't formality, it's foundation. Then the Four Seasons — Triple-A Five Diamond, zero margin for error, every plate held to a standard where there's no such thing as "close enough" twice in one shift. That's where I actually perfected the technique behind the dish that would end up carrying my name — the sear, the crunch, the thing that has to be audible or it's a failure.
+From there it's Peche, where he learns that classical technique isn't formality, it's foundation. Then the Four Seasons — Triple-A Five Diamond, zero margin for error, every plate held to a standard where there's no such thing as "close enough" twice in one shift. That's where he actually perfects the technique behind the dish that'll end up carrying his name — the sear, the crunch, the thing that has to be audible or it's a failure.
 
-By the time I land at the Apothecary as sous chef, under an executive chef named Melpomene, I'm carrying two decades most people in that kitchen can't see. They see a sous chef — technically proficient, good in a crisis. What they don't see is the systems knowledge, the operational discipline, the years of learning how to read a room before it falls apart.
+By the time he lands at the Apothecary as sous chef, under an executive chef named Melpomene, he's carrying two decades most people in that kitchen can't see. They see a sous chef — technically proficient, good in a crisis. What they don't see is the systems knowledge, the operational discipline, the years of learning how to read a room before it falls apart.
 
 ---
 
 ## Segment 5 — Twelve square feet of concrete
 
-Every night after service, six of us pack into a back-of-house storage room — twelve square feet of bare concrete and wire shelving — and that room becomes the most honest place in the building. No hierarchy of the dining room reaches in there. No ego of the executive chef gets through that door. Just people who survived a shift together, telling each other the truth.
+Every night after service, six of them pack into a back-of-house storage room — twelve square feet of bare concrete and wire shelving — and that room becomes the most honest place in the building. No hierarchy of the dining room reaches in there. No ego of the executive chef gets through that door. Just people who survived a shift together, telling each other the truth.
 
-That's where I learned what corporations can't replicate. You cannot manufacture the specific gravity of people who've been through something together, standing in a room, being honest.
+That's the thing I wanted this whole crew to represent — what corporations can't replicate. You cannot manufacture the specific gravity of people who've been through something together, standing in a room, being honest.
 
 **[pause]**
 
-One of my cooks — Rampart, my right hand on that line — caught my arm outside that door one night. Wanted to know if I'd heard what got said to him in front of the dish guy. I had. I told him: she knows. Meaning his daughter. Meaning every extra shift he picked up, every hour of overtime, all of it was translating into tuition, into a door she'd have that he didn't. Upper management doesn't see that math. The ticket rail doesn't care about that math. But I did. That's the job nobody puts in the job description — seeing the actual weight people are carrying.
+One of his cooks — Rampart, his right hand on that line — catches his arm outside that door one night. Wants to know if Baron heard what got said to him in front of the dish guy. He had. He tells him: she knows. Meaning his daughter. Meaning every extra shift he picked up, every hour of overtime, all of it translating into tuition, into a door she'd have that he didn't. Upper management doesn't see that math. The ticket rail doesn't care about that math. Baron does. That's the job nobody puts in the job description — seeing the actual weight people are carrying.
 
 ---
 
 ## Segment 6 — The night it almost broke
 
-Friday night rush. The oven starts failing mid-service. I don't panic — I pull my phone out of my apron pocket, same unhurried motion I use for everything, and I start working the actual problem. Twenty-eight portions of redfish in the walk-in, verified, counted — you cannot manage what you haven't counted. Digital thermostat's dead, so I bypass the relay manually, hold ambient heat, adjust the sear to compensate. Three minutes to reset the line. I stagger the incoming tickets to match. Match volume to capacity, or quality's the first thing that breaks — same logic I used running four delivery apps at once, years before I ever touched a professional stove.
+Friday night rush. The oven starts failing mid-service. Baron doesn't panic — he pulls his phone out of his apron pocket, same unhurried motion he uses for everything, and starts working the actual problem. Twenty-eight portions of redfish in the walk-in, verified, counted — you cannot manage what you haven't counted. Digital thermostat's dead, so he bypasses the relay manually, holds ambient heat, adjusts the sear to compensate. Three minutes to reset the line. He staggers the incoming tickets to match. Match volume to capacity, or quality's the first thing that breaks — same logic he used running four delivery apps at once, years before he ever touched a professional stove.
 
 Service gets saved. Every plate goes out. Not one guest in that dining room ever knows how close it came to falling apart.
 
@@ -111,37 +112,37 @@ Service gets saved. Every plate goes out. Not one guest in that dining room ever
 
 **[pause — this is the turn]**
 
-After the room's cleared and the chairs are stacked, Melpomene calls me over to the bar. Tells me the service was different that night. Not consistent with how things run there. Says: these are my creations, my menu, my techniques — I don't have the authority to restructure his floor, not even to save it.
+After the room's cleared and the chairs are stacked, Melpomene calls him over to the bar. Tells him the service was different that night. Not consistent with how things run there. Says: these are my creations, my menu, my techniques — I don't have the authority to restructure his floor, not even to save it.
 
-I said nothing. I let it sit.
+Baron says nothing. He lets it sit.
 
-Then he said the line that changed everything: "If you want to run a faulty kitchen, then you should start your own."
+Then Melpomene says the line that changes everything: "If you want to run a faulty kitchen, then you should start your own."
 
 **[beat]**
 
-He meant it as the last word. He meant it to put me back in my place.
+He means it as the last word. He means it to put Baron back in his place.
 
-It was the spark.
+It becomes the spark.
 
 ---
 
-## Segment 8 — What nobody saw me building
+## Segment 8 — What nobody saw him building
 
-Here's the part that was already true before he ever said that sentence, and he didn't know it. Four months earlier, on a Tuesday off-shift, alone in my own kitchen, I wasn't trying to invent anything. I had good redfish from my guy Tchoup down at the docks, and I was just eating. But I'd been carrying a flavor concept for weeks — something in the tension between deep, smoky Gulf heat and a bright, high-acid counterpoint.
+Here's the part that's already true before Melpomene ever says that sentence, and he doesn't know it. Four months earlier, on a Tuesday off-shift, alone in his own kitchen, Baron isn't trying to invent anything. He's got good redfish from his guy Tchoup down at the docks, and he's just eating. But he's been carrying a flavor concept for weeks — something in the tension between deep, smoky Gulf heat and a bright, high-acid counterpoint.
 
-I charred tomato and smoked guajillo over an electric coil. Worcestershire, Peychaud's, a measured pour of cider vinegar. Built depth with a dark roux from scratch. Cut it with cane sugar, hit it with white pepper and cayenne. Reduced it again. And again.
+He chars tomato and smoked guajillo over an electric coil. Worcestershire, Peychaud's, a measured pour of cider vinegar. Builds depth with a dark roux from scratch. Cuts it with cane sugar, hits it with white pepper and cayenne. Reduces it again. And again.
 
-By the time I dragged that seared redfish through the finished reduction, the light outside had changed completely and I hadn't noticed. First bite — dark, smoky warmth that settles in the chest. Then a bright fire that doesn't hurt, it insists. Like a guitar chord that keeps being heard after the string's gone quiet.
+By the time he drags that seared redfish through the finished reduction, the light outside has changed completely and he hasn't noticed. First bite — dark, smoky warmth that settles in the chest. Then a bright fire that doesn't hurt, it insists. Like a guitar chord that keeps being heard after the string's gone quiet.
 
-I set my fork down. That's it.
+He sets his fork down. That's it.
 
-I wrote nothing down that night. Some formulas don't live on paper — they live in the hands that made them. I called it the Scarlet Elixir, and I told no one. Not the Apothecary. Not the chef whose name was on the marquee. That one belonged to me.
+He writes nothing down that night. Some formulas don't live on paper — they live in the hands that made them. He calls it the Scarlet Elixir, and tells no one. Not the Apothecary. Not the chef whose name is on the marquee. That one belongs to him.
 
 ---
 
 >>> CLIP B START (the lesson, ~20-30 sec — the systems-thinking takeaway)
 
-So when Melpomene told me to go start my own kitchen — he thought he was ending something. He didn't know the LLC was already registered. The domain was already live. I'd been quietly building the blueprint the entire time I was executing someone else's vision.
+So when Melpomene tells Baron to go start his own kitchen — he thinks he's ending something. He doesn't know the LLC's already registered. The domain's already live. Baron's been quietly building the blueprint the entire time he was executing someone else's vision.
 
 That's the actual lesson, if you're listening for it. Ownership isn't a moment you arrive at. It's a decision you've already made, quietly, long before anyone gives you permission — or tells you to leave.
 
@@ -149,17 +150,17 @@ That's the actual lesson, if you're listening for it. Ownership isn't a moment y
 
 **[pause]**
 
-Every system I ever learned — de-escalation at a phone company, inventory discipline at a coffee counter, infrastructure thinking from a classroom that had nothing to do with food — none of it was wasted. It was all preparation. You don't get to skip the twenty years. You just get to find out, later, what they were for.
+Every system Baron ever learned — de-escalation at a phone company, inventory discipline at a coffee counter, infrastructure thinking from a classroom that had nothing to do with food — none of it was wasted, in the story or in the writing of it. It was all preparation. You don't get to skip the twenty years. You just get to find out, later, what they were for.
 
 ---
 
 >>> CLIP C START (CTA close, ~15-20 sec)
 
-That's the whole thing. That's the origin. Everything after that — the container, the crew, the name on the door — is just details.
+That's the origin. Everything after that — the container, the crew, the name on the door — is just details.
 
 **[beat]**
 
-If you want the rest of it, it's on the page. The full story starts in *The Scarlet Foundation*. And what happens after — what I build once I finally stop renting what I could own — that's *A Symphony of Love in the Big Easy*. Both by Lejohn Richburg III.
+If you want the rest of it, it's on the page. The full story starts in *The Scarlet Foundation*. And what happens after — what he builds once he finally stops renting what he could own — that's *A Symphony of Love in the Big Easy*.
 
 I'll see you next time.
 
@@ -169,6 +170,7 @@ I'll see you next time.
 
 ## Production notes
 - **Clip A** works as-is for the cold open — short, punchy, ends on the hook before the drawer story lands.
-- **Clip B** is the standalone "value" clip — it works even out of context, which is exactly what a lesson clip needs to do.
-- **Clip C** doubles as the CTA close *and* echoes the exact closing line from the existing Origin TikTok video ("That's the whole thing... that's the origin... just details") — deliberate, keeps the character's voice consistent across formats rather than writing a new sign-off from scratch.
-- Bracketed **[pause]** / **[beat]** markers are placement guidance for editing breath and emphasis after generation — most voice-clone tools won't act on them automatically, so budget time to manually place beats in the mix, especially around Segment 7's turn.
+- **Clip B** is the standalone "value" clip — works even out of context.
+- **Clip C** closes the episode; no longer echoes the Baron-voiced Origin TikTok's exact sign-off line, since this is now your voice, not his — a distinct close for the podcast rather than reusing his line-for-line video sign-off.
+- Bracketed **[pause]** / **[beat]** markers are placement guidance for editing breath and emphasis — place them manually in the mix, especially around Segment 7's turn.
+- No AI-voice disclosure needed for this episode's narration (that's you) — if any segment is generated via an ElevenLabs clone of your own voice rather than recorded live, use the light disclosure note from `references/baron-vieux-voice-reference-master-v1.md`.
