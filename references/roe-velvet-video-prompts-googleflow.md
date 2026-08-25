@@ -6,6 +6,14 @@ Structured for sequential scene-by-scene input into Google Flow. Each scene is w
 
 ---
 
+### LOCKED REFERENCE IMAGES — required Ingredients, not text descriptions
+
+Text-only character descriptions have not held up across scenes (confirmed 2026-08-24 on the v2 draft: wrong-age Baron, an Olivia who didn't match her reference at all, and an extra unscripted woman appearing before Olivia). Before generating any scene, upload these as Flow "Ingredients" and reference them directly instead of re-typing the character description:
+
+- **Baron Vieux → `docs/media/baron-vieux-scarlett.jpg`** — photoreal, correct age/look, correct "Baron Vieux" / "Bayouboujee" coat embroidery, black canvas apron with utility pockets. This is the canonical look from the videos that got him right. Do NOT use `references/baron-vieux-noir-portrait-v1.jpg` as a reference for video generation — that's a stylized illustrated brand portrait (different art style, younger face), not the photoreal video canon.
+- **Olivia Marigny → `references/olivia-marigny-headshot-v1.jpg`** — photoreal, wavy dark hair with a warm blonde streak, matches her full contact sheet (`references/olivia-marigny-contact-sheet-v1.jpg`) for cross-checking additional angles/expressions if Flow supports multiple reference images per character. Do NOT use `references/olivia-marigny-portrait-v1.png` for video generation — same issue, illustrated noir style, not the photoreal canon.
+- **Only one woman in this script.** Olivia is the only female character in all 8 scenes. If a take introduces any other woman before or instead of her, that take is wrong — regenerate rather than keep it.
+
 ### STRICT GENERATION RULES — apply to every scene, no exceptions
 
 - **One take per scene.** Generate each scene individually, one at a time, in order 1→8. Do not batch-generate or generate variations to pick from — the take you get is the take that's used. This is what keeps continuity tight across 8 separately-generated clips.
