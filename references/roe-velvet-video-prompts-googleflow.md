@@ -1,7 +1,20 @@
 # Google Flow Video Prompt Package
 ## "Roe Velvet" — Baron & Olivia's First Real Meeting (Chapter 9)
+### Updated 2026-08-24: locked to strict generation — see rules below before running any scene
 
-Structured for sequential scene-by-scene input into Google Flow. Each scene is written as a self-contained ~8-second clip. Character reference blocks are repeated in each prompt to help maintain visual consistency across generations — adjust freely if Flow drifts on a feature.
+Structured for sequential scene-by-scene input into Google Flow. Each scene is written as a self-contained ~8-second clip. Character reference blocks are repeated in each prompt to help maintain visual consistency across generations.
+
+---
+
+### STRICT GENERATION RULES — apply to every scene, no exceptions
+
+- **One take per scene.** Generate each scene individually, one at a time, in order 1→8. Do not batch-generate or generate variations to pick from — the take you get is the take that's used. This is what keeps continuity tight across 8 separately-generated clips.
+- **Dialogue is verbatim.** The lines in Scenes 4, 6, and 7 are pulled directly from the Chapter 9 manuscript. Do not let Flow paraphrase, shorten, or ad-lib them. If a take changes the wording, regenerate that scene rather than keep a close-enough version.
+- **Character reference blocks are locked.** Paste the full CHARACTER REFERENCE section fresh into every scene's prompt exactly as written below — same wording every time, not a summary or a memory of the last scene. Do not add, remove, or alter any wardrobe, physical, or personality detail.
+- **No added characters, no added dialogue.** Only the people named in a scene's Visual/Dialogue lines should appear or speak. No background extras with lines, no narrator voiceover unless a scene explicitly calls for one.
+- **No camera moves beyond what's specified.** If a scene says "wide shot" or "camera slowly pushes in," that's the full extent of the camera direction — no additional pans, zooms, or cuts within the clip.
+- **If a take drifts, regenerate — don't edit the prompt to match what came out.** The known failure mode from prior Flow videos is garbled embroidery text on Baron's chef coat/apron in close-up. If a take shows illegible text where the coat/apron is prominent in frame, regenerate that take rather than accept it; do not loosen the wardrobe description to explain away the drift.
+- **Mood/lighting/audio lines are directions, not suggestions.** Treat every Mood/Lighting and Audio line the same as the Visual line — locked, not a starting point to riff from.
 
 ---
 

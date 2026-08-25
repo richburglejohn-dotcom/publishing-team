@@ -38,6 +38,7 @@ Recommend **#1** — the actual line of dialogue as the hook is stronger than a 
 ---
 
 ## Notes
+- **Generation is locked to individual takes per scene** — each of the 8 scenes is generated one at a time, no batching, no picking from variations. This is deliberate: it's what keeps continuity (wardrobe, framing, tone) tight across 8 separately-generated clips instead of drifting scene to scene. Full strict-generation rules are now at the top of `references/roe-velvet-video-prompts-googleflow.md` — dialogue is verbatim, character references are locked and repasted in full each time, and any take that drifts (especially the known garbled-embroidery-text issue in close-ups) gets regenerated rather than kept.
 - This is a short-form narrative reveal (~1 minute assembled), same category as `yt-ep2-trailer.mp4` and `yt-ep3-trailer.mp4` — not a long-form 15-minute video, so no chaptering/retention-structure work needed beyond the hook itself.
 - Dialogue and reactions (Scene 4's "roe... wait," Scene 6's "Destiny. Last week it was the bisque," Scene 7's "Okay. That's a whole bit.") are pulled directly from the Chapter 9 draft — description leans on that same dry comic tone rather than oversells it.
 - Once the 8 clips are generated and sent over, I'll assemble them into `outputs/roe-velvet-youtube-v1.mp4` and queue this in Solene the same way the jambalaya/paella video was handled.
