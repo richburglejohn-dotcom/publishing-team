@@ -14,6 +14,18 @@ Text-only character descriptions have not held up across scenes (confirmed 2026-
 - **Olivia Marigny → `references/olivia-marigny-headshot-v1.jpg`** — photoreal, wavy dark hair with a warm blonde streak, matches her full contact sheet (`references/olivia-marigny-contact-sheet-v1.jpg`) for cross-checking additional angles/expressions if Flow supports multiple reference images per character. Do NOT use `references/olivia-marigny-portrait-v1.png` for video generation — same issue, illustrated noir style, not the photoreal canon.
 - **Only one woman in this script.** Olivia is the only female character in all 8 scenes. If a take introduces any other woman before or instead of her, that take is wrong — regenerate rather than keep it.
 
+### VERIFICATION PROTOCOL — every take gets checked against this before it's accepted
+
+Flow generations cost real budget, so a bad take that ships anyway (or gets discovered late) is the expensive failure mode, not the extra minute of checking. Before any take is approved for use, check it frame-by-frame against:
+
+1. **Baron matches `docs/media/baron-vieux-scarlett.jpg`** — same age, same face, same coat/apron. Not "close enough."
+2. **Olivia matches `references/olivia-marigny-headshot-v1.jpg`** — same hair (wavy, dark, blonde streak), same face. Not a different woman.
+3. **The cake is the same object in every shot it appears in** — same tier count, same roe garnish, same candied orange peel. One cake, start to finish.
+4. **No characters beyond who the scene names** — no extra woman, no unscripted kitchen staff wandering into frame.
+5. **Dialogue is audible and matches the script verbatim** — flag for a listen-through if this can't be visually confirmed from frames alone.
+
+Any single failure on this list means regenerate that scene — don't patch around it, don't accept "mostly right." This applies to every future batch of takes for this video and any future Flow video in this project, not just this round.
+
 ### STRICT GENERATION RULES — apply to every scene, no exceptions
 
 - **One take per scene.** Generate each scene individually, one at a time, in order 1→8. Do not batch-generate or generate variations to pick from — the take you get is the take that's used. This is what keeps continuity tight across 8 separately-generated clips.
