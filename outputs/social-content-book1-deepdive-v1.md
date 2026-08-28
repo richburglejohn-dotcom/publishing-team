@@ -63,6 +63,7 @@ Baron and Olivia are about to find that out.
 
 ### Post 3 — Quote Card (Community as Salvation)
 **Content Type:** Quote Card (Narrator Voice)
+**Image:** No dedicated Theron/Jamara reference photos exist yet in this project — do not substitute a generic/stock image or an unrelated cast photo. This should stay a text-only quote-card design (matching its Content Type) until real reference portraits for Theron and Jamara are created.
 **Caption:**
 
 "They find redemption through the loyal support of friends who help restore the business."
@@ -80,6 +81,7 @@ Some stories are about building something. This one is about who helps you rebui
 
 ### Post 4 — Character Spotlight (Olivia, Reframed)
 **Content Type:** Character Spotlight
+**Image:** `references/olivia-marigny-headshot-v1.jpg` — our real, established photo of Olivia. Do not substitute a generated/stock photo.
 **Caption:**
 
 Olivia doesn't just sing the blues. By the end of this book, she's lived them.
@@ -97,6 +99,7 @@ This isn't a side character's arc. This is the heart of the book.
 
 ### Post 5 — Character Spotlight (Baron, Reframed)
 **Content Type:** Character Spotlight
+**Image:** `docs/media/baron-vieux-scarlett.jpg` — our real, established photo of Baron. Do not substitute a generated/stock photo.
 **Caption:**
 
 Baron Vieux built Bayouboujee so no one could ever again tell him to run a faulty kitchen.
@@ -114,6 +117,7 @@ He's better. Because he let people help him become that.
 
 ### Post 6 — Freedom / Ending Tease
 **Content Type:** Scene Teaser (Non-Spoiler, Forward-Looking)
+**Image:** `outputs/the-turn-facebook-campaign-v1/ig-couple-embrace-v1.png` — our real, established Baron + Olivia together image (no title text baked in, unlike the matching `couple_bar_portrait.webp` in the same folder). Do not substitute a generated/stock photo.
 **Caption:**
 
 Here's what nobody tells you about dreams you build with your own hands: sometimes the freedom isn't in keeping them.
