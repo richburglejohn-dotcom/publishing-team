@@ -17,3 +17,11 @@ No Base44 connector is installed in this session, so files can't be pushed to Ba
 
 ## Note for future daily-automation-check runs
 Include this folder's ID alongside the Downloads/Publishing Team checks when scanning for new entries.
+
+## Standing rule (2026-08-28): every Solene image assignment needs a locked reference
+
+Confirmed 2026-08-28: Solene stages Instagram posts via browser automation (types the caption, gets it to "just needs the Publish click") rather than a direct posting API. When a `ScheduledPost` record has no explicit image specified, Solene sources its own — generic/stock photos that don't match our established characters, not a malfunction, just filling a gap we left open.
+
+Same failure mode already fixed for Google Flow video generation (see `references/roe-velvet-video-prompts-googleflow.md`'s locked-reference-image rules) — the fix here is the same discipline: **every content file feeding a character-photo post must have an explicit `**Image:**` line pointing at a real, established reference file in this repo.** Never leave it to Solene to pick. If no real reference photo exists yet for a character (e.g., Theron, Jamara), say so explicitly and default to a text-only quote-card design rather than let a substitute get chosen automatically.
+
+**Already-published posts with the wrong photo:** Instagram does not support swapping the image on a live post — only caption/hashtag edits are possible via the API/UI. Fixing a wrong photo on something already posted means deleting and reposting, which has an engagement-loss cost — decide per-post whether that's worth it rather than doing it automatically.
