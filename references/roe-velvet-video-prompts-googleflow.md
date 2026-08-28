@@ -1,7 +1,41 @@
 # Google Flow Video Prompt Package
 ## "Roe Velvet" — Baron & Olivia's First Real Meeting (Chapter 9)
+### Updated 2026-08-24: locked to strict generation — see rules below before running any scene
 
-Structured for sequential scene-by-scene input into Google Flow. Each scene is written as a self-contained ~8-second clip. Character reference blocks are repeated in each prompt to help maintain visual consistency across generations — adjust freely if Flow drifts on a feature.
+Structured for sequential scene-by-scene input into Google Flow. Each scene is written as a self-contained ~8-second clip. Character reference blocks are repeated in each prompt to help maintain visual consistency across generations.
+
+---
+
+### LOCKED REFERENCE IMAGES — required Ingredients, not text descriptions
+
+Text-only character descriptions have not held up across scenes (confirmed 2026-08-24 on the v2 draft: wrong-age Baron, an Olivia who didn't match her reference at all, and an extra unscripted woman appearing before Olivia). Before generating any scene, upload these as Flow "Ingredients" and reference them directly instead of re-typing the character description:
+
+- **Baron Vieux → `references/baron-vieux-scarlett-notext-v1.jpg`** — updated 2026-08-25: the original `docs/media/baron-vieux-scarlett.jpg` triggered a Flow "prominent person" content block (a photoreal face paired with a legible sewn-on name reads as a real named individual). This is the same image cropped to head-and-shoulders so neither "Baron Vieux" nor "Bayouboujee" is in frame — same face, age, glasses, coat, apron strap. Use this one as the Ingredient. If it still triggers a block, the face/likeness itself is the issue, not the text — stop and handle it manually rather than guessing further. Do NOT use `references/baron-vieux-noir-portrait-v1.jpg` as a reference for video generation — that's a stylized illustrated brand portrait (different art style, younger face), not the photoreal video canon.
+- **Olivia Marigny → `references/olivia-marigny-headshot-v1.jpg`** — photoreal, wavy dark hair with a warm blonde streak, matches her full contact sheet (`references/olivia-marigny-contact-sheet-v1.jpg`) for cross-checking additional angles/expressions if Flow supports multiple reference images per character. Do NOT use `references/olivia-marigny-portrait-v1.png` for video generation — same issue, illustrated noir style, not the photoreal canon.
+- **Only one woman in this script.** Olivia is the only female character in all 8 scenes. If a take introduces any other woman before or instead of her, that take is wrong — regenerate rather than keep it.
+- **The cake → `references/roe-velvet-cake-reference-v1.jpg`** — salvaged from the discarded v2 draft (the 0:08 frame). This is the one asset from that draft worth keeping: a round two-layer orange velvet cake, white frosting, single mound of glossy orange roe on top, candied orange peel scattered at the base. Use this as the locked reference for every scene the cake appears in (Scenes 2, 4, 5, 7) so it's the same cake in the kitchen shot, the reveal, the macro close-up, and the bite — not a different cake each time.
+
+### VERIFICATION PROTOCOL — every take gets checked against this before it's accepted
+
+Flow generations cost real budget, so a bad take that ships anyway (or gets discovered late) is the expensive failure mode, not the extra minute of checking. Before any take is approved for use, check it frame-by-frame against:
+
+1. **Baron matches `docs/media/baron-vieux-scarlett.jpg`** — same age, same face, same coat/apron. Not "close enough."
+2. **Olivia matches `references/olivia-marigny-headshot-v1.jpg`** — same hair (wavy, dark, blonde streak), same face. Not a different woman.
+3. **The cake is the same object in every shot it appears in** — same tier count, same roe garnish, same candied orange peel. One cake, start to finish.
+4. **No characters beyond who the scene names** — no extra woman, no unscripted kitchen staff wandering into frame.
+5. **Dialogue is audible and matches the script verbatim** — flag for a listen-through if this can't be visually confirmed from frames alone.
+
+Any single failure on this list means regenerate that scene — don't patch around it, don't accept "mostly right." This applies to every future batch of takes for this video and any future Flow video in this project, not just this round.
+
+### STRICT GENERATION RULES — apply to every scene, no exceptions
+
+- **One take per scene.** Generate each scene individually, one at a time, in order 1→8. Do not batch-generate or generate variations to pick from — the take you get is the take that's used. This is what keeps continuity tight across 8 separately-generated clips.
+- **Dialogue is verbatim.** The lines in Scenes 4, 6, and 7 are pulled directly from the Chapter 9 manuscript. Do not let Flow paraphrase, shorten, or ad-lib them. If a take changes the wording, regenerate that scene rather than keep a close-enough version.
+- **Character reference blocks are locked.** Paste the full CHARACTER REFERENCE section fresh into every scene's prompt exactly as written below — same wording every time, not a summary or a memory of the last scene. Do not add, remove, or alter any wardrobe, physical, or personality detail.
+- **No added characters, no added dialogue.** Only the people named in a scene's Visual/Dialogue lines should appear or speak. No background extras with lines, no narrator voiceover unless a scene explicitly calls for one.
+- **No camera moves beyond what's specified.** If a scene says "wide shot" or "camera slowly pushes in," that's the full extent of the camera direction — no additional pans, zooms, or cuts within the clip.
+- **If a take drifts, regenerate — don't edit the prompt to match what came out.** The known failure mode from prior Flow videos is garbled embroidery text on Baron's chef coat/apron in close-up. If a take shows illegible text where the coat/apron is prominent in frame, regenerate that take rather than accept it; do not loosen the wardrobe description to explain away the drift.
+- **Mood/lighting/audio lines are directions, not suggestions.** Treat every Mood/Lighting and Audio line the same as the Visual line — locked, not a starting point to riff from.
 
 ---
 

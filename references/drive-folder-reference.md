@@ -1,7 +1,10 @@
 # Google Drive Folder Reference — Base44 / Automation
 ### Created: 2026-07-19
+### Corrected 2026-08-24: see note below — this is NOT how Solene actually sources content
 
 Quick lookup for folder IDs used in the daily social automation check and Base44 handoff, so they don't need to be re-derived each session.
+
+**Correction (2026-08-24):** with a live Base44 MCP connector now available, it turns out Solene (the Base44 app handling scheduled posts) does not read from this or any Drive folder. Its `ScheduledPost` entity has a `content_source` field that points directly at paths inside this git repo (e.g. `outputs/tiktok-book-launch-campaign-v1.md#Video3`), or occasionally a direct asset filename. The Base44 Drive folder below was a manual workaround from before this connector existed and isn't part of Solene's actual pipeline — keeping this section for history, but don't treat it as the live mechanism.
 
 | Folder | ID | Purpose |
 |---|---|---|

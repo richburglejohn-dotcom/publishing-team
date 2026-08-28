@@ -69,7 +69,7 @@ Eight episodes is a real, finishable Season 1 — enough to prove the format wit
 ## What's needed to actually start (not something I can do for you)
 
 - ~~A voice-cloning/TTS tool~~ — done, ElevenLabs, Episode 1 produced (see status above).
-- ~~A hosting platform~~ — **decided 2026-08-24: Spotify for Podcasters.** Free, auto-distributes to Spotify/Apple/Google/Amazon Music via one RSS feed — no second host needed. Still to do: create the show there, upload `podcast-ep1-baron-origin-FULL.mp3`, and get the real episode/show URL to replace the "link in bio" placeholder in `podcast-ep1-social-captions-v1.md`. I have no Spotify access from this session — this step is yours to complete.
+- ~~A hosting platform~~ — **live 2026-08-24: https://bayoubeaux1070.podbean.com/** (Podbean is the actual host; it distributes out to Spotify/Apple/Google/Amazon Music from there via RSS, same "one host, everywhere" benefit originally planned around Spotify for Podcasters). URL is now filled into `podcast-ep1-social-captions-v1.md`.
 - Intro/outro music (royalty-free, or I can help you find/license options)
 - A recording/generation cadence — even biweekly is fine for Season 1's 8 episodes
 
