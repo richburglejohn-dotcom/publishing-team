@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Formulary | Culinary Crescendo</title>
+<meta name="description" content="The Formulary — reader editions of the Culinary Crescendo series and FuturIQ publishing services for writers, compounded to order.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Lora:ital,wght@0,400;0,500;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+
+<style>
+  :root {
+    --paper: #F6EFDD;
+    --paper-raised: #FBF6E9;
+    --ink: #201A14;
+    --ink-soft: #5B5142;
+    --ink-faint: #8B8171;
+    --rule: #D9CDAE;
+    --scarlet-f: #8E2A38;
+    --scarlet-ink: #FBF6E9;
+    --brass: #A87A3B;
+    --sage: #5E6B4E;
+    --shadow: rgba(32, 26, 20, 0.08);
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --paper: #17130E;
+      --paper-raised: #1E1912;
+      --ink: #EFE6D3;
+      --ink-soft: #B9AC91;
+      --ink-faint: #7C7361;
+      --rule: #3A3225;
+      --scarlet-f: #C2515F;
+      --scarlet-ink: #17130E;
+      --brass: #D3A25E;
+      --sage: #8B9B77;
+      --shadow: rgba(0, 0, 0, 0.35);
+    }
+  }
+
+  :root[data-theme="dark"] {
+    --paper: #17130E;
+    --paper-raised: #1E1912;
+    --ink: #EFE6D3;
+    --ink-soft: #B9AC91;
+    --ink-faint: #7C7361;
+    --rule: #3A3225;
+    --scarlet-f: #C2515F;
+    --scarlet-ink: #17130E;
+    --brass: #D3A25E;
+    --sage: #8B9B77;
+    --shadow: rgba(0, 0, 0, 0.35);
+  }
+
+  .formulary-page * { box-sizing: border-box; }
+
+  .formulary-page {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: 'Lora', Georgia, serif;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .formulary-page .page {
+    max-width: 920px;
+    margin: 0 auto;
+    padding: 72px 28px 96px;
+  }
+
+  .formulary-page .eyebrow {
+    font-family: 'IBM Plex Mono', ui-monospace, monospace;
+    font-size: 11px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--brass);
+  }
+
+  .formulary-page header.hero {
+    text-align: center;
+    padding-bottom: 56px;
+    border-bottom: 1px solid var(--rule);
+    margin-bottom: 56px;
+  }
+
+  .formulary-page header.hero .eyebrow { margin-bottom: 18px; }
+
+  .formulary-page h1.wordmark {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+    font-weight: 600;
+    font-size: clamp(44px, 7vw, 68px);
+    letter-spacing: 0.01em;
+    margin: 0 0 6px;
+    text-wrap: balance;
+  }
+
+  .formulary-page .wordmark em {
+    font-style: italic;
+    color: var(--scarlet-f);
+  }
+
+  .formulary-page .subhead {
+    max-width: 46ch;
+    margin: 18px auto 0;
+    font-size: 17px;
+    line-height: 1.65;
+    color: var(--ink-soft);
+  }
+
+  .formulary-page .sprig {
+    display: block;
+    margin: 28px auto 0;
+    width: 64px;
+    height: 20px;
+    opacity: 0.7;
+  }
+  .formulary-page .sprig path { stroke: var(--sage); }
+
+  .formulary-page section.wing {
+    margin-bottom: 64px;
+  }
+
+  .formulary-page .wing-heading {
+    display: flex;
+    align-items: baseline;
+    gap: 14px;
+    margin-bottom: 22px;
+  }
+
+  .formulary-page .wing-heading h2 {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 26px;
+    margin: 0;
+    color: var(--ink);
+    white-space: nowrap;
+  }
+
+  .formulary-page .wing-heading .line {
+    flex: 1;
+    height: 1px;
+    background: var(--rule);
+  }
+
+  .formulary-page .wing-note {
+    font-size: 14px;
+    color: var(--ink-faint);
+    margin: -12px 0 22px;
+    max-width: 60ch;
+  }
+
+  .formulary-page .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 22px;
+  }
+
+  .formulary-page .card {
+    background: var(--paper-raised);
+    border: 1px solid var(--rule);
+    border-radius: 3px;
+    padding: 28px 26px 26px;
+    box-shadow: 0 1px 2px var(--shadow);
+    display: flex;
+    flex-direction: column;
+  }
+
+  .formulary-page .card .formula-name {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+    font-weight: 600;
+    font-size: 23px;
+    margin: 6px 0 10px;
+    text-wrap: balance;
+  }
+
+  .formulary-page .card .deliverables {
+    list-style: none;
+    margin: 0 0 20px;
+    padding: 0;
+    font-size: 14.5px;
+    line-height: 1.6;
+    color: var(--ink-soft);
+    flex: 1;
+  }
+
+  .formulary-page .card .deliverables li {
+    padding-left: 16px;
+    position: relative;
+    margin-bottom: 6px;
+  }
+
+  .formulary-page .card .deliverables li::before {
+    content: "—";
+    position: absolute;
+    left: 0;
+    color: var(--brass);
+  }
+
+  .formulary-page .price-row {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 12px;
+    padding-top: 16px;
+    border-top: 1px dashed var(--rule);
+    margin-top: auto;
+  }
+
+  .formulary-page .platform-row {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 16px;
+    border-top: 1px dashed var(--rule);
+    margin-top: auto;
+  }
+
+  .formulary-page .price {
+    font-family: 'IBM Plex Mono', ui-monospace, monospace;
+    font-variant-numeric: tabular-nums;
+    font-size: 17px;
+    color: var(--ink);
+  }
+
+  .formulary-page .price .unit {
+    font-size: 11px;
+    color: var(--ink-faint);
+    margin-left: 4px;
+  }
+
+  .formulary-page .platform-tag {
+    font-family: 'IBM Plex Mono', ui-monospace, monospace;
+    font-size: 10.5px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--ink-faint);
+  }
+
+  .formulary-page .cta-row {
+    margin-top: 18px;
+  }
+
+  .formulary-page .cta-row .btn + .btn { margin-top: 8px; }
+
+  .formulary-page .btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    width: 100%;
+    justify-content: center;
+    padding: 11px 18px;
+    border-radius: 3px;
+    font-family: 'IBM Plex Mono', ui-monospace, monospace;
+    font-size: 12.5px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 1px solid var(--scarlet-f);
+    transition: background 0.15s ease, color 0.15s ease;
+  }
+
+  .formulary-page .btn-solid {
+    background: var(--scarlet-f);
+    color: var(--scarlet-ink);
+  }
+  .formulary-page .btn-solid:hover { opacity: 0.88; }
+
+  .formulary-page .btn-outline {
+    background: transparent;
+    color: var(--scarlet-f);
+  }
+  .formulary-page .btn-outline:hover {
+    background: var(--scarlet-f);
+    color: var(--scarlet-ink);
+  }
+
+  .formulary-page .colophon {
+    text-align: center;
+    padding-top: 40px;
+    border-top: 1px solid var(--rule);
+    font-size: 13px;
+    color: var(--ink-faint);
+    line-height: 1.8;
+  }
+
+  .formulary-page .colophon a {
+    color: var(--brass);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+
+  @media (max-width: 640px) {
+    .formulary-page .cards { grid-template-columns: 1fr; }
+    .formulary-page .page { padding: 48px 20px 72px; }
+  }
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="nav-wrap">
+    <a href="index.html" class="brand">Culinary <span>Crescendo</span></a>
+    <button class="nav-toggle" aria-label="Toggle navigation">&#9776;</button>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="books.html">Books</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="media.html">Media</a></li>
+      <li><a href="formulary.html" class="active">Formulary</a></li>
+      <li><a href="index.html#newsletter">Newsletter</a></li>
+    </ul>
+  </div>
+</header>
+
+<div class="formulary-page">
+<div class="page">
+
+  <header class="hero">
+    <div class="eyebrow">Bayoubeaux LLC &middot; FuturIQ Publishing</div>
+    <h1 class="wordmark">The <em>Formulary</em></h1>
+    <p class="subhead">No mass production — just craft, intention, and small batches that actually worked. Every formula below is mixed to order, the way it's always been done on Decatur Street.</p>
+    <svg class="sprig" viewBox="0 0 64 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <path d="M2 10 H62" stroke-width="1"/>
+      <path d="M20 10 C 24 4, 30 4, 32 10 C 30 16, 24 16, 20 10 Z" stroke-width="1"/>
+      <path d="M44 10 C 40 4, 34 4, 32 10 C 34 16, 40 16, 44 10 Z" stroke-width="1"/>
+    </svg>
+  </header>
+
+  <section class="wing">
+    <div class="wing-heading">
+      <h2>For Readers</h2>
+      <div class="line"></div>
+    </div>
+    <p class="wing-note">Culinary Crescendo, dispensed however you take your stories.</p>
+    <div class="cards">
+
+      <div class="card">
+        <span class="eyebrow">Formula No. 1 — Digital Edition</span>
+        <h3 class="formula-name">A Symphony of Love in the Big Easy</h3>
+        <ul class="deliverables">
+          <li>Kindle eBook</li>
+        </ul>
+        <div class="platform-row">
+          <span class="platform-tag">Amazon</span>
+        </div>
+        <div class="cta-row">
+          <a class="btn btn-solid" href="https://www.amazon.com/dp/B0H2WLJ8JF" target="_blank" rel="noopener">Get the eBook</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <span class="eyebrow">Formula No. 2 — Digital Edition</span>
+        <h3 class="formula-name">The Scarlet Foundation</h3>
+        <ul class="deliverables">
+          <li>Kindle eBook</li>
+          <li>Prequel to A Symphony of Love</li>
+        </ul>
+        <div class="platform-row">
+          <span class="platform-tag">Amazon</span>
+        </div>
+        <div class="cta-row">
+          <a class="btn btn-solid" href="https://www.amazon.com/dp/B0H88D3H58" target="_blank" rel="noopener">Get the eBook</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <span class="eyebrow">Formula No. 3 — Print Edition</span>
+        <h3 class="formula-name">Print &amp; Collector Bundles</h3>
+        <ul class="deliverables">
+          <li>Paperback edition</li>
+          <li>Signed author insert</li>
+          <li>Promotional sticker / recipe card insert</li>
+        </ul>
+        <div class="price-row">
+          <span class="price">$19.99<span class="unit">+ $4.99 shipping</span></span>
+          <span class="platform-tag">Stripe</span>
+        </div>
+        <div class="cta-row">
+          <a class="btn btn-solid" href="https://buy.stripe.com/4gM8wR9gh07B1mvb5z63K08" target="_blank" rel="noopener">Order the Bundle</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="wing">
+    <div class="wing-heading">
+      <h2>For Writers</h2>
+      <div class="line"></div>
+    </div>
+    <p class="wing-note">The FuturIQ formula — Source, Distill, Publish — compounded around your voice.</p>
+    <div class="cards">
+
+      <div class="card">
+        <span class="eyebrow">Formula No. 4 — Consultation</span>
+        <h3 class="formula-name">Editorial &amp; Strategy Consultation</h3>
+        <ul class="deliverables">
+          <li>1-on-1 manuscript structural review</li>
+          <li>Brand voice consulting</li>
+          <li>Publishing workflow setup</li>
+        </ul>
+        <div class="price-row">
+          <span class="price">$110<span class="unit">/hr</span> &middot; $750<span class="unit">/ 3 sessions</span></span>
+          <span class="platform-tag">Stripe</span>
+        </div>
+        <div class="cta-row">
+          <a class="btn btn-outline" href="https://buy.stripe.com/3cI3cxfEF2fJc193D763K06" target="_blank" rel="noopener">Book Hourly — $110</a>
+          <a class="btn btn-outline" href="https://buy.stripe.com/14AeVf9gh3jN3uDddH63K07" target="_blank" rel="noopener">Book 3-Session Package — $750</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <span class="eyebrow">Formula No. 5 — Retainer</span>
+        <h3 class="formula-name">Boutique Publishing &amp; Production Retainers</h3>
+        <ul class="deliverables">
+          <li>Full-scope manuscript styling</li>
+          <li>Distribution formatting</li>
+          <li>Marketing copy</li>
+          <li>Launch prep, start to finish</li>
+        </ul>
+        <div class="price-row">
+          <span class="price">$1,500<span class="unit">/ month</span></span>
+          <span class="platform-tag">Stripe</span>
+        </div>
+        <div class="cta-row">
+          <a class="btn btn-outline" href="https://buy.stripe.com/4gM3cx2RTf2vd5dc9D63K05" target="_blank" rel="noopener">Start the Retainer</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <div class="colophon">
+    Formulas are compounded, not mass-produced — pricing may be adjusted per project.<br>
+    Questions before you order? Write to <a href="mailto:bayoubeaux1070@gmail.com">bayoubeaux1070@gmail.com</a>.
+  </div>
+
+</div>
+</div>
+
+<footer class="site-footer">
+  <div class="footer-brand">Lejohn Richburg III</div>
+  <ul class="footer-links">
+    <li><a href="books.html">Books</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="blog.html">Blog</a></li>
+    <li><a href="formulary.html">Formulary</a></li>
+    <li><a href="index.html#newsletter">Newsletter</a></li>
+  </ul>
+  <ul class="footer-social">
+    <li><a href="https://www.facebook.com/profile.php?id=61591666712856" target="_blank" rel="noopener">Facebook</a></li>
+    <li><a href="https://www.instagram.com/baron.vieux/" target="_blank" rel="noopener">Instagram</a></li>
+    <li><a href="https://www.tiktok.com/@baronvieux" target="_blank" rel="noopener">TikTok</a></li>
+    <li><a href="https://x.com/BayoubeauxVieux" target="_blank" rel="noopener">X</a></li>
+  </ul>
+  <p class="footer-copy">&copy; 2026 FuturIQ / Bayoubeaux1070. All rights reserved.</p>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
