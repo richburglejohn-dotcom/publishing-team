@@ -4,7 +4,7 @@
 
 **Page:** `docs/formulary.html` — live at bayoubeauxllc.com/formulary.html. One page, two wings: reader editions of Culinary Crescendo (Kindle, signed print bundle) and FuturIQ's writer services (editorial consultation, boutique publishing retainer).
 
-**Image:** none produced yet — a screenshot/crop of the page itself (the "The Formulary" wordmark + one card row) works as the launch visual if nothing else is built. Flag if you want a dedicated graphic instead.
+**Image:** `outputs/formulary-launch-post-graphic-v1.png` — 1080x1080, matches the page's own parchment/scarlet/brass ledger look rather than the main site's dark theme, since this announces the Formulary specifically.
 
 ---
 
@@ -65,4 +65,4 @@ The Formulary — bayoubeauxllc.com/formulary.html
 ## Posting notes
 - Same day, all platforms — matches the FuturIQ launch cross-post pattern.
 - Facebook and X carry the full URL directly (clickable there); Instagram and TikTok say "link in bio" — confirm bio links point to bayoubeauxllc.com or the Formulary page specifically before posting.
-- No graphic exists yet for this launch — either screenshot the live page or ask for a dedicated launch image before scheduling.
+- Launch graphic: `outputs/formulary-launch-post-graphic-v1.png` — use for Facebook and Instagram. TikTok is a text/voiceover script, not a static image, per its own section above.
