@@ -1,6 +1,11 @@
 # Google Flow Video Prompt Package
 ## "Roe Velvet" — Baron & Olivia's First Real Meeting (Chapter 9)
 ### Updated 2026-08-24: locked to strict generation — see rules below before running any scene
+### Updated 2026-08-28: added an ElevenLabs narration alternative — see note below
+
+**Two ways to carry the dialogue in this video:**
+- **Option A (below, still the default):** Flow generates in-scene dialogue via lip-sync/voiceover per the Dialogue lines in Scenes 4, 6, and 7, using the `@Voice: Charon` / `@Voice: Aoede` tags.
+- **Option B:** generate all 8 scenes as silent visuals (drop the Dialogue lines and voice tags from the prompts), then lay a single author-voice narration track over the finished cut instead — script ready at `outputs/roe-velvet-elevenlabs-narration-v1.txt`, generate via ElevenLabs the same way Podcast Episode 1 was produced. Worth trying if Flow's in-scene dialogue keeps drifting the way the character likenesses did — one clean narration track sidesteps lip-sync/voice generation entirely and only needs the visuals to hold up, not the dialogue delivery too.
 
 Structured for sequential scene-by-scene input into Google Flow. Each scene is written as a self-contained ~8-second clip. Character reference blocks are repeated in each prompt to help maintain visual consistency across generations.
 
