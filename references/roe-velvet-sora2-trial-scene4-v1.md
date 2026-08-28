@@ -8,10 +8,11 @@
 
 ---
 
-### Reference images to attach (same three locked assets, if Sora 2's ElevenLabs integration supports image references)
+### Reference images to attach (if Sora 2's ElevenLabs integration supports image references)
 - Baron Vieux → `references/baron-vieux-scarlett-notext-v1.jpg`
 - Olivia Marigny → `references/olivia-marigny-headshot-v1.jpg`
 - The cake → `references/roe-velvet-cake-reference-v1.jpg`
+- The Apothecary (setting) → `outputs/apothecary-family-meal-anchor-v1.png` — the setting has only ever been described in text ("exposed brick, warm low light"), never locked visually, same gap that caused the character/cake drift. This is the closest real shot of the restaurant's actual look (brick, copper pendant lights, warm kitchen glow) — not an exact framing match to Scene 4, but useful for mood/lighting consistency.
 
 If ElevenLabs' Sora 2 integration does **not** support attaching reference images the way Flow's Ingredients did, run it as a text-only prompt anyway — that's a useful data point on its own (text-only was also Flow's original failure mode, so this tells us whether Sora 2 is more reliable on likeness from description alone).
 
