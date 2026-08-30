@@ -36,7 +36,7 @@ Secondary references:
 **Mood/Lighting:** Warm spotlight isolating her against the dim room.
 **Audio:** Room hush, a single held note starting to hum, no lyrics/dialogue required. *(Post-production note only — do not type this line into Flow; it doesn't act on audio instructions in the visual prompt.)*
 
-**Regen note (2026-08-30):** first pass came back reading nearly identical to Scene 1 — Flow held a static pose instead of the walking action. Foreground the movement, drop the Audio line from what you actually paste into Flow, and try again.
+**Regen note (2026-08-30):** first pass came back reading nearly identical to Scene 1 — Flow held a static pose instead of the walking action. Foregrounding the movement (and dropping the Audio line from what's pasted into Flow) fixed it — confirmed keeper saved as `references/olivia-marigny-solo-scene2-taking-stage-v1.mp4`.
 
 ### SCENE 3 — The Number
 **Visual:** Close-up, Olivia mid-performance, eyes half-lidded, full command of the moment, one hand loose at her side or resting on the mic.
