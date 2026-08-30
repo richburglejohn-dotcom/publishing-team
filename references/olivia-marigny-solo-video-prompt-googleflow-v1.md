@@ -49,6 +49,12 @@ Secondary references:
 ---
 
 ### Production Notes
+- **Generation checklist (manual Flow runs):**
+  - Upload the contact sheet (`references/olivia-marigny-contact-sheet-v1.jpg`) as the reference image for every clip, matching the panel closest to that scene's register.
+  - Reject on sight, don't try to fix in-prompt: wrong hair color/texture, wrong skin tone, or an off-model face — regenerate rather than accepting a near-miss.
+  - Watch for Baron (or any other figure) drifting into frame — every scene here is solo; reject if anyone else appears.
+  - Don't accept "Turn"-era styling drifting into a pre-debut clip — timeline miss, reject it.
+  - No on-screen text/title cards — add any caption in post per the Production Notes below.
 - **Timeline note:** the contact sheet is her earlier-era look and is the correct anchor here. The more polished, curled/highlighted styling in `outputs/the-turn-facebook-campaign-v1/` (the Baron+Olivia dinner shoot) is a later, "successful" era of her — don't pull that styling into this pre-debut reel, or the timeline reads backwards.
 - No title card / on-screen text requested in this package — Flow's video mode doesn't reliably render legible text; add any "coming soon"-style caption in post if this is cut into a teaser.
 - Generate in order 1→4 for continuity, pasting the character reference fresh each time.

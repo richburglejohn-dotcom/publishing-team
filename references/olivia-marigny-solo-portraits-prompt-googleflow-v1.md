@@ -38,6 +38,13 @@ Photorealistic portrait, medium shot, Olivia Marigny alone in a small courtyard 
 ---
 
 ## Notes
+- **Generation checklist (manual Flow runs):**
+  - Upload the contact sheet (`references/olivia-marigny-contact-sheet-v1.jpg`) as the reference image for every prompt, not just Panel 1 — attach it every time rather than relying on the text description alone.
+  - Reject on sight, don't try to fix in-prompt: wrong hair color/texture, wrong skin tone, or a face that doesn't read as her — regenerate rather than accepting a near-miss.
+  - Watch for a second figure appearing in frame (Baron drift) even though every prompt here specifies solo — reject if anyone else appears.
+  - Don't accept "Turn"-era styling (fuller curled/highlighted hair) drifting into a pre-debut shot — that's a timeline miss, reject it.
+  - No text/title cards on any of these four stills — leave that field blank in Flow.
+  - File naming for keepers: `olivia-marigny-solo-[stage/tarot/street/garden]-v1.[ext]`.
 - **Timeline note:** the contact sheet is her earlier-era look and is the correct anchor for this pre-debut set. The polished/curled-and-highlighted styling in `outputs/the-turn-facebook-campaign-v1/` (the Baron+Olivia dinner shoot) is a later, "successful" era of her — don't pull that styling into these pre-debut shots, or the timeline will read backwards.
 - These are intentionally Baron-free — she hasn't been met yet in-story, so no scene should place them together.
 - If Flow drifts on likeness, reject and regenerate against the reference art listed above rather than accepting an off-model face — same discipline as the Baron/Calliope consistency checks in `references/roe-velvet-video-prompt-googleflow-v1.md`.
