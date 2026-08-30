@@ -32,9 +32,11 @@ Secondary references:
 **Audio:** Faint room tone, distant clink of glasses, no dialogue.
 
 ### SCENE 2 — Taking the Stage
-**Visual:** Wide-to-medium shot, Olivia walking to the mic stand alone, small room watching but out of focus/anonymous — no named characters in frame. She settles a hand on the mic stand.
+**Visual:** Olivia walks confidently across a dim stage toward a vintage microphone stand and rests her hand on it — lead with this action, not the shot description, so Flow doesn't default to a static "singer at mic" pose matching Scene 1. Wide-to-medium shot, small room watching but out of focus/anonymous — no named characters in frame.
 **Mood/Lighting:** Warm spotlight isolating her against the dim room.
-**Audio:** Room hush, a single held note starting to hum, no lyrics/dialogue required.
+**Audio:** Room hush, a single held note starting to hum, no lyrics/dialogue required. *(Post-production note only — do not type this line into Flow; it doesn't act on audio instructions in the visual prompt.)*
+
+**Regen note (2026-08-30):** first pass came back reading nearly identical to Scene 1 — Flow held a static pose instead of the walking action. Foreground the movement, drop the Audio line from what you actually paste into Flow, and try again.
 
 ### SCENE 3 — The Number
 **Visual:** Close-up, Olivia mid-performance, eyes half-lidded, full command of the moment, one hand loose at her side or resting on the mic.
