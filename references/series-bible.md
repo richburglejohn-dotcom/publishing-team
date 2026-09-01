@@ -128,6 +128,7 @@ This file is the source of truth for all agents. Read this before working on any
 ### Outside the Kitchen
 
 **Calliope** *(Calliope Street)*
+- Pronunciation: **"cal-LEE-ope"** — not the classical Greek muse pronunciation ("kuh-LYE-uh-pee"). Use this for any voiceover/audio/podcast direction.
 - Race: Black. Bartender at a neighboring spot. Baron passes it every night on the way home.
 - Street origin: Greek muse of epic poetry.
 - Sharp, perceptive, steady. Watches people reveal what their faces work to conceal.
