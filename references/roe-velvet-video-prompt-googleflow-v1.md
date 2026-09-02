@@ -1,6 +1,6 @@
 # Google Flow Video Prompt Package
 ## "Roe Velvet" — Baron Tests the Dish on Calliope (Chapter 9)
-### Created: 2026-08-08 · Revised: 2026-08-08 (v2 — correct cast) · Revised: 2026-08-21 (v3 — REJECTED batch, regeneration brief)
+### Created: 2026-08-08 · Revised: 2026-08-08 (v2 — correct cast) · Revised: 2026-08-21 (v3 — REJECTED batch, regeneration brief) · Revised: 2026-09-02 (v4 — Calliope redesign + doc cleanup)
 
 Structured for sequential scene-by-scene input into Google Flow. Each scene is written as a self-contained ~8-second clip. Character reference blocks are repeated in each prompt to help maintain visual consistency across generations — adjust freely if Flow drifts on a feature.
 
@@ -8,6 +8,7 @@ Structured for sequential scene-by-scene input into Google Flow. Each scene is w
 - v1 had two things wrong and has been superseded: it put the wrong dish in frame (orange velvet cake / cream-cheese frosting / orange salmon roe instead of the dark red velvet / chocolate frosting / black caviar established in the approved key art), and it put the wrong character in the bar. **Olivia does not appear in Chapter 9.** The manuscript actually merged into the book (`outputs/Scarlet_Foundation_FULL_DRAFT_v1.md`) and the series bible's own chapter outline ("Calliope pushes him forward") both confirm it's **Calliope**, at **her own bar**, who tastes the cake. Olivia is only the unnamed voice Baron hums on the walk back — still unmet at this point in the story.
 - This version (v2) rebuilds the scene list around Calliope and folds in the background details from the approved "ROE VELVET" still (Sazerac Rye bottles, dark wood bar counter, candle, string lights, blurred arched doorway) so the video reads as the same room as the poster.
 - **v3 (2026-08-21) — REJECTED, do not post any cut built from this batch.** The stitched `roe_velvet_full_v1.mp4` (filed 8/19) and the later `Roe_Velvet_TikTok_32s_9x16.mp4` / `Roe_Velvet_-_Calliope's_Bar_...mp4` clips all share the **same v1 dish error again** — plain cake, wrong color, no caviar — plus two new failures: **some shots have no cake on the stand at all**, and **Baron's face/likeness drifts off-model** in multiple shots. Whoever generated this batch was not working from this file, or drifted badly mid-batch. See the checklist below before regenerating.
+- **v4 (2026-09-02) — Calliope redesign applied; wrong-cast doc removed.** A duplicate file (`references/roe-velvet-video-prompts-googleflow.md`, no version suffix) existed alongside this one and directly contradicted the manuscript — it cast Olivia instead of Calliope and locked in the wrong orange-roe/cream-cheese cake as its reference image. That file and its wrong cake reference (`references/roe-velvet-cake-reference-v1.jpg`) have been deleted from the repo; this is now the only Roe Velvet video prompt doc. Separately, Calliope's design has since been updated (tattooed forearms, apothecary/tincture bar) per `references/calliope-solo-portraits-prompt-googleflow-v1.md` — this is treated as retroactive canon, so her likeness anchor and the bar setting below have been updated to match. **`references/calliope-portrait-v1.jpg` is now superseded — do not use it for this scene or any other.**
 
 ---
 
@@ -18,7 +19,7 @@ This is the **third** time this exact dish has come back wrong. Do not free-hand
 1. **The dish is not optional set dressing — it must be visible, in frame, on the stand, in every scene that includes the cake stand, EXCEPT Scene 7** (Baron carrying the stand back empty is correct there — Calliope already ate it). In Scenes 1–6, an empty stand or bare plate is an automatic reject.
 2. **Dish color/style, copied exactly:** dense **dark red** velvet cake, glossy **dark chocolate** frosting, one quenelle of **black** caviar centered on top, small rosemary sprig beside it. Not orange. Not pale. Not cream-cheese frosting. Not empty.
 3. **Baron's likeness — check against `references/scarlet-foundation-front-cover-v1.jpg` or `references/baron-portrait-apron-kitchen-v1.jpeg`** (both confirmed on-model) before accepting any generation: lean build, dark-skinned, sharp-featured, square black glasses, short hair, charcoal-gray double-breasted coat. If a generated frame's Baron doesn't match those reference images closely, reject that clip specifically — don't let it into the stitched cut.
-4. **Calliope now has confirmed reference art** — `references/calliope-portrait-v1.jpg` — use it directly instead of generating her from description alone; the "no prior reference art" note below is outdated as of this revision.
+4. **Calliope's current design (2026-09-02 redesign) — use `references/calliope-bartender-portrait-v2-bun.webp` or `-braids.webp` as the reference art.** `references/calliope-portrait-v1.jpg` (short natural afro, no tattoos, whiskey bar) is superseded — do not use it. Match her tattooed forearms, nose ring, and hoop earrings in every shot.
 5. **Check every clip before moving to the next**, not after the whole batch is stitched. Catching this after a 64-second cut is already assembled wastes an entire regeneration pass.
 
 ---
@@ -27,7 +28,7 @@ This is the **third** time this exact dish has come back wrong. Do not free-hand
 
 **Baron Vieux** — Lean, deliberate build, dark-skinned, sharp-featured, looks younger than he is until you see his eyes. Square-framed black glasses. His chef's coat is **charcoal gray, not white** — a distinct medium-gray fabric, double-breasted, not the standard white chef's whites. Worn leather apron tied at the waist. Calm, theatrical confidence in his movements — a man who treats plating like a stage entrance. **Do not attempt to render embroidered text on the coat** ("Baron Vieux" / "Bayouboujee") — small cursive lettering on fabric has repeatedly come out garbled in Flow generations; leave the coat plain and add any lettering in post if needed.
 
-**Calliope** — Black woman, confident and steady behind her own bar, sharp-eyed and unhurried, the kind of presence that watches people reveal what their faces work to conceal. Simple, practical bartender's outfit, sleeves rolled, a rag over one shoulder or in hand from wiping down the counter. **Reference art now exists: `references/calliope-portrait-v1.jpg`** — match her likeness to that image directly rather than generating from description alone.
+**Calliope** — Black woman, dark skin, sharp-eyed and steady, unhurried, freckles across nose/cheeks, small nose ring and hoop earrings — the kind of presence that watches people reveal what their faces work to conceal. Extensive tattoo work on both forearms (florals, rose, snake/dagger, skull, fine linework). Dark button-up shirt (olive-green or black) with rolled sleeves, sometimes a brown waist apron, a rag over one shoulder or in hand from wiping down the counter. **Reference art: `references/calliope-bartender-portrait-v2-bun.webp`** (curly bun, olive shirt) or **`references/calliope-bartender-portrait-v2-braids.webp`** (braids, black shirt) — either hair variant is valid, match likeness/tattoos to these directly rather than generating from description alone.
 
 **Rampart** — Lead cook, built broad like a shipping container, bald, dark-skinned, deep sheen of kitchen sweat, gray beard, a faint scar on the cheek. Economical movements. Dry, unimpressed energy that masks real affection for Baron. Appears only in Scene 1 (the kitchen) — he does not go to Calliope's bar.
 
@@ -35,7 +36,7 @@ This is the **third** time this exact dish has come back wrong. Do not free-hand
 
 **Setting — the Apothecary kitchen** — French Quarter restaurant kitchen, exposed brick, stainless steel pass, late at night after the dinner rush, cooler and harsher light than the bar.
 
-**Setting — Calliope's bar** — A separate, smaller neighboring bar Baron walks to. Dim, warm amber light. Dark wood bar counter. Bottles of Sazerac Rye visible on the back shelf. A candle burning in a glass holder near where the cake will sit. Soft string lights and a few blurred regulars/an arched doorway or window in the background, out of focus. Quiet at this hour — the post-rush lull before last call.
+**Setting — Calliope's bar** — A separate, smaller neighboring bar Baron walks to: her apothecary-style tincture bar (per the 2026-09-02 redesign), not a generic whiskey bar. Dim, warm amber light. Dark wood counter, exposed bulb pendant lights, glass jars of dried botanicals, "Scarlet Elixir" bottles on the back shelf, hand-painted "Apothecary" signage. A candle burning in a glass holder near where the cake will sit. Soft string lights and a few blurred regulars/an arched doorway or window in the background, out of focus. Quiet at this hour — the post-rush lull before last call.
 
 ---
 
@@ -58,7 +59,7 @@ This is the **third** time this exact dish has come back wrong. Do not free-hand
 ---
 
 ### SCENE 3 — The Reveal
-**Visual:** Wide-to-medium shot as Baron pushes through the door into Calliope's bar — dark wood counter, Sazerac Rye bottles on the shelf behind, candlelight, string lights and a blurred doorway/window in the background. Calliope is behind the bar wiping it down, doesn't look up right away. Baron sets the cake stand down and lifts both hands theatrically, presenting it.
+**Visual:** Wide-to-medium shot as Baron pushes through the door into Calliope's apothecary-style tincture bar — dark wood counter, glass jars of dried botanicals and "Scarlet Elixir" bottles on the shelf behind, candlelight, string lights and a blurred doorway/window in the background. Calliope is behind the bar wiping it down, doesn't look up right away — tattooed forearms visible. Baron sets the cake stand down and lifts both hands theatrically, presenting it.
 **Dialogue (Calliope):** "You didn't call ahead."
 **Dialogue (Baron):** "Can't call ahead to something I didn't schedule."
 **Dialogue (Baron):** "You will notice that I have done the unthinkable. I have made the roe... wait."
@@ -105,7 +106,7 @@ This is the **third** time this exact dish has come back wrong. Do not free-hand
 - Recommend generating in order 1→7 for continuity momentum, even though Flow treats each as independent — visual consistency holds up better when character and dish descriptions are pasted fresh each time rather than relied on from memory.
 - **Dish color/style is the thing to check first on every generated clip** before moving on — dark red velvet crumb, dark chocolate frosting, black caviar, actually present in frame (Scenes 1–6). If Flow drifts back toward a pale/orange cake, no caviar, or an empty stand, regenerate that scene immediately — do not carry a bad clip into the stitched cut hoping it reads fine at speed.
 - **Baron likeness check on every clip too, same as the dish** — compare against `references/scarlet-foundation-front-cover-v1.jpg` or `references/baron-portrait-apron-kitchen-v1.jpeg`. This has now failed once (the 2026-08-21 batch); treat it as seriously as the dish check going forward.
-- **Calliope reference art now exists** (`references/calliope-portrait-v1.jpg`) — paste it in directly rather than relying on her first in-sequence generation as the reference.
+- **Calliope reference art** (`references/calliope-bartender-portrait-v2-bun.webp` or `-braids.webp`) — paste it in directly rather than relying on her first in-sequence generation as the reference. Do not use the superseded `calliope-portrait-v1.jpg`.
 - Coat embroidery: left plain in the prompt on purpose (see character reference above) — do not ask Flow to render "Baron Vieux" / "Bayouboujee" text on fabric.
 - For the post-production pass: the established `delogo` watermark removal and per-clip `loudnorm` pipeline apply the same way as prior videos. Scene 5 (the quenelle close-up) is a good candidate for a slight slow-motion stretch in the edit.
 - All dialogue is pulled directly from the Chapter 9 draft (`outputs/Scarlet_Foundation_FULL_DRAFT_v1.md`) for continuity with the manuscript.
