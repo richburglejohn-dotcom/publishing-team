@@ -1,5 +1,6 @@
 # Olivia Marigny Solo Teaser — Manual Posting Guide
 ### Created: September 1, 2026
+### Updated: September 2, 2026 — added fade-in/fade-out name card; posted to TikTok via Buffer
 
 ---
 
@@ -34,3 +35,4 @@ Follow for the countdown. Link in bio.
 | # | Platform | Content | Who | Status |
 |---|----------|---------|-----|--------|
 | 1 | Instagram Reels | Olivia Marigny Solo Teaser | You (manual) | 📋 Ready |
+| 2 | TikTok (@baronvieux) | Olivia Marigny Solo Teaser | Buffer (automated) | ✅ Posted 2026-09-02 |
