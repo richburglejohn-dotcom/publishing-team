@@ -100,6 +100,9 @@ This is the **third** time this exact dish has come back wrong. Do not free-hand
 ### SCENE 6 — Calliope's Bite
 **REJECTED twice (2026-09-02), split into 6A/6B.** Take 1 (8s): Calliope's closing line was cut off mid-sentence — three dialogue lines plus the bite/reaction action is too much for one clip. Take 2, regenerated at 10s to buy room: still didn't fit, and her wardrobe drifted (olive-green button-up shirt replaced with bare shoulders, no visible shirt at all). Splitting into two ~8s clips instead of fighting duration further; wardrobe locked explicitly in both halves below since it drifted once already.
 
+**Scene 6A keeper confirmed (2026-09-02):** `references/roe-velvet-scene6a-bite-v1.mp4` — dialogue completed cleanly, olive shirt correct, loose curly hair down (not pulled back), dish visible, ends on a genuine finished smile.
+**Scene 6B note:** first split take (2026-09-02) got dialogue, wardrobe, dish, and camera discipline all correct — but her hair came out pulled back into a bun instead of the loose curls established in 6A and every other Calliope shot in this sequence. An attempted Flow edit to fix it didn't work. Regenerating with hair explicitly locked (see below) rather than re-editing — same lesson as the Scene 5 hat: regenerate with an explicit callout, don't fight the edit tool. **Hairstyle rule going forward: loose curly hair down is the sequence-wide choice for all of Calliope's Roe Velvet shots — the "either bun or braids is valid" note in the portrait-prompt doc applies to standalone portraits only, not this continuous scene.**
+
 #### SCENE 6A — The Bite
 **Visual:** Close-up on Calliope's face — curly hair, nose ring, tattooed forearms, **wearing her olive-green button-up shirt (do not omit or replace with bare shoulders)** — as she takes the bite, fork visibly holding a piece of dark red velvet cake with dark chocolate frosting and beaded black caviar together. Her expression shifts through surprise into something more complicated and pleased. **Camera stays on Calliope throughout — do not cut to Baron.**
 **Dialogue (Calliope):** "Okay. That's — that's actually a bit. That's a whole bit."
@@ -107,7 +110,7 @@ This is the **third** time this exact dish has come back wrong. Do not free-hand
 **Audio:** Light bar ambiance, dialogue line.
 
 #### SCENE 6B — The Rebuttal
-**Visual:** Close-up on Calliope's face, continuing from 6A — same olive-green button-up shirt, same tattoos/nose ring, fork now set down. The cake remains visible on the stand in soft focus in front of her. **Camera stays on Calliope throughout — Baron is heard off-camera, not shown.**
+**Visual:** Close-up on Calliope's face, continuing from 6A — same olive-green button-up shirt, same tattoos/nose ring, **same loose curly hair down as in 6A (not pulled back, not in a bun or updo)**, fork now set down. The cake remains visible on the stand in soft focus in front of her. **Camera stays on Calliope throughout — Baron is heard off-camera, not shown.**
 **Dialogue (Baron, off-camera):** "It is a dish."
 **Dialogue (Calliope):** "No. I've watched you run this exact routine on me for two years, Baron. I know a bit when I'm being handed one. You should be charging cover."
 **Mood/Lighting:** Soft warm candlelight on her face, shallow focus, the bar softly blurred behind her.
