@@ -2,6 +2,16 @@
 ## "Roe Velvet" — Baron & Olivia's First Real Meeting (Chapter 9)
 ### Updated 2026-08-24: locked to strict generation — see rules below before running any scene
 
+### ⚠ DEPRECATED (2026-08-30) — do not generate from this file
+
+**This entire package is built on a continuity error.** There is no "Baron and Olivia's first real meeting" scene in Chapter 9 — Chapter 9 ("Roe Velvet") is a prequel chapter (`outputs/Scarlet_Foundation_FULL_DRAFT_v1.md`, confirmed by `references/series-bible.md` and `outputs/continuity-report.md`), and the person Baron serves the cake to is **Calliope, at her own bar** — not Olivia. Olivia never appears in this scene; she's only the unnamed voice Baron hums on the walk back.
+
+This same mistake was made and corrected once already on 2026-08-08 (see `references/roe-velvet-video-prompt-googleflow-v1.md`, the correct file). This file re-introduced it on 2026-08-21 by pulling the original, never-cleaned-up Drive draft back in, and multiple sessions since then (8/24, 8/25) built substantial "locked reference" tooling on top of it — none of which should be used going forward. Everything generated from this file (`roe-velvet-youtube-v2.mp4`, the orange-velvet-cake clips, the YouTube post copy describing it as a Book 1 scene) shares the same error and should not be published as depicting this scene.
+
+**The correct, active file is `references/roe-velvet-video-prompt-googleflow-v1.md`** (singular "prompt") — Calliope, dark red velvet cake, black caviar, her own bar. That file's 2026-08-21 STOP checklist is the current regeneration brief. This file is kept for history only; do not copy prompts, reference images, or "locked" assets from it into new work.
+
+---
+
 Structured for sequential scene-by-scene input into Google Flow. Each scene is written as a self-contained ~8-second clip. Character reference blocks are repeated in each prompt to help maintain visual consistency across generations.
 
 ---

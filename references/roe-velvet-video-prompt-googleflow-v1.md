@@ -1,6 +1,8 @@
 # Google Flow Video Prompt Package
 ## "Roe Velvet" — Baron Tests the Dish on Calliope (Chapter 9)
-### Created: 2026-08-08 · Revised: 2026-08-08 (v2 — correct cast) · Revised: 2026-08-21 (v3 — REJECTED batch, regeneration brief)
+### Created: 2026-08-08 · Revised: 2026-08-08 (v2 — correct cast) · Revised: 2026-08-21 (v3 — REJECTED batch, regeneration brief) · Note added 2026-08-30
+
+**This is the correct, active file for this scene.** A similarly-named file, `references/roe-velvet-video-prompts-googleflow.md` (plural "prompts", no "-v1"), re-introduced the wrong-cast/wrong-dish error this file already corrects and has substantial work built on it (locked references, generated clips, YouTube copy) — it is now marked deprecated. Don't pull prompts, reference images, or generated clips from that file into this one; they depict the wrong scene.
 
 Structured for sequential scene-by-scene input into Google Flow. Each scene is written as a self-contained ~8-second clip. Character reference blocks are repeated in each prompt to help maintain visual consistency across generations — adjust freely if Flow drifts on a feature.
 
