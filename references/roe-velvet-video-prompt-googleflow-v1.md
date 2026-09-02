@@ -98,9 +98,17 @@ This is the **third** time this exact dish has come back wrong. Do not free-hand
 ---
 
 ### SCENE 6 — Calliope's Bite
-**Visual:** Close-up on Calliope's face as she finally takes the bite — cake, frosting, caviar together. Her expression shifts through surprise into something more complicated and pleased. She sets the fork down slowly.
+**REJECTED twice (2026-09-02), split into 6A/6B.** Take 1 (8s): Calliope's closing line was cut off mid-sentence — three dialogue lines plus the bite/reaction action is too much for one clip. Take 2, regenerated at 10s to buy room: still didn't fit, and her wardrobe drifted (olive-green button-up shirt replaced with bare shoulders, no visible shirt at all). Splitting into two ~8s clips instead of fighting duration further; wardrobe locked explicitly in both halves below since it drifted once already.
+
+#### SCENE 6A — The Bite
+**Visual:** Close-up on Calliope's face — curly hair, nose ring, tattooed forearms, **wearing her olive-green button-up shirt (do not omit or replace with bare shoulders)** — as she takes the bite, fork visibly holding a piece of dark red velvet cake with dark chocolate frosting and beaded black caviar together. Her expression shifts through surprise into something more complicated and pleased. **Camera stays on Calliope throughout — do not cut to Baron.**
 **Dialogue (Calliope):** "Okay. That's — that's actually a bit. That's a whole bit."
-**Dialogue (Baron):** "It is a dish."
+**Mood/Lighting:** Soft warm candlelight on her face, shallow focus, the bar softly blurred behind her.
+**Audio:** Light bar ambiance, dialogue line.
+
+#### SCENE 6B — The Rebuttal
+**Visual:** Close-up on Calliope's face, continuing from 6A — same olive-green button-up shirt, same tattoos/nose ring, fork now set down. The cake remains visible on the stand in soft focus in front of her. **Camera stays on Calliope throughout — Baron is heard off-camera, not shown.**
+**Dialogue (Baron, off-camera):** "It is a dish."
 **Dialogue (Calliope):** "No. I've watched you run this exact routine on me for two years, Baron. I know a bit when I'm being handed one. You should be charging cover."
 **Mood/Lighting:** Soft warm candlelight on her face, shallow focus, the bar softly blurred behind her.
 **Audio:** Light bar ambiance, dialogue lines.
