@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>The Formulary | Culinary Crescendo</title>
-<meta name="description" content="The Formulary — reader editions of the Culinary Crescendo series and FuturIQ publishing services for writers, compounded to order.">
+<title>FuturIQ Publishing Pipeline | Bayou Beaux LLC</title>
+<meta name="description" content="The AI-assisted publishing system behind Culinary Crescendo, now as a service. Blueprint, Co-Pilot, and Signature offers for expert authors.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Lora:ital,wght@0,400;0,500;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -80,7 +80,7 @@
 
   .formulary-page header.hero {
     text-align: center;
-    padding-bottom: 56px;
+    padding-bottom: 40px;
     border-bottom: 1px solid var(--rule);
     margin-bottom: 56px;
   }
@@ -90,10 +90,11 @@
   .formulary-page h1.wordmark {
     font-family: 'Cormorant Garamond', Georgia, serif;
     font-weight: 600;
-    font-size: clamp(44px, 7vw, 68px);
+    font-size: clamp(38px, 6.4vw, 60px);
     letter-spacing: 0.01em;
     margin: 0 0 6px;
     text-wrap: balance;
+    line-height: 1.1;
   }
 
   .formulary-page .wordmark em {
@@ -102,12 +103,22 @@
   }
 
   .formulary-page .subhead {
-    max-width: 46ch;
+    max-width: 56ch;
     margin: 18px auto 0;
     font-size: 17px;
     line-height: 1.65;
     color: var(--ink-soft);
   }
+
+  .formulary-page .hero-ctas {
+    display: flex;
+    gap: 14px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+  }
+
+  .formulary-page .hero-ctas .btn { width: auto; padding-left: 26px; padding-right: 26px; }
 
   .formulary-page .sprig {
     display: block;
@@ -149,7 +160,72 @@
     font-size: 14px;
     color: var(--ink-faint);
     margin: -12px 0 22px;
-    max-width: 60ch;
+    max-width: 64ch;
+  }
+
+  /* ---- Problem callout ---- */
+  .formulary-page .callout {
+    background: var(--paper-raised);
+    border-left: 3px solid var(--scarlet-f);
+    border-radius: 0 3px 3px 0;
+    padding: 26px 28px;
+    font-size: 16.5px;
+    line-height: 1.7;
+    color: var(--ink-soft);
+    box-shadow: 0 1px 2px var(--shadow);
+  }
+
+  .formulary-page .callout strong { color: var(--ink); }
+
+  /* ---- Method / phases ---- */
+  .formulary-page .phase-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    counter-reset: phase;
+    border-top: 1px solid var(--rule);
+  }
+
+  .formulary-page .phase-item {
+    counter-increment: phase;
+    display: grid;
+    grid-template-columns: 48px 1fr;
+    gap: 18px;
+    padding: 20px 0;
+    border-bottom: 1px solid var(--rule);
+  }
+
+  .formulary-page .phase-item .num {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+    font-size: 30px;
+    font-weight: 600;
+    color: var(--brass);
+    line-height: 1;
+  }
+
+  .formulary-page .phase-item .num::before {
+    content: counter(phase, decimal-leading-zero);
+  }
+
+  .formulary-page .phase-item h3 {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+    font-weight: 600;
+    font-size: 20px;
+    margin: 0 0 4px;
+  }
+
+  .formulary-page .phase-item p {
+    margin: 0;
+    font-size: 15px;
+    color: var(--ink-soft);
+    line-height: 1.6;
+  }
+
+  .formulary-page .method-footnote {
+    margin-top: 18px;
+    font-size: 13.5px;
+    color: var(--ink-faint);
+    font-style: italic;
   }
 
   .formulary-page .cards {
@@ -166,6 +242,32 @@
     box-shadow: 0 1px 2px var(--shadow);
     display: flex;
     flex-direction: column;
+    position: relative;
+  }
+
+  .formulary-page .card.featured {
+    border-color: var(--scarlet-f);
+    box-shadow: 0 2px 10px var(--shadow);
+  }
+
+  .formulary-page .card .badge {
+    position: absolute;
+    top: -11px;
+    right: 20px;
+    background: var(--scarlet-f);
+    color: var(--scarlet-ink);
+    font-family: 'IBM Plex Mono', ui-monospace, monospace;
+    font-size: 10px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    padding: 4px 10px;
+    border-radius: 3px;
+  }
+
+  .formulary-page .card .best-for {
+    font-size: 13px;
+    color: var(--ink-faint);
+    margin: 0 0 2px;
   }
 
   .formulary-page .card .formula-name {
@@ -199,6 +301,12 @@
     color: var(--brass);
   }
 
+  .formulary-page .card .meta-row {
+    font-size: 12.5px;
+    color: var(--ink-faint);
+    margin: 0 0 14px;
+  }
+
   .formulary-page .price-row {
     display: flex;
     align-items: baseline;
@@ -230,6 +338,13 @@
     margin-left: 4px;
   }
 
+  .formulary-page .price .was {
+    font-size: 13px;
+    color: var(--ink-faint);
+    text-decoration: line-through;
+    margin-right: 6px;
+  }
+
   .formulary-page .platform-tag {
     font-family: 'IBM Plex Mono', ui-monospace, monospace;
     font-size: 10.5px;
@@ -243,6 +358,13 @@
   }
 
   .formulary-page .cta-row .btn + .btn { margin-top: 8px; }
+
+  .formulary-page .cta-note {
+    font-size: 12px;
+    color: var(--ink-faint);
+    text-align: center;
+    margin: 8px 0 0;
+  }
 
   .formulary-page .btn {
     display: inline-flex;
@@ -259,6 +381,8 @@
     text-decoration: none;
     border: 1px solid var(--scarlet-f);
     transition: background 0.15s ease, color 0.15s ease;
+    cursor: pointer;
+    background: transparent;
   }
 
   .formulary-page .btn-solid {
@@ -274,6 +398,240 @@
   .formulary-page .btn-outline:hover {
     background: var(--scarlet-f);
     color: var(--scarlet-ink);
+  }
+
+  .formulary-page .btn-disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+
+  /* ---- Case study ---- */
+  .formulary-page .case-study-body {
+    font-size: 16px;
+    line-height: 1.75;
+    color: var(--ink-soft);
+  }
+
+  .formulary-page .case-quote {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+    font-style: italic;
+    font-size: 21px;
+    color: var(--ink);
+    border-left: 3px solid var(--brass);
+    padding-left: 22px;
+    margin: 24px 0;
+  }
+
+  .formulary-page .case-strip {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 14px;
+    margin: 22px 0 4px;
+  }
+
+  .formulary-page .case-strip img {
+    width: 100%;
+    aspect-ratio: 2 / 3;
+    object-fit: cover;
+    border: 1px solid var(--rule);
+    border-radius: 3px;
+  }
+
+  .formulary-page .case-strip figcaption {
+    font-family: 'IBM Plex Mono', ui-monospace, monospace;
+    font-size: 10.5px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--ink-faint);
+    margin-top: 6px;
+    text-align: center;
+  }
+
+  .formulary-page .case-strip figure { margin: 0; }
+
+  /* ---- Form ---- */
+  .formulary-page .intake-panel {
+    background: var(--paper-raised);
+    border: 1px solid var(--rule);
+    border-radius: 3px;
+    padding: 34px 30px;
+    box-shadow: 0 1px 2px var(--shadow);
+  }
+
+  .formulary-page .field {
+    margin-bottom: 20px;
+  }
+
+  .formulary-page .field label {
+    display: block;
+    font-family: 'IBM Plex Mono', ui-monospace, monospace;
+    font-size: 12px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+    margin-bottom: 8px;
+  }
+
+  .formulary-page .field .hint {
+    display: block;
+    font-family: 'Lora', Georgia, serif;
+    text-transform: none;
+    letter-spacing: 0;
+    font-size: 12.5px;
+    color: var(--ink-faint);
+    margin-top: 4px;
+  }
+
+  .formulary-page .field input[type="text"],
+  .formulary-page .field input[type="email"],
+  .formulary-page .field input[type="url"],
+  .formulary-page .field select,
+  .formulary-page .field textarea,
+  .formulary-page .field input[type="file"] {
+    width: 100%;
+    padding: 11px 12px;
+    background: var(--paper);
+    border: 1px solid var(--rule);
+    border-radius: 3px;
+    color: var(--ink);
+    font-family: 'Lora', Georgia, serif;
+    font-size: 15px;
+  }
+
+  .formulary-page .field textarea { min-height: 90px; resize: vertical; }
+
+  .formulary-page .field input:focus,
+  .formulary-page .field select:focus,
+  .formulary-page .field textarea:focus {
+    outline: none;
+    border-color: var(--brass);
+  }
+
+  .formulary-page .radio-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .formulary-page .radio-option {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: var(--paper);
+    border: 1px solid var(--rule);
+    border-radius: 3px;
+    padding: 12px 14px;
+    font-size: 14.5px;
+    cursor: pointer;
+  }
+
+  .formulary-page .radio-option input { accent-color: var(--scarlet-f); }
+
+  .formulary-page .checkbox-field {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    font-size: 14px;
+    color: var(--ink-soft);
+    line-height: 1.5;
+  }
+
+  .formulary-page .checkbox-field input { margin-top: 4px; accent-color: var(--scarlet-f); }
+
+  .formulary-page .form-step-2 {
+    margin-top: 8px;
+    padding-top: 20px;
+    border-top: 1px dashed var(--rule);
+  }
+
+  .formulary-page .form-step-2[hidden] { display: none; }
+
+  .formulary-page .form-submit-note {
+    font-size: 12.5px;
+    color: var(--ink-faint);
+    margin-top: -8px;
+    margin-bottom: 20px;
+  }
+
+  .formulary-page .intake-result {
+    text-align: center;
+    padding: 20px 0;
+  }
+
+  .formulary-page .intake-result h3 {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+    font-size: 24px;
+    margin: 0 0 10px;
+  }
+
+  .formulary-page .intake-result p {
+    color: var(--ink-soft);
+    max-width: 52ch;
+    margin: 0 auto 18px;
+  }
+
+  .formulary-page .calendly-embed {
+    margin-top: 20px;
+    border: 1px solid var(--rule);
+    border-radius: 3px;
+    overflow: hidden;
+  }
+
+  .formulary-page .form-error {
+    color: var(--scarlet-f);
+    font-size: 13.5px;
+    margin-top: -8px;
+    margin-bottom: 16px;
+  }
+
+  /* ---- FAQ ---- */
+  .formulary-page .faq-list {
+    border-top: 1px solid var(--rule);
+  }
+
+  .formulary-page .faq-item {
+    padding: 20px 0;
+    border-bottom: 1px solid var(--rule);
+  }
+
+  .formulary-page .faq-item h3 {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 18px;
+    margin: 0 0 8px;
+  }
+
+  .formulary-page .faq-item p {
+    margin: 0;
+    font-size: 15px;
+    color: var(--ink-soft);
+    line-height: 1.65;
+  }
+
+  /* ---- Footer CTA ---- */
+  .formulary-page .footer-cta {
+    text-align: center;
+    background: var(--paper-raised);
+    border: 1px solid var(--rule);
+    border-radius: 3px;
+    padding: 44px 28px;
+    margin-bottom: 48px;
+  }
+
+  .formulary-page .footer-cta h2 {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 28px;
+    margin: 0 0 20px;
+  }
+
+  .formulary-page .footer-cta .btn {
+    width: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: inline-flex;
   }
 
   .formulary-page .colophon {
@@ -294,6 +652,7 @@
   @media (max-width: 640px) {
     .formulary-page .cards { grid-template-columns: 1fr; }
     .formulary-page .page { padding: 48px 20px 72px; }
+    .formulary-page .phase-item { grid-template-columns: 36px 1fr; }
   }
 </style>
 </head>
@@ -321,8 +680,12 @@
 
   <header class="hero">
     <div class="eyebrow">Bayoubeaux LLC &middot; FuturIQ Publishing</div>
-    <h1 class="wordmark">The <em>Formulary</em></h1>
-    <p class="subhead">No mass production — just craft, intention, and small batches that actually worked. Every formula below is mixed to order, the way it's always been done on Decatur Street.</p>
+    <h1 class="wordmark">Turn Your Expertise Into a <em>Published Book</em>, Without Starting From Scratch</h1>
+    <p class="subhead">FuturIQ is the AI-assisted publishing pipeline behind Culinary Crescendo. Now available for experts, chefs, and non-fiction authors who want to publish fast, professionally, and in their own voice.</p>
+    <div class="hero-ctas">
+      <a href="#offers" class="btn btn-solid">Choose Your Publishing Path</a>
+      <a href="#case-study" class="btn btn-outline">See How Culinary Crescendo Was Built</a>
+    </div>
     <svg class="sprig" viewBox="0 0 64 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
       <path d="M2 10 H62" stroke-width="1"/>
       <path d="M20 10 C 24 4, 30 4, 32 10 C 30 16, 24 16, 20 10 Z" stroke-width="1"/>
@@ -330,16 +693,172 @@
     </svg>
   </header>
 
-  <section class="wing">
+  <section class="wing" id="problem">
+    <div class="callout">
+      You have the knowledge. The market wants it. But writing a real book takes months, design is expensive, and Amazon KDP is confusing. Most experts quit after chapter 3. <strong>FuturIQ solves that by turning your expertise into a system, not just a manuscript.</strong>
+    </div>
+  </section>
+
+  <section class="wing" id="method">
     <div class="wing-heading">
-      <h2>For Readers</h2>
+      <h2>How It Works</h2>
       <div class="line"></div>
     </div>
-    <p class="wing-note">Culinary Crescendo, dispensed however you take your stories.</p>
+    <p class="wing-note">The Formulary Method — six phases, each with a checklist, a template, and a Loom walkthrough.</p>
+    <ol class="phase-list">
+      <li class="phase-item">
+        <span class="num"></span>
+        <div>
+          <h3>Positioning Lock</h3>
+          <p>Audience, promise, table of contents, competing titles.</p>
+        </div>
+      </li>
+      <li class="phase-item">
+        <span class="num"></span>
+        <div>
+          <h3>Research Pack</h3>
+          <p>Sources, stories, facts to verify.</p>
+        </div>
+      </li>
+      <li class="phase-item">
+        <span class="num"></span>
+        <div>
+          <h3>Drafting</h3>
+          <p>Voice-trained prompts for intro, core chapters, and close.</p>
+        </div>
+      </li>
+      <li class="phase-item">
+        <span class="num"></span>
+        <div>
+          <h3>Human Refinement</h3>
+          <p>Our edit pass for voice, accuracy, and originality.</p>
+        </div>
+      </li>
+      <li class="phase-item">
+        <span class="num"></span>
+        <div>
+          <h3>Production</h3>
+          <p>Cover brief, interior design, formatting.</p>
+        </div>
+      </li>
+      <li class="phase-item">
+        <span class="num"></span>
+        <div>
+          <h3>Distribution</h3>
+          <p>KDP setup, description, keywords, launch assets.</p>
+        </div>
+      </li>
+    </ol>
+  </section>
+
+  <section class="wing" id="offers">
+    <div class="wing-heading">
+      <h2>Choose Your Path</h2>
+      <div class="line"></div>
+    </div>
+    <p class="wing-note">Three ways to run the Formulary Method — DIY with the templates, guided with weekly support, or fully managed.</p>
     <div class="cards">
 
       <div class="card">
-        <span class="eyebrow">Formula No. 1 — Digital Edition</span>
+        <span class="eyebrow">Learn the System</span>
+        <p class="best-for">Best for: Self-starters who want the templates</p>
+        <h3 class="formula-name">FuturIQ Blueprint</h3>
+        <ul class="deliverables">
+          <li>90-minute workshop recording</li>
+          <li>Prompt library (outline, chapter, edit)</li>
+          <li>Interior and cover brief templates</li>
+          <li>Amazon KDP checklist</li>
+          <li>Notion workspace clone</li>
+        </ul>
+        <div class="price-row">
+          <span class="price">$397</span>
+          <span class="platform-tag">Instant access</span>
+        </div>
+        <div class="cta-row">
+          <a class="btn btn-solid" id="blueprint-cta" href="mailto:bayoubeaux1070@gmail.com?subject=FuturIQ%20Blueprint%20Waitlist" target="_blank" rel="noopener">Join the Blueprint Waitlist</a>
+        </div>
+      </div>
+
+      <div class="card featured">
+        <span class="badge">Founding Cohort</span>
+        <span class="eyebrow">Done With You &middot; Core Offer</span>
+        <p class="best-for">Best for: Experts who want guidance and accountability</p>
+        <h3 class="formula-name">FuturIQ Co-Pilot</h3>
+        <ul class="deliverables">
+          <li>6-week sprint</li>
+          <li>Weekly review calls</li>
+          <li>Positioning and outline session</li>
+          <li>AI-assisted drafting with human edit pass</li>
+          <li>Cover and interior direction</li>
+          <li>KDP setup and launch kit</li>
+        </ul>
+        <p class="meta-row">Timeline: 6 weeks &middot; Deliverable: Publish-ready book files</p>
+        <div class="price-row">
+          <span class="price"><span class="was">$3,500</span>$2,500</span>
+          <span class="platform-tag">5 founding spots</span>
+        </div>
+        <div class="cta-row">
+          <a class="btn btn-solid" href="#formulary-intake" data-preselect-path="Co-Pilot">Apply for Co-Pilot</a>
+        </div>
+        <p class="cta-note">Application takes 3 minutes. We review within 24 hours.</p>
+      </div>
+
+      <div class="card">
+        <span class="eyebrow">Done For You</span>
+        <p class="best-for">Best for: Busy founders and chefs who want us to run it</p>
+        <h3 class="formula-name">FuturIQ Signature</h3>
+        <ul class="deliverables">
+          <li>Full pipeline management</li>
+          <li>Interview to extract expertise</li>
+          <li>Full manuscript refinement</li>
+          <li>Professional cover and interior</li>
+          <li>KDP and paperback setup</li>
+        </ul>
+        <p class="meta-row">Timeline: 8–10 weeks &middot; Capacity: 2 spots per month, application only</p>
+        <div class="price-row">
+          <span class="price">From $8,500</span>
+          <span class="platform-tag">Application only</span>
+        </div>
+        <div class="cta-row">
+          <a class="btn btn-solid" href="#formulary-intake" data-preselect-path="Signature">Apply for Signature</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="wing" id="case-study">
+    <div class="wing-heading">
+      <h2>The Case Study</h2>
+      <div class="line"></div>
+    </div>
+    <p class="wing-note">How Culinary Crescendo Was Built with FuturIQ</p>
+    <div class="case-study-body">
+      <p>Culinary Crescendo didn't start with a blank page. It started with a positioning sheet, a table of contents, and a research pack — then ran through all six phases of the Formulary Method: drafting, human refinement, production, and distribution to Amazon.</p>
+      <div class="case-quote">"This is not AI slop. This is expert knowledge systematized and published in your voice."</div>
+      <div class="case-strip">
+        <figure>
+          <img src="images/book1-cover.jpg" alt="A Symphony of Love in the Big Easy — cover">
+          <figcaption>Book One</figcaption>
+        </figure>
+        <figure>
+          <img src="images/prequel-cover.jpg" alt="The Scarlet Foundation — cover">
+          <figcaption>The Prequel</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="wing" id="the-books">
+    <div class="wing-heading">
+      <h2>Proof: Get the Books</h2>
+      <div class="line"></div>
+    </div>
+    <p class="wing-note">The finished output of the same pipeline — Culinary Crescendo, dispensed however you take your stories.</p>
+    <div class="cards">
+
+      <div class="card">
+        <span class="eyebrow">Digital Edition</span>
         <h3 class="formula-name">A Symphony of Love in the Big Easy</h3>
         <ul class="deliverables">
           <li>Kindle eBook</li>
@@ -353,7 +872,7 @@
       </div>
 
       <div class="card">
-        <span class="eyebrow">Formula No. 2 — Digital Edition</span>
+        <span class="eyebrow">Digital Edition</span>
         <h3 class="formula-name">The Scarlet Foundation</h3>
         <ul class="deliverables">
           <li>Kindle eBook</li>
@@ -368,7 +887,7 @@
       </div>
 
       <div class="card">
-        <span class="eyebrow">Formula No. 3 — Print Edition</span>
+        <span class="eyebrow">Print Edition</span>
         <h3 class="formula-name">Print &amp; Collector Bundles</h3>
         <ul class="deliverables">
           <li>Paperback edition</li>
@@ -387,56 +906,149 @@
     </div>
   </section>
 
-  <section class="wing">
+  <section class="wing" id="formulary-intake">
     <div class="wing-heading">
-      <h2>For Writers</h2>
+      <h2>Start Your Publishing Formulary</h2>
       <div class="line"></div>
     </div>
-    <p class="wing-note">The FuturIQ formula — Source, Distill, Publish — compounded around your voice.</p>
-    <div class="cards">
+    <p class="wing-note">Tell us about your book. We'll recommend the right path.</p>
 
-      <div class="card">
-        <span class="eyebrow">Formula No. 4 — Consultation</span>
-        <h3 class="formula-name">Editorial &amp; Strategy Consultation</h3>
-        <ul class="deliverables">
-          <li>1-on-1 manuscript structural review</li>
-          <li>Brand voice consulting</li>
-          <li>Publishing workflow setup</li>
-        </ul>
-        <div class="price-row">
-          <span class="price">$110<span class="unit">/hr</span> &middot; $750<span class="unit">/ 3 sessions</span></span>
-          <span class="platform-tag">Stripe</span>
-        </div>
-        <div class="cta-row">
-          <a class="btn btn-outline" href="https://buy.stripe.com/3cI3cxfEF2fJc193D763K06" target="_blank" rel="noopener">Book Hourly — $110</a>
-          <a class="btn btn-outline" href="https://buy.stripe.com/14AeVf9gh3jN3uDddH63K07" target="_blank" rel="noopener">Book 3-Session Package — $750</a>
-        </div>
-      </div>
+    <div class="intake-panel">
+      <form id="intake-form">
 
-      <div class="card">
-        <span class="eyebrow">Formula No. 5 — Retainer</span>
-        <h3 class="formula-name">Boutique Publishing &amp; Production Retainers</h3>
-        <ul class="deliverables">
-          <li>Full-scope manuscript styling</li>
-          <li>Distribution formatting</li>
-          <li>Marketing copy</li>
-          <li>Launch prep, start to finish</li>
-        </ul>
-        <div class="price-row">
-          <span class="price">$1,500<span class="unit">/ month</span></span>
-          <span class="platform-tag">Stripe</span>
+        <div class="field">
+          <label for="f-name">Full Name</label>
+          <input type="text" id="f-name" name="name" required>
         </div>
-        <div class="cta-row">
-          <a class="btn btn-outline" href="https://buy.stripe.com/4gM3cx2RTf2vd5dc9D63K05" target="_blank" rel="noopener">Start the Retainer</a>
-        </div>
-      </div>
 
+        <div class="field">
+          <label for="f-email">Email</label>
+          <input type="email" id="f-email" name="email" required>
+        </div>
+
+        <div class="field">
+          <label for="f-book">What is your book about in one sentence?</label>
+          <input type="text" id="f-book" name="book_summary" required>
+        </div>
+
+        <div class="field">
+          <label for="f-audience">Who is it for?</label>
+          <input type="text" id="f-audience" name="audience" required>
+        </div>
+
+        <div class="field">
+          <label for="f-published">Have you published before?</label>
+          <select id="f-published" name="published_before" required>
+            <option value="">Select one&hellip;</option>
+            <option>No</option>
+            <option>Self-published</option>
+            <option>Traditional</option>
+          </select>
+        </div>
+
+        <div class="field">
+          <label for="f-blocker">What is your biggest blocker right now?</label>
+          <select id="f-blocker" name="biggest_blocker" required>
+            <option value="">Select one&hellip;</option>
+            <option>No time</option>
+            <option>Don't know structure</option>
+            <option>Writing</option>
+            <option>Design and formatting</option>
+            <option>Amazon setup</option>
+          </select>
+        </div>
+
+        <div class="field">
+          <label>Which path interests you?</label>
+          <div class="radio-group" id="path-radio-group">
+            <label class="radio-option"><input type="radio" name="path" value="Blueprint $397" required> Blueprint — $397</label>
+            <label class="radio-option"><input type="radio" name="path" value="Co-Pilot $2,500 founding"> Co-Pilot — $2,500 founding</label>
+            <label class="radio-option"><input type="radio" name="path" value="Signature from $8,500"> Signature — from $8,500</label>
+          </div>
+        </div>
+
+        <div class="field">
+          <label for="f-timeline">Timeline?</label>
+          <select id="f-timeline" name="timeline" required>
+            <option value="">Select one&hellip;</option>
+            <option>ASAP</option>
+            <option>1-3 months</option>
+            <option>3-6 months</option>
+            <option>Exploring</option>
+          </select>
+        </div>
+
+        <div class="form-step-2" id="form-step-2" hidden>
+          <div class="field">
+            <label for="f-manuscript-notes">Do you have an existing manuscript or outline?</label>
+            <textarea id="f-manuscript-notes" name="manuscript_notes" placeholder="Tell us what you've got so far&hellip;"></textarea>
+          </div>
+          <div class="field">
+            <label for="f-manuscript-file">Upload manuscript or outline (optional)</label>
+            <input type="file" id="f-manuscript-file" name="attachment">
+          </div>
+          <div class="field">
+            <label for="f-website">Any brand assets or website?</label>
+            <input type="url" id="f-website" name="website" placeholder="https://">
+          </div>
+          <div class="field">
+            <label for="f-heard">How did you hear about FuturIQ?</label>
+            <input type="text" id="f-heard" name="heard_about">
+          </div>
+          <div class="field">
+            <label class="checkbox-field">
+              <input type="checkbox" id="f-consent" name="ai_disclosure_consent" value="yes">
+              <span>I understand this is AI-assisted with human originality and I retain ownership of the work.</span>
+            </label>
+          </div>
+        </div>
+
+        <input type="hidden" name="_subject" value="New FuturIQ Formulary Application">
+        <input type="hidden" name="_template" value="table">
+        <input type="hidden" name="_captcha" value="false">
+
+        <div id="form-error" class="form-error" hidden></div>
+
+        <button type="submit" class="btn btn-solid" id="intake-submit">Submit Formulary</button>
+      </form>
+
+      <div class="intake-result" id="intake-result" hidden></div>
     </div>
   </section>
 
+  <section class="wing" id="faq">
+    <div class="wing-heading">
+      <h2>Questions</h2>
+      <div class="line"></div>
+    </div>
+    <div class="faq-list">
+      <div class="faq-item">
+        <h3>Is this ghostwritten by AI?</h3>
+        <p>No. You provide expertise, stories, and review. AI assists drafting, we do human refinement for voice and accuracy. You own the work.</p>
+      </div>
+      <div class="faq-item">
+        <h3>Will Amazon accept it?</h3>
+        <p>Yes, when done right with human originality, disclosure where required, and your expertise. We teach responsible publishing.</p>
+      </div>
+      <div class="faq-item">
+        <h3>What if I have no manuscript?</h3>
+        <p>Perfect. That's what the system is for. Start with expertise, not pages.</p>
+      </div>
+      <div class="faq-item">
+        <h3>Do you do fiction?</h3>
+        <p>Not for the founding cohort. Non-fiction, expert, and culinary focus first.</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="footer-cta">
+    <h2>Ready to formulate your book?</h2>
+    <a href="#offers" class="btn btn-solid">Choose Your Path</a>
+  </div>
+
   <div class="colophon">
     Formulas are compounded, not mass-produced — pricing may be adjusted per project.<br>
-    Questions before you order? Write to <a href="mailto:bayoubeaux1070@gmail.com">bayoubeaux1070@gmail.com</a>.
+    Questions before you apply? Write to <a href="mailto:bayoubeaux1070@gmail.com">bayoubeaux1070@gmail.com</a>.
   </div>
 
 </div>
@@ -461,6 +1073,152 @@
   <p class="footer-copy">&copy; 2026 FuturIQ / Bayoubeaux1070. All rights reserved.</p>
 </footer>
 
+<script src="js/store-config.js"></script>
 <script src="js/main.js"></script>
+<script>
+// ==========================================================================
+// FORMULARY PAGE CONFIG
+// ==========================================================================
+// 1) Blueprint checkout button reads STORE_CONFIG.futuriqBlueprint from
+//    js/store-config.js. Add the real Stripe Payment Link there and it goes
+//    live automatically (falls back to a waitlist mailto until then).
+// 2) FORM_TO_EMAIL — where Formulary applications get emailed. Uses
+//    FormSubmit.co (no backend/account needed). The FIRST submission to a
+//    new address requires clicking one activation link FormSubmit emails
+//    to that inbox — after that, every future submission delivers straight
+//    through.
+// 3) CALENDLY_URL — paste your real Calendly scheduling link (e.g.
+//    "https://calendly.com/your-handle/15min") to enable the booking
+//    widget shown to Co-Pilot / Signature applicants after they apply.
+// ==========================================================================
+const FORM_TO_EMAIL = 'bayoubeaux1070@gmail.com';
+const CALENDLY_URL = '';
+
+document.addEventListener('DOMContentLoaded', () => {
+  // Blueprint CTA card: swap to the live Stripe link once STORE_CONFIG
+  // (js/store-config.js) has futuriqBlueprint.directBuyEnabled = true.
+  const blueprintCta = document.getElementById('blueprint-cta');
+  if (blueprintCta && typeof STORE_CONFIG !== 'undefined') {
+    const bp = STORE_CONFIG.futuriqBlueprint;
+    if (bp && bp.directBuyEnabled && bp.directBuyUrl && bp.directBuyUrl !== '#') {
+      blueprintCta.href = bp.directBuyUrl;
+      blueprintCta.textContent = 'Get Blueprint Instant Access';
+    }
+  }
+
+  const pathRadios = document.querySelectorAll('input[name="path"]');
+  const step2 = document.getElementById('form-step-2');
+
+  function syncStep2() {
+    const selected = document.querySelector('input[name="path"]:checked');
+    const showStep2 = selected && selected.value !== 'Blueprint $397';
+    step2.hidden = !showStep2;
+  }
+  pathRadios.forEach((r) => r.addEventListener('change', syncStep2));
+  syncStep2();
+
+  // Offer-card CTAs that jump to the form and preselect a path
+  document.querySelectorAll('[data-preselect-path]').forEach((el) => {
+    el.addEventListener('click', () => {
+      const wanted = el.getAttribute('data-preselect-path');
+      pathRadios.forEach((r) => {
+        if (r.value.indexOf(wanted) === 0 || r.value.indexOf(wanted) !== -1) {
+          r.checked = true;
+        }
+      });
+      syncStep2();
+    });
+  });
+
+  const form = document.getElementById('intake-form');
+  const result = document.getElementById('intake-result');
+  const errorBox = document.getElementById('form-error');
+  const submitBtn = document.getElementById('intake-submit');
+
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    errorBox.hidden = true;
+
+    const selectedPath = document.querySelector('input[name="path"]:checked');
+    if (!selectedPath) {
+      errorBox.textContent = 'Please choose a path before submitting.';
+      errorBox.hidden = false;
+      return;
+    }
+
+    const isBlueprint = selectedPath.value === 'Blueprint $397';
+    if (!isBlueprint) {
+      const consent = form.querySelector('#f-consent');
+      if (!consent.checked) {
+        errorBox.textContent = 'Please confirm you understand the AI-assisted / human-originality terms to continue.';
+        errorBox.hidden = false;
+        return;
+      }
+    }
+
+    submitBtn.disabled = true;
+    submitBtn.textContent = 'Submitting…';
+
+    try {
+      const formData = new FormData(form);
+      // Tag the lead by path so inbox rules / CRM imports can sort it.
+      if (selectedPath.value.indexOf('Co-Pilot') !== -1) formData.append('lead_tag', 'Co-Pilot Lead');
+      else if (selectedPath.value.indexOf('Signature') !== -1) formData.append('lead_tag', 'Signature Lead');
+      else formData.append('lead_tag', 'Blueprint Buyer');
+
+      const resp = await fetch(`https://formsubmit.co/ajax/${FORM_TO_EMAIL}`, {
+        method: 'POST',
+        headers: { Accept: 'application/json' },
+        body: formData
+      });
+      if (!resp.ok) throw new Error('Form submission failed');
+
+      form.hidden = true;
+      result.hidden = false;
+
+      if (isBlueprint) {
+        const blueprintUrl = (typeof STORE_CONFIG !== 'undefined' && STORE_CONFIG.futuriqBlueprint && STORE_CONFIG.futuriqBlueprint.directBuyEnabled)
+          ? STORE_CONFIG.futuriqBlueprint.directBuyUrl
+          : null;
+        if (blueprintUrl) {
+          result.innerHTML = `
+            <h3>Almost there</h3>
+            <p>One click left — complete checkout to get instant access to the Blueprint.</p>
+            <a class="btn btn-solid" style="width:auto;display:inline-flex;padding-left:26px;padding-right:26px;" href="${blueprintUrl}">Complete Checkout — $397</a>
+          `;
+        } else {
+          result.innerHTML = `
+            <h3>Thanks — you're on the list</h3>
+            <p>Blueprint checkout isn't live yet. We'll email you the moment it opens.</p>
+          `;
+        }
+      } else {
+        let calendlyHtml = '';
+        if (CALENDLY_URL) {
+          calendlyHtml = `<div class="calendly-embed"><div class="calendly-inline-widget" data-url="${CALENDLY_URL}" style="min-width:280px;height:560px;"></div></div>`;
+        } else {
+          calendlyHtml = `<p class="hint">Scheduling link coming shortly by email.</p>`;
+        }
+        result.innerHTML = `
+          <h3>Application received</h3>
+          <p>We review every ${selectedPath.value.indexOf('Signature') !== -1 ? 'Signature' : 'Co-Pilot'} application within 24 hours. In the meantime, grab a 15-minute fit call:</p>
+          ${calendlyHtml}
+        `;
+        if (CALENDLY_URL && !document.getElementById('calendly-widget-script')) {
+          const s = document.createElement('script');
+          s.id = 'calendly-widget-script';
+          s.src = 'https://assets.calendly.com/assets/external/widget.js';
+          document.body.appendChild(s);
+        }
+      }
+    } catch (err) {
+      submitBtn.disabled = false;
+      submitBtn.textContent = 'Submit Formulary';
+      errorBox.textContent = "Something went wrong sending your application — please email bayoubeaux1070@gmail.com directly and we'll get you sorted.";
+      errorBox.hidden = false;
+    }
+  });
+});
+</script>
 </body>
 </html>

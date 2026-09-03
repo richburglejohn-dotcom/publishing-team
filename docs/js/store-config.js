@@ -31,5 +31,14 @@ const STORE_CONFIG = {
     amazonUrl: "https://www.amazon.com/dp/B0H88D3H58",
     directBuyUrl: "https://buy.stripe.com/bJe4gBeAB1bF6GPflP63K04",
     directBuyEnabled: true
+  },
+  // FuturIQ Blueprint ($397, instant access) — /formulary.html
+  // Create a Stripe Payment Link for the Blueprint product, then paste it
+  // below and flip directBuyEnabled to true. Until then the button on the
+  // Formulary page falls back to a "Join the Waitlist" mailto.
+  futuriqBlueprint: {
+    title: "FuturIQ Blueprint",
+    directBuyUrl: "#",
+    directBuyEnabled: false
   }
 };
