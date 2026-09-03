@@ -1092,7 +1092,7 @@
 //    widget shown to Co-Pilot / Signature applicants after they apply.
 // ==========================================================================
 const FORM_TO_EMAIL = 'bayoubeaux1070@gmail.com';
-const CALENDLY_URL = '';
+const CALENDLY_URL = 'https://calendly.com/richburg-lejohn/30min';
 
 document.addEventListener('DOMContentLoaded', () => {
   // Blueprint CTA card: swap to the live Stripe link once STORE_CONFIG
@@ -1201,7 +1201,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
         result.innerHTML = `
           <h3>Application received</h3>
-          <p>We review every ${selectedPath.value.indexOf('Signature') !== -1 ? 'Signature' : 'Co-Pilot'} application within 24 hours. In the meantime, grab a 15-minute fit call:</p>
+          <p>We review every ${selectedPath.value.indexOf('Signature') !== -1 ? 'Signature' : 'Co-Pilot'} application within 24 hours. In the meantime, grab a fit call:</p>
           ${calendlyHtml}
         `;
         if (CALENDLY_URL && !document.getElementById('calendly-widget-script')) {
