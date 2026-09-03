@@ -1082,16 +1082,15 @@
 // 1) Blueprint checkout button reads STORE_CONFIG.futuriqBlueprint from
 //    js/store-config.js. Add the real Stripe Payment Link there and it goes
 //    live automatically (falls back to a waitlist mailto until then).
-// 2) FORM_TO_EMAIL — where Formulary applications get emailed. Uses
-//    FormSubmit.co (no backend/account needed). The FIRST submission to a
-//    new address requires clicking one activation link FormSubmit emails
-//    to that inbox — after that, every future submission delivers straight
-//    through.
+// 2) LEAD_ENDPOINT — applications POST to Koda's Base44 backend function,
+//    which (a) saves the lead to the FuturIQ CRM entities, (b) creates the
+//    subscriber in Kit (ConvertKit), and (c) enrolls them in the
+//    "FuturIQ Blueprint Launch" email sequence automatically.
 // 3) CALENDLY_URL — paste your real Calendly scheduling link (e.g.
 //    "https://calendly.com/your-handle/15min") to enable the booking
 //    widget shown to Co-Pilot / Signature applicants after they apply.
 // ==========================================================================
-const FORM_TO_EMAIL = 'bayoubeaux1070@gmail.com';
+const LEAD_ENDPOINT = 'https://base44.app/api/apps/6a59d641bd5b07278467f2a4/functions/formularyLead';
 const CALENDLY_URL = 'https://calendly.com/richburg-lejohn/30min';
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -1166,12 +1165,12 @@ document.addEventListener('DOMContentLoaded', () => {
       else if (selectedPath.value.indexOf('Signature') !== -1) formData.append('lead_tag', 'Signature Lead');
       else formData.append('lead_tag', 'Blueprint Buyer');
 
-      const resp = await fetch(`https://formsubmit.co/ajax/${FORM_TO_EMAIL}`, {
+      const resp = await fetch(LEAD_ENDPOINT, {
         method: 'POST',
-        headers: { Accept: 'application/json' },
         body: formData
       });
-      if (!resp.ok) throw new Error('Form submission failed');
+      const leadResult = await resp.json().catch(() => ({}));
+      if (!resp.ok || leadResult.success !== true) throw new Error('Form submission failed');
 
       form.hidden = true;
       result.hidden = false;
