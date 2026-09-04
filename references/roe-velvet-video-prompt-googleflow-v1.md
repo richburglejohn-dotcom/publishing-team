@@ -122,6 +122,7 @@ This is the **third** time this exact dish has come back wrong. Do not free-hand
 ---
 
 ### SCENE 7 — The Walk Back
+**First take REJECTED (2026-09-04):** wardrobe (glasses, apron), likeness, and path/setting were all correct, but the prop was wrong — Baron carried two stacked drinking glasses instead of the empty cake stand. Regenerating with the stand described explicitly and anchored to the same dark wooden stand seen in Scenes 1-6, not left to a bare "carrying [something]" description.
 **Visual:** Wide shot, Baron carrying the empty cake stand back down the sidewalk toward the kitchen, lighter in his step than when he walked out, a small private smile forming. He starts humming, almost inaudibly.
 **Mood/Lighting:** Warm bar light behind him fading toward the cooler kitchen glow as he exits frame.
 **Audio:** Faint hum from Baron, ambient street sound as the scene closes.
