@@ -1,8 +1,9 @@
 # Baron Vieux — "Roe Velvet" YouTube Video
 ### Created: 2026-08-24
+### Corrected 2026-09-04: this file originally said "Olivia" throughout — the scene is Baron and Calliope (prequel timeline, before Baron has met Olivia). See correction note in `references/roe-velvet-video-prompts-googleflow.md`.
 ### Companion to `references/roe-velvet-video-prompts-googleflow.md` — the 8-scene Google Flow prompt package this video is built from
 
-**Video:** `outputs/roe-velvet-youtube-v1.mp4` — to be assembled from the 8 Flow-generated scene clips (Scenes 1–8, ~8 sec each) once generated tonight. Apply the same post-production pass as the jambalaya/paella video: `delogo` watermark removal + per-clip `loudnorm`, generated and edited in scene order 1→8 for continuity. Scene 5 (the quenelle close-up) is the one production notes flag for a slight slow-motion stretch in the edit.
+**Video:** Complete as of 2026-09-04 — `outputs/roe-velvet-youtube-v1.mp4` (1280x720, YouTube/Facebook) and `outputs/roe-velvet-youtube-v1-vertical.mp4` (1080x1920, TikTok/Reels/Shorts), both 63.46s. Verified frame-by-frame against Calliope's current locked reference art and the Chapter 9 manuscript — no drift, correct character throughout.
 
 **Payoff this delivers:** the TikTok teaser from 8/10 ("Baron's newest creation is coming... Roe Velvet. Full reveal soon.") never got its follow-through — this is that follow-through.
 
@@ -23,17 +24,17 @@ Recommend **#1** — the actual line of dialogue as the hook is stronger than a 
 
 ## YouTube description
 
-> Baron Vieux doesn't just cook. He performs. This is Roe Velvet — a two-layer orange velvet cake, cream cheese frosting, and a single quenelle of roe on top, walked out of the kitchen at The Apothecary like it's a magic trick.
+> Baron Vieux doesn't just cook. He performs. This is Roe Velvet — a two-layer orange velvet cake, cream cheese frosting, and a single quenelle of roe on top, walked out of the kitchen at The Apothecary like it's a magic trick, straight to the one person whose verdict he actually trusts.
 >
-> Rampart's seen this before. Olivia hasn't. Watch what happens when the bit either lands or doesn't.
+> Rampart already gave it his highest compliment — silence. Calliope doesn't do silence. Watch what happens when the bit either lands or doesn't.
 >
-> This scene is from Chapter 9 of *Culinary Crescendo: A Symphony of Love in the Big Easy* — Baron and Olivia's first real meeting, book one of the series.
+> This scene is from Chapter 9 of *Culinary Crescendo: The Scarlet Foundation* — the prequel to *A Symphony of Love in the Big Easy*, before Baron's even met the woman whose voice he keeps hearing on the walk home.
 >
 > Read the full scene, and everything that comes after it: bayoubeauxllc.com
 >
 > FuturIQ — built in public, book by book.
 
-**Tags:** Baron Vieux, Culinary Crescendo, Roe Velvet, New Orleans Food, Chef Life, Fine Dining Comedy, Book to Screen, Olivia Marigny, FuturIQ, Southern Gothic Fiction
+**Tags:** Baron Vieux, Culinary Crescendo, Roe Velvet, New Orleans Food, Chef Life, Fine Dining Comedy, Book to Screen, Calliope, The Scarlet Foundation, FuturIQ, Southern Gothic Fiction
 
 ---
 
@@ -41,4 +42,4 @@ Recommend **#1** — the actual line of dialogue as the hook is stronger than a 
 - **Generation is locked to individual takes per scene** — each of the 8 scenes is generated one at a time, no batching, no picking from variations. This is deliberate: it's what keeps continuity (wardrobe, framing, tone) tight across 8 separately-generated clips instead of drifting scene to scene. Full strict-generation rules are now at the top of `references/roe-velvet-video-prompts-googleflow.md` — dialogue is verbatim, character references are locked and repasted in full each time, and any take that drifts (especially the known garbled-embroidery-text issue in close-ups) gets regenerated rather than kept.
 - This is a short-form narrative reveal (~1 minute assembled), same category as `yt-ep2-trailer.mp4` and `yt-ep3-trailer.mp4` — not a long-form 15-minute video, so no chaptering/retention-structure work needed beyond the hook itself.
 - Dialogue and reactions (Scene 4's "roe... wait," Scene 6's "Destiny. Last week it was the bisque," Scene 7's "Okay. That's a whole bit.") are pulled directly from the Chapter 9 draft — description leans on that same dry comic tone rather than oversells it.
-- Once the 8 clips are generated and sent over, I'll assemble them into `outputs/roe-velvet-youtube-v1.mp4` and queue this in Solene the same way the jambalaya/paella video was handled.
+- Both cuts filed 2026-09-04; ready to queue for posting per `references/pipeline-tool-capabilities.md` (YouTube via Buffer once connected; vertical cut via whichever TikTok/IG path is live).
