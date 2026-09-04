@@ -35,10 +35,10 @@ Verified frame-by-frame 2026-09-04 against Calliope's current locked reference a
 (Same copy already live on YouTube and TikTok — keeping it identical across platforms on purpose for this reveal.)
 
 ## Publish checklist (Koda)
-1. Download the video from the raw GitHub URL above (or Koda's own `media.base44.com` re-host if that's easier for the browser flow).
+1. Use the raw GitHub URL above directly (or Koda's own `media.base44.com` re-host, whichever its FB/IG posting flow expects).
 2. Post to Bayoubeaux1070 (FB), Baron Vieux (FB), and Baron.Vieux (IG) — same video, same caption, each platform's AI-content label on.
 3. Reels/Feed choice on IG: Reels (matches the vertical crop, better reach for video than static Feed).
-4. No manual attach-limitation expected here — this is the FB/IG lane, not TikTok, where Koda's browser automation already handles media upload without issue.
+4. No manual attach-limitation expected here — this is API-based posting (Meta Graph API), not TikTok's browser path, so the TikTok file-attach issue doesn't apply.
 
 ## Notes
 - This is a cross-post of already-published content (YouTube Short + TikTok, both confirmed live 2026-09-04) — not a new review item. Copy and asset are final; nothing here should be altered before posting, per standing instruction.
