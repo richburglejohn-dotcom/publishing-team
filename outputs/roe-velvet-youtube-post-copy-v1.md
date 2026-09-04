@@ -5,6 +5,8 @@
 
 **Video:** Complete as of 2026-09-04 — `outputs/roe-velvet-youtube-v1.mp4` (1280x720, YouTube/Facebook) and `outputs/roe-velvet-youtube-v1-vertical.mp4` (1080x1920, TikTok/Reels/Shorts), both 63.46s. Verified frame-by-frame against Calliope's current locked reference art and the Chapter 9 manuscript — no drift, correct character throughout.
 
+**Published 2026-09-04, 08:26 UTC** — live on the Baron Vieux YouTube channel as a public Short (Buffer post id `6a9a80c3daf7c7188fd00294`), title #1, AI-disclosure toggle on. Posted the **vertical** cut — Buffer rejected the horizontal 1280x720 cut with "Video must be vertical (portrait orientation) for YouTube Shorts," since Buffer classifies anything this short as a Short regardless of which cut you send it. Note for next time: send the vertical asset directly for any similar-length YouTube post via Buffer.
+
 **Payoff this delivers:** the TikTok teaser from 8/10 ("Baron's newest creation is coming... Roe Velvet. Full reveal soon.") never got its follow-through — this is that follow-through.
 
 ---
