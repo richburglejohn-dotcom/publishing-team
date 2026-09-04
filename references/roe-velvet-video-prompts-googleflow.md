@@ -1,8 +1,11 @@
 # Google Flow Video Prompt Package
-## "Roe Velvet" — Baron & Olivia's First Real Meeting (Chapter 9)
+## "Roe Velvet" — Baron brings Calliope the cake (Chapter 9, prequel)
 ### Updated 2026-08-24: locked to strict generation — see rules below before running any scene
+### CORRECTED 2026-09-04: see note below — this file named the wrong character throughout
 
 Structured for sequential scene-by-scene input into Google Flow. Each scene is written as a self-contained ~8-second clip. Character reference blocks are repeated in each prompt to help maintain visual consistency across generations.
+
+**Correction (2026-09-04):** This file named the wrong character throughout. Per the actual Chapter 9 manuscript (`outputs/Scarlet_Foundation_FULL_DRAFT_v1.md`), Baron brings the Roe Velvet cake to **Calliope** at her own bar, not Olivia — this is the prequel timeline, and Baron hasn't met Olivia yet at this point (he's only heard her voice from a distance, unnamed). Calliope's the one who says "Destiny. Last week it was the bisque" and "Okay. That's a whole bit." Also, per the manuscript, Rampart's actual reaction to the cake happens earlier and separately, in the Apothecary kitchen during a taste-test ("It's good" — his highest compliment) — he is not present for the reveal at Calliope's bar, so Scene 6 below as written doesn't match the source material. The finished video (`outputs/roe-velvet-youtube-v1.mp4` + vertical cut, verified 2026-09-04 against both the manuscript and Calliope's current locked reference art) got this right — Calliope, at her own bar, alone with Baron. Treat this file's scene breakdown as historical/for reference on pacing and shot structure only; the character reference block and Scene 6 below are wrong and shouldn't be reused for a future regeneration without fixing them first.
 
 ---
 
