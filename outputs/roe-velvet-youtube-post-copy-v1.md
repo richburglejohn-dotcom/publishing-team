@@ -9,13 +9,13 @@
 
 ---
 
-## Title options
+## Title
 
-1. **"I Made the Roe... Wait." — Baron Vieux's Most Unhinged Dessert**
-2. **Roe Velvet: The Cake Baron Vieux Wasn't Supposed to Make**
-3. **Watch Baron Vieux Serve Fish Eggs on a Wedding Cake (and Somehow Win)**
+**Chosen (2026-09-04): "I Made the Roe... Wait." — Baron Vieux's Most Unhinged Dessert**
 
-Recommend **#1** — the actual line of dialogue as the hook is stronger than a description of the dish, and it reads as a genuine quote, not marketing copy.
+Other options considered:
+2. Roe Velvet: The Cake Baron Vieux Wasn't Supposed to Make
+3. Watch Baron Vieux Serve Fish Eggs on a Wedding Cake (and Somehow Win)
 
 ## Hook (first 3 seconds / thumbnail text)
 
