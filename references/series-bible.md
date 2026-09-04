@@ -135,6 +135,7 @@ This file is the source of truth for all agents. Read this before working on any
 - Pushes Baron toward Bayouboujee when he's too tired to push himself.
 - *"You're closer than you think, Baron."*
 - The first person who consistently believes in the vision.
+- **Appearance (updated 2026-09-03, canon as of the Meta AI portrait):** Curly dark hair worn up in a loose bun with loose tendrils framing her face. Extensive tattoo sleeves on both forearms (botanical/floral work, a small skull motif) — hands-on, lived-in look. Reference: `references/calliope-bartender-portrait-v2.jpg` and `references/calliope-bartender-portrait-v2-bun.jpg`. Supersedes the original launch-week placeholder look in `references/calliope-portrait-v1.jpg` (short natural hair, no tattoos) — that file is kept for history/continuity of anything already published with it, but is no longer the reference to match against.
 
 **Tchoup** *(Tchoupitoulas Street)*
 - Background: Cajun. Waterfront seafood purveyor.

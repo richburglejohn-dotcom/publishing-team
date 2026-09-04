@@ -1,5 +1,8 @@
 # Calliope — Google Flow Image Prompt
 ### Created: 2026-08-10
+### Superseded 2026-09-03: see note below
+
+**Superseded:** the launch-week portrait this prompt produced (`references/calliope-portrait-v1.jpg`) has been replaced as Calliope's canonical look by a Meta AI generation — `references/calliope-bartender-portrait-v2.jpg` (and variant `-bun.jpg`), an apothecary/tincture-shop bartender look with tattoo sleeves and hair up in a bun. Author's call (2026-09-03): the original was a rushed placeholder to hit the book-release deadline; the Meta AI version reads as more current and is now canon. See `references/series-bible.md`'s Calliope entry for the updated appearance note. This file is kept for history — the room/setting brief below may still be useful for future Calliope generations, but the "photorealistic, modern" direction in the 2026-08-10 revision note turned out to undersell how far to push it.
 
 No reference art exists yet for Calliope. This is a still-image prompt for Google Flow, styled as a companion piece to the existing noir character posters already on the site — `references/baron-victorian-tarot-scene-v1.jpg` and `references/olivia-marigny-tarot-scene-v1.png` (used on `docs/media.html`). Matching that pair's exact visual treatment (monochrome noir illustration, same room, same name-card style) rather than the older color/sans-serif "supporting cast" formula in `references/supporting-cast-image-prompts-googleflow-v1.md`, so all three read as one cast set.
 
