@@ -87,3 +87,22 @@ Lejohn's call: try fixing the prompt before switching tools. Scene A mostly work
 3. **Setting pinned to "The Apothecary" explicitly, tied back to Scene A** — Round 1 invented an unrelated wood-paneled dining room. Naming the location and referencing Scene A's kitchen directly is meant to stop that.
 
 Same reference images, same verification checklist (including the stitch check) apply to this round. Run Scene A and Scene B again with these prompts, drop the results back, and I'll re-verify.
+
+---
+
+## Round 2 Results: Meta AI — 2026-09-05 — improved, still fails the checklist
+
+Files: `chef_cake_presentation_2.mp4` (Scene A) and `to_chef_carry_cake_walkthrough.mp4` (Scene B), both 1280x720, ~10s, 24fps. Verified the same way — 1fps frame extraction plus zoomed crops. **Not filed to the repo** — still doesn't pass.
+
+**What the prompt fix actually solved:**
+1. **Embroidery legibility — fixed.** Zoomed crop on Scene A's chest text clearly reads "Baron..." (cut off at frame edge, but legible, not a scrawl). Scene B is even better — "Baron Vieux" and "Bayouboujee" are both fully legible in red/gold script across multiple frames. Real fix, not a fluke — it holds across both scenes.
+2. **Cake-in-hand — fixed.** Scene B now shows him visibly carrying the cake on a stand the entire clip, exactly as required. Round 1's biggest miss is resolved.
+3. **Face visibility — partially fixed.** Scene B's opening frame shows a 3/4 side profile (glasses, side of face visible) before the camera settles back to a behind-shot for the rest of the clip. Better than Round 1's zero visibility, but it's a glimpse, not a clean identity-confirming angle.
+
+**What's still broken:**
+- **Fails item 5 (setting) — still doesn't match The Apothecary, and now inconsistent with itself too.** Three different, mutually inconsistent environments appear across ~20 seconds: Scene A's kitchen (warm amber light, exposed copper pots, rustic), Scene B's opening kitchen shot (cool blue light, sleek modern stainless steel — doesn't match Scene A's kitchen at all), and Scene B's ending dining room (ornate red-and-gold brasserie with tufted booths and chandeliers — not the brick/heat-lamp Apothecary described, and doesn't connect to either kitchen shot).
+- **New failure — fails item 3 (cake consistency) between scenes.** Scene A's cake has a flat, pale disc top (doesn't match the reference's rounded frosted dome either). Scene B's cake has a rounded frosted dome top that matches the reference well — but the two scenes' cakes don't match *each other*. This is the same class of problem as Flow's original failures, just landed on the cake instead of the character.
+- **Fails item 6 (stitch check).** Cutting Scene A's ending into Scene B's opening doesn't read as continuous — different kitchen, different lighting temperature, right at the cut.
+- **Item 1 (character/age) still soft.** Hair still reads grayer and balder than the reference's short dark cropped hair, consistent within this round but still a drift from the locked reference.
+
+**Verdict:** genuine progress — the two things the Round 2 prompt explicitly targeted (embroidery, cake-in-hand) both improved, which says the tool responds to specific, explicit instructions rather than being randomly unreliable. But new problems appeared in exchange (cake now inconsistent *across* scenes, three mismatched environments instead of one wrong one), and the core stitch-continuity failure is still there. Not ready to use as-is. Worth one more targeted round — pin the environment as tightly as the embroidery fix worked (maybe a locked kitchen reference image rather than just text description, same "Ingredients not descriptions" lesson from Flow) and lock the cake presentation style explicitly — before deciding whether this is fixable via prompting or a hard tool limit.
