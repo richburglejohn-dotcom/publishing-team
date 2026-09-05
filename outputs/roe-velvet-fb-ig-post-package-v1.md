@@ -1,13 +1,13 @@
-# Roe Velvet — FB/IG Post Package (STAGED, ready for Koda)
+# Roe Velvet — FB/IG Post Package
 ### Created: 2026-09-04 by Claude — final, ready-to-execute, nothing left to edit
-### Status: READY FOR KODA — hand this file to Koda as-is; no changes needed before it stages/publishes.
+### Status: Instagram PUBLISHED 2026-09-05 via Windsor.ai direct API (media id 18122691977486654) — no Koda hop needed after all, once write actions + instagram_content_publish permission were both granted. Facebook still needs Koda — see below.
 
-Already live via Buffer on YouTube (Short) and `baronvieux` TikTok. This package is the same video/copy for the two platforms Buffer can't reach — Koda's own FB/IG accounts.
+Already live via Buffer on YouTube (Short) and `baronvieux` TikTok, and now via Windsor.ai direct on Instagram. This package remains the handoff for the one platform still needing Koda — Facebook.
 
-**Targets: Baron Vieux / book-brand accounts only.**
+**Remaining target: Facebook only.**
 - Facebook — Bayoubeaux1070 page
 - Facebook — Baron Vieux page
-- Instagram — Baron.Vieux profile
+- ~~Instagram — Baron.Vieux profile~~ — done, see status line above
 
 **Not included: FuturIQ's IG profile.** FuturIQ is the separate business/Formulary brand (per `references/pipeline-tool-capabilities.md`), not the fiction/character brand — this is Baron Vieux book content, so it doesn't belong on the FuturIQ account. Flagging this instead of defaulting it in; say if that read is wrong.
 

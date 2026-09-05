@@ -80,4 +80,4 @@ date,platform,file,heading,note
 2026-09-04,YouTube,outputs/roe-velvet-youtube-post-copy-v1.md,## Title,"PUBLISHED via Buffer as a YouTube Short (post id 6a9a80c3daf7c7188fd00294); vertical cut outputs/roe-velvet-youtube-v1-vertical.mp4 used (Shorts forces portrait), AI-disclosure toggle on"
 2026-09-04,TikTok,outputs/roe-velvet-youtube-post-copy-v1.md,## Title,"PUBLISHED via Buffer to baronvieux (post id 6a9a83ce9e905e82109ec2d7): https://tiktok.com/@baronvieux/video/7681596751526120717"
 2026-09-04,Facebook,outputs/roe-velvet-fb-ig-post-package-v1.md,## Caption,"STAGED for Koda (Bayoubeaux1070 + Baron Vieux pages) as of filing — not yet posted"
-2026-09-04,Instagram,outputs/roe-velvet-fb-ig-post-package-v1.md,## Caption,"STAGED for Koda (Baron.Vieux profile) as of filing — not yet posted; direct Windsor.ai IG post also available once write actions are enabled (see references/pipeline-tool-capabilities.md)"
+2026-09-05,Instagram,outputs/roe-velvet-fb-ig-post-package-v1.md,## Caption,"PUBLISHED via Windsor.ai direct API (create_video_post) to Baron.Vieux IG (account 17841442720360055) as a Reel; media id 18122691977486654"
