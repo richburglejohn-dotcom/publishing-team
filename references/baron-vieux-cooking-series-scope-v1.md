@@ -33,3 +33,11 @@ Each of these four episodes needs **15-25+ clips** stitched into one continuous 
 ## Open decision for Lejohn
 
 Given today's test results, are you okay pausing the "regular schedule" promise until the pipeline is actually proven at multi-scene scale, or is there a different near-term plan (e.g., a human-shot placeholder cadence while the AI pipeline gets sorted, or committing to a paid tool now to accelerate testing)?
+
+## Update 2026-09-05: pilot built, length recommendation set
+
+Lejohn's call: episodes don't need to be that long — go ahead and set up the pilot, and suggest a length to relay back to Gemini so future scripts get sized to what the tools can actually handle.
+
+**Recommendation to give Gemini: ~55-65 seconds per episode (6-8 clips), not 4-12 minutes.** That's the one scale this pipeline has actually proven (Roe Velvet: 8 clips, ~63s).
+
+**Pilot built:** `references/baron-vieux-episode1-darkroux-googleflow-v1.md` — Episode 1 tightened from Gemini's original 5-scene/4-6-minute script down to 7 scenes/~56 seconds, keeping the hook, the two most visually dramatic beats (color turn, trinity drop), and the payoff. Uses two existing reference photos found during scoping (`baron-portrait-apron-kitchen-v1.jpeg`, `baron-mentoring-kitchen-v1.webp`) as the locked kitchen/character/embroidery references — this solves the "no location reference" gap that caused the setting drift in today's Meta AI test. Not yet generated — next step is running it through Flow and verifying against the same checklist as everything else.
