@@ -66,3 +66,24 @@ Files: `chef_cake_placement.mp4` (Scene A) and `chef_cake_entrance.mp4` (Scene B
 **Item 6 (stitch check): fails.** Cutting A into B doesn't read as one restaurant or one continuous moment — different architecture, different lighting language, no cake carrying across the cut to anchor it.
 
 **Verdict:** Meta AI solved zero of Flow's known failure modes in this run — embroidery drift persists, and it introduced new problems (no cake, no face, wrong location) rather than fixing continuity. Runway Gen-4 still untested — pending that before drawing a comparative conclusion.
+
+---
+
+## Round 2: Meta AI retry with targeted prompt fixes — 2026-09-05
+
+Lejohn's call: try fixing the prompt before switching tools. Scene A mostly worked, so leave it close to as-is with one addition; Scene B needs the three specific gaps closed. These are deliberate rewrites of the original prompts above, not a new scene.
+
+**Scene A — "The Cake at the Pass" (revised, embroidery emphasis added):**
+> Close-up, Baron's hands placing a finished two-layer orange velvet cake on a stand at the kitchen pass. Pale cream cheese frosting, smooth sides, single mound of glossy orange roe on top, candied orange peel at the base. He adjusts the plate a half-inch, exhales, composes himself. The embroidered text on his coat — "Baron Vieux" on the left chest — is in **plain, blocky, sans-serif lettering, large and clearly legible**, not script or cursive. Warm kitchen light, shallow depth of field, steam and heat-lamp glow in the background. ~5-8 seconds.
+
+*Note: the embroidery drift showed up on a cursive-style render neither prompt actually requested — worth testing whether specifying a plainer typeface holds up better, but this may be a hard limit of current video generation on small legible text regardless of font choice. Don't burn more than one retry on this specific fix before accepting it as a known limitation to shoot around (e.g., no extreme close-ups on the chest text).*
+
+**Scene B — "The Walk-Out" (revised — fixes all three Round 1 failures):**
+> Baron walks out of the kitchen carrying the finished cake stand **visibly in both hands, held out in front of him at chest height, cake clearly in frame the entire shot** — this is the point of the scene, not incidental. Camera starts behind him as he exits the kitchen, then **arcs around to a 3/4 front angle within the first 2-3 seconds so his face is visible** as he crosses the dining room, chin slightly raised, walking like a man making an entrance. Setting is **The Apothecary** — the same restaurant as the kitchen in Scene A, not a generic dining room: exposed brick walls, warm low amber light, the glow of heat lamps and pass-through window visible behind him as he moves away from it, jazz bleeding faintly from the dining room. Transitions from the kitchen's cooler light to the dining room's warmer ambiance as he walks. ~5-8 seconds.
+
+**What changed and why:**
+1. **Cake explicitly required in frame** — Round 1 generated him empty-handed despite the scene being about carrying the cake. Made it unambiguous rather than assumed.
+2. **Camera angle changed from pure behind-shot to an arc that reveals his face** — Round 1's from-behind-only framing made character verification impossible. This is a deliberate departure from the original Roe Velvet shot list (which was intentionally behind-only) for testing purposes — if this round passes otherwise, decide separately whether the final production version keeps the reveal or goes back to behind-only now that the tool's been proven on this shot type.
+3. **Setting pinned to "The Apothecary" explicitly, tied back to Scene A** — Round 1 invented an unrelated wood-paneled dining room. Naming the location and referencing Scene A's kitchen directly is meant to stop that.
+
+Same reference images, same verification checklist (including the stitch check) apply to this round. Run Scene A and Scene B again with these prompts, drop the results back, and I'll re-verify.
