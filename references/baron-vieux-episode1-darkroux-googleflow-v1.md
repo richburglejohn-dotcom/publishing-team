@@ -67,6 +67,99 @@ One take per scene, generated in order 1→7, no batching. Dialogue/narration is
 
 ---
 
+## COPY-PASTE PROMPTS FOR META AI
+
+Attach `references/baron-portrait-apron-kitchen-v1.jpeg` fresh before each scene — don't rely on it carrying over from the previous one. Paste only the text inside the box for each scene; the "ATTACH" line above each box is an instruction to you, not part of the prompt.
+
+**ATTACH:** `baron-portrait-apron-kitchen-v1.jpeg`
+```
+Baron Vieux, a lean, sharp-featured chef with square black glasses, wearing a gray chef's coat and a black tool-apron (phone pocket, wooden spatula, leather straps), in a stainless-steel professional kitchen with an exposed hood and combi oven — same face, coat, apron, and kitchen as the attached reference image, not a different one.
+
+Cinematic close-up, warm overhead lighting. A seasoned cast-iron skillet heating on a gas stove, oil shimmering. Flour gently raining down into the pan with a soft sizzle. Camera pulls back to reveal Baron's hands in the black tool-apron, whisk in motion. No other people in frame.
+
+Dialogue (Baron): "If you don't have patience, you don't have flavor. Today, we're breaking down the dark roux — the heartbeat of every real gumbo."
+
+Audio: soft sizzle, kitchen ambiance.
+
+If any embroidered text on the coat or apron is visible, render it in plain, blocky, sans-serif lettering, large and clearly legible — not script or cursive.
+```
+
+**ATTACH:** `baron-portrait-apron-kitchen-v1.jpeg`
+```
+Baron Vieux, same chef as the attached reference image — same face, glasses, gray coat, black tool-apron, same stainless-steel kitchen with exposed hood and combi oven visible in the background.
+
+Overhead flat-lay shot. Oil and flour combining into a smooth, bubbling golden paste in the skillet. Steam rising. No other people in frame.
+
+Dialogue (Baron): "Equal parts oil and flour. Medium-low heat. That's where every real gumbo starts."
+
+Audio: steady bubbling, whisk against iron.
+
+If any embroidered text on the coat or apron is visible, render it in plain, blocky, sans-serif lettering, large and clearly legible — not script or cursive.
+```
+
+**ATTACH:** `baron-portrait-apron-kitchen-v1.jpeg`
+```
+Baron Vieux, same chef as the attached reference image — same face, glasses, gray coat, black tool-apron, same stainless-steel kitchen with exposed hood and combi oven visible in the background.
+
+Time-lapse macro sequence. The roux in the skillet shifting in color from golden blonde to peanut butter to milk chocolate to deep mahogany. A wooden spoon stirring in slow, rhythmic circles. No other people in frame.
+
+Dialogue (Baron): "Watch the color turn — blonde, peanut butter, mahogany. That aroma right there is the soul of the dish."
+
+Audio: low sizzle building under the narration.
+
+If any embroidered text on the coat or apron is visible, render it in plain, blocky, sans-serif lettering, large and clearly legible — not script or cursive.
+```
+
+**ATTACH:** `baron-portrait-apron-kitchen-v1.jpeg`
+```
+Baron Vieux, same chef as the attached reference image — same face, glasses, gray coat, black tool-apron, same stainless-steel kitchen with exposed hood and combi oven visible in the background.
+
+Dramatic slow-motion side angle. Diced onion, celery, and green bell pepper dropping into the dark, bubbling roux in the skillet. A loud hiss and a burst of aromatic steam on impact. No other people in frame.
+
+Dialogue (Baron): "Onion, celery, bell pepper — the Holy Trinity. Listen to that. That's New Orleans in a pan."
+
+Audio: sharp sizzle/hiss on impact, steam.
+
+If any embroidered text on the coat or apron is visible, render it in plain, blocky, sans-serif lettering, large and clearly legible — not script or cursive.
+```
+
+**ATTACH:** `baron-portrait-apron-kitchen-v1.jpeg`
+```
+Baron Vieux, same chef as the attached reference image — same face, glasses, gray coat, black tool-apron, same stainless-steel kitchen with exposed hood and combi oven visible in the background.
+
+Close stir on the skillet. The dropped vegetables softening into the dark roux, steam thinning, color deepening slightly further. No other people in frame.
+
+Dialogue (Baron): "Let it settle in. This is where the flavor locks."
+
+Audio: gentle simmer.
+
+If any embroidered text on the coat or apron is visible, render it in plain, blocky, sans-serif lettering, large and clearly legible — not script or cursive.
+```
+
+**ATTACH:** `baron-portrait-apron-kitchen-v1.jpeg`
+```
+Baron Vieux's kitchen, same stainless-steel professional kitchen as the attached reference image — same hood, same combi oven, same equipment.
+
+Clean beauty shot. The finished dark, glossy roux base holding in the skillet, a fresh thyme sprig on the cutting board beside it, subtle smoke drift. No people in frame.
+
+Dialogue (Baron, voiceover): "Master this, and you can cook anything in our playbook."
+
+Audio: quiet ambiance, no other sound over the narration.
+```
+
+**ATTACH:** `baron-portrait-apron-kitchen-v1.jpeg`
+```
+Same beauty shot as the previous scene — the finished dark, glossy roux base holding in the skillet, fresh thyme sprig beside it, subtle smoke drift, same stainless-steel kitchen.
+
+Add a clean lower-third graphic reading: "Subscribe to Baron Vieux."
+
+Dialogue (Baron, voiceover): "Hit subscribe, drop your gumbo base in the comments — see y'all on the next one."
+
+Audio: ambiance fading under a light musical sting.
+```
+
+---
+
 ## What happens after generation
 
-Run all 7 through Google Flow (the one tool proven at this clip count), verify against the checklist above including the stitch check, and report back the same way as every other test today. If it passes: this becomes the template for Episodes 2-4 at the same tightened length, and only then does Assignment #4 (Base44 ScheduledPost ingestion across YouTube/TikTok/IG/FB) make sense to act on. If it doesn't pass: the finding goes back into `references/video-tool-test-meta-vs-runway-v1.md`'s ongoing tool comparison rather than being treated as a dead end.
+**Update 2026-09-05: running this through Meta AI first, not Flow** — Lejohn's call, since Meta AI's video generation is currently free and this is exactly the kind of controlled test where that matters before spending Flow tokens on a 4-episode series. Run all 7 copy-paste prompts above through Meta AI in order, drop the clips back, and I'll verify against the checklist including the stitch check — same as every other test today, and log the result in `references/meta-ai-prompt-technique-v1.md` either way (confirms or revises the in-progress rules there). If it passes: this becomes the template for Episodes 2-4, and only then does Assignment #4 (Base44 ScheduledPost ingestion across YouTube/TikTok/IG/FB) make sense to act on. If it doesn't pass: the finding goes back into the tool comparison, and Flow (the one tool actually proven at this clip count via Roe Velvet) becomes the fallback for production even with its token cost.
