@@ -45,3 +45,24 @@ Generate Scene A, then Scene B, in the same tool, using the same reference image
 ## What happens with results
 
 Drop both scenes from each tool into the repo (or Drive, same as any other generation) and flag which is which. I'll check all four clips against this list frame-by-frame the same way the Roe Velvet cuts were verified, including the stitched cut point, and report which tool (if either) held up — that's what decides whether either becomes part of the actual pipeline.
+
+---
+
+## Results: Meta AI — 2026-09-05 — FAILS the checklist, not usable as generated
+
+Files: `chef_cake_placement.mp4` (Scene A) and `chef_cake_entrance.mp4` (Scene B), both 1280x720, 10.24s, 24fps. Verified by extracting frames at 1fps plus a zoomed crop on the chest embroidery. **Not filed to the repo** — test output, not production content, and it doesn't pass.
+
+**Scene A ("Cake at the Pass") — mostly holds up on its own:**
+- Face/glasses/build match `baron-vieux-scarlett-notext-v1.jpg` well.
+- Cake matches `roe-velvet-cake-reference-v1.jpg` throughout — same two-layer build, frosting, roe, candied orange.
+- Background ("RATIONAL" combi oven) stays consistent across the whole shot — no internal set-swap.
+- **Fails item 2 (embroidery):** zoomed the exact chest spot where "Baron Vieux" should read — illegible cursive scrawl, not text. Same failure mode as Flow.
+
+**Scene B ("The Walk-Out") — doesn't match the brief:**
+- **Fails item 1 (character match) — unverifiable, not just imperfect.** Shot entirely from behind for all 10 seconds; face never shown, so there's no way to confirm it's even the same person as Scene A.
+- **Not in the brief at all:** he's empty-handed the whole clip — no cake, no cake stand. The scene's entire point (carrying the cake out) didn't generate.
+- **Wrong setting:** a generic wood-paneled, chandeliered dining room with real-looking seated diners — nothing like The Apothecary's established look (exposed brick, low light, heat lamps), and no visual throughline from Scene A's steel kitchen.
+
+**Item 6 (stitch check): fails.** Cutting A into B doesn't read as one restaurant or one continuous moment — different architecture, different lighting language, no cake carrying across the cut to anchor it.
+
+**Verdict:** Meta AI solved zero of Flow's known failure modes in this run — embroidery drift persists, and it introduced new problems (no cake, no face, wrong location) rather than fixing continuity. Runway Gen-4 still untested — pending that before drawing a comparative conclusion.
