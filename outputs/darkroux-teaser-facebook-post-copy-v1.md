@@ -27,4 +27,4 @@
 ## Notes
 - Same cliffhanger structure as the IG/YouTube caption (`outputs/darkroux-teaser-post-copy-v1.md`) — ends mid-color-turn, not the finished roux. Don't pair this with a thumbnail/frame that shows the finished dish.
 - AI disclosure: use Facebook's native AI-content label at post time, same standing policy as everywhere else (`outputs/baron-vieux-ai-disclosure-v1.md`).
-- Not filed to `outputs/scheduled-posting-lookup.csv` yet — add a row (platform: Facebook) once this actually posts, same as the IG/YouTube rows already logged for 2026-09-08.
+- **Posted 2026-09-08** via Meta AI (Lejohn, manual). Filed to `outputs/scheduled-posting-lookup.csv` — exact page(s) and post id weren't passed back since this went through Meta AI's own UI, not an API Claude called. Let Claude know the page/id if it should be more precise.
