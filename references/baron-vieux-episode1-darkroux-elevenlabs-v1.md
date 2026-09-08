@@ -43,3 +43,20 @@ Hit subscribe, drop your gumbo base in the comments — see y'all on the next on
 ## What happens after generation
 
 Same discipline as everything else here — drop the audio files back and I'll check them against the tone/pacing described above before they're treated as final. If you generate video and audio separately (this ElevenLabs track plus whatever comes out of Meta AI/Flow), the two need to actually be synced/mixed together in an edit pass afterward — flag if that's a step you want scoped out too, since nothing in the pipeline currently handles audio/video merging.
+
+---
+
+## Results: direct API generation via ElevenLabs connector — 2026-09-08 — best result of the whole week
+
+Update: ElevenLabs connected as a live MCP tool in this session, with real `creative_generate_video`/`creative_generate_speech` API access (not just the manual "ElevenLabs Flow" UI Lejohn was testing by hand) — see `references/pipeline-tool-capabilities.md` for the capability writeup. Used this to generate the episode directly instead of handing off copy-paste prompts.
+
+**All 7 narration lines generated** with the cloned "Baron Vieux (Voice Bank 2026-08-24)" voice (`1xE006SCsREhx83KAUYI`) — genuinely his voice, not an approximation. Total cost ~$0.11.
+
+**3 of 7 scene videos generated** (Scenes 1-3) via `gemini-omni-1.1-flash`, wired to `baron-portrait-apron-kitchen-v1.jpeg` as an image reference on a shared ElevenLabs Flow canvas (flow id `u4hdBzjeexgptHk76hDh`). **This is the best result the whole pipeline has produced this week** — verified by extracting frames and checking against the reference:
+- Scene 1's final frame matches the reference photo almost exactly: same face, glasses, apron with the phone/tools in the pockets, same stainless-steel kitchen with hood and combi oven.
+- Scenes 2 and 3 hold the same kitchen, skillet, and wooden spoon consistently, and Scene 3's color-turn actually progresses from pale to deep reddish-brown across the clip, matching the script.
+- No character drift, no setting drift, no extra people — the three failure modes that broke every other tool's attempt this week (Flow, Meta AI Rounds 1 and 2) did not show up here.
+
+**Scenes 4-7 blocked — ElevenLabs workspace quota exhausted, not a Claude-side limit.** Each video costs ~6,105 credits (~$1.11); the workspace had only 4,620 left after scene 3, against a 130,810 total quota — meaning most of the quota was already used before this session started (Lejohn's own testing this week: the food-image generations, the manual Flow session, etc.), not by this run alone. Total spend this session: ~$3.44 (3 videos + 7 narration lines).
+
+**Next step:** once quota resets or more credits are added, resume with Scene 4 using the same flow id and reference node (`Apsxmy1LeGLUop6yJaoS`) so it stays on the same canvas — prompts for Scenes 4-7 are already written in `references/baron-vieux-episode1-darkroux-googleflow-v1.md`'s copy-paste section, adaptable to gemini-omni-1.1-flash's shorter intent-based style the same way Scenes 1-3 were.
