@@ -8,6 +8,12 @@ Append-only log tracking what's been surfaced from anything landing in `1rbE_Sd_
 
 ---
 
+## 2026-09-08, 14:32 UTC — checked, nothing new in Turn folder (daily automation)
+
+Checked The Turn folder — no files with a newer `modifiedTime` than 2026-09-05T17:03:32Z. Nothing to surface from Gemini or Meta AI there.
+
+Downloads folder did get new files, but nothing from Meta AI directly — 5 ElevenLabs video clips (filenames match Episode 1 Dark Roux scene descriptions, e.g. "Camera pulls ba[ck]", "Overhead locked", "Macro close-up", "Close-up, gentl[e]"), likely Lejohn's own manual ElevenLabs Flow testing from 2026-09-07. Not filed as canon — attempted to download and frame-check against locked reference art per the standing review discipline, but the Google Drive download tool errored persistently ("session expired") for this session despite search/metadata calls working fine. Flagged to Lejohn in-session rather than skipping verification silently; held for a future session/retry.
+
 ## 2026-09-06, 14:32 UTC — checked, nothing new in Turn folder
 
 Checked The Turn folder — no files with a newer `modifiedTime` than 2026-09-05T17:03:32Z. Nothing to surface from Gemini or Meta AI. (Downloads folder did get one new file — a Spokeo people-search PDF unrelated to this project — not repo-worthy, not filed.)
