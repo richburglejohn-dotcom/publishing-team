@@ -9,6 +9,12 @@ The original 6-clip video is otherwise solid — clean argument, good pacing, no
 
 **Dialogue note:** the original video's audio was Baron's own native spoken argument, generated in-clip — no separate script doc exists anywhere in the repo for it (checked). The lines below are a reconstruction matching the same beats and thesis described in `outputs/baron-jambalaya-vs-paella-youtube-post-copy-v1.md` (clip-by-clip content notes), **not a verbatim transcript of the original audio** — flagging this clearly since it's a real difference from the "close to verbatim" rule used elsewhere in this repo, which only applies when an original script exists to be verbatim *to*.
 
+**Update 2026-09-09 — 5 individual clips reviewed, cuts the regeneration work roughly in half.** Lejohn uploaded 5 clips (`Dont_call_it_paella`, `Jambalaya_vs_Paella_argument`, `Rice_method_changes_everything`, `Paella_vs_Jambalaya_rice_technique`, `Call_to_action_subscribe_membership`) — these appear to be the component clips for Koda's separate "rice technique" video (`references/Book1_Campaign_Manual_Posting_Guide.md` item #2, hosted on base44.app, which is blocked by this session's network proxy and couldn't be checked directly). Findings:
+- **2 clips show Baron and have the same garbled cursive embroidery defect** ("Dont_call_it_paella" — Baron holding a cast-iron pot toward camera; "Call_to_action_subscribe_membership" — closing CTA, on-screen text "JOIN THE TABLE — MEMBERSHIP LINK BELOW" matches this doc's Scene 6 exactly). Both need the same font-fix regeneration as the scenes below.
+- **3 clips are clean b-roll, no character, no embroidery risk — reusable as-is, no regeneration needed:** `Jambalaya_vs_Paella_argument` (a title card reading "TWO DISHES. ONE OLD ARGUMENT."), `Rice_method_changes_everything` (jambalaya being stirred, hands only), `Paella_vs_Jambalaya_rice_technique` (paella pan with shrimp and peas, no people).
+
+So the actual Flow work needed is just the two Baron-facing shots (the pot-holding hero moment and the CTA) — use Scene 1 and Scene 6 prompts below for those, skip regenerating equivalent b-roll since these three clean clips already cover it.
+
 ---
 
 ## LOCKED REFERENCE IMAGES
