@@ -12,6 +12,14 @@
 
 **4. Face-reveal camera direction — partial success, unresolved.** Asking for an arc to a 3/4 angle within the first 2-3 seconds got a brief glimpse (better than Round 1's zero visibility) but the shot still settled back to behind-only for most of the clip. **Rule: not yet solved — if a scene needs a clean identity-confirming angle, may need to specify the exact angle and how long to hold it, not just "arc to reveal."**
 
+## 2026-09-09 — closed out: Meta AI not viable for this series, dropping it from the tool rotation
+
+Two straight-through (single continuous take) attempts, both requested at 45s with explicit per-beat timing in the prompt: both came back hard-capped at **10.24 seconds** regardless of the timing instructions in the text prompt — confirms duration is a platform-level cap Meta AI's text prompt cannot override, not a prompting problem to keep solving. (Its own UI may have a separate length control outside the chat prompt, but this wasn't tested since Lejohn's call was to stop here.)
+
+Second attempt also introduced a stylistic drift the first one didn't have: dramatic red/moody lighting throughout the kitchen, nothing like the clean stainless-steel look in the locked reference (`baron-portrait-apron-kitchen-v1.jpeg`) or established anywhere else in this series — even with the reference image attached. Embroidery legibility was good this time ("BARON VIEUX" rendered clean, confirming rule 1 below still holds), but the lighting/color-grade mismatch alone is enough to make this unusable as-is.
+
+**Decision (Lejohn, 2026-09-09): "I don't like meta's versions" — dropping Meta AI from the Dark Roux pipeline.** Not filed to the repo. ElevenLabs (`gemini-omni-1.1-flash`) remains the strongest result this week (Scenes 1-3, see `references/baron-vieux-episode1-darkroux-elevenlabs-v1.md`) and is the path forward once credits top up; Google Flow remains the proven-at-scale fallback (Roe Velvet, 8 clips) if needed sooner.
+
 ## Open questions the Episode 1 pilot needs to answer
 
 - Does a locked kitchen reference photo actually stop cross-scene setting drift, the way locked character/cake references already do? (Point 3 above, first real test.)
