@@ -32,7 +32,7 @@ The publishing practice behind Culinary Crescendo — out in the open now.
 
 Two books. One pipeline. Built in public.
 
-Inquiries open — link in bio.
+Inquiries open — more at bayoubeauxllc.com.
 
 **Hashtags:** #FuturIQ #CulinaryCrescendo #AIAssistedPublishing #IndieAuthor #Bayoubeaux1070 #SelfPublishing #WritingCommunity #BookTok #PublishingTips
 
@@ -41,5 +41,5 @@ Inquiries open — link in bio.
 ## Posting notes
 - Same image, same day, both platforms — standard cross-post pattern already used for other launch content (see `social-posting-calendar-v1.md`).
 - Facebook copy explains the "why" in full; Instagram stays quote-card short per this project's established platform split (see `instagram-baron-vieux-page-launch-v1.md` for the same pattern).
-- **Instagram CTA is back to "link in bio"** — the Instagram bio link is being updated to point at the FuturIQ section (`bayoubeauxllc.com#futuriq`) instead of `/books`, so the CTA now matches. Confirm the bio link is actually live before posting.
+- **2026-09-09: Instagram CTA swapped from "link in bio" to "more at bayoubeauxllc.com."** Checked the FuturIQ Instagram account's bio link directly (Windsor.ai `website` field) — it was still null, not pointing at the FuturIQ section as this doc originally assumed. Rather than post a dead CTA, swapped to a direct site mention. Revert to "link in bio" once the bio link is actually set.
 - The inquiry CTA on the site itself (`docs/index.html#futuriq`) still goes to `bayoubeaux1070@gmail.com` — that's unchanged, this only affects how people get to the site.
