@@ -24,6 +24,23 @@ So the actual Flow work needed is just the two Baron-facing shots (the pot-holdi
 
 **Status: both Baron-facing shots now have clean candidates.** Combined with the three filed b-roll clips (title card, jambalaya stir, paella pan), all five pieces needed for the replacement cut are in hand. Remaining before this can replace the original: (1) confirm the CTA candidate's actual dialogue matches or is close enough to the intended line, (2) full stitch-check — cut all five in order and watch as one sequence to confirm no visible jump between shots.
 
+**Update 2026-09-09, stitch-check results — two of the three "clean b-roll" clips were wrong, corrected two of three; the third has a real problem still open.** Ran the full stitch-check (cut all 5 pieces in order, frame-by-frame check at every boundary, then dense full-timeline sampling of every clip once the first check surfaced an anomaly). Findings:
+- **`baron-jambalaya-hero-shot-candidate-v2.mp4` and `baron-jambalaya-cta-candidate-v2.mp4`: reconfirmed clean.** Sampled 48 frames each (every ~0.17s across the full 8s) — no embroidery text rendered anywhere in either clip, no drift from the locked reference. These two are solid.
+- **`outputs/jambalaya-stir-broll-v1.mp4`: reconfirmed clean.** Sampled its full 8s at 1s intervals — hands stirring rice throughout, ends on a bonus title card ("SAME GRAIN. TOTALLY DIFFERENT JOB.") that wasn't previously noted but is not a problem, no character in frame. No change needed.
+- **`outputs/paella-pan-broll-v1.mp4` was NOT clean — filed in error.** Its actual content: 0–2.9s is Baron talking-head footage with the garbled-embroidery defect plus an "IT'S NOT THE INGREDIENTS" title card overlay (i.e. content from a different scene entirely), 3.0–5.2s is genuine clean paella-with-shrimp-and-peas footage, and 5.5–8.0s cuts to jambalaya-in-a-pot footage (duplicating what the stir-broll clip already covers, not paella at all). **Fix applied:** trimmed to just the clean 3.0–5.2s window (2.2s) and saved as `outputs/paella-pan-broll-v2-trimmed.mp4`; deleted the original v1.
+- **`outputs/jambalaya-vs-paella-titlecard-broll-v2-trimmed.mp4` (the fix from the earlier update) is ALSO not clean — the original spot-check that approved it was still too sparse.** Dense-checked its full 4.0s: only 0.0–1.0s is the actual "TWO DISHES. ONE OLD ARGUMENT." title card; from ~1.1s to the end it's the same garbled-embroidery Baron footage seen in the paella clip (different apron layout than the hero/CTA candidates — phone, digital thermometer, notepad, pens — consistent with this being a fragment of the ORIGINAL flawed 6-scene video, not a real b-roll asset). **This is unresolved** — only ~1 second of usable clean title-card footage exists in this file, not enough for a proper title-card beat. Options: (a) accept a ~1s title-card flash instead of a full scene, (b) regenerate a proper title-card scene via Google Flow, (c) check Drive for a different source. Flagging rather than deciding — this needs Lejohn's call on the tradeoff.
+
+**Root cause note:** both contaminated clips are fragments of the same source (whatever video Koda's "rice technique" upload actually was cut from) — a several-second garbled-Baron segment bleeds into what looked like standalone b-roll unless the full clip is sampled at high density. The lesson from this session: a 3-4 frame spot-check is not reliable for declaring a generated/downloaded clip clean — every clip filed as "b-roll, no risk" going forward should get the same dense full-timeline check the candidate scenes get.
+
+**Corrected final-cut plan (4 of 5 pieces confirmed clean, pending title-card decision):**
+1. `baron-jambalaya-hero-shot-candidate-v2.mp4` (8s) — clean
+2. Title card — **open, see above**
+3. `outputs/jambalaya-stir-broll-v1.mp4` (8s) — clean
+4. `outputs/paella-pan-broll-v2-trimmed.mp4` (2.2s) — clean
+5. `baron-jambalaya-cta-candidate-v2.mp4` (8s) — clean
+
+A corrected stitch (`jambalaya-final-stitch-v2.mp4`, currently using the short/unresolved title-card piece, in scratchpad only — not yet filed to the repo) was rebuilt and boundary-checked; every boundary is clean except the title-card segment itself, which needs the decision above before this can be filed as the replacement for `outputs/baron-jambalaya-vs-paella-youtube-v1.mp4`.
+
 ---
 
 ## LOCKED REFERENCE IMAGES
