@@ -1,6 +1,9 @@
 # FuturIQ Launch Post — Facebook & Instagram (Meta Business Suite)
 ### Created: 2026-08-21
 ### Voice: Author (Lejohn Richburg III), first-person — same author-voice register as `social-content-book1-deepdive-v1.md`, not the in-character Baron Vieux posts
+### Status: Instagram PUBLISHED 2026-09-09 via Windsor.ai direct API (media id 17971715199134057). Facebook remaining — no direct API path exists (confirmed repeatedly, see `references/pipeline-tool-capabilities.md`), staged below for Koda.
+
+**Remaining target: Facebook only — Bayoubeaux1070 page.**
 
 **Image:** `outputs/futuriq-launch-post-graphic-v1.png` (1080x1080, square — works for both Facebook and Instagram feed). Built from the site's actual logo, `docs/images/futuriq-logo.svg`, matching the new FuturIQ section on bayoubeauxllc.com.
 
@@ -37,6 +40,12 @@ Inquiries open — more at bayoubeauxllc.com.
 **Hashtags:** #FuturIQ #CulinaryCrescendo #AIAssistedPublishing #IndieAuthor #Bayoubeaux1070 #SelfPublishing #WritingCommunity #BookTok #PublishingTips
 
 ---
+
+## Publish checklist (Koda)
+1. Image: `outputs/futuriq-launch-post-graphic-v1.png` — direct download URL: https://raw.githubusercontent.com/richburglejohn-dotcom/publishing-team/main/outputs/futuriq-launch-post-graphic-v1.png (or Koda's own `media.base44.com` re-host, whichever its FB posting flow expects).
+2. Post to Bayoubeaux1070 (Facebook page) only — Instagram is already done, don't duplicate it there.
+3. Use the exact Facebook copy above, unchanged.
+4. No AI-disclosure toggle needed — this is a static logo graphic, not AI-generated media (see `outputs/baron-vieux-ai-disclosure-v1.md` for what that policy actually covers).
 
 ## Posting notes
 - Same image, same day, both platforms — standard cross-post pattern already used for other launch content (see `social-posting-calendar-v1.md`).
