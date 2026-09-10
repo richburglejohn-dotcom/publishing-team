@@ -1,6 +1,9 @@
 # FuturIQ Launch Post — Facebook & Instagram (Meta Business Suite)
 ### Created: 2026-08-21
 ### Voice: Author (Lejohn Richburg III), first-person — same author-voice register as `social-content-book1-deepdive-v1.md`, not the in-character Baron Vieux posts
+### Status: Instagram PUBLISHED 2026-09-09 via Windsor.ai direct API (media id 17971715199134057). Facebook remaining — no direct API path exists (confirmed repeatedly, see `references/pipeline-tool-capabilities.md`), staged below for Koda.
+
+**Remaining target: Facebook only — Bayoubeaux1070 page.**
 
 **Image:** `outputs/futuriq-launch-post-graphic-v1.png` (1080x1080, square — works for both Facebook and Instagram feed). Built from the site's actual logo, `docs/images/futuriq-logo.svg`, matching the new FuturIQ section on bayoubeauxllc.com.
 
@@ -32,14 +35,20 @@ The publishing practice behind Culinary Crescendo — out in the open now.
 
 Two books. One pipeline. Built in public.
 
-Inquiries open — link in bio.
+Inquiries open — more at bayoubeauxllc.com.
 
 **Hashtags:** #FuturIQ #CulinaryCrescendo #AIAssistedPublishing #IndieAuthor #Bayoubeaux1070 #SelfPublishing #WritingCommunity #BookTok #PublishingTips
 
 ---
 
+## Publish checklist (Koda)
+1. Image: `outputs/futuriq-launch-post-graphic-v1.png` — direct download URL: https://raw.githubusercontent.com/richburglejohn-dotcom/publishing-team/main/outputs/futuriq-launch-post-graphic-v1.png (or Koda's own `media.base44.com` re-host, whichever its FB posting flow expects).
+2. Post to Bayoubeaux1070 (Facebook page) only — Instagram is already done, don't duplicate it there.
+3. Use the exact Facebook copy above, unchanged.
+4. No AI-disclosure toggle needed — this is a static logo graphic, not AI-generated media (see `outputs/baron-vieux-ai-disclosure-v1.md` for what that policy actually covers).
+
 ## Posting notes
 - Same image, same day, both platforms — standard cross-post pattern already used for other launch content (see `social-posting-calendar-v1.md`).
 - Facebook copy explains the "why" in full; Instagram stays quote-card short per this project's established platform split (see `instagram-baron-vieux-page-launch-v1.md` for the same pattern).
-- **Instagram CTA is back to "link in bio"** — the Instagram bio link is being updated to point at the FuturIQ section (`bayoubeauxllc.com#futuriq`) instead of `/books`, so the CTA now matches. Confirm the bio link is actually live before posting.
+- **2026-09-09: Instagram CTA swapped from "link in bio" to "more at bayoubeauxllc.com."** Checked the FuturIQ Instagram account's bio link directly (Windsor.ai `website` field) — it was still null, not pointing at the FuturIQ section as this doc originally assumed. Rather than post a dead CTA, swapped to a direct site mention. Revert to "link in bio" once the bio link is actually set.
 - The inquiry CTA on the site itself (`docs/index.html#futuriq`) still goes to `bayoubeaux1070@gmail.com` — that's unchanged, this only affects how people get to the site.

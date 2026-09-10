@@ -1,0 +1,168 @@
+# Google Flow Regeneration Package
+## "Jambalaya vs. Paella" — Fixing the Embroidery Defect
+### Created: 2026-09-09
+### Status: STITCH CHECK PASSED, 2026-09-10 — `outputs/baron-jambalaya-vs-paella-youtube-v2.mp4` is the verified replacement for `outputs/baron-jambalaya-vs-paella-youtube-v1.mp4` (held per `outputs/baron-jambalaya-vs-paella-youtube-post-copy-v1.md`'s flag — garbled apron embroidery, worst on the opening title-card frame). Original v1 kept for reference, not deleted, per repo convention.
+
+## Why this exists
+
+The original 6-clip video is otherwise solid — clean argument, good pacing, no character drift — but every clip has garbled, illegible embroidered text on Baron's apron ("Bawr Croer...", "RegeBarge..." instead of "Baron Vieux" / "Bayouboujee"), worst on the very first frame (the intro title card, likely the thumbnail). This package regenerates it with the fix validated on Meta AI this week: **explicit blocky/sans-serif font instruction**, never just "embroidered text."
+
+**Dialogue note:** the original video's audio was Baron's own native spoken argument, generated in-clip — no separate script doc exists anywhere in the repo for it (checked). The lines below are a reconstruction matching the same beats and thesis described in `outputs/baron-jambalaya-vs-paella-youtube-post-copy-v1.md` (clip-by-clip content notes), **not a verbatim transcript of the original audio** — flagging this clearly since it's a real difference from the "close to verbatim" rule used elsewhere in this repo, which only applies when an original script exists to be verbatim *to*.
+
+**Update 2026-09-09 — 5 individual clips reviewed, cuts the regeneration work roughly in half.** Lejohn uploaded 5 clips (`Dont_call_it_paella`, `Jambalaya_vs_Paella_argument`, `Rice_method_changes_everything`, `Paella_vs_Jambalaya_rice_technique`, `Call_to_action_subscribe_membership`) — these appear to be the component clips for Koda's separate "rice technique" video (`references/Book1_Campaign_Manual_Posting_Guide.md` item #2, hosted on base44.app, which is blocked by this session's network proxy and couldn't be checked directly). Findings:
+- **2 clips show Baron and have the same garbled cursive embroidery defect** ("Dont_call_it_paella" — Baron holding a cast-iron pot toward camera; "Call_to_action_subscribe_membership" — closing CTA, on-screen text "JOIN THE TABLE — MEMBERSHIP LINK BELOW" matches this doc's Scene 6 exactly). Both need the same font-fix regeneration as the scenes below. Not filed to the repo — garbled embroidery, same as the original.
+- **3 clips are clean b-roll, no character, no embroidery risk — filed to the repo as reusable assets, no regeneration needed:**
+  - `outputs/jambalaya-vs-paella-titlecard-broll-v1.mp4` — title card reading "TWO DISHES. ONE OLD ARGUMENT."
+  - `outputs/jambalaya-stir-broll-v1.mp4` — jambalaya being stirred in the pot, hands only
+  - `outputs/paella-pan-broll-v1.mp4` — paella pan with shrimp and peas, no people
+
+So the actual Flow work needed is just the two Baron-facing shots (the pot-holding hero moment and the CTA) — use Scene 1 and Scene 6 prompts below for those. The three filed clips above go straight into the final cut once those two come back from Flow.
+
+**Update 2026-09-09, 14:32 UTC — a new candidate for the Scene 1 hero shot surfaced during the daily Drive check.** `outputs/baron-jambalaya-hero-shot-candidate-v2.mp4` (dropped in Downloads 10:08 UTC today, presumably a first regeneration pass) — checked against the locked reference: face, glasses, apron, kitchen all match cleanly, and **no garbled embroidery visible in any frame** (the leather strap hardware is there but no cursive text rendered on the pocket/coat in this take, so the defect doesn't show up at all). Includes jambalaya-with-shrimp b-roll consistent with the topic.
+
+**Update 2026-09-09, 18:21 (clip timestamp) — Scene 6 (CTA) candidate also in, same clean result.** `outputs/baron-jambalaya-cta-candidate-v2.mp4` — face, glasses, apron, kitchen all match the locked reference, no garbled embroidery anywhere in frame, direct-to-camera with a confident closing smile consistent with the Scene 6 brief. **Caveat: audio not verified** — no transcription was run, so the exact spoken line ("That's the difference. Join the table — membership link's below.") hasn't been confirmed, only the visual match.
+
+**Status: both Baron-facing shots now have clean candidates.** Combined with the three filed b-roll clips (title card, jambalaya stir, paella pan), all five pieces needed for the replacement cut are in hand. Remaining before this can replace the original: (1) confirm the CTA candidate's actual dialogue matches or is close enough to the intended line, (2) full stitch-check — cut all five in order and watch as one sequence to confirm no visible jump between shots.
+
+**Update 2026-09-09, stitch-check results — two of the three "clean b-roll" clips were wrong, corrected two of three; the third has a real problem still open.** Ran the full stitch-check (cut all 5 pieces in order, frame-by-frame check at every boundary, then dense full-timeline sampling of every clip once the first check surfaced an anomaly). Findings:
+- **`baron-jambalaya-hero-shot-candidate-v2.mp4` and `baron-jambalaya-cta-candidate-v2.mp4`: reconfirmed clean.** Sampled 48 frames each (every ~0.17s across the full 8s) — no embroidery text rendered anywhere in either clip, no drift from the locked reference. These two are solid.
+- **`outputs/jambalaya-stir-broll-v1.mp4`: reconfirmed clean.** Sampled its full 8s at 1s intervals — hands stirring rice throughout, ends on a bonus title card ("SAME GRAIN. TOTALLY DIFFERENT JOB.") that wasn't previously noted but is not a problem, no character in frame. No change needed.
+- **`outputs/paella-pan-broll-v1.mp4` was NOT clean — filed in error.** Its actual content: 0–2.9s is Baron talking-head footage with the garbled-embroidery defect plus an "IT'S NOT THE INGREDIENTS" title card overlay (i.e. content from a different scene entirely), 3.0–5.2s is genuine clean paella-with-shrimp-and-peas footage, and 5.5–8.0s cuts to jambalaya-in-a-pot footage (duplicating what the stir-broll clip already covers, not paella at all). **Fix applied:** trimmed to just the clean 3.0–5.2s window (2.2s) and saved as `outputs/paella-pan-broll-v2-trimmed.mp4`; deleted the original v1.
+- **`outputs/jambalaya-vs-paella-titlecard-broll-v2-trimmed.mp4` (the fix from the earlier update) was ALSO not clean — the original spot-check that approved it was still too sparse.** Dense-checked its full 4.0s: only 0.0–1.0s is the actual "TWO DISHES. ONE OLD ARGUMENT." title card; from ~1.1s to the end it's the same garbled-embroidery Baron footage seen in the paella clip (different apron layout than the hero/CTA candidates — phone, digital thermometer, notepad, pens — consistent with this being a fragment of the ORIGINAL flawed 6-scene video, not a real b-roll asset).
+
+**Root cause note:** both contaminated clips are fragments of the same source (whatever video Koda's "rice technique" upload actually was cut from) — a several-second garbled-Baron segment bleeds into what looked like standalone b-roll unless the full clip is sampled at high density. The lesson from this session: a 3-4 frame spot-check is not reliable for declaring a generated/downloaded clip clean — every clip filed as "b-roll, no risk" going forward should get the same dense full-timeline check the candidate scenes get.
+
+**Title card fix, 2026-09-10:** rather than accept either a defective 4s title card or a jarring ~1s flash, trimmed to the verified-clean 0.0–1.0s window and extended with a frozen last-frame hold (`tpad` filter) back to a full 4.0s — real, verified footage plus a static hold, not fabricated content (title cards are conventionally static anyway). Saved as `jambalaya-vs-paella-titlecard-broll-v3-freeze.mp4` and dense-checked clean across its entire duration.
+
+**Final stitch check, 2026-09-10 — PASSED.** Rebuilt the 5-piece stitch with the corrected title card:
+1. `baron-jambalaya-hero-shot-candidate-v2.mp4` (8s) — clean
+2. `jambalaya-vs-paella-titlecard-broll-v3-freeze.mp4` (4s) — clean
+3. `outputs/jambalaya-stir-broll-v1.mp4` (8s) — clean
+4. `outputs/paella-pan-broll-v2-trimmed.mp4` (2.2s) — clean
+5. `baron-jambalaya-cta-candidate-v2.mp4` (8s) — clean
+
+Sampled 36 frames spanning the full 30.25s runtime — every second across the whole video plus tight double-checks at all 4 boundaries. Every frame is clean: no garbled embroidery, no wrong-scene content, no character mismatches. **Filed as `outputs/baron-jambalaya-vs-paella-youtube-v2.mp4`** — this is the verified replacement for the original defective 6-scene video. Original kept for reference, not deleted, per repo convention.
+
+**Remaining before posting:** confirm the CTA candidate's actual spoken dialogue (still only visually verified, not transcribed — same caveat as before), then this is ready to schedule per the usual pipeline and post-copy doc.
+
+---
+
+## LOCKED REFERENCE IMAGES
+
+Same as every other Baron Vieux piece this week — `references/baron-portrait-apron-kitchen-v1.jpeg` for character + kitchen, `references/baron-mentoring-kitchen-v1.webp` for embroidery/apron detail.
+
+## VERIFICATION PROTOCOL
+
+Same as the Dark Roux pilot (`references/baron-vieux-episode1-darkroux-googleflow-v1.md`):
+1. Baron matches the locked reference — same face, glasses, coat/apron.
+2. Kitchen matches the same reference in every scene.
+3. **Embroidery text, if in frame, is legible** — check against `baron-mentoring-kitchen-v1.webp`. This is the specific defect being fixed; if it renders garbled again, regenerate, don't accept it.
+4. No extra characters in frame except where a background staff member is explicitly called for (Scene 1 only, per the original).
+5. Stitch check after all 6 are generated — cut in order, watch as one clip, confirm no visible jump.
+
+## STRICT GENERATION RULES
+
+One take per scene, generated in order 1→6, no batching. Reference image pasted fresh into every scene's prompt. If a take drifts, regenerate — don't loosen the prompt to match what came out.
+
+---
+
+### SCENE 1 — Intro Title Card
+**Visual:** Baron in his kitchen, adjusting his apron/coat, warm confident energy, camera settling into a medium shot. A second kitchen staff member visible working in the soft-focus background.
+**Dialogue (Baron):** "Baron Vieux. Welcome back to the Culinary Crescendo Series."
+**On-screen text (added in edit, not generation):** "Baron Vieux — The Culinary Crescendo Series"
+
+### SCENE 2 — "Don't Call It Paella"
+**Visual:** Opens on a close-up of jambalaya in a cast-iron pot — shrimp, sausage, rice. Cuts to Baron, direct to camera, making his opening case.
+**Dialogue (Baron):** "First thing — don't call this paella. I don't care how it looks in a photo. It's not paella."
+
+### SCENE 3 — The Argument
+**Visual:** Baron, talking head, no on-screen text, mid-explanation, animated hand gesture.
+**Dialogue (Baron):** "People keep comparing the two like they're the same dish wearing different clothes. They're not. The comparison itself is the mistake."
+
+### SCENE 4 — "It's Not the Ingredients"
+**Visual:** Baron's thesis statement, cuts to jambalaya b-roll — rice being stirred in the pot, absorbing the stock.
+**Dialogue (Baron):** "It's not the ingredients. Swap the protein, swap the pan — doesn't matter. It's the rice method. That's the whole argument."
+
+### SCENE 5 — Paella Close-Up
+**Visual:** Clean comparison payoff — a shrimp-and-rice paella in a wide pan, socarrat crust visible at the edges.
+**Dialogue (Baron, voiceover):** "Paella wants that crust on the bottom, hands off once it's in the pan. Jambalaya wants you stirring, building layers the whole way through. Different rice, different discipline."
+
+### SCENE 6 — CTA
+**Visual:** Baron, direct to camera, closing energy.
+**Dialogue (Baron):** "That's the difference. Join the table — membership link's below."
+
+---
+
+## COPY-PASTE PROMPTS FOR GOOGLE FLOW
+
+Attach `references/baron-portrait-apron-kitchen-v1.jpeg` fresh before each scene.
+
+**ATTACH:** `baron-portrait-apron-kitchen-v1.jpeg`
+```
+Baron Vieux, a lean, sharp-featured chef with square black glasses, wearing a gray chef's coat and a black tool-apron (phone pocket, wooden spatula, leather straps), in a stainless-steel professional kitchen with an exposed hood and combi oven — same face, coat, apron, and kitchen as the attached reference image, not a different one.
+
+Medium shot, warm confident energy. Baron adjusting his apron/coat, settling into frame. A second kitchen staff member works in soft focus in the background — one other person only, no more.
+
+Dialogue (Baron): "Baron Vieux. Welcome back to the Culinary Crescendo Series."
+
+If any embroidered text on the coat or apron is visible, render it in plain, blocky, sans-serif lettering, large and clearly legible — not script or cursive. This is the single most important instruction in this prompt — the previous take failed here.
+```
+
+**ATTACH:** `baron-portrait-apron-kitchen-v1.jpeg`
+```
+Baron Vieux, same chef as the attached reference image — same face, glasses, gray coat, black tool-apron, same stainless-steel kitchen with exposed hood and combi oven visible in the background.
+
+Opens on a close-up of jambalaya in a cast-iron pot — shrimp, sausage, rice, visible steam. Cuts to Baron, direct to camera, mid-sentence, confident and direct. No other people in frame.
+
+Dialogue (Baron): "First thing — don't call this paella. I don't care how it looks in a photo. It's not paella."
+
+If any embroidered text on the coat or apron is visible, render it in plain, blocky, sans-serif lettering, large and clearly legible — not script or cursive.
+```
+
+**ATTACH:** `baron-portrait-apron-kitchen-v1.jpeg`
+```
+Baron Vieux, same chef as the attached reference image — same face, glasses, gray coat, black tool-apron, same stainless-steel kitchen with exposed hood and combi oven visible in the background.
+
+Talking-head shot, no on-screen text, mid-explanation, one animated hand gesture. No other people in frame.
+
+Dialogue (Baron): "People keep comparing the two like they're the same dish wearing different clothes. They're not. The comparison itself is the mistake."
+
+If any embroidered text on the coat or apron is visible, render it in plain, blocky, sans-serif lettering, large and clearly legible — not script or cursive.
+```
+
+**ATTACH:** `baron-portrait-apron-kitchen-v1.jpeg`
+```
+Baron Vieux, same chef as the attached reference image — same face, glasses, gray coat, black tool-apron, same stainless-steel kitchen with exposed hood and combi oven visible in the background.
+
+Baron delivering his thesis statement to camera, then cut to close jambalaya b-roll — rice being stirred in the pot, visibly absorbing the stock, steam rising. No other people in frame.
+
+Dialogue (Baron): "It's not the ingredients. Swap the protein, swap the pan — doesn't matter. It's the rice method. That's the whole argument."
+
+If any embroidered text on the coat or apron is visible, render it in plain, blocky, sans-serif lettering, large and clearly legible — not script or cursive.
+```
+
+**ATTACH:** `baron-portrait-apron-kitchen-v1.jpeg`
+```
+Clean comparison close-up shot — a shrimp-and-rice paella in a wide, shallow pan, socarrat crust visible and crisp at the edges, no hands or people in frame, same kitchen setting as the reference image in soft focus behind it.
+
+Dialogue (Baron, voiceover): "Paella wants that crust on the bottom, hands off once it's in the pan. Jambalaya wants you stirring, building layers the whole way through. Different rice, different discipline."
+
+Audio: quiet kitchen ambiance under the voiceover, no other sound.
+```
+
+**ATTACH:** `baron-portrait-apron-kitchen-v1.jpeg`
+```
+Baron Vieux, same chef as the attached reference image — same face, glasses, gray coat, black tool-apron, same stainless-steel kitchen with exposed hood and combi oven visible in the background.
+
+Direct to camera, closing energy, confident smile. No other people in frame.
+
+Dialogue (Baron): "That's the difference. Join the table — membership link's below."
+
+If any embroidered text on the coat or apron is visible, render it in plain, blocky, sans-serif lettering, large and clearly legible — not script or cursive.
+```
+
+---
+
+## What happens after generation
+
+Run all 6 through Google Flow in order, drop the clips back, and I'll verify against the checklist above — same discipline as every other pilot this week, including the stitch check and a specific close-up pass on the embroidery in Scene 1 and 2 (the two frames where it's most visible/likely to be checked by a viewer). If it passes: this becomes the replacement for `outputs/baron-jambalaya-vs-paella-youtube-v1.mp4`, and the original gets superseded, not deleted (kept for reference per the repo's usual practice). If the embroidery defect recurs even with the explicit instruction: that's a real finding for `references/meta-ai-prompt-technique-v1.md`'s Flow-side counterpart — worth checking whether Flow needs a different fix than Meta AI did.
