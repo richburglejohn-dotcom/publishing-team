@@ -8,6 +8,10 @@ Append-only log tracking what's been surfaced from anything landing in `1rbE_Sd_
 
 ---
 
+## 2026-09-10 — checked, nothing new in Turn folder
+
+Checked The Turn folder against last entry (2026-09-09T14:32:00Z) — no files with a newer `modifiedTime`. Nothing to surface. Proceeding to finish the Jambalaya vs Paella stitch-check per Lejohn's request.
+
 ## 2026-09-09, 14:32 UTC — checked, nothing new in Turn folder; new Downloads file surfaced (daily automation)
 
 Turn folder and Publishing Team folder tree: nothing newer than last check. Downloads folder had 4 new files since yesterday — 2 are the "dark_roux_gumbo" Meta AI clips Lejohn already uploaded directly and I reviewed in-session (both closed out, Meta AI dropped from this series per his call). The 4th, `Chef_cooking_and_discussing_jamb…_202609090508.mp4` (created 10:08 UTC today), is new and unreviewed — checked it: matches the locked Baron reference cleanly (face, glasses, apron, kitchen), no garbled embroidery visible in any frame, jambalaya-with-shrimp b-roll. Looks like a strong candidate for the Jambalaya vs. Paella regeneration in progress — surfaced to Lejohn.
