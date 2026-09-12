@@ -1,17 +1,19 @@
 # The Apothecary Sessions — Show Description
-### Created: 2026-08-24
+### Created: 2026-08-24 | Rewritten 2026-09-12 for the full reversal back to Baron-AI-hosted
 ### For Spotify for Podcasters (and other host/directory fields)
+
+**Disclosure line included below is required, not optional** — per `outputs/culinary-crescendo-podcast-concept-v1.md`'s disclosure requirement for an AI-voiced fictional host. Don't post the show description without it.
 
 ## Short (for character-limited fields, ~150 chars)
 
-The real stories behind the Culinary Crescendo universe — hosted by the author, one character at a time.
+The real stories behind the Culinary Crescendo universe — hosted by Baron Vieux, a fictional character voiced with AI.
 
 ## Full show description
 
-The Apothecary Sessions is Lejohn Richburg III's companion podcast to the Culinary Crescendo series. Each episode goes behind one character from Baron Vieux's world — the real inspiration, the craft, and the lesson underneath their story — hosted in the author's own voice, built the same AI-assisted way the books were.
+The Apothecary Sessions is Lejohn Richburg III's companion podcast to the Culinary Crescendo series — hosted by Baron Vieux himself, one character from his world at a time. Baron Vieux is a fictional character from the Culinary Crescendo books, brought to life here using an AI voice model. Nothing he describes is a real event; everything comes from the books, which are real.
 
-Start with Episode 1: Baron Vieux's actual origin story, not the highlight reel.
+Start with Episode 1: Baron's actual origin story, not the highlight reel.
 
 ## One-line tagline (for show art / directory listings that want a subtitle)
 
-Behind the pages of Culinary Crescendo, one character at a time.
+Behind the pages of Culinary Crescendo, one character at a time — hosted by Baron Vieux (AI-voiced, fictional).

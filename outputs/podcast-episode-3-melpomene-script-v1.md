@@ -2,6 +2,8 @@
 ## "The Insult" — Melpomene
 ### Created: 2026-08-21 | Read-aloud script for TTS / voice-clone (Baron's AI voice)
 
+**Status (2026-09-12):** same as Episode 2 — never actually rewritten to author-voice, ready to produce as-is under the 2026-09-12 full reversal back to Baron-AI-hosted. **Voice:** "Baron Vieux American" (ElevenLabs, voice_id `4gMxHJqo0nJJd3aeKX6z`).
+
 **Format notes for whoever generates this:**
 - Everything inside a plain paragraph is spoken text — paste it straight into the tool.
 - Bold bracketed lines like **[beat]** or **[pause]** are stage direction, not dialogue — strip them before generating, or leave them if the tool respects pause tags. Either way, don't voice them.

@@ -1,6 +1,8 @@
 # The Apothecary Sessions — Interlude
 ## "The Kitchen Never Forgets"
 ### Created: 2026-09-12 | Read-aloud script for you (Lejohn), author-voice
+### SUPERSEDED 2026-09-12 — see `outputs/podcast-interlude-darkroux-baronvoice-trial-v1.md`. This was the author-voice version, written before the full reversal back to Baron-AI-hosted; Lejohn trialed the Baron-voice rewrite and confirmed the reversal. Kept for history, not the production version.
+
 ### Slots between Episode 1 ("The Origin") and Episode 2 ("The Wall" — Rampart). Short-form, not a full episode — no character-arc structure, no CTA to a book chapter. Purpose: bridge the show to the Dark Roux cooking video that just posted, then hand off cleanly into Episode 2.
 
 **Format notes:**

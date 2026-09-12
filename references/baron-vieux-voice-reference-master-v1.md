@@ -35,31 +35,33 @@
 
 **Flagging one part as unverified rather than settled fact:** the source doc also claims an "Orbit / Eclipse / Lyra / Vega / Dipper / Pegasus / Ursa / Nova" generation replaced the original 5 voices. Those names don't match the star/constellation naming convention of the other 30 (real Gemini TTS voices), so this may be Gemini extrapolating rather than confirmed — test before relying on it. Same caution applies to the exact `@Voice: Charon` prompt syntax itself: added to `baron-origin-tiktok-prompt-googleflow.md` and `scarlet-elixir-website-video-prompt-v2-googleflow.md` as of this update, but not yet confirmed working in an actual Flow generation.
 
-**Practical split, finalized 2026-08-22:** use `@Voice: Charon` directly in Flow prompts for anything generated *as new Flow video* — that's the complete answer for Baron appearing on camera in TikTok/Instagram clips. **ElevenLabs is not for Baron.** Per your direction, the podcast is now hosted by real people (you, possibly guests), not Baron — so the ElevenLabs clone below is of **your own voice**, for author-voice narration/hosting convenience, not a second Baron voice. Baron has no standalone-audio need left uncovered: his only voice use case is Flow video, which `@Voice: Charon` already handles.
+**Practical split, updated 2026-09-12 (full reversal back to Baron-AI-hosted podcast):** use `@Voice: Charon` in Flow prompts for anything generated *as new Flow video* (TikTok/Instagram on-camera clips) — that hasn't changed. **ElevenLabs is for Baron again.** The 2026-08-22 note below ("ElevenLabs is not for Baron") is superseded — Lejohn added a new ElevenLabs clone, "Baron Vieux American," specifically for podcast hosting, and confirmed the full reversal after trialing it on the Dark Roux interlude. Two separate Baron voices now exist for two separate media: Flow's `@Voice: Charon` for on-camera video, ElevenLabs "Baron Vieux American" for podcast audio. Don't conflate them or swap one in for the other.
+
+```
+Tool: ElevenLabs
+Voice ID: 4gMxHJqo0nJJd3aeKX6z
+Name: Baron Vieux American
+Created: 2026-09-12 (by Lejohn, in ElevenLabs directly)
+Category: cloned
+Accent/age/gender: American, middle-aged, male
+Used for: The Apothecary Sessions podcast hosting (Baron, in-character) — episodes and interludes alike
+```
 
 ---
 
-## ElevenLabs — this is for the author's voice, not Baron's
+## ElevenLabs — history (superseded 2026-09-12)
 
-**Scope correction (2026-08-22):** everything below originally assumed Baron needed a portable voice clone for hosting the podcast. That's no longer the case — see `culinary-crescendo-podcast-concept-v1.md`'s reversal. The voice bank above stays useful as Flow prompt reference material (matching Baron's established tone/performance descriptor when writing new `@Voice: Charon` scenes), but it's not going into an ElevenLabs clone anymore.
+**2026-08-22 scope correction, no longer current:** the section below originally assumed Baron needed a portable voice clone for hosting the podcast, then that was reversed (real people host instead), then reversed back again 2026-09-12 — see above for the current state. Kept for history rather than deleted.
 
-If you want an ElevenLabs clone of your own voice (for podcast narration/hosting without re-recording every episode, or other author-voice content):
+~~If you want an ElevenLabs clone of your own voice (for podcast narration/hosting without re-recording every episode, or other author-voice content):~~
 
-1. **Record or gather ~30–90 seconds of your own clean speech** the same way this doc's voice bank was built for Baron — a few clean clips is enough for a solid instant clone.
-2. **Create one voice profile**, named clearly (suggest: `Lejohn Richburg III — Author Voice`), seeded with that audio.
-3. **Record the Voice ID here** once created:
+~~1. Record or gather ~30–90 seconds of your own clean speech the same way this doc's voice bank was built for Baron — a few clean clips is enough for a solid instant clone.~~
+~~2. Create one voice profile, named clearly (suggest: `Lejohn Richburg III — Author Voice`), seeded with that audio.~~
+~~3. Record the Voice ID here once created.~~
 
-   ```
-   Tool: [ElevenLabs / other]
-   Voice ID: [fill in once created]
-   Created: [date]
-   Used for: author narration / podcast hosting (not Baron)
-   ```
+**Note:** an author-voice clone is still relevant for one thing under the current reversal — the spoken disclosure that opens Episode 1 needs to be Lejohn's own real voice (live or a clone of his own voice specifically), not Baron's. See `outputs/podcast-disclosure-spoken-script-v1.md`. If Lejohn wants to avoid re-recording that live, the steps above for a personal ElevenLabs clone still apply — just for that one narrow use, not general podcast hosting.
 
 ## Disclosure
 
 - **Baron in Flow video (`@Voice: Charon`):** still a fictional AI-voiced character — keep using the existing disclosure pattern (`outputs/baron-vieux-ai-disclosure-v1.md`, platform-native "AI info" labels).
-- **Author narration via an ElevenLabs clone of your own voice:** much lighter bar — a real person's own voice, AI-generated. A simple one-time note in show notes/description ("some narration uses an AI voice model of the host's own voice") is good practice, not the heavier fictional-character disclosure this doc originally planned around.
-
-## What still has to happen outside this repo
-I don't have a voice-cloning/TTS tool available to me — I can consolidate source material and write scripts, but I can't create the actual voice profile or generate audio. Once you've created an ElevenLabs profile of your own voice and have a Voice ID, tell me and I'll fill in the block above.
+- **Baron hosting the podcast (ElevenLabs "Baron Vieux American"), as of the 2026-09-12 reversal:** back to the heavy bar — an AI-voiced fictional character as the entire host of a long-form show has no platform-native toggle to lean on. Needs a spoken disclosure at the top of Episode 1 in Lejohn's real voice (`outputs/podcast-disclosure-spoken-script-v1.md`) plus a plain statement in the show description that Baron is fictional and AI-voiced. See the Status note at the top of `outputs/culinary-crescendo-podcast-concept-v1.md` for the full requirement.

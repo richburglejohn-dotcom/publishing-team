@@ -1,7 +1,6 @@
-# The Apothecary Sessions — Interlude (Baron-voice trial)
+# The Apothecary Sessions — Interlude
 ## "The Kitchen Never Forgets"
-### Created: 2026-09-12 | TRIAL ONLY — not the produced version
-### Rewritten first-person, Baron speaking, to test the new "Baron Vieux American" ElevenLabs voice (voice_id `4gMxHJqo0nJJd3aeKX6z`) before deciding on a full reversal back to an AI-voiced host. If Lejohn commits to the reversal, this replaces `outputs/podcast-interlude-darkroux-script-v1.md`'s author-voice version; if not, this stays a trial file, not produced content.
+### Created: 2026-09-12 | STATUS: PRODUCTION VERSION as of 2026-09-12 — Lejohn confirmed the full reversal back to Baron-AI-hosted after hearing this trial. Trial audio already generated (`outputs/podcast-interlude-darkroux-baronvoice-trial-v1.mp3`, 59.6s, voice_id `4gMxHJqo0nJJd3aeKX6z`) and sent for listening — treat as usable unless Lejohn flags a re-take. Replaces `outputs/podcast-interlude-darkroux-script-v1.md` (the author-voice version, now historical).
 
 **Format notes:** same as the author-voice version — plain paragraphs are spoken text, **[bracketed bold]** is stage direction. Same runtime target, ~90 seconds–2 minutes. Same content grounding: the Dark Roux video and the two roux passages already in Episode 1 — no new canon.
 

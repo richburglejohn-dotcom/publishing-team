@@ -6,9 +6,20 @@
 
 **Status (2026-08-24): Episode 1 is produced, clips cut.** `outputs/podcast-ep1-baron-origin-FULL.mp3` — 12.93 min, generated via ElevenLabs from `outputs/podcast-episode-1-tts-ready.txt`. The three social clips are also cut (timestamps found via word-position estimation cross-checked against detected pause points in the audio, not manual listening): `podcast-ep1-clipA-coldopen.mp3` (0:00–0:20.8), `podcast-ep1-clipB-lesson.mp3` (11:31.4–12:02.0), `podcast-ep1-clipC-cta.mp3` (12:26.4–end). All audio-only — still need a paired visual before posting to Instagram/TikTok per the posting-calendar plan (a static image works; these aren't native video).
 
+**Status (2026-09-12): FULL REVERSAL — Baron hosts again, in-character, AI-voiced. Supersedes the 2026-08-22 "real people host" decision below.** Lejohn added a new ElevenLabs voice, "Baron Vieux American" (voice_id `4gMxHJqo0nJJd3aeKX6z`), and after trialing it on a short interlude script, confirmed the reversal. What this actually changes:
+- **Episode 1's script is restored to Baron's first-person voice** (recovered from git history, the pre-2026-08-22-rewrite version) — see `outputs/podcast-episode-1-baron-script-v1.md`. The already-produced author-voice audio (`podcast-ep1-baron-origin-FULL.mp3`) is superseded and needs regenerating from the restored script — not yet done.
+- **Episodes 2 (Rampart) and 3 (Melpomene) were never actually rewritten to author-voice** despite this doc's 2026-08-22 note below saying they would be — turns out only Episode 1 got that treatment. Both scripts have been sitting ready in Baron's voice the whole time and can be produced as-is.
+- **The disclosure requirement is back to the heavier bar** — see the original "Disclosure gets heavier here, not lighter" note preserved below. It was never actually removed from practice (the show never launched under the real-host format), just no longer relevant while that format was the plan. Needs: (1) a short spoken disclosure in Lejohn's own real voice at the top of Episode 1, (2) the show description stating plainly that Baron is fictional/AI-voiced. See `outputs/podcast-disclosure-spoken-script-v1.md` for the spoken piece (drafted 2026-09-12, not yet recorded — needs Lejohn's actual voice, not a clone or synthesis, since it's the human-behind-the-curtain moment).
+- **The Dark Roux interlude** (`outputs/podcast-interlude-darkroux-baronvoice-trial-v1.md`) is the first piece actually produced under the reversal — trial audio generated 2026-09-12, pending final sign-off before it's treated as the real production version over the author-voice draft at `outputs/podcast-interlude-darkroux-script-v1.md`.
+- `references/baron-vieux-voice-reference-master-v1.md` needs its ElevenLabs section flipped back too — updated separately.
+
 ---
 
-## Decision (superseded 2026-08-22): real people host, not Baron
+## Decision (superseded again, 2026-09-12): back to Baron hosting, AI-voiced
+
+**Reversed a second time, per Lejohn's direction on 2026-09-12 — see the Status note at the top of this doc.** Baron hosts again, in the new "Baron Vieux American" ElevenLabs voice. The section immediately below (the 2026-08-22 "real people host" decision) is itself now superseded — kept for history, same as the original Baron-hosted section it superseded.
+
+## Decision (superseded 2026-08-22, then un-superseded 2026-09-12): real people host, not Baron
 
 **Reversed per your direction on 2026-08-22 — the podcast will be hosted by real people (you, and potentially other real guests), not Baron Vieux as an AI-voiced character.** The section below is kept for history; skip to the update at the bottom for the current plan.
 
@@ -28,13 +39,13 @@ Episodes 1–3 (`podcast-episode-1-baron-script-v1.md`, `-2-rampart-script-v1.md
 
 ## Format
 
-**Structure: one supporting character's arc per episode, author-hosted (you), in your own voice.**
+**Structure: one supporting character's arc per episode, Baron hosts, in AI voice ("Baron Vieux American," updated as of the 2026-09-12 reversal above).**
 
-Each episode uses one character from the series bible as the spine — you introduce them, walk through their scene, their conflict, their lesson, third-person, same tone as the author-voice content elsewhere in this project (`social-content-book1-deepdive-v1.md`, `social-content-prequel-v1.md`). Two layers per episode:
-1. **The character, in the story** — you set up who they are and their scene, with a key passage read or paraphrased
+Each episode uses one character from the series bible as the spine — Baron introduces them, walks through their scene, their conflict, their lesson, in his own voice, first-person, same tone as his existing bios/scripts. Two layers per episode:
+1. **The character, in the story** — Baron sets up who they are and their scene, with a key passage read or paraphrased in his voice
 2. **The real thing underneath** — the craft, ownership, or systems-thinking lesson that character represents, and how it maps to something a listener can use (this is the marketing-funnel engine: every episode gives a real value-add *and* makes someone who's never read the books want to know how the scene actually plays out on the page)
 
-Closes with a CTA in your voice: which book, which chapter, "here's where you meet them for real."
+Closes with a CTA in Baron's voice: which book, which chapter, "here's where you meet them for real."
 
 **Episode length:** 20–30 min is more realistic than 40 for a one-person hosted show without a co-host or guest booking pipeline. 40 works once you're comfortable and have a backlog of characters with enough material (Baron, Rampart, and Melpomene can easily carry 30+; Ghost or Farrah can't yet — thin material, would need padding).
 
