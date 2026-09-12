@@ -40,3 +40,17 @@ Right now I'm taking 5 founding authors through the same pipeline — hands on, 
 1. Script 2 — "Nobody's Selling You a Template" (needs screen-record montage or video from Lejohn)
 2. Formulary countdown posts as Sep 13 approaches ("final week", "72 hours", "last day") — Koda stages each, Lejohn attaches + publishes
 3. Founding-spot claimed updates if spots get accepted (mirrors Kit Email 4 copy — always truthful counts)
+
+---
+
+## UPDATE — Sep 12 2026 (Koda): publish attempt status
+
+**Local browser staging unreachable** (extension dropped; no local-browser toolset in current session). Attempted alternate routes:
+
+1. **Buffer API** — FuturIQ TikTok channel `6a975ca4065799be466e2a04` returns `Channel not found`; the channel is NO LONGER CONNECTED in Buffer (org `6a973236300e4dcba76f07e0` only has baronvieux TikTok + Baron Vieux YouTube). Needs Lejohn to reconnect in Buffer (Settings → Channels) before API publishing works.
+2. **TikTok Content Posting API directly** ($TIKTOK_ACCESS_TOKEN, bound to @futur.iq) — token is read-only: `scope_not_authorized` on publish scopes. Dead end.
+3. **Bio check (cloud browser, public profile)** — @futur.iq bio has NO link. Caption's "Link in bio" CTA is currently dead. Add https://www.bayoubeauxllc.com/formulary.html to the bio (Business account required for the website field).
+
+**Backup asset created:** `outputs/futuriq-tiktok-formulary-video-v1.mp4` — 6s 1080x1920 h264 (533KB) rendered from the title card with a slow zoom, ready if a video post is preferred or needed for API upload. The PNG title card remains the primary asset for the photo post.
+
+**Next step to unblock:** Lejohn reconnects FuturIQ TikTok in Buffer → Koda publishes immediately via Buffer GraphQL (mutation already validated).
