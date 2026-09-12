@@ -8,6 +8,10 @@ Append-only log tracking what's been surfaced from anything landing in `1rbE_Sd_
 
 ---
 
+## 2026-09-12, 14:32 UTC — checked, one new file surfaced (daily automation)
+
+Checked Downloads, Publishing Team folder tree, and Turn folder for anything newer than the last entry, plus a title search for "base44" — no Base44-titled files in the last 24h. One genuinely new item: `podcast-apothecary-banner-3000x750.png` (created 09:09:46 UTC), a wide banner variant of the already-approved "The Apothecary Sessions" show cover art — same logo/title, no character or new text to verify, clean. Filed to `outputs/podcast-apothecary-sessions-banner-v1.png`. Likely tied to Spotify for Podcasters setup — a Spotify installer and shortcut also appeared in Drive within the same hour, and this session separately found a "Now Streaming on Spotify" Instagram post from earlier today (see main session log / CSV). Everything else in the last 24h (voice trial mp3, Dark Roux video, duplicate cover-art copies, chefjacket reference stills) is this session's own output syncing back to Drive, already accounted for — not new external content.
+
 ## 2026-09-12, 07:32 UTC — new file surfaced (Lejohn-directed, not the scheduled check)
 
 Lejohn told me directly he'd dropped art in "the turn folder" for the podcast interlude (see main session thread). Searched Drive and found it in the Downloads folder rather than The Turn folder proper: `culinary_crescendo_roux_cover.jpg` (id `1EEnst7uFQ1YEgluX4crIPzuxD1VBdMRS`, created 2026-09-12T07:32:15Z) — a "CULINARY CRESCENDO / The Kitchen Never Forgets" title-card graphic (dark roux in a skillet, no character in frame). Confirmed it matches what was shared in chat, filed to `references/podcast-interlude-darkroux-cover-v1.jpg`. No canon-review flags — no character/embroidery to check, both text lines legible and correct as designed key art, not narrative content.
