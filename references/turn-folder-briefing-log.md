@@ -8,6 +8,10 @@ Append-only log tracking what's been surfaced from anything landing in `1rbE_Sd_
 
 ---
 
+## 2026-09-12, 07:32 UTC — new file surfaced (Lejohn-directed, not the scheduled check)
+
+Lejohn told me directly he'd dropped art in "the turn folder" for the podcast interlude (see main session thread). Searched Drive and found it in the Downloads folder rather than The Turn folder proper: `culinary_crescendo_roux_cover.jpg` (id `1EEnst7uFQ1YEgluX4crIPzuxD1VBdMRS`, created 2026-09-12T07:32:15Z) — a "CULINARY CRESCENDO / The Kitchen Never Forgets" title-card graphic (dark roux in a skillet, no character in frame). Confirmed it matches what was shared in chat, filed to `references/podcast-interlude-darkroux-cover-v1.jpg`. No canon-review flags — no character/embroidery to check, both text lines legible and correct as designed key art, not narrative content.
+
 ## 2026-09-11, 14:32 UTC — checked, nothing new (daily automation)
 
 Turn folder, Publishing Team folder tree, and the Gemini strategy doc: nothing newer than last check. Downloads folder showed 2 "new" files, but both are self-generated — `baron-tiktok-bookslikethis-chefjacket-scene1/2-reference-v1.jpg`, the embroidery-fix reference stills I extracted and filed into `references/` earlier this session, apparently auto-synced to Drive Downloads. Not external content, nothing to surface. Cross-platform posting check: both of today's CSV rows (the two baronvieux TikTok posts) were already published earlier this session — nothing due.

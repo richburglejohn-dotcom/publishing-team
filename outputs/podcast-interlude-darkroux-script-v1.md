@@ -7,7 +7,7 @@
 - Same rules as the numbered episodes: plain paragraphs are spoken text, **[bracketed bold]** is stage direction, don't voice it.
 - Runtime target: ~250–350 words spoken ≈ 90 seconds–2 minutes. Deliberately short — this is a bridge, not a segment.
 - Grounded in what actually happened, not new manuscript material: the Dark Roux video (`outputs/baron-vieux-episode1-darkroux-full-v2.mp4`, posted 2026-09-12 to YouTube/TikTok/Instagram) and the two roux passages already narrated in Episode 1 (San Juan/sofrito, the Scarlet Elixir). This interlude doesn't add new canon — it just points back at what's already there.
-- Cover art: the "CULINARY CRESCENDO / The Kitchen Never Forgets" skillet graphic you shared — **not yet in the repo as a file**, only seen inline in chat. Needs to actually land in the Turn folder or get attached directly before it can be filed/used for the episode's audio-post cover image.
+- Cover art: `references/podcast-interlude-darkroux-cover-v1.jpg` — the "CULINARY CRESCENDO / The Kitchen Never Forgets" skillet graphic, filed 2026-09-12 from Drive (`culinary_crescendo_roux_cover.jpg`, Downloads folder). No character in frame, no embroidery/name text to verify against canon — just the two title lines, both legible and correctly spelled. Clean to use as-is.
 
 ---
 
