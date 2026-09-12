@@ -5,6 +5,13 @@
 
 ---
 
+## Status check-in log
+### (append-only — every time this doc is checked, log it here, so staleness is visible instead of silent. Koda: log your progress here too — check off a Day-0/3/5 row above and add an entry here when you actually post a clip, so Claude isn't guessing your status from silence.)
+
+- **2026-09-11 (Claude, daily check):** Re-checked. No commits to this doc or the captions doc since original staging (`b520e4b`, 2026-09-09). No Koda-side activity logged anywhere in the repo touching this cascade. Nothing posted yet — all three Day-0 prerequisites (IG bio link, TikTok bio link, Facebook destination confirmation) still unconfirmed as far as the repo shows. Flagging the silence itself as the gap, not assuming it means "not started" vs. "started but not logged" — Lejohn/Koda should confirm status the next time either touches this.
+
+---
+
 ## ✅ Already done
 - [x] Podbean episode published: https://bayoubeaux1070.podbean.com/
 
