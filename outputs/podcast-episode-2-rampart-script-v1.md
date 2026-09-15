@@ -2,6 +2,8 @@
 ## "The Wall" — Rampart
 ### Created: 2026-08-21 | Read-aloud script for TTS / voice-clone (Baron's AI voice)
 
+**Status (2026-09-12):** this script was never actually rewritten to author-voice despite the concept doc's 2026-08-22 note claiming Episodes 1-3 "are being rewritten" — only Episode 1 got that treatment. This one's been sitting ready in Baron's voice the whole time. With the 2026-09-12 full reversal back to Baron-AI-hosted, it's ready to produce as-is. **Voice:** "Baron Vieux American" (ElevenLabs, voice_id `4gMxHJqo0nJJd3aeKX6z`).
+
 **Format notes for whoever generates this:**
 - Everything inside a plain paragraph is spoken text — paste it straight into the tool.
 - Bold bracketed lines like **[beat]** or **[pause]** are stage direction, not dialogue — strip them before generating, or leave them if the tool respects pause tags. Either way, don't voice them.
