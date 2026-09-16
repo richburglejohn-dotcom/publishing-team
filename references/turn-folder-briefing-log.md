@@ -8,6 +8,10 @@ Append-only log tracking what's been surfaced from anything landing in `1rbE_Sd_
 
 ---
 
+## 2026-09-16, 08:41 UTC — three new files surfaced (Lejohn-directed, not the scheduled check)
+
+Lejohn pasted three images directly in chat and, once told I couldn't save pasted attachments to disk, dropped them in the Drive "references" folder (`1UYKoYYlFCCfSW2mxueRlGmhovbp7LEs9`) instead: three `Gemini_Generated_Image_8ehgyc8ehgyc8ehg*.jpg` files, created 08:41:08–08:41:40Z. No character faces in any of the three (a storefront exterior, a radio/food still life, and a knife-roll/tarot still life), so no likeness check needed — flagged instead on a naming question (storefront reads "Baron Vieux / Culinary Crescendo" rather than the book's "Bayouboujee"). Lejohn confirmed it's intentional real-world brand imagery, not meant to depict the in-story restaurant. Filed to `references/baron-vieux-storefront-exterior-v1.jpg`, `references/bayoubeaux-brand-tabletop-scene-v1.jpg`, `references/baron-olivia-knifetarot-tabletop-v1.jpg`.
+
 ## 2026-09-15, 14:32 UTC — checked, nothing new (daily automation)
 
 Checked Downloads, Publishing Team folder tree, and Turn folder — nothing with a `modifiedTime` newer than the 2026-09-12T19:40 shortcut file already logged. No Base44-titled files created in the last 24h (title search for 'base44' only returns older, already-reviewed items). Nothing due on the cross-platform posting check — no rows dated 2026-09-15 in the CSV.
