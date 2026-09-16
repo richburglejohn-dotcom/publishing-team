@@ -1,10 +1,10 @@
 # Bayou Beaux LLC — Welcome Email Sequence (3-part)
 ### Created: 2026-09-16 | For subscribers joining at bayoubeauxllc.com
-### Status: DRAFT — FLAGGED, not sent/loaded into any email platform yet
+### Status: CORRECTED 2026-09-16, Lejohn approved editing — ready to load pending the email-platform check below
 
-**Continuity flag (2026-09-16), not silently fixed:** Email 3 describes Baron Vieux as "an AI musician persona" ("We developed him as an AI musician persona to create an entirely immersive, multi-sensory experience... crafting specific audio prompts that capture his sound"). Nothing in `references/series-bible.md` or this session's work establishes Baron as a musician — he's a chef with an AI-voiced hosting persona (the ElevenLabs "Baron Vieux American" voice used for the podcast and cooking series). The "musician"/"his sound" framing reads like it's describing Olivia Marigny (the series' actual blues/jazz singer) or is simply a drafting error from whatever produced this draft. **Holding this for Lejohn to confirm or correct before it goes live** — everything else in the three emails checked out clean against the bible (Bayouboujee as the restaurant name, the shipping-container setup, book titles, author name).
+**Continuity fix (2026-09-16), corrected with Lejohn's explicit approval, not silently:** Email 3 originally described Baron Vieux as "an AI musician persona" ("We developed him as an AI musician persona to create an entirely immersive, multi-sensory experience... crafting specific audio prompts that capture his sound"). Nothing in `references/series-bible.md` or this session's work establishes Baron as a musician — he's a chef with an AI-voiced hosting persona (the ElevenLabs "Baron Vieux American" voice used for the podcast and cooking series). Olivia Marigny is the series' actual blues/jazz singer. Reworded to describe the real thing (the AI voice work behind his podcast/cooking-series hosting) instead of inventing a musician angle — see the corrected paragraph below. Everything else in the three emails checked out clean against the bible (Bayouboujee as the restaurant name, the shipping-container setup, book titles, author name).
 
-Two placeholder items still need filling in before use: the `[Link to Book / Chapter 1]` in Email 2, and confirming this is meant to trigger from bayoubeauxllc.com's own email platform (not Beehiiv, per the newsletter format the `email-marketing-agent` subagent normally uses — worth checking which platform is actually wired up before loading).
+The `[Link to Book / Chapter 1]` placeholder in Email 2 is now filled with `bayoubeauxllc.com/books` — the established link-in-bio target used elsewhere (`outputs/baron-vieux-profile-bios-v1.md`), not a confirmed dedicated chapter-1 page. Swap it for a real one if a better landing page exists. Still open: confirming this is meant to trigger from bayoubeauxllc.com's own email platform (not Beehiiv, per the newsletter format the `email-marketing-agent` subagent normally uses) before loading it anywhere.
 
 ---
 
@@ -42,7 +42,7 @@ The Victorian Noir aesthetic of Bayouboujee—the dark charcoal walls, the warm 
 
 If you are ready to step onto the line with Baron and Olivia, dive into the first chapter of The Scarlet Foundation right here.
 
-[Link to Book / Chapter 1]
+bayoubeauxllc.com/books
 
 ---
 
@@ -54,7 +54,7 @@ We promised you transparency. We promised to show you the blueprint.
 
 Building an independent publishing platform requires more than just writing a manuscript. It requires world-building. For FuturIQ, that meant pushing the boundaries of how a character exists off the page.
 
-Baron Vieux is not just a chef in a book. We developed him as an AI musician persona to create an entirely immersive, multi-sensory experience. From crafting specific audio prompts that capture his sound to designing the visual concepts for his universe, the tools of modern digital creation allow us to build a brand that lives and breathes on its own terms.
+Baron Vieux is not just a chef in a book. We developed him as an AI-voiced persona to create an entirely immersive, multi-sensory experience. From crafting the exact voice that hosts his podcast and cooking series to designing the visual concepts for his universe, the tools of modern digital creation allow us to build a brand that lives and breathes on its own terms.
 
 This is the FuturIQ method: leverage technology, maintain radical self-ownership, and never compromise the soul of the work.
 
