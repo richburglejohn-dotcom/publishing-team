@@ -12,10 +12,12 @@ This is the real production plan for the "Episode 2 candidate" that `outputs/dee
 |---|---|---|
 | 1 — The $3.40 mistake | 2:20.4–3:18.0 | 57.7s |
 | 2 — The female watermelon | 5:53.3–6:53.3 | 60.1s |
-| 3 — Shellfish allergy + dead POS | 7:39.4–8:41.4 | 62.0s |
+| 3 — Shellfish allergy + dead POS | 7:39.4–9:04.5 | 85.0s |
 | 4 — The insult that built a restaurant | 11:02.0–11:24.1 | 22.2s |
 
-No burned-in captions yet — these are audio-over-cover-art only, same as the podcast clips' first pass. Captioning is a further step, not done here.
+**Captions: DONE 2026-09-17.** Burned in via ffmpeg/libass, phrase-chunked (not rigid word-by-word) using the same silence-verified word-position method as the cuts, white-on-black boxed text positioned mid-frame to clear the cover's title/author text. One transcription error fixed before burning (not silently): the ASR misheard "Bayouboujee" as "Bayou Bougie" throughout — corrected in the caption text. Per-clip `.srt` files are filed alongside each video for reuse. Clip 3 was extended from the original ~65s estimate to 85s so it lands on the complete "back online in like 90 seconds" beat instead of cutting mid-sentence, per this doc's own note above about where the trim should land.
+
+Post-ready captions/hashtags for all 4: `outputs/deepdive-ep2-clips-post-copy-v1.md`. Nothing posted yet.
 
 ---
 

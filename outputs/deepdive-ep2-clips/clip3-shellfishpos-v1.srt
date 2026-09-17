@@ -1,0 +1,143 @@
+1
+00:00:00,000 --> 00:00:02,931
+server runs into the kitchen to flag a severe
+
+2
+00:00:02,931 --> 00:00:05,863
+shellfish allergy on table 12 right as the snapper
+
+3
+00:00:05,863 --> 00:00:08,794
+dish is literally dying in the window Literally a
+
+4
+00:00:08,794 --> 00:00:11,726
+complete nightmare scenario for any kitchen Yeah And Rampart,
+
+5
+00:00:11,726 --> 00:00:13,355
+the lead cook, who is,
+
+6
+00:00:13,355 --> 00:00:15,960
+you know, a single father working crazy hours,
+
+7
+00:00:15,960 --> 00:00:17,915
+just pushed to his absolute limit.
+
+8
+00:00:17,915 --> 00:00:20,846
+He just explodes at the server He loses it,
+
+9
+00:00:20,846 --> 00:00:23,778
+but then Baron steps in and he seamlessly deescalates
+
+10
+00:00:23,778 --> 00:00:26,709
+Rampart using the exact same tone he used as
+
+11
+00:00:26,709 --> 00:00:29,641
+a top AT&T sales rep down in South Texas
+
+12
+00:00:29,641 --> 00:00:30,943
+It's so smooth Yeah.
+
+13
+00:00:30,943 --> 00:00:32,246
+He validates Rampart's urgency,
+
+14
+00:00:32,246 --> 00:00:34,201
+removes the blame from the server,
+
+15
+00:00:34,201 --> 00:00:36,481
+and provides a really clear next step,
+
+16
+00:00:36,481 --> 00:00:37,784
+like wipe the station,
+
+17
+00:00:37,784 --> 00:00:39,086
+grab a new pan,
+
+18
+00:00:39,086 --> 00:00:42,018
+breathe He absorbs the panic instead of matching it-
+
+19
+00:00:42,018 --> 00:00:44,949
+Yeah ... which is a total telecom customer service
+
+20
+00:00:44,949 --> 00:00:47,555
+move Yeah But then the very next second,
+
+21
+00:00:47,555 --> 00:00:50,487
+the Clover point of sale system hard crashes on
+
+22
+00:00:50,487 --> 00:00:53,418
+terminal three The worst possible timing The servers literally
+
+23
+00:00:53,418 --> 00:00:56,350
+cannot send tickets to the kitchen And I love
+
+24
+00:00:56,350 --> 00:00:59,281
+this part because it's where his two worlds physically
+
+25
+00:00:59,281 --> 00:01:02,213
+collide. If you think of a kitchen line like
+
+26
+00:01:02,213 --> 00:01:03,515
+a local area network,
+
+27
+00:01:03,515 --> 00:01:06,121
+the cooks are the client nodes processing data,
+
+28
+00:01:06,121 --> 00:01:08,727
+and the expediter, the person calling the tickets,
+
+29
+00:01:08,727 --> 00:01:11,658
+is the central router That's a great analogy So
+
+30
+00:01:11,658 --> 00:01:13,613
+Baron just steps off the line,
+
+31
+00:01:13,613 --> 00:01:15,241
+looks at the POS system,
+
+32
+00:01:15,241 --> 00:01:17,847
+and treats it like a localized network conflict.
+
+33
+00:01:17,847 --> 00:01:19,150
+He forces a restart,
+
+34
+00:01:19,150 --> 00:01:20,779
+performs a manual cache clear,
+
+35
+00:01:20,779 --> 00:01:23,710
+and gets the whole network back online in like
+
+36
+00:01:23,710 --> 00:01:25,013
+90 seconds While Rampart
