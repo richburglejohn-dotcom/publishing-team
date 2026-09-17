@@ -2,6 +2,17 @@
 ### Created: 2026-08-28
 ### Purpose: single-scene test of Sora 2 (via ElevenLabs Creative Studio) against the same scene Flow struggled with, before committing to a full 8-scene run
 
+## RESULT (2026-09-17): PASS — this is the winning approach
+
+Ran this for real via the ElevenLabs MCP connector. **Text-to-video alone was not the fix — a two-stage pipeline was:**
+
+1. **Compose a still frame first** (`flux-2-pro`, ~$0.12/attempt) combining all 4 locked references (Baron, Olivia, cake, Apothecary setting) into one accurate starting image. Took 3 attempts to get right — attempt 1 had a duplicated cake and a brown leather apron instead of the locked black canvas one; attempt 2 fixed those but duplicated Olivia into two women; attempt 3 (saved as `references/roe-velvet-sora2-scene4-startframe-v1.png`) passed every check.
+2. **Animate that still with `sora-2`** (non-pro — `sora-2-pro` cost ~$2.64/8s and exceeded the account's remaining quota; `sora-2` cost ~$0.88/8s) using it as `start_frame`, not a blind text-only generation.
+
+Final video saved as `references/roe-velvet-sora2-scene4-result-v1.mp4` — 8.3 seconds, passed all 5 checklist items with zero drift across the full clip (Baron, Olivia, the cake, and the setting all held consistent frame to frame). Audio/dialogue content not verified here (no transcription capability) — confirm by listening.
+
+**Cost lesson:** video generation runs ~20x the cost of a still (turn a $2.64 blind video gamble into ~$0.35 of cheap still-image iteration + $0.88 video, one variable locked in before the expensive step). Apply this same compose-still-then-animate pattern to Scenes 1-3 and 5-8 rather than generating any of them as text-only video directly.
+
 **Why Scene 4:** it's the most information-dense single shot in the script — both characters, the locked cake reference, and a verbatim dialogue line all in one take. If Sora 2 holds up here, the rest of the script is a reasonable bet. If it drifts the same way Flow did, that tells us the problem isn't model-specific.
 
 **This is one attempt, not a batch.** Same discipline as the Flow rules: one take, no variations to pick from.
