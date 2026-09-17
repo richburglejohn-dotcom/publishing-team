@@ -11,6 +11,8 @@ Ran this for real via the ElevenLabs MCP connector. **Text-to-video alone was no
 
 Final video saved as `references/roe-velvet-sora2-scene4-result-v1.mp4` — 8.3 seconds, passed all 5 checklist items with zero drift across the full clip (Baron, Olivia, the cake, and the setting all held consistent frame to frame). Audio/dialogue content not verified here (no transcription capability) — confirm by listening.
 
+**Defect found after initial review (caught by Lejohn, missed on first pass):** Baron's coat sleeve is correctly short (matches the reference — bare forearm), but a disconnected gray cuff-band floats around his wrist with no fabric connecting it back to the sleeve at the elbow. Not in the reference at all — a fabricated fragment, not a rolled-up long sleeve as first assumed. Present in the start frame and carried through the whole video (consistent, at least, but consistently wrong). Worth an explicit negative instruction next time: "bare forearm from elbow to wrist, nothing around the wrist" — don't just trust that a correct reference image prevents an invented extra garment piece.
+
 **Cost lesson:** video generation runs ~20x the cost of a still (turn a $2.64 blind video gamble into ~$0.35 of cheap still-image iteration + $0.88 video, one variable locked in before the expensive step). Apply this same compose-still-then-animate pattern to Scenes 1-3 and 5-8 rather than generating any of them as text-only video directly.
 
 **Why Scene 4:** it's the most information-dense single shot in the script — both characters, the locked cake reference, and a verbatim dialogue line all in one take. If Sora 2 holds up here, the rest of the script is a reasonable bet. If it drifts the same way Flow did, that tells us the problem isn't model-specific.
