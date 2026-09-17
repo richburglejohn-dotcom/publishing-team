@@ -4,7 +4,18 @@
 
 This is the real production plan for the "Episode 2 candidate" that `outputs/deep-dive-video-strategy-book1.md` scoped in placeholder form back on 2026-08-28 ("run the same NotebookLM process on The Scarlet Foundation... release as Deep Dive Ep. 2"). Same format, series, and disclosure posture as Episode 1 — this doc fills in the beats that doc left as TODO, now that the actual audio exists and has been transcribed.
 
-**Timestamp method — read before cutting anything:** No audio playback or ffmpeg/silence-detection tooling was available this session (unlike the podcast clips cut earlier, which had both). These timestamps come purely from word-position estimation — total spoken duration (819.68s) divided by transcript word count (2,514 words) gives ~3.07 words/sec, then each marker phrase's word offset converts to an estimated timestamp. That's a rougher estimate than the silence-detection cross-check used elsewhere in this project — treat every timestamp below as a starting point to nudge by ear in the editor, not a frame-accurate cut point.
+**Timestamp method:** initial estimates came from word-position math (total spoken duration 819.68s ÷ 2,514 transcript words ≈ 3.07 words/sec, converted to a timestamp per marker phrase's word offset) — ffmpeg wasn't available yet at that point in the session. It became available afterward, so the 4 Shorts below were actually cut and silence-detection-verified against those estimates (same method as the podcast clips earlier in this project) rather than shipped as estimates. Retention-map timestamps for the full-length cut below are still word-position estimates only, not yet cut.
+
+**Shorts: DONE 2026-09-17.** All 4 candidates cut from `docs/audio/baron-vieux-deepdive-ep2-scarletfoundation-v1.mp3`, snapped to the nearest silence boundary (ffmpeg `silencedetect`, -30dB/0.3s) within ~2s of the word-position estimate, and edge-verified via `volumedetect` on the first/last 0.3s of each cut (no abrupt mid-word starts/ends). Paired with `docs/images/prequel-cover.jpg` (the existing, already-approved Scarlet Foundation cover — no new character art needed) as 1080x1920 vertical video, scale-and-crop-to-fill. Audio-only cuts and vertical video for all 4 are in `outputs/deepdive-ep2-clips/`.
+
+| Clip | Final cut (verified) | Duration |
+|---|---|---|
+| 1 — The $3.40 mistake | 2:20.4–3:18.0 | 57.7s |
+| 2 — The female watermelon | 5:53.3–6:53.3 | 60.1s |
+| 3 — Shellfish allergy + dead POS | 7:39.4–8:41.4 | 62.0s |
+| 4 — The insult that built a restaurant | 11:02.0–11:24.1 | 22.2s |
+
+No burned-in captions yet — these are audio-over-cover-art only, same as the podcast clips' first pass. Captioning is a further step, not done here.
 
 ---
 
