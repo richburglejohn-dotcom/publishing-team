@@ -15,9 +15,11 @@ This is the real production plan for the "Episode 2 candidate" that `outputs/dee
 | 3 — Shellfish allergy + dead POS | 7:39.4–9:04.5 | 85.0s |
 | 4 — The insult that built a restaurant | 11:02.0–11:24.1 | 22.2s |
 
-**Captions: DONE 2026-09-17.** Burned in via ffmpeg/libass, phrase-chunked (not rigid word-by-word) using the same silence-verified word-position method as the cuts, white-on-black boxed text positioned mid-frame to clear the cover's title/author text. One transcription error fixed before burning (not silently): the ASR misheard "Bayouboujee" as "Bayou Bougie" throughout — corrected in the caption text. Per-clip `.srt` files are filed alongside each video for reuse. Clip 3 was extended from the original ~65s estimate to 85s so it lands on the complete "back online in like 90 seconds" beat instead of cutting mid-sentence, per this doc's own note above about where the trim should land.
+**Captions: tried, then reverted 2026-09-17.** Burned in via ffmpeg/libass (phrase-chunked, white-on-black), then posted to TikTok (all 4) and Instagram (3 of 4 — Clip 3 timed out twice and its live status is unconfirmed). Lejohn didn't like the captions and asked for all 8 posts deleted and replaced with non-captioned versions. **Neither platform allows that via the tools here** — Buffer rejects deletion of already-sent posts ("Account is not allowed to perform this action"), and Instagram has no delete action through Windsor.ai at all. Lejohn is deleting the 8 captioned posts manually in the TikTok/IG apps; once confirmed, the non-captioned versions below get posted as the replacements.
 
-Post-ready captions/hashtags for all 4: `outputs/deepdive-ep2-clips-post-copy-v1.md`. Nothing posted yet.
+The `.srt` files stay filed in `outputs/deepdive-ep2-clips/` in case captions get revisited later, but the shipped videos as of this note are plain audio-over-cover-art again, same as the original first pass. Clip 3 keeps its extended 85s runtime (through the complete "back online in like 90 seconds" beat) — that fix was about narrative completeness, not the captions, so it stayed.
+
+Post-ready captions/hashtags for all 4 (unchanged): `outputs/deepdive-ep2-clips-post-copy-v1.md`. **Status: rebuilt, not yet re-posted — waiting on Lejohn to confirm manual deletion of the 8 captioned posts first.**
 
 ---
 
