@@ -17,6 +17,6 @@ This summary is a useful *external narrator voice* framing of Book 1 — distinc
 - Video/audio content scripts (paired with the actual Deep Dive audio file)
 - Social media teaser copy
 
-## Companion File Pending
+## Companion File — DONE (2026-09-17)
 
-A second Deep Dive exists for Book 2 (The Scarlet Foundation) — link saved at `DeepDiveCCBook2.txt` in the project root. Audio not yet downloaded as of this note. Once downloaded, it should land in `media/` alongside this one, and this file should be updated with its summary too.
+The second Deep Dive (The Scarlet Foundation) is downloaded and filed: `docs/audio/baron-vieux-deepdive-ep2-scarletfoundation-v1.mp3`, summarized in `references/deep-dive-ep2-scarletfoundation-summary.md`, with a full production plan in `outputs/deep-dive-video-strategy-ep2-scarletfoundation-v1.md`.
