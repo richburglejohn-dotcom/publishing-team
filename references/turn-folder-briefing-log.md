@@ -8,6 +8,10 @@ Append-only log tracking what's been surfaced from anything landing in `1rbE_Sd_
 
 ---
 
+## 2026-09-20, 14:47 UTC — checked, nothing new (daily automation)
+
+Checked Downloads, Publishing Team folder tree, and Turn folder (`modifiedTime > 2026-09-19T14:32:00Z`) plus a title search for 'base44' — no files newer than yesterday's check. Base44 MCP connector dropped and reconnected again mid-check (transient, no impact on this Drive-based check). Still open: the Maya/Marcus website Deep Dive video/audio remain blocked on Lejohn uploading directly or authorizing a Drive share link — not yet actioned.
+
 ## 2026-09-19, 14:32 UTC — checked, nothing new (daily automation)
 
 Checked Downloads, Publishing Team folder tree, and Turn folder (`modifiedTime > 2026-09-18T14:32:00Z`) plus a title search for 'base44' — no files newer than yesterday's check. Base44 MCP connector reconnected this session (was disconnected yesterday). Still open, not this check's job to resolve: the Maya/Marcus website Deep Dive video (29MB) and its audio (58MB) both exceed the Drive tool's 10MB download cap and aren't publicly shared, so they're still blocked on Lejohn either uploading the file directly in chat or authorizing a share-link change — raised to him directly today, unresolved as of this entry.
