@@ -8,6 +8,12 @@ Append-only log tracking what's been surfaced from anything landing in `1rbE_Sd_
 
 ---
 
+## 2026-09-21 — Maya/Marcus website Deep Dive filed and scheduled
+
+Lejohn uploaded the file directly (Drive share-link route turned out not to be viable — `share_file` only grants access to a specific email, not a public "anyone with the link," so it couldn't unblock the 10MB Drive-tool download cap). Edited down from 31 min to 12.06 min (silence-snapped cuts, series' established 12-14 min target) and scheduled to YouTube via Metricool (post id 379151597, 2026-09-21T18:00 America/Chicago). Full detail in `outputs/deepdive-website-blueprint-post-copy-v1.md`.
+
+**Flagging per the standing rule:** only the opening segment's content was fact-checked against the live site (via the shorter outline doc spot-checked 2026-09-17). The middle and closing segments were selected by silence/timing only — no transcript was available (ElevenLabs out of quota; local Whisper blocked by this environment's org network policy on huggingface.co). Lejohn explicitly chose to proceed this way. Worth a listen-through once live to confirm nothing in those unverified stretches is factually off.
+
 ## 2026-09-20, 14:47 UTC — checked, nothing new (daily automation)
 
 Checked Downloads, Publishing Team folder tree, and Turn folder (`modifiedTime > 2026-09-19T14:32:00Z`) plus a title search for 'base44' — no files newer than yesterday's check. Base44 MCP connector dropped and reconnected again mid-check (transient, no impact on this Drive-based check). Still open: the Maya/Marcus website Deep Dive video/audio remain blocked on Lejohn uploading directly or authorizing a Drive share link — not yet actioned.
