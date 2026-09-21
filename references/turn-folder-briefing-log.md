@@ -8,6 +8,26 @@ Append-only log tracking what's been surfaced from anything landing in `1rbE_Sd_
 
 ---
 
+## 2026-09-20, 14:47 UTC — checked, nothing new (daily automation)
+
+Checked Downloads, Publishing Team folder tree, and Turn folder (`modifiedTime > 2026-09-19T14:32:00Z`) plus a title search for 'base44' — no files newer than yesterday's check. Base44 MCP connector dropped and reconnected again mid-check (transient, no impact on this Drive-based check). Still open: the Maya/Marcus website Deep Dive video/audio remain blocked on Lejohn uploading directly or authorizing a Drive share link — not yet actioned.
+
+## 2026-09-19, 14:32 UTC — checked, nothing new (daily automation)
+
+Checked Downloads, Publishing Team folder tree, and Turn folder (`modifiedTime > 2026-09-18T14:32:00Z`) plus a title search for 'base44' — no files newer than yesterday's check. Base44 MCP connector reconnected this session (was disconnected yesterday). Still open, not this check's job to resolve: the Maya/Marcus website Deep Dive video (29MB) and its audio (58MB) both exceed the Drive tool's 10MB download cap and aren't publicly shared, so they're still blocked on Lejohn either uploading the file directly in chat or authorizing a share-link change — raised to him directly today, unresolved as of this entry.
+
+## 2026-09-18, 14:32 UTC — checked, nothing new (daily automation)
+
+Checked Downloads, Publishing Team folder tree, and Turn folder (all via `modifiedTime > 2026-09-17T14:32:00Z`) plus a title search for 'base44' — no files newer than yesterday's check. Note: the Base44 MCP connector itself disconnected this session (requires re-authorization before its own tools work again) — flagging since it's the primary Base44 pipeline, though Drive search for Base44-titled files doesn't depend on that connector and still came back clean. Nothing to surface beyond what's already logged: the new website Deep Dive (Maya/Marcus) from yesterday's check is still awaiting Lejohn's go/no-go on production, and the Episode 3 podcast cascade already in the posting-lookup CSV.
+
+## 2026-09-17, 14:32 UTC — new website Deep Dive audio/video surfaced (daily automation)
+
+Downloads folder had a new NotebookLM-style two-host "Deep Dive" pair, ~08:04-07:21 UTC today: `Lejohn_Richburg's_independent_culinary_fiction_blueprint.mp4` (29MB video) and matching `.m4a` (58MB audio). Unlike the two existing Deep Dives (Book 1, Episode 2/Scarlet Foundation), this one is about **the bayoubeauxllc.com website itself** — hosts "Maya" and "Marcus" walk through the homepage tagline, Baron/Olivia setup, the book series structure, the FuturIQ section, and the "Join the Table" newsletter. A companion Google Doc ("generate an audio deep dive about this website fo...", created 06:47 UTC) has the full transcript already.
+
+**Fact-checked before surfacing (not blindly passed through):** spot-checked the transcript's direct quotes against the live site source — "New Orleans, told in flavor and fire," "Whatever I build, I'm going to own. You can't double the rent on something you own," and the Baron/Olivia "Victorian-noir soul" framing all match `docs/index.html` and `docs/books.html` verbatim. No fabricated claims found. Not yet filed/produced into a repo asset — surfaced to Lejohn same-session, production (if wanted) is a separate next step, likely "Deep Dive Ep. 3" in the existing series but about the platform rather than a book.
+
+Also present but not repo-worthy: two Gemini-generated `.sh` skillfish-install scripts, two CapCut installer `.exe` files, and a `vpnly.exe` — all system/tooling artifacts, not project content, not filed.
+
 ## 2026-09-16, 14:32 UTC — checked, nothing new (daily automation)
 
 Checked Downloads, Publishing Team folder tree, and Turn folder — nothing new beyond the three Gemini brand-imagery stills already surfaced and filed earlier today (08:41 entry below) and `futuriq-fb-profile-photo-v1.png`, which is an existing repo file syncing back to Drive, not new content. No Base44-titled files created in the last 24h. Several unrelated personal-business documents (a childcare-services agreement template, "Nannie Company Idea") appeared in Downloads — not repo-worthy, not filed. Nothing due beyond what's already logged on today's cross-platform posting check — all three 2026-09-16 CSV rows (podcast Clip A x2 platforms, brand-imagery carousel/post x2 platforms) were filed earlier this session.
