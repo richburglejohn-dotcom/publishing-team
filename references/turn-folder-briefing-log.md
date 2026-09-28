@@ -8,6 +8,28 @@ Append-only log tracking what's been surfaced from anything landing in `1rbE_Sd_
 
 ---
 
+## 2026-09-27, 14:47 UTC — checked, nothing new (daily automation)
+
+Checked Downloads, Publishing Team folder tree, and Turn folder (`modifiedTime > 2026-09-26T14:32:00Z`) plus a title search for 'base44' — nothing new. Nothing due on the cross-platform posting check — no rows dated 2026-09-27 in the CSV.
+
+## 2026-09-26, 14:32 UTC — four new files seen, not repo-worthy (daily automation)
+
+Checked Downloads, Publishing Team folder tree, and Turn folder (`modifiedTime > 2026-09-22T14:47:00Z`, covering the gap since the last automated check) plus a title search for 'base44' — nothing in the Publishing Team tree or Turn folder. Four new files in Downloads, all personal/system, not project content: `IMG_4786.png`, `IMG_4137.heic`, `IMG_3677.JPG.jpeg` (iPhone camera-roll naming, not Base44/Meta AI/Gemini pattern) and a Spotify installer `.exe`. None filed.
+
+## 2026-09-22, 14:47 UTC — one new file seen, not repo-worthy (daily automation)
+
+Checked Downloads, Publishing Team folder tree, and Turn folder (`modifiedTime > 2026-09-21T14:47:00Z`) plus a title search for 'base44'. One new file: `IMG_3671.heic` in Downloads (created 2026-09-21T22:03Z), 0 bytes — iPhone-camera-roll naming convention, not a Base44/Meta AI/Gemini filename pattern, and currently empty (likely still syncing from the device). Not filed — looks like a personal photo, not project content; will re-check if it reappears with real content and a project-relevant context.
+
+## 2026-09-21, 14:47 UTC — checked, nothing new (daily automation)
+
+Checked Downloads, Publishing Team folder tree, and Turn folder (`modifiedTime > 2026-09-20T14:47:00Z`) plus a title search for 'base44' — no files newer than yesterday's check.
+
+## 2026-09-21 — Maya/Marcus website Deep Dive filed and scheduled
+
+Lejohn uploaded the file directly (Drive share-link route turned out not to be viable — `share_file` only grants access to a specific email, not a public "anyone with the link," so it couldn't unblock the 10MB Drive-tool download cap). Edited down from 31 min to 12.06 min (silence-snapped cuts, series' established 12-14 min target) and scheduled to YouTube via Metricool (post id 379151597, 2026-09-21T18:00 America/Chicago). Full detail in `outputs/deepdive-website-blueprint-post-copy-v1.md`.
+
+**Flagging per the standing rule:** only the opening segment's content was fact-checked against the live site (via the shorter outline doc spot-checked 2026-09-17). The middle and closing segments were selected by silence/timing only — no transcript was available (ElevenLabs out of quota; local Whisper blocked by this environment's org network policy on huggingface.co). Lejohn explicitly chose to proceed this way. Worth a listen-through once live to confirm nothing in those unverified stretches is factually off.
+
 ## 2026-09-20, 14:47 UTC — checked, nothing new (daily automation)
 
 Checked Downloads, Publishing Team folder tree, and Turn folder (`modifiedTime > 2026-09-19T14:32:00Z`) plus a title search for 'base44' — no files newer than yesterday's check. Base44 MCP connector dropped and reconnected again mid-check (transient, no impact on this Drive-based check). Still open: the Maya/Marcus website Deep Dive video/audio remain blocked on Lejohn uploading directly or authorizing a Drive share link — not yet actioned.
