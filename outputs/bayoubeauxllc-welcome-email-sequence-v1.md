@@ -1,6 +1,6 @@
 # Bayou Beaux LLC — Welcome Email Sequence (3-part)
 ### Created: 2026-09-16 | For subscribers joining at bayoubeauxllc.com
-### Status: CORRECTED 2026-09-16, Lejohn approved editing. Audience confirmed 2026-09-16: general readers, via Mailchimp — ready for Lejohn to load, no direct API path from here (see note below).
+### Status: RESOLVED 2026-09-30 — Lejohn confirmed Mailchimp is sorted (all 3 emails correctly loaded/distinct as campaigns; the earlier Email 1/Email 2 ID-mixup from `edit_campaign`'s fuzzy matching is resolved). Prior open items below (audience confirmation, the placeholder-link fix, the AI-musician-persona correction) are all settled as of this status line.
 
 **Platform note (2026-09-16):** Confirmed this is for the reader list, not the Formulary/Blueprint leads — that means it's the **Mailchimp** list linked from every page's "Join the Table" section (`http://eepurl.com/vrscSK4vGZ`), separate from the Kit/ConvertKit sequence the Formulary lead form already auto-enrolls consulting leads into. No Mailchimp connector is available in this session's toolset, so this can't be loaded automatically — Lejohn needs to paste these three emails into a Mailchimp Customer Journey/Automation (trigger: subscribes to the audience/list behind that signup link; delays: immediate, +3 days, +5 days per the headers below) himself, or a Mailchimp MCP connector would need to be added first. Noted in `references/pipeline-tool-capabilities.md`.
 
