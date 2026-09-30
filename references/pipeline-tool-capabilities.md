@@ -40,6 +40,14 @@ Koda's actual scope, confirmed 2026-09-04:
 
 **Google Drive / Gmail / Calendar** — read/write file and communication access, already covered by the daily automation check.
 
+**Mailchimp (the reader newsletter/welcome sequences) — connector live, domain fully authenticated as of 2026-09-30.** `docs/index.html`'s "Join the Table" newsletter section (repeated on every page) links out to a Mailchimp signup page at `http://eepurl.com/vrscSK4vGZ`. This is a **separate list from the Formulary/Blueprint one**: the Formulary lead form (`docs/formulary.html`) POSTs to Koda's Base44 backend function, which creates a subscriber in **Kit (ConvertKit)** and auto-enrolls them in an existing "FuturIQ Blueprint Launch" sequence — that path is Koda's, not Claude's, and not Mailchimp.
+
+Domain/sending setup (2026-09-30): `bayoubeauxllc.com` is authenticated in Mailchimp (DKIM + DMARC records verified) and has its own mailbox via **Zoho Mail** (MX/SPF/DKIM all verified on Namecheap DNS) — sending address is **`baron.vieux@bayoubeauxllc.com`**, replacing any Gmail-based sender. No more deliverability/authentication gap on outbound campaigns.
+
+Tool limitations worth knowing before using `edit_campaign`: it resolves `campaign_id` two ways — an exact UUID, or a fuzzy title/index match **against a campaigns list already loaded into the current session's context** (from an earlier `campaign_planner` or `save_to_mailchimp` call in that same session). A fresh session has no such list, so a descriptive-string `campaign_id` will hard-fail with "must be a valid UUID from the current session" rather than silently resolving — confirmed 2026-09-28/30. There is no tool here to list existing draft campaigns or their IDs (`get_analytics` only covers sent/performance data, not drafts). Practical implication: either work within one continuous session from `campaign_planner`/`save_to_mailchimp` through to `edit_campaign` so the context list stays populated, or get the real UUID from Lejohn (Mailchimp's UI shows it in the campaign's edit URL). Automations/workflows/welcome-series are explicitly **out of scope** for this integration per its own `get_capabilities` tool — don't route a "set up a welcome automation" request through `campaign_planner` or `edit_campaign`.
+
+Also note: `docs/thank-you.html`'s inline signup form is an unwired placeholder (`js/main.js` just shows a fake "you're on the list" message) — not connected to Mailchimp or anything else yet.
+
 ## No direct access — has to run through Lejohn
 
 **Meta AI (the consumer image/video generation product)** — no API connector exists for this from here. Every Meta AI generation in this pipeline is Lejohn (or whoever's driving it) prompting it directly and dropping the result into Drive. This is the one leg of the pipeline that is genuinely manual right now — not a workaround, a real gap. If a connector for it becomes available, it goes in this file's "Live tool access" section. **Also covers Facebook organic posting (per Lejohn, 2026-09-09)** — Meta AI can post directly to Facebook from within Meta's own apps, so it's a second manual option alongside Koda for anything that needs to land on Facebook.
@@ -48,8 +56,6 @@ Koda's actual scope, confirmed 2026-09-04:
 
 **Buffer channel connect/disconnect** — confirmed 2026-09-04 via GraphQL schema introspection: Buffer's public API has no mutation for connecting or removing a channel (`removeChannel` exists only as a `ChannelAction` on the UI side, not in `Mutation`). Any channel-list change needs Lejohn in Buffer's own Settings UI — Claude can verify the resulting state with `list_channels` but can't cause the change.
 
-**Mailchimp (the reader newsletter/welcome sequences)** — no connector exists for this from here. `docs/index.html`'s "Join the Table" newsletter section (repeated on every page) links out to a Mailchimp signup page at `http://eepurl.com/vrscSK4vGZ` — confirmed 2026-09-16 by reading the site source in `docs/`. This is a **separate list from the Formulary/Blueprint one**: the Formulary lead form (`docs/formulary.html`) POSTs to Koda's Base44 backend function, which creates a subscriber in **Kit (ConvertKit)** and auto-enrolls them in an existing "FuturIQ Blueprint Launch" sequence — that path is Koda's, not Claude's, and not Mailchimp. Any welcome-sequence copy meant for general readers (e.g. `outputs/bayoubeauxllc-welcome-email-sequence-v1.md`) can be drafted and continuity-checked here, but loading it into an actual Mailchimp Automation/Customer Journey is Lejohn's manual step until a Mailchimp connector is added. Also note: `docs/thank-you.html`'s inline signup form is an unwired placeholder (`js/main.js` just shows a fake "you're on the list" message) — not connected to Mailchimp or anything else yet.
-
 ## The actual rule this file exists to support
 
 When a task needs "post/publish/schedule something," check here first:
@@ -57,7 +63,7 @@ When a task needs "post/publish/schedule something," check here first:
 2. Turning an existing post into a paid ad → **Meta Ads**, directly.
 3. Needs a new image/video generated by Meta AI → **Lejohn**, with a specific prompt spec from the request queue (`references/character-generation-request-queue.md`) — not a vague ask.
 4. Needs the ScheduledPost log updated or Solene's browser-staged posts touched → **Base44**, directly.
-5. Needs an email/welcome-sequence loaded for readers → **Mailchimp**, Lejohn-manual (see entry above) — not the same list or path as the Formulary/Blueprint sequence, which is Koda's via Kit/ConvertKit.
+5. Needs an email/welcome-sequence loaded or edited for readers → **Mailchimp**, directly (see entry above for the `edit_campaign` UUID caveat) — not the same list or path as the Formulary/Blueprint sequence, which is Koda's via Kit/ConvertKit. Automations/welcome-series specifically are out of scope for this integration — Lejohn-manual in the Mailchimp app.
 6. Anything else that looks like it needs a human hand on a keyboard for a *specific, named* reason (e.g. Meta AI's chat UI, TikTok's manual-post rule above) → say so explicitly, name the reason, and hand over exactly what's needed — not a generic "you'll have to do this part."
 
 Keep this file updated as connectors change — a tool disconnecting or reconnecting between sessions is common (see the ambient reconnect/disconnect notices), so re-check live availability before assuming a capability listed here still needs a human hop, or vice versa.
