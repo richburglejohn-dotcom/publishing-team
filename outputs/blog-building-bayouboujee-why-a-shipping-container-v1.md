@@ -1,5 +1,5 @@
 # Blog Post — Building Bayouboujee: Why a Shipping Container?
-### Draft v1 · 2026-10-07 · Fulfills the "Coming Soon" card on `docs/blog.html`
+### Draft v1 · 2026-10-07 · rev. 2026-10-08 (lease-to-own) · Fulfills the "Coming Soon" card on `docs/blog.html`
 **Status:** STAGED on branch `claude/upbeat-ride-2si8f4` — not live until merged to `main`. Author-voice (first person), so it needs Lejohn's read before merge.
 
 **Sources (every in-world claim traces to one of these):**
@@ -26,7 +26,7 @@ In 2005, after the storm, Baron stands on that sidewalk and looks at what 941 be
 
 So when Baron finally draws his own blueprint, he draws a box. Here's what the box gives him.
 
-**Walls nobody can take.** In *A Symphony of Love in the Big Easy*, the container sits on a rented patch of gravel just off Magazine Street. The ground is rented. The steel is his. A landlord can raise the price of dirt. He can't take back the walls.
+**A lease with an ending he writes.** Kaldi's ran on a ten-year lease. When it ran out, the landlord doubled the rent, and the living room of the French Quarter was gone. Baron starts out the same way everybody starts — in *A Symphony of Love in the Big Easy*, the container sits on a rented patch of gravel just off Magazine Street. The difference is what the lease is for. For Kaldi's, the lease was the whole arrangement. For Baron, it's the first step: lease the ground, prove the concept, then buy the land the box sits on. You have to lease it before you own it. And while he's leasing, the steel is already his.
 
 **A kitchen that doesn't need permission from the building.** No massive gas hoods, no ventilation system the size of a car payment. Baron marks the walls for heavy electrical drops and runs everything on electric convection ovens and high-speed blenders. A tight space doesn't scare a line cook. It's the same discipline he learned on the line: carry nothing extra, waste no step. The box isn't a compromise. It's an engine.
 
@@ -52,6 +52,6 @@ Some recipes are never written down. Some restaurants are never borrowed.
 
 ## Flags for Lejohn (held, not silently resolved)
 
-1. **"Not lease. Not rent. Own." vs. leased land.** The prequel's ownership line is absolute, but the same manuscript has Baron telling Elysian Fields he has "a signed lease" on "a privately leased parcel," and Book 1 says the container sits on "a rented patch of gravel." The post reconciles this as *the steel is owned, the ground is rented* ("A landlord can raise the price of dirt. He can't take back the walls."). That reading is mine, not stated in either manuscript. Confirm it, or tell me how you see it and I'll rewrite that section.
+1. **RESOLVED 2026-10-08 — "Not lease. Not rent. Own." vs. leased land.** Lejohn's call: Baron leases the land first, then buys it — "He has to lease it before he owns it." Ownership is the destination, the lease is the first step. Post rewritten accordingly (section now "A lease with an ending he writes," contrasting it with Kaldi's ten-year lease from prequel Chapter Zero). Recorded in `references/series-bible.md`.
 2. **Real-world tie-in (optional).** The series bible notes Baron's restaurant is the fictional translation of the Bayou Boujee Seafood you actually ran. A paragraph in your own words about why the real one went the way it did would be the strongest thing this post could have — but it's your story, so it's not written here. Send it and I'll fit it in.
 3. **Date on the post.** Set to October 7, 2026 on the page. If it goes live on a different day, change it at merge.

@@ -286,6 +286,7 @@ The restaurant where Baron is currently sous chef under Melpomene. French Quarte
 ### Bayouboujee (future — not yet built)
 - Domain registered. LLC filed. Blueprint ready.
 - Gravel lot off Magazine Street.
+- **Lease-to-own (author decision, 2026-10-08):** Baron leases the Magazine Street parcel first and buys the land later — "He has to lease it before he owns it." This reconciles the prequel's "Not lease. Not rent. Own." (the goal) with the prequel's "signed lease" / "privately leased parcel" (Ch. 8) and Book 1's "rented patch of gravel" (Ch. 2): the lease is the first step, ownership is the destination. The container itself is his from the start. Deliberate contrast with Kaldi's, whose ten-year lease ran out and ended it. **Open:** the land purchase does not happen on the page in either the prequel or Book 1 — when/whether it's shown (e.g. Book 3's comeback) is undecided; don't write it as having happened yet.
 - Converted shipping container. No velvet ropes. No corporate investors.
 - Electric kitchen: convection ovens, high-speed blenders. No gas hoods.
 - Live music stage inside.
