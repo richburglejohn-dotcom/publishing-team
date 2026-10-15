@@ -1,6 +1,6 @@
 # Blog Post — The Real Kaldi's: Where Baron Vieux Began
 ### Draft v1 · 2026-10-15 · Fulfills the "Coming Soon" card on `docs/blog.html`
-**Status:** STAGED on branch `claude/upbeat-ride-2si8f4` — not live until merged to `main`. Author-voice (first person), needs Lejohn's read before merge.
+**Status:** PUBLISHED 2026-10-15 (merged to `main` on Lejohn's instruction). Flags 1–2 below were still open at merge.
 
 **Sources:**
 - Real-world claims: `references/authors-note-kaldis.md` (Lejohn's own note — real place, 941 Decatur, 1990–2000, living room for artists/musicians/students/wanderers, espresso machine, Venetian Crème, forty-foot ceilings, belonging; Baron's time behind the counter is fiction). Rent doubling and the later tourist/visitor center are corroborated by one secondary source: [Dirty Coast — "Kaldi's: The French Quarter's Living Room, Rent-Killed"](https://dirtycoast.com/blogs/the-dirt2/kaldis-coffee-shop-french-quarters-living-room-rent-killed). "Coffee museum" corroborated by [a visitor's blog](https://grahamscambler.com/category/cafe-and-bar-society/page/2).
@@ -59,4 +59,4 @@ This series is a tribute to that place, and to everyone who remembers it the way
 1. **Did you work at Kaldi's?** The two sources disagree. `references/series-bible.md` says "Baron Vieux is Lejohn Richburg III. His professional history is the author's real resume," and lists Kaldi's as job #1. Your author's note says "Baron Vieux's time behind that counter is fiction" and speaks only of people who "spent time there." The post follows the author's note and does not claim you worked the counter. If you did, one true memory of your own from 941 would be the strongest paragraph this post could have. Tell me and I'll rework it. Either way, one of those two docs needs correcting.
 2. **The closing facts are stated as real.** That the rent doubled and the space became a tourist center comes from your manuscript plus one feature article (Dirty Coast). No news archive was checked. If you remember it differently, I'll soften those lines to "in the book."
 3. **1990–2000** comes from your author's note. The only outside corroboration is one visitor's blog that mentions visiting during those years.
-4. **Post date** on the page is October 15, 2026. Set it to the go-live day at merge.
+4. **Post date** on the page is October 15, 2026 — the day it merged to `main`.
