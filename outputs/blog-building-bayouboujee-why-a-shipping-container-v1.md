@@ -1,6 +1,6 @@
 # Blog Post — Building Bayouboujee: Why a Shipping Container?
 ### Draft v1 · 2026-10-07 · rev. 2026-10-08 (lease-to-own) · Fulfills the "Coming Soon" card on `docs/blog.html`
-**Status:** STAGED on branch `claude/upbeat-ride-2si8f4` — not live until merged to `main`. Author-voice (first person), so it needs Lejohn's read before merge.
+**Status:** PUBLISHED 2026-10-15 (merged to `main`). Author-voice (first person), so it needs Lejohn's read before merge.
 
 **Sources (every in-world claim traces to one of these):**
 - `outputs/Scarlet_Foundation_FULL_DRAFT_v1.md` — Chapter Zero (Kaldi's, 2005 sidewalk, "Not lease. Not rent. Own.", "its soul was born on a sidewalk"), Chapter 8 (Elysian Fields permit exchange), closing passage (gravel lot off Magazine Street, electric convection ovens)
@@ -54,4 +54,4 @@ Some recipes are never written down. Some restaurants are never borrowed.
 
 1. **RESOLVED 2026-10-08 — "Not lease. Not rent. Own." vs. leased land.** Lejohn's call: Baron leases the land first, then buys it — "He has to lease it before he owns it." Ownership is the destination, the lease is the first step. Post rewritten accordingly (section now "A lease with an ending he writes," contrasting it with Kaldi's ten-year lease from prequel Chapter Zero). Recorded in `references/series-bible.md`.
 2. **Real-world tie-in (optional).** The series bible notes Baron's restaurant is the fictional translation of the Bayou Boujee Seafood you actually ran. A paragraph in your own words about why the real one went the way it did would be the strongest thing this post could have — but it's your story, so it's not written here. Send it and I'll fit it in.
-3. **Date on the post.** Set to October 7, 2026 on the page. If it goes live on a different day, change it at merge.
+3. **Date on the post.** Set to October 15, 2026 — the day it merged to `main`.
