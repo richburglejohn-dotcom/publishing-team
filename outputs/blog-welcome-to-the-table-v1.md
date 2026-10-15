@@ -1,6 +1,6 @@
 # Blog Post — Welcome to the Table
 ### Draft v1 · 2026-10-15 · Fulfills the last "Coming Soon" card on `docs/blog.html`
-**Status:** STAGED on branch `claude/upbeat-ride-2si8f4`. It goes live only when merged to `main`. It's written in Lejohn's voice (first person), so he reads it before merge.
+**Status:** PUBLISHED 2026-10-15 (merged to `main` on Lejohn's instruction). Flags below were still open at merge; Olivia's direction is being discussed next and may change the "first look" paragraph.
 
 **Sources:**
 - Card promise (writing updates, New Orleans history, first look past *The Scarlet Foundation*): `docs/blog.html` Coming Soon card.
