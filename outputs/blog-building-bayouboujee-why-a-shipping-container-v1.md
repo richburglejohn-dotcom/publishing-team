@@ -1,6 +1,6 @@
 # Blog Post — Building Bayouboujee: Why a Shipping Container?
 ### Draft v1 · 2026-10-07 · rev. 2026-10-08 (lease-to-own) · Fulfills the "Coming Soon" card on `docs/blog.html`
-**Status:** PUBLISHED 2026-10-15 (merged to `main`). Author-voice (first person), so it needs Lejohn's read before merge.
+**Status:** PUBLISHED 2026-10-15 (merged to `main`). Author-voice (first person); merge approved by Lejohn.
 
 **Sources (every in-world claim traces to one of these):**
 - `outputs/Scarlet_Foundation_FULL_DRAFT_v1.md` — Chapter Zero (Kaldi's, 2005 sidewalk, "Not lease. Not rent. Own.", "its soul was born on a sidewalk"), Chapter 8 (Elysian Fields permit exchange), closing passage (gravel lot off Magazine Street, electric convection ovens)
