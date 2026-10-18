@@ -77,6 +77,7 @@ This file is the source of truth for all agents. Read this before working on any
 ## Protagonist: Baron Vieux
 
 **Age:** 56 years old (present timeline of the prequel)
+> **FLAG (2026-10-18, unresolved):** the age anchors don't agree. The manuscript has Baron at Kaldi's at seventeen and in his early twenties when it closed in 2000, which puts his birth around 1977–1979 and his age around 44 in a post-COVID (2021–2023) prequel present. The "56" above doesn't fit that. The bible's "teenager, early 1990s" also conflicts with "early twenties in 2000." This needs Lejohn's call before Kay's age is fixed.
 **Pronunciation:** "Vu"
 **Race:** Black, dark-skinned, sharp-featured
 **Appearance:** Square-framed black glasses. Gray chef's coat embroidered: *Baron Vieux* on left chest, *Bayouboujee* on right. YELEGAI apron, leather worn soft. Knife roll (Qchengsan). Phone always in apron pocket — always charged.
@@ -229,7 +230,11 @@ This file is the source of truth for all agents. Read this before working on any
 ### Kay Dorgenois, RN (Book 3 — introduced 2026-10-18)
 - Full name: **Kay Dorgenois, RN**. Surname follows the series' street-name convention (Dorgenois Street, New Orleans).
 - Baron's new love interest in Book 3.
+- **From New Orleans.**
 - **Night-shift nurse.**
+- **Age: half Baron's age plus seven (author decision, 2026-10-18).** The number depends on Baron's age in Book 3, which isn't settled; see the open item below.
+- **Her goal: to become a nurse practitioner (NP)**, an advanced-practice registered nurse who can diagnose and prescribe. The usual path is an RN license, then a master's (MSN) or doctorate (DNP) in nursing, national board certification (e.g., Family Nurse Practitioner), and a state APRN license. In Louisiana, NPs prescribe under a collaborative practice agreement with a physician.
+- **How they meet: Baron comes in with a burn and a cut that needs stitches**, and Kay is the nurse on that night shift. Accuracy note: in an ER, the RN cleans and dresses the burn and preps the wound, but a physician, PA, or NP does the stitches. That gap between what she's allowed to do and what she knows she could do is a natural way to show her NP ambition.
 - **Meets Baron after Olivia leaves.** No overlap with Olivia: the parting at the start of Book 3 comes first, then Kay. This keeps the "Olivia stays dignified" guardrail intact (see Book 3 above).
 - **Appearance (from the reference image Lejohn provided 2026-10-18; confirm before treating as locked):** Black woman, warm brown skin, dark hair pulled back sleek, bright open smile. Navy scrubs, stethoscope around her neck, hospital ID badge reading "Kay Dorgenois, RN," small pendant necklace. Image setting: seated on a French Quarter patio in early light, wrought-iron railings, hanging ferns, balcony above, paper coffee cup in hand. She reads as just off a night shift.
 - **Possible series echoes (Claude's suggestions, not canon until Lejohn confirms):**
@@ -238,9 +243,9 @@ This file is the source of truth for all agents. Read this before working on any
   - She could become part of his post-shift ritual.
 - **Open:**
   - Real-life inspiration, if any.
-  - Age, hometown, nursing specialty.
-  - Her own goal apart from Baron.
-  - The specific circumstances of their meeting.
+  - Baron's age in Book 3, which sets Kay's. If Baron is 56 in the prequel's present, Book 3 (5+ years after Book 1) puts him at about 62, which makes Kay about 38. See the age-anchor conflict flagged under Baron.
+  - Her unit (ER fits the burn-and-stitches meeting) and her stage on the NP path.
+  - How Baron got hurt: in the kitchen during the rebuild, or elsewhere.
 
 ---
 
