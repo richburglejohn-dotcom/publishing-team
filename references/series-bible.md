@@ -230,6 +230,7 @@ This file is the source of truth for all agents. Read this before working on any
 ### Kay Dorgenois, RN (Book 3 — introduced 2026-10-18)
 - Full name: **Kay Dorgenois, RN**. Surname follows the series' street-name convention (Dorgenois Street, New Orleans).
 - Baron's new love interest in Book 3.
+- **Real-world note (2026-10-18):** Kay is based on a real person, Keilia Love, the same way Baron is the author's alter ego. Kay's name, workplace, and private details stay fictionalized. Name no real hospital or unit. Keilia's written OK is to be obtained before Kay appears in anything published (same practice as the Apothecary/Marita note in `references/authors-note-kaldis.md`). Status: not yet requested.
 - **From New Orleans.**
 - **Night-shift nurse.**
 - **Age: half Baron's age plus seven (author decision, 2026-10-18).** The number depends on Baron's age in Book 3, which isn't settled; see the open item below.
@@ -242,7 +243,6 @@ This file is the source of truth for all agents. Read this before working on any
   - The coffee in her hand after a shift is a Kaldi's sensory trigger for Baron.
   - She could become part of his post-shift ritual.
 - **Open:**
-  - Real-life inspiration, if any.
   - Baron's age in Book 3, which sets Kay's. If Baron is 56 in the prequel's present, Book 3 (5+ years after Book 1) puts him at about 62, which makes Kay about 38. See the age-anchor conflict flagged under Baron.
   - Her unit (ER fits the burn-and-stitches meeting) and her stage on the NP path.
   - How Baron got hurt: in the kitchen during the rebuild, or elsewhere.
