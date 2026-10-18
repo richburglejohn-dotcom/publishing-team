@@ -76,17 +76,16 @@ This file is the source of truth for all agents. Read this before working on any
 
 ## Protagonist: Baron Vieux
 
-**Age:** 56 years old (present timeline of the prequel)
-> **FLAG (2026-10-18, unresolved):** the age anchors don't agree. The manuscript has Baron at Kaldi's at seventeen and in his early twenties when it closed in 2000, which puts his birth around 1977–1979 and his age around 44 in a post-COVID (2021–2023) prequel present. The "56" above doesn't fit that. The bible's "teenager, early 1990s" also conflicts with "early twenties in 2000." This needs Lejohn's call before Kay's age is fixed.
+**Age (author decision, 2026-10-18):** **50 in Book 3.** Working back from the manuscript timeline: born around 1978, at Kaldi's from about seventeen (mid-1990s), early twenties when it closed in 2000, about 44 in the prequel's present (post-COVID), about 45 when Bayouboujee opens in Book 1. This replaces the earlier "56 in the prequel's present," which didn't fit the manuscript.
 **Pronunciation:** "Vu"
 **Race:** Black, dark-skinned, sharp-featured
 **Appearance:** Square-framed black glasses. Gray chef's coat embroidered: *Baron Vieux* on left chest, *Bayouboujee* on right. YELEGAI apron, leather worn soft. Knife roll (Qchengsan). Phone always in apron pocket — always charged.
 **Author's Alter Ego:** Baron Vieux is Lejohn Richburg III. His professional history is the author's real resume.
 
 ### Full Career Timeline
-**NOTE:** Chapter Zero is a reminiscence — Baron at 56 looking back at where his work journey began. He was not literally standing at the Kaldi's corner in the present. The 941 Decatur scene is a memory he carries, not a current event. The 2005 Katrina moment (standing in front of the building after the storm) is also part of that recalled history.
+**NOTE:** Chapter Zero is a reminiscence — Baron in his mid-forties looking back at where his work journey began. He was not literally standing at the Kaldi's corner in the present. The 941 Decatur scene is a memory he carries, not a current event. The 2005 Katrina moment (standing in front of the building after the storm) is also part of that recalled history.
 
-1. **Kaldi's Coffee — 941 Decatur Street** (teenager, early 1990s) — barista, his first lesson in reading people and operational precision. $3.40 drawer discrepancy that he stayed 45 minutes after close to resolve. Closed in 2000.
+1. **Kaldi's Coffee — 941 Decatur Street** (teenager, mid-1990s) — barista, his first lesson in reading people and operational precision. $3.40 drawer discrepancy that he stayed 45 minutes after close to resolve. Closed in 2000.
 2. **San Juan trip with Esperanza** (age 19) — planted the seed of his culinary philosophy. Flavor as language. The Scarlet Elixir begins here.
 3. **AT&T / Cox Communications** — Sales Consultant, Assistant Manager. Best rep in South Texas. 75% of time on the floor resolving customer escalations. Origin of his de-escalation superpower.
 4. **Mr. Everything Cafe — General Manager** — ran all operations, cut inventory costs by 40%, managed UberEats/Grubhub/Postmates/Yelp, built the website (WordPress), ServSafe Certified Instructor and Proctor.
@@ -233,13 +232,14 @@ This file is the source of truth for all agents. Read this before working on any
 - **Real-world note (2026-10-18):** Kay is based on a real person, Keilia Love, the same way Baron is the author's alter ego. Kay's name, workplace, and private details stay fictionalized. Name no real hospital or unit. Keilia's written OK is to be obtained before Kay appears in anything published (same practice as the Apothecary/Marita note). Request drafted in `references/authors-note-kaldis.md`. Status: drafted, not yet sent.
 - **From New Orleans.**
 - **Night-shift nurse.**
-- **Age: half Baron's age plus seven (author decision, 2026-10-18).** The number depends on Baron's age in Book 3, which isn't settled; see the open item below.
+- **Age: 32 in Book 3** (author decision, 2026-10-18): half Baron's age (50) plus seven.
 - **Her goal: to become a nurse practitioner (NP)**, an advanced-practice registered nurse who can diagnose and prescribe. The usual path is an RN license, then a master's (MSN) or doctorate (DNP) in nursing, national board certification (e.g., Family Nurse Practitioner), and a state APRN license. In Louisiana, NPs prescribe under a collaborative practice agreement with a physician.
 - **How they meet: Baron comes in with a burn and a cut that needs stitches**, and Kay is the nurse on that night shift. Accuracy note: in an ER, the RN cleans and dresses the burn and preps the wound, but a physician, PA, or NP does the stitches. That gap between what she's allowed to do and what she knows she could do is a natural way to show her NP ambition.
-- **The injury (author decision, 2026-10-18):** Baron pulls a sheet pan of redfish out of the convection oven. He glances away for a second, and hot sauce from the pan spills down his hand and wrist. He jerks back, reaches out for balance, and his burned hand catches his sharp chef's knife. The burn plus a cut that needs stitches sends him to the ER, where Kay is on the night shift.
+- **The injury (author decision, 2026-10-18):** Baron pulls a sheet pan of redfish out of the convection oven. He glances away for a second, and hot sauce from the pan spills down his hand and wrist. He jerks back, reaches out for balance, and his burned hand slices across his sharp chef's knife. The burn plus a cut that needs stitches sends him to the ER, where Kay is on the night shift.
   - **Continuity check, passes:** Bayouboujee runs an all-electric kitchen with convection ovens (Book 1 Ch. 2), and in Book 1 the Scarlet Redfish comes out of those convection ovens ("the convection ovens delivered, and the Scarlet Redfish followed").
-  - **Accuracy note:** a knife *poke* is a puncture wound, and ERs usually leave puncture wounds open rather than stitching them, because of infection risk. For stitches to be realistic, the blade should *slice* him: across the palm or the heel of the hand as he grabs for balance. Lejohn to confirm wording.
-  - **Open:** which sauce. In Book 1 the Scarlet Elixir is what goes with the redfish. What pulls his eyes away from the oven? Baron's precision is his defining trait, so the glance needs a reason. Claude's suggestion, not canon: Olivia's song comes on the radio. That's the "her voice" bookend from the Book 3 options, and it would put the moment she leaves his life and the moment Kay enters it in the same scene.
+  - **The cut is a slice (confirmed 2026-10-18):** the blade slices his hand as he grabs for balance, not a puncture. A slice is what an ER realistically stitches.
+  - **The sauce is the Scarlet Elixir (confirmed 2026-10-18),** the dark tomato-guajillo reduction that goes with the redfish in Book 1.
+  - **Open:** what pulls his eyes from the oven. Baron's precision is his defining trait, so the glance needs a reason. Claude's suggestion, not canon: Olivia's song comes on the radio, the "her voice" bookend, so her exit and Kay's entrance land in the same scene.
 - **Meets Baron after Olivia leaves.** No overlap with Olivia: the parting at the start of Book 3 comes first, then Kay. This keeps the "Olivia stays dignified" guardrail intact (see Book 3 above).
 - **Appearance (reference: `references/kay-dorgenois-reference-v1.png`, AI-generated, confirmed by Lejohn 2026-10-18):** Black woman, warm brown skin, dark hair pulled back sleek, bright open smile. Navy scrubs, stethoscope around her neck, hospital ID badge reading "Kay Dorgenois, RN," small pendant necklace. Image setting: seated on a French Quarter patio in early light, wrought-iron railings, hanging ferns, balcony above, paper coffee cup in hand. She reads as just off a night shift.
 - **Possible series echoes (Claude's suggestions, not canon until Lejohn confirms):**
@@ -247,7 +247,6 @@ This file is the source of truth for all agents. Read this before working on any
   - The coffee in her hand after a shift is a Kaldi's sensory trigger for Baron.
   - She could become part of his post-shift ritual.
 - **Open:**
-  - Baron's age in Book 3, which sets Kay's. If Baron is 56 in the prequel's present, Book 3 (5+ years after Book 1) puts him at about 62, which makes Kay about 38. See the age-anchor conflict flagged under Baron.
   - Her unit (ER fits the burn-and-stitches meeting) and her stage on the NP path.
   - How Baron got hurt: in the kitchen during the rebuild, or elsewhere.
 
