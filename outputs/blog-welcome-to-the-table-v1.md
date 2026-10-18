@@ -28,9 +28,9 @@ Here's what you'll find at this table.
 
 **The New Orleans behind the books.** Real places that shaped fictional ones. Kaldi's was the first, because it's where everything starts. There are more coming, told straight, with a clear line between what happened and what I imagined.
 
-**The people behind the characters.** *The Apothecary Sessions*, the companion podcast, takes one character at a time: the real inspiration, the craft, the lesson underneath. So far: Baron's origin, then Rampart, then Melpomene. Olivia is coming.
+**The people behind the characters.** *The Apothecary Sessions*, the companion podcast, takes one character at a time: the real inspiration, the craft, the lesson underneath. So far: Baron's origin, then Rampart, then Melpomene. More are coming.
 
-**A first look at what's next.** I'll keep this one short, because some things should stay in the pot until they're ready. Olivia's story is stepping forward. More of her on the stage, more of the parts of her the first book only let you glimpse. That's all I'll say for now.
+**A first look at what's next.** I'll keep this one short, because some things should stay in the pot until they're ready. The next book belongs to Baron. Bayouboujee is still standing, and he's coming home to fight for it. That's all I'll say for now.
 
 If you came to these books for a love story and found one that's really about ownership, sobriety, and the people who show up for you, you're in the right place. Pull up a chair.
 
@@ -46,3 +46,4 @@ New Orleans keeps its own schedule, and so does this blog. The surest way to cat
 2. **"Ownership, sobriety, and the people who show up for you"** describes the audience as `references/brand-voice.md` infers it from your hashtags, and that file says it was never confirmed with you. Change it if it doesn't sound like your readers.
 3. **Date.** This would be the third post dated October 15, 2026, which already looked like a double post once. Options: back-date "Building Bayouboujee" to October 7 (the day it was written), or date this post for the day it goes live.
 4. **Podcast episodes 2 and 3.** The post says Rampart and Melpomene episodes are out. Their clips are logged as published, and their captions point to Podbean for the full episodes. I couldn't confirm from here that the full episodes are actually uploaded to Podbean. Separately, `docs/podcast.html` still lists Rampart and Melpomene under "More to Come" and shows only Episode 1. That page is stale. I didn't change it, because that's outside this post.
+5. **Revised 2026-10-18 (staged, not yet merged):** after Lejohn set the Book 3 direction (Olivia's career takes her on a different road, and Book 3 is Baron's comeback), the "first look" paragraph now reads "The next book belongs to Baron. Bayouboujee is still standing, and he's coming home to fight for it." The podcast line no longer promises an Olivia episode. That resolves flag 1.

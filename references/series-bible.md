@@ -43,7 +43,20 @@ This file is the source of truth for all agents. Read this before working on any
 
 ---
 
-### Book 3 (Brainstorm — not yet outlined)
+### Book 3 (Direction set 2026-10-18 — not yet outlined)
+**Direction (author decision, 2026-10-18):** Olivia's career takes her down a different road. Book 3 picks up from Book 1's ending: five years on, Olivia is a platinum-selling artist, Baron cooks on a South American coast, and Theron and Jamara run Bayouboujee. Her success pulls her toward touring and the studio. Baron wants to come home and rebuild. They part with no villain, two people who want different lives. Book 3 is Baron's comeback. He returns to New Orleans and fights for Bayouboujee on his own: the series' core truth, with Baron deciding alone that the place is worth fighting for.
+
+**Guardrails:**
+- Olivia stays dignified on the page. No blame, no scandal.
+- Keep her clear of recognizable real-life private events.
+- Recipes: only the author's confirmed dishes (see the Bayouboujee section).
+
+**Open:**
+- How the parting is shown: on the page, off the page, or revealed gradually.
+- Whether Olivia appears after the opening at all, or only as a voice. One possibility is her voice on a radio, bookending the prequel's ending, where her voice is heard before Baron meets her.
+- What Baron's new direction looks like. It will draw on the author's own.
+
+#### Superseded — earlier Book 3 brainstorm (before 2026-10-18; kept for history, do not develop)
 **Working idea:** Bayouboujee's comeback, after Olivia returns from a stretch of time in South America. Leans further into Olivia as performer, tarot reader, and occasional cameo chef with her own creations — deepening a dimension of her character that's true to life (the author's wife performs, reads tarot, and cameos as chef in real life, the inspiration behind Olivia).
 
 **Open questions:**
