@@ -102,3 +102,43 @@ This book carries her fingerprints more than mine, even where her name doesn't a
 - [ ] Confirm she's comfortable with birth name + stage name both appearing, or prefers one
 - [ ] Decide which recipes/dishes (if any) should carry a direct byline to her in the text itself, beyond this note
 - [ ] Add to final manuscript front/back matter alongside the Kaldi's and Apothecary notes
+
+---
+---
+
+# Kay Dorgenois, RN — Written Consent Request (Keilia Love)
+
+*Purpose: Kay is inspired by Keilia. Get her OK in writing before Kay appears in anything published (book, blog, social, podcast, art). Same practice as the Marita request above. Draft 2026-10-18. Lejohn sends it in his own words; edit freely.*
+
+---
+
+Subject: Something I've been writing, and I want your blessing
+
+Keilia,
+
+There's something I've been working on that I want to tell you about before anyone else sees it.
+
+The next Culinary Crescendo book brings a new woman into Baron's life: Kay Dorgenois, a night-shift nurse from New Orleans who wants to become a nurse practitioner. She's inspired by you. Your strength, the way you care for people, and where you're headed.
+
+I want to be clear about what that means and what it doesn't:
+
+1. **Kay is a character, not you.** Her name, her hospital, and everything that happens to her on the page are made up. I won't use your real name, your workplace, your family, or anything private about your life.
+2. **The spirit is yours.** The heart of her, the part that makes her worth writing, comes from you, and I'd like to be able to say that.
+3. **Her image is AI-generated.** The picture I'm using for Kay isn't a photo of you, and I won't use real photos of you without asking.
+
+Would you be comfortable confirming in writing (a reply to this message is enough) that you're okay with:
+
+1. A character inspired by you appearing in the Culinary Crescendo series (the books and the posts, videos, and podcast that go with them), and
+2. Me mentioning, in an author's note or interview, that she was inspired by someone real, with or without your name, whichever you prefer?
+
+If there's anything you'd want kept out, handled differently, or never put on a page, tell me and it stays out. And if you'd rather not be part of it at all, that's okay too. I'd rather know now.
+
+— Lejohn
+
+---
+
+*Status tracker:*
+- [ ] Send consent request to Keilia
+- [ ] Receive written confirmation
+- [ ] Note her preference: credited by name, or "inspired by someone real" only
+- [ ] Record any off-limits topics in `series-bible.md` (Kay's Real-world note)
