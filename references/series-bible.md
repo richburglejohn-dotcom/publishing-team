@@ -279,6 +279,7 @@ The restaurant where Baron is currently sous chef under Melpomene. French Quarte
 
 ### Bayouboujee (future in prequel — built in Book 1)
 **Real-world note:** The author operates Bayou Boujee Seafood in real life. Baron's restaurant is the fictional translation of that reality.
+- **Signature dishes are the author's own (confirmed by Lejohn, 2026-10-18):** Scarlet Redfish, Gulf Remedy, Scarlet Elixir, Roe Velvet, the Zero-Proof Potions menu, and the dark roux gumbo and jambalaya from the Baron Vieux cooking series. Only these, plus any future dish Lejohn confirms as his, may appear in the books, posts, scripts, or videos. The real-world Bayou Boujee recipe collection ("Bayouboujee Bible" in Drive) is not the author's work and is not used anywhere in this series.
 - **Zero-Proof Potions** — the mocktail menu. Signature offering alongside the food.
 - **Live music stage** inside — food and music as one experience, the adult version of what Kaldi's was.
 - **Theron and Jamara** keep it running during Baron and Olivia's recovery. Five years after opening, Olivia is a platinum-selling artist and Baron cooks for joy on a South American coast. Bayouboujee still runs.
