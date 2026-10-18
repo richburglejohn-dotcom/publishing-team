@@ -226,6 +226,22 @@ This file is the source of truth for all agents. Read this before working on any
 - Olivia's best friend. Manages Bayouboujee operations from Virginia during the Book 1 crisis.
 - Saves the restaurant alongside Theron.
 
+### Kay Dorgenois, RN (Book 3 — introduced 2026-10-18)
+- Full name: **Kay Dorgenois, RN**. Surname follows the series' street-name convention (Dorgenois Street, New Orleans).
+- Baron's new love interest in Book 3.
+- **Night-shift nurse.**
+- **Meets Baron after Olivia leaves.** No overlap with Olivia: the parting at the start of Book 3 comes first, then Kay. This keeps the "Olivia stays dignified" guardrail intact (see Book 3 above).
+- **Appearance (from the reference image Lejohn provided 2026-10-18; confirm before treating as locked):** Black woman, warm brown skin, dark hair pulled back sleek, bright open smile. Navy scrubs, stethoscope around her neck, hospital ID badge reading "Kay Dorgenois, RN," small pendant necklace. Image setting: seated on a French Quarter patio in early light, wrought-iron railings, hanging ferns, balcony above, paper coffee cup in hand. She reads as just off a night shift.
+- **Possible series echoes (Claude's suggestions, not canon until Lejohn confirms):**
+  - She works while the city sleeps, the same hours as a kitchen.
+  - The coffee in her hand after a shift is a Kaldi's sensory trigger for Baron.
+  - She could become part of his post-shift ritual.
+- **Open:**
+  - Real-life inspiration, if any.
+  - Age, hometown, nursing specialty.
+  - Her own goal apart from Baron.
+  - The specific circumstances of their meeting.
+
 ---
 
 ## Signature Dishes & Creations
