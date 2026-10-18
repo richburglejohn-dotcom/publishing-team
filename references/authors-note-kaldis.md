@@ -79,6 +79,8 @@ The characters and events depicted are fictionalized, and any resemblance to rea
 
 # Bayouboujee — Author's Note (On the Recipes)
 
+> **RETIRED 2026-10-18 — do not publish or adapt.** Superseded by the recipe-attribution line in `references/series-bible.md` (Bayouboujee section). Kept for history only.
+
 *Draft — pending review with Clytemnestra. She's the source, so her input on wording matters more than usual here.*
 
 ---

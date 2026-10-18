@@ -43,7 +43,20 @@ This file is the source of truth for all agents. Read this before working on any
 
 ---
 
-### Book 3 (Brainstorm — not yet outlined)
+### Book 3 (Direction set 2026-10-18 — not yet outlined)
+**Direction (author decision, 2026-10-18):** Olivia's career takes her down a different road. Book 3 picks up from Book 1's ending: five years on, Olivia is a platinum-selling artist, Baron cooks on a South American coast, and Theron and Jamara run Bayouboujee. Her success pulls her toward touring and the studio. Baron wants to come home and rebuild. They part with no villain, two people who want different lives. Book 3 is Baron's comeback. He returns to New Orleans and fights for Bayouboujee on his own: the series' core truth, with Baron deciding alone that the place is worth fighting for.
+
+**Guardrails:**
+- Olivia stays dignified on the page. No blame, no scandal.
+- Keep her clear of recognizable real-life private events.
+- Recipes: only the author's confirmed dishes (see the Bayouboujee section).
+
+**Open:**
+- How the parting is shown: on the page, off the page, or revealed gradually.
+- Whether Olivia appears after the opening at all, or only as a voice. One possibility is her voice on a radio, bookending the prequel's ending, where her voice is heard before Baron meets her.
+- What Baron's new direction looks like. It will draw on the author's own.
+
+#### Superseded — earlier Book 3 brainstorm (before 2026-10-18; kept for history, do not develop)
 **Working idea:** Bayouboujee's comeback, after Olivia returns from a stretch of time in South America. Leans further into Olivia as performer, tarot reader, and occasional cameo chef with her own creations — deepening a dimension of her character that's true to life (the author's wife performs, reads tarot, and cameos as chef in real life, the inspiration behind Olivia).
 
 **Open questions:**
@@ -279,6 +292,7 @@ The restaurant where Baron is currently sous chef under Melpomene. French Quarte
 
 ### Bayouboujee (future in prequel — built in Book 1)
 **Real-world note:** The author operates Bayou Boujee Seafood in real life. Baron's restaurant is the fictional translation of that reality.
+- **Signature dishes are the author's own (confirmed by Lejohn, 2026-10-18):** Scarlet Redfish, Gulf Remedy, Scarlet Elixir, Roe Velvet, the Zero-Proof Potions menu, and the dark roux gumbo and jambalaya from the Baron Vieux cooking series. Only these, plus any future dish Lejohn confirms as his, may appear in the books, posts, scripts, or videos. The real-world Bayou Boujee recipe collection ("Bayouboujee Bible" in Drive) is not the author's work and is not used anywhere in this series.
 - **Zero-Proof Potions** — the mocktail menu. Signature offering alongside the food.
 - **Live music stage** inside — food and music as one experience, the adult version of what Kaldi's was.
 - **Theron and Jamara** keep it running during Baron and Olivia's recovery. Five years after opening, Olivia is a platinum-selling artist and Baron cooks for joy on a South American coast. Bayouboujee still runs.
