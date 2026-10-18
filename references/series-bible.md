@@ -53,7 +53,7 @@ This file is the source of truth for all agents. Read this before working on any
 
 **Open:**
 - How the parting is shown: on the page, off the page, or revealed gradually.
-- Whether Olivia appears after the opening at all, or only as a voice. One possibility is her voice on a radio, bookending the prequel's ending, where her voice is heard before Baron meets her.
+- Whether Olivia appears after the opening at all, or only as a voice. **Partly settled 2026-10-18:** her voice on the radio is the moment that causes Baron's injury (see Kay Dorgenois entry). Open: whether she appears on the page beyond that.
 - What Baron's new direction looks like. It will draw on the author's own.
 
 #### Superseded — earlier Book 3 brainstorm (before 2026-10-18; kept for history, do not develop)
@@ -239,7 +239,9 @@ This file is the source of truth for all agents. Read this before working on any
   - **Continuity check, passes:** Bayouboujee runs an all-electric kitchen with convection ovens (Book 1 Ch. 2), and in Book 1 the Scarlet Redfish comes out of those convection ovens ("the convection ovens delivered, and the Scarlet Redfish followed").
   - **The cut is a slice (confirmed 2026-10-18):** the blade slices his hand as he grabs for balance, not a puncture. A slice is what an ER realistically stitches.
   - **The sauce is the Scarlet Elixir (confirmed 2026-10-18),** the dark tomato-guajillo reduction that goes with the redfish in Book 1.
-  - **Open:** what pulls his eyes from the oven. Baron's precision is his defining trait, so the glance needs a reason. Claude's suggestion, not canon: Olivia's song comes on the radio, the "her voice" bookend, so her exit and Kay's entrance land in the same scene.
+  - **What pulls his eyes away (author decision, 2026-10-18): Olivia's song comes on the radio.** She's a platinum-selling artist by Book 3, so a radio in the kitchen playing her song is plausible. This puts the end of Baron and Olivia and the start of Baron and Kay in the same scene. It also bookends the prequel, where Olivia is only a voice Baron hears before he knows her name: here she is a voice again, after they've parted, and it costs him a moment of the precision that defines him.
+  - **Guardrail:** keep the moment dignified. His reaction is a lapse of attention, not a grievance against her (see Book 3 guardrails).
+  - **Open:** which song, and whether it's one he knows from their life together. Don't use a real song or real lyrics. Invent one.
 - **Meets Baron after Olivia leaves.** No overlap with Olivia: the parting at the start of Book 3 comes first, then Kay. This keeps the "Olivia stays dignified" guardrail intact (see Book 3 above).
 - **Appearance (reference: `references/kay-dorgenois-reference-v1.png`, AI-generated, confirmed by Lejohn 2026-10-18):** Black woman, warm brown skin, dark hair pulled back sleek, bright open smile. Navy scrubs, stethoscope around her neck, hospital ID badge reading "Kay Dorgenois, RN," small pendant necklace. Image setting: seated on a French Quarter patio in early light, wrought-iron railings, hanging ferns, balcony above, paper coffee cup in hand. She reads as just off a night shift.
 - **Possible series echoes (Claude's suggestions, not canon until Lejohn confirms):**
