@@ -27,3 +27,11 @@ All four filed as the approved social-push graphics. None published. Each needs 
 > A vintage silver microphone resting on a polished dark-wood bar top in warm low lamplight, a brass banker's lamp beside it, moody and intimate, shallow depth of field. Background softly blurred wood and warm light. No bottles, no glasses, no alcohol, no text.
 
 When clean versions arrive, replace `p4-podcast-microphone-v1.jpg` / `p5-welcome-table-v1.jpg` with `-v2`, re-review, then clear to schedule. Backup: Claude can generate both on ElevenLabs on request.
+
+## Clean versions generated + reviewed (2026-10-20, ElevenLabs gpt-image-2.5-sunburst)
+Generated 2 variations each (~$0.14/image, ~$0.56 total). Reviewed against the alcohol flag.
+
+- **P5 → `p5-welcome-table-v2.png`** (chosen: variation B). Candlelit French Quarter balcony table, two settings, gumbo, cornbread, iced tea + water glasses. **No alcohol — flag cleared.** No people, no text. Variation A was rejected: it rendered a legible "Bourbon St." street sign (unwanted text + off-tone).
+- **P4 → `p4-podcast-microphone-v2.png`** (chosen: variation A). Vintage silver mic on dark-wood bar, green banker's lamp, warm wood. **No bottles, no alcohol — flag cleared.** No people, no text.
+
+**v1 files superseded** (`p4-podcast-microphone-v1.jpg`, `p5-welcome-table-v1.jpg`) — kept for history but NOT for use; the v2 versions are the active graphics for P4 and P5. All four push graphics (P1, P2 originals + P4, P5 v2) are now clean. Each still needs the AI-content disclosure before posting.
