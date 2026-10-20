@@ -1,6 +1,6 @@
 # Social Push — October 2026 Re-Launch
 ### Created: 2026-10-20 · By Lejohn Richburg III / FuturIQ
-### Status: DRAFT — nothing scheduled or posted. Everything here waits for Lejohn's approval before it goes to Buffer/Metricool or is posted manually.
+### Status: APPROVED 2026-10-20 — lineup approved by Lejohn. **P6 (Book 3 teaser) is HELD** at his direction and will NOT be produced or posted until he lifts the hold. The other 7 posts are cleared to proceed to graphics + scheduling (still his go per-step). Nothing is scheduled or posted yet.
 
 **Why now:** Last real social activity was mid-Sept (Deep Dive Ep. 2 clips, Sept 17; website Deep Dive, Sept 21). Three new blog posts went live Oct 15 and have had no social promotion. This package restarts the cadence across the four pillars Lejohn asked for: the new blog posts, a Book 3 "it's coming" teaser, the books themselves, and the podcast.
 
@@ -35,7 +35,7 @@
 | 3 | Sun Oct 26 | X (thread) | The Books | P3 |
 | 4 | Tue Oct 28 | FB + IG | Podcast | P4 |
 | 5 | Thu Oct 30 | IG + X | Blog: Welcome to the Table | P5 |
-| 6 | Sat Nov 1 | TikTok + IG Reel | Book 3 teaser | P6 |
+| ~~6~~ | — | — | Book 3 teaser | **HELD** |
 | 7 | Mon Nov 3 | FB | The Books (evergreen) | P7 |
 | 8 | Wed Nov 5 | IG + X | Podcast (Rampart/Melpomene) | P8 |
 
@@ -164,7 +164,7 @@ Spacing matches the established "3–4/week, don't stack platforms same hour" pa
 
 ---
 
-## P6 — Book 3 Teaser (TikTok + IG Reel) — VAGUE BY DESIGN
+## P6 — Book 3 Teaser (TikTok + IG Reel) — ⛔ HELD 2026-10-20 (do not produce or post until Lejohn lifts the hold)
 
 **Pillar:** Book 3 is coming. **Says nothing specific.** Read the guardrail above.
 
