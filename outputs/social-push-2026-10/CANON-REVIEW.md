@@ -17,3 +17,13 @@ Per `references/brand-voice.md`, the established rule is **no visible alcohol in
 
 ## Status
 All four filed as the approved social-push graphics. None published. Each needs the standard AI-content disclosure before any public post.
+
+## Clean-regen prompts (2026-10-20, Lejohn chose to regenerate P4 + P5 alcohol-free)
+
+**P5 — Welcome to the Table (4:5):**
+> A candlelit French Quarter balcony table at dusk, two place settings with vintage china, a bowl of gumbo, brass candlesticks with lit taper candles, a mason jar of wildflowers, glasses of iced tea and water. Wrought-iron railing, warm New Orleans street glowing below. No people, no text, no alcohol, no wine.
+
+**P4 — Podcast (1:1 or 16:9):**
+> A vintage silver microphone resting on a polished dark-wood bar top in warm low lamplight, a brass banker's lamp beside it, moody and intimate, shallow depth of field. Background softly blurred wood and warm light. No bottles, no glasses, no alcohol, no text.
+
+When clean versions arrive, replace `p4-podcast-microphone-v1.jpg` / `p5-welcome-table-v1.jpg` with `-v2`, re-review, then clear to schedule. Backup: Claude can generate both on ElevenLabs on request.
