@@ -8,6 +8,10 @@ Append-only log tracking what's been surfaced from anything landing in `1rbE_Sd_
 
 ---
 
+## 2026-10-24, 14:35 UTC — checked, nothing new (daily automation)
+
+Checked Downloads, Publishing Team folder tree, and Turn folder (`modifiedTime > 2026-10-23T14:35:00Z`) — nothing new. Nothing due on the cross-platform posting check — no rows dated 2026-10-24 in the CSV. No new failures to report. Separately: Lejohn opened a Meta Ads campaign-planning conversation for Culinary Crescendo (book-traffic objective, reusing "The Turn" ad-ready creative, $20-30/day) — found the ad account (142417789) has no payment method and no Facebook Page linked, both blocking launch; plan is drafted and waiting on Lejohn to clear those two account items in Business Settings plus confirm exact budget/duration/audience.
+
 ## 2026-10-23, 14:35 UTC — checked, nothing new (daily automation)
 
 Checked Downloads, Publishing Team folder tree, and Turn folder (`modifiedTime > 2026-10-22T14:35:00Z`) — nothing new. Nothing due on the cross-platform posting check — no rows dated 2026-10-23 in the CSV. No new failures to report. Separately: Lejohn asked in-session about a newly-created "BaronVieuxRoux" Google Flow video and a "recent copy" check — confirmed no such video exists anywhere in Drive (nothing created today at all as of that check) and the two manuscript files that showed a modified timestamp today (Book 1 PDF, Scarlet Foundation READ ME docx) are textually identical to the repo's canonical versions — no new copy.
