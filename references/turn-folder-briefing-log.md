@@ -8,6 +8,10 @@ Append-only log tracking what's been surfaced from anything landing in `1rbE_Sd_
 
 ---
 
+## 2026-10-28, 08:10 UTC — Turn folder files surfaced to Lejohn
+
+Files created 2026-10-24T16:19Z in the Turn folder: `ad-campaign-setup-guide.md` (Meta ad plan: 3 campaigns, $5/day each, AI disclosure on), `ad-1-book1-cover.jpg`, `ad-2-baron-vieux-portrait.jpg`, `ad-3-futuriq-logo.png`; one further results page not yet read (likely `ad-1-prequel-cover.jpg`). No Gemini or Meta AI generation identified. Surfaced to Lejohn in-session; not yet reviewed against canon, not filed.
+
 ## 2026-10-27, 14:55 UTC — checked, nothing new (daily automation)
 
 Checked Downloads, Publishing Team folder tree, and Turn folder (`modifiedTime > 2026-10-26T14:35:00Z`) — nothing new. Nothing due on the cross-platform posting check — no rows dated 2026-10-27 in the CSV. Meta Ads campaign still blocked on Page access — re-checked `ads_get_user_pages`, still only Bayou Boujee Seafood/Waterways Boutique/Mr. Everything Cafe NOLA, not Bayoubeaux1070.
