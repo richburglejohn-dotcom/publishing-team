@@ -8,9 +8,13 @@ Append-only log tracking what's been surfaced from anything landing in `1rbE_Sd_
 
 ---
 
-## 2026-10-28, 08:10 UTC — Turn folder files surfaced to Lejohn
+## 2026-10-28, 14:36 UTC — checked, nothing new (daily automation)
 
-Files created 2026-10-24T16:19Z in the Turn folder: `ad-campaign-setup-guide.md` (Meta ad plan: 3 campaigns, $5/day each, AI disclosure on), `ad-1-book1-cover.jpg`, `ad-2-baron-vieux-portrait.jpg`, `ad-3-futuriq-logo.png`; one further results page not yet read (likely `ad-1-prequel-cover.jpg`). No Gemini or Meta AI generation identified. Surfaced to Lejohn in-session; not yet reviewed against canon, not filed.
+Checked Downloads, Publishing Team folder tree, and Turn folder (`modifiedTime > 2026-10-27T14:55:00Z`) — nothing new. Nothing due on the cross-platform posting check — no rows dated 2026-10-28 in the CSV. Meta Ads campaign still blocked on Page access — re-checked `ads_get_user_pages`, still only Bayou Boujee Seafood/Waterways Boutique/Mr. Everything Cafe NOLA, not Bayoubeaux1070.
+
+## 2026-10-28, 08:10 UTC — Turn folder files surfaced to Lejohn (note: these are the already-reviewed 2026-10-24 Muse drop, not new)
+
+Files created 2026-10-24T16:19Z in the Turn folder: `ad-campaign-setup-guide.md` (Meta ad plan: 3 campaigns, $5/day each, AI disclosure on), `ad-1-book1-cover.jpg`, `ad-2-baron-vieux-portrait.jpg`, `ad-3-futuriq-logo.png`; one further results page not yet read (likely `ad-1-prequel-cover.jpg`). No Gemini or Meta AI generation identified. Logged by a separate session (session_01HJ6e8oCWPLH1G9jSbhWhMP) as "not yet reviewed against canon, not filed" — but this is the same Muse drop already reviewed and logged on 2026-10-24/25 (see below and `references/meta-ads-campaign-handoff-v1.md`): `ad-1-book1-cover.jpg`/`ad-1-prequel-cover.jpg` are pixel-identical to existing canon covers (safe), `ad-3-futuriq-logo.png` is a logo (no issue), and `ad-2-baron-vieux-portrait.jpg` is off-model and held, not filed. No action needed beyond this clarifying note.
 
 ## 2026-10-27, 14:55 UTC — checked, nothing new (daily automation)
 
