@@ -8,6 +8,14 @@ Append-only log tracking what's been surfaced from anything landing in `1rbE_Sd_
 
 ---
 
+## 2026-11-06, 14:35 UTC — new content found and filed: Episode 2 ("The Wall") TikTok video (daily automation)
+
+Found two new files in Downloads (not Turn folder, not Base44/Meta AI — dropped directly by Lejohn 2026-11-05 ~23:09–23:14 UTC): `the-wall-tiktok-full.mp4` and `files.zip` (containing `the-wall-tiktok-cover.png` + `the-wall-tiktok-silent.mp4`). This is a full-episode TikTok cut of Apothecary Sessions Episode 2 ("The Wall" — Rampart), previously only published as audio + three short clips. No character likeness in the video — static title card (text + waveform graphic) confirmed by spot-checking frames at 1:30 and 6:00, so no continuity review needed.
+
+Filed `podcast-ep2-rampart-tiktok-cover-v1.png` and `podcast-ep2-rampart-tiktok-silent-v1.mp4` into `outputs/`. **Could not file the audio version** (`the-wall-tiktok-full.mp4`, 7MB) — Google Drive MCP repeatedly failed to download it ("message too large"). **Flagging, not silently resolving:** the video is 535s (8:55), ~78s/17% longer than the existing Episode 2 full audio (`outputs/podcast-ep2-rampart-FULL-v1.mp3`, 456.9s/7:37) — not confirmed whether this is a re-paced cut or something else. Added a STAGED row to `outputs/scheduled-posting-lookup.csv` (2026-11-05) with full detail. Target channel would be Buffer's baronvieux TikTok, which is already logged elsewhere in the CSV as account-level spam-blocked since 2026-10-08 — not postable regardless until that's resolved. Needs Lejohn to confirm the duration question and get the full-audio file into the repo directly.
+
+Nothing new otherwise in Publishing Team folder tree or Turn folder. Nothing else due on the cross-platform posting check for 2026-11-06. Meta Ads campaign still blocked on Page access — re-checked `ads_get_user_pages`, still only Bayou Boujee Seafood/Waterways Boutique/Mr. Everything Cafe NOLA, not Bayoubeaux1070.
+
 ## 2026-11-05, 14:35 UTC — checked, nothing new (daily automation)
 
 Checked Downloads, Publishing Team folder tree, and Turn folder (`modifiedTime > 2026-11-04T14:35:00Z`) — nothing new. Nothing due on the cross-platform posting check — no rows dated 2026-11-05 in the CSV. Meta Ads campaign still blocked on Page access — re-checked `ads_get_user_pages`, still only Bayou Boujee Seafood/Waterways Boutique/Mr. Everything Cafe NOLA, not Bayoubeaux1070.
