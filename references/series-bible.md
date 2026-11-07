@@ -43,7 +43,20 @@ This file is the source of truth for all agents. Read this before working on any
 
 ---
 
-### Book 3 (Brainstorm — not yet outlined)
+### Book 3 (Direction set 2026-10-18 — not yet outlined)
+**Direction (author decision, 2026-10-18):** Olivia's career takes her down a different road. Book 3 picks up from Book 1's ending: five years on, Olivia is a platinum-selling artist, Baron cooks on a South American coast, and Theron and Jamara run Bayouboujee. Her success pulls her toward touring and the studio. Baron wants to come home and rebuild. They part with no villain, two people who want different lives. Book 3 is Baron's comeback. He returns to New Orleans and fights for Bayouboujee on his own: the series' core truth, with Baron deciding alone that the place is worth fighting for.
+
+**Guardrails:**
+- Olivia stays dignified on the page. No blame, no scandal.
+- Keep her clear of recognizable real-life private events.
+- Recipes: only the author's confirmed dishes (see the Bayouboujee section).
+
+**Open:**
+- How the parting is shown: on the page, off the page, or revealed gradually.
+- Whether Olivia appears after the opening at all, or only as a voice. **Partly settled 2026-10-18:** her voice on the radio is the moment that causes Baron's injury (see Kay Dorgenois entry). Open: whether she appears on the page beyond that.
+- What Baron's new direction looks like. It will draw on the author's own.
+
+#### Superseded — earlier Book 3 brainstorm (before 2026-10-18; kept for history, do not develop)
 **Working idea:** Bayouboujee's comeback, after Olivia returns from a stretch of time in South America. Leans further into Olivia as performer, tarot reader, and occasional cameo chef with her own creations — deepening a dimension of her character that's true to life (the author's wife performs, reads tarot, and cameos as chef in real life, the inspiration behind Olivia).
 
 **Open questions:**
@@ -63,16 +76,16 @@ This file is the source of truth for all agents. Read this before working on any
 
 ## Protagonist: Baron Vieux
 
-**Age:** 56 years old (present timeline of the prequel)
+**Age (author decision, 2026-10-18):** **50 in Book 3.** Working back from the manuscript timeline: born around 1978, at Kaldi's from about seventeen (mid-1990s), early twenties when it closed in 2000, about 44 in the prequel's present (post-COVID), about 45 when Bayouboujee opens in Book 1. This replaces the earlier "56 in the prequel's present," which didn't fit the manuscript.
 **Pronunciation:** "Vu"
 **Race:** Black, dark-skinned, sharp-featured
 **Appearance:** Square-framed black glasses. Gray chef's coat embroidered: *Baron Vieux* on left chest, *Bayouboujee* on right. YELEGAI apron, leather worn soft. Knife roll (Qchengsan). Phone always in apron pocket — always charged.
 **Author's Alter Ego:** Baron Vieux is Lejohn Richburg III. His professional history is the author's real resume.
 
 ### Full Career Timeline
-**NOTE:** Chapter Zero is a reminiscence — Baron at 56 looking back at where his work journey began. He was not literally standing at the Kaldi's corner in the present. The 941 Decatur scene is a memory he carries, not a current event. The 2005 Katrina moment (standing in front of the building after the storm) is also part of that recalled history.
+**NOTE:** Chapter Zero is a reminiscence — Baron in his mid-forties looking back at where his work journey began. He was not literally standing at the Kaldi's corner in the present. The 941 Decatur scene is a memory he carries, not a current event. The 2005 Katrina moment (standing in front of the building after the storm) is also part of that recalled history.
 
-1. **Kaldi's Coffee — 941 Decatur Street** (teenager, early 1990s) — barista, his first lesson in reading people and operational precision. $3.40 drawer discrepancy that he stayed 45 minutes after close to resolve. Closed in 2000.
+1. **Kaldi's Coffee — 941 Decatur Street** (teenager, mid-1990s) — barista, his first lesson in reading people and operational precision. $3.40 drawer discrepancy that he stayed 45 minutes after close to resolve. Closed in 2000.
 2. **San Juan trip with Esperanza** (age 19) — planted the seed of his culinary philosophy. Flavor as language. The Scarlet Elixir begins here.
 3. **AT&T / Cox Communications** — Sales Consultant, Assistant Manager. Best rep in South Texas. 75% of time on the floor resolving customer escalations. Origin of his de-escalation superpower.
 4. **Mr. Everything Cafe — General Manager** — ran all operations, cut inventory costs by 40%, managed UberEats/Grubhub/Postmates/Yelp, built the website (WordPress), ServSafe Certified Instructor and Proctor.
@@ -213,6 +226,32 @@ This file is the source of truth for all agents. Read this before working on any
 - Olivia's best friend. Manages Bayouboujee operations from Virginia during the Book 1 crisis.
 - Saves the restaurant alongside Theron.
 
+### Kay Dorgenois, RN (Book 3 — introduced 2026-10-18)
+- Full name: **Kay Dorgenois, RN**. Surname follows the series' street-name convention (Dorgenois Street, New Orleans).
+- Baron's new love interest in Book 3.
+- **Real-world note (2026-10-18):** Kay is based on a real person, Keilia Love, the same way Baron is the author's alter ego. Kay's name, workplace, and private details stay fictionalized. Name no real hospital or unit. Keilia's written OK is to be obtained before Kay appears in anything published (same practice as the Apothecary/Marita note). Request drafted in `references/authors-note-kaldis.md`. Status: drafted, not yet sent.
+- **From New Orleans.**
+- **Night-shift nurse.**
+- **Age: 32 in Book 3** (author decision, 2026-10-18): half Baron's age (50) plus seven.
+- **Her goal: to become a nurse practitioner (NP)**, an advanced-practice registered nurse who can diagnose and prescribe. The usual path is an RN license, then a master's (MSN) or doctorate (DNP) in nursing, national board certification (e.g., Family Nurse Practitioner), and a state APRN license. In Louisiana, NPs prescribe under a collaborative practice agreement with a physician.
+- **How they meet: Baron comes in with a burn and a cut that needs stitches**, and Kay is the nurse on that night shift. Accuracy note: in an ER, the RN cleans and dresses the burn and preps the wound, but a physician, PA, or NP does the stitches. That gap between what she's allowed to do and what she knows she could do is a natural way to show her NP ambition.
+- **The injury (author decision, 2026-10-18):** Baron pulls a sheet pan of redfish out of the convection oven. He glances away for a second, and hot sauce from the pan spills down his hand and wrist. He jerks back, reaches out for balance, and his burned hand slices across his sharp chef's knife. The burn plus a cut that needs stitches sends him to the ER, where Kay is on the night shift.
+  - **Continuity check, passes:** Bayouboujee runs an all-electric kitchen with convection ovens (Book 1 Ch. 2), and in Book 1 the Scarlet Redfish comes out of those convection ovens ("the convection ovens delivered, and the Scarlet Redfish followed").
+  - **The cut is a slice (confirmed 2026-10-18):** the blade slices his hand as he grabs for balance, not a puncture. A slice is what an ER realistically stitches.
+  - **The sauce is the Scarlet Elixir (confirmed 2026-10-18),** the dark tomato-guajillo reduction that goes with the redfish in Book 1.
+  - **What pulls his eyes away (author decision, 2026-10-18): Olivia's song comes on the radio.** She's a platinum-selling artist by Book 3, so a radio in the kitchen playing her song is plausible. This puts the end of Baron and Olivia and the start of Baron and Kay in the same scene. It also bookends the prequel, where Olivia is only a voice Baron hears before he knows her name: here she is a voice again, after they've parted, and it costs him a moment of the precision that defines him.
+  - **Guardrail:** keep the moment dignified. His reaction is a lapse of attention, not a grievance against her (see Book 3 guardrails).
+  - **Open:** which song, and whether it's one he knows from their life together. Don't use a real song or real lyrics. Invent one.
+- **Meets Baron after Olivia leaves.** No overlap with Olivia: the parting at the start of Book 3 comes first, then Kay. This keeps the "Olivia stays dignified" guardrail intact (see Book 3 above).
+- **Appearance (reference: `references/kay-dorgenois-reference-v1.png`, AI-generated, confirmed by Lejohn 2026-10-18):** Black woman, warm brown skin, dark hair pulled back sleek, bright open smile. Navy scrubs, stethoscope around her neck, hospital ID badge reading "Kay Dorgenois, RN," small pendant necklace. Image setting: seated on a French Quarter patio in early light, wrought-iron railings, hanging ferns, balcony above, paper coffee cup in hand. She reads as just off a night shift.
+- **Possible series echoes (Claude's suggestions, not canon until Lejohn confirms):**
+  - She works while the city sleeps, the same hours as a kitchen.
+  - The coffee in her hand after a shift is a Kaldi's sensory trigger for Baron.
+  - She could become part of his post-shift ritual.
+- **Open:**
+  - Her unit (ER fits the burn-and-stitches meeting) and her stage on the NP path.
+  - How Baron got hurt: in the kitchen during the rebuild, or elsewhere.
+
 ---
 
 ## Signature Dishes & Creations
@@ -279,6 +318,7 @@ The restaurant where Baron is currently sous chef under Melpomene. French Quarte
 
 ### Bayouboujee (future in prequel — built in Book 1)
 **Real-world note:** The author operates Bayou Boujee Seafood in real life. Baron's restaurant is the fictional translation of that reality.
+- **Signature dishes are the author's own (confirmed by Lejohn, 2026-10-18):** Scarlet Redfish, Gulf Remedy, Scarlet Elixir, Roe Velvet, the Zero-Proof Potions menu, and the dark roux gumbo and jambalaya from the Baron Vieux cooking series. Only these, plus any future dish Lejohn confirms as his, may appear in the books, posts, scripts, or videos. The real-world Bayou Boujee recipe collection ("Bayouboujee Bible" in Drive) is not the author's work and is not used anywhere in this series.
 - **Zero-Proof Potions** — the mocktail menu. Signature offering alongside the food.
 - **Live music stage** inside — food and music as one experience, the adult version of what Kaldi's was.
 - **Theron and Jamara** keep it running during Baron and Olivia's recovery. Five years after opening, Olivia is a platinum-selling artist and Baron cooks for joy on a South American coast. Bayouboujee still runs.
@@ -286,6 +326,7 @@ The restaurant where Baron is currently sous chef under Melpomene. French Quarte
 ### Bayouboujee (future — not yet built)
 - Domain registered. LLC filed. Blueprint ready.
 - Gravel lot off Magazine Street.
+- **Lease-to-own (author decision, 2026-10-08):** Baron leases the Magazine Street parcel first and buys the land later — "He has to lease it before he owns it." This reconciles the prequel's "Not lease. Not rent. Own." (the goal) with the prequel's "signed lease" / "privately leased parcel" (Ch. 8) and Book 1's "rented patch of gravel" (Ch. 2): the lease is the first step, ownership is the destination. The container itself is his from the start. Deliberate contrast with Kaldi's, whose ten-year lease ran out and ended it. **Open:** the land purchase does not happen on the page in either the prequel or Book 1 — when/whether it's shown (e.g. Book 3's comeback) is undecided; don't write it as having happened yet.
 - Converted shipping container. No velvet ropes. No corporate investors.
 - Electric kitchen: convection ovens, high-speed blenders. No gas hoods.
 - Live music stage inside.

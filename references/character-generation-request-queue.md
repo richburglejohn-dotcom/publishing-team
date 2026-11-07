@@ -29,6 +29,7 @@ Living document. This is where Claude assigns what character art actually needs 
 - Slide — `slide-portrait-v1.jpg`
 - Elysian, Carondelet, Prytania, Desire — `elysian-concept-v1.webp`, `carondelet-finance-concept-v1.webp`, `prytania-boutique-owner-concept-v1.webp`, `desire-street-concept-v1.webp`
 - Chef Menture, Constance, Connie — `chef-menture-portrait-v1.webp`/`-poster-v1.webp`, `constance-menture-portrait-v1.webp`, `connie-menture-portrait-v1.webp`
+- Kay Dorgenois, RN — `kay-dorgenois-reference-v1.png` (2026-10-18; AI-generated, confirmed by Lejohn; not a photo of the real person she's based on). Low-res (288×422). Fine as an appearance reference. Generate a higher-res take from it before using it in video or poster work.
 
 ## Note on the file marked "olivia" as next in the old manifest
 
