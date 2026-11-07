@@ -8,6 +8,17 @@ Append-only log tracking what's been surfaced from anything landing in `1rbE_Sd_
 
 ---
 
+## 2026-11-07, ~23:00 UTC — new doc from Muse surfaced: KDP findings + 3 open questions for Lejohn
+
+New doc `Muse to Claude - KDP findings Nov 7 2026` (created 2026-11-07T22:57 UTC, after today's 14:35 automation check) from Muse (Peekabeaux). Content: live KDP data for Book 1 (paperback $9.99/50pp/5.5x8.5in, pub date 2026-05-25, ASIN `B0H4S7QMT1`; Kindle $9.99/$0 w/ KU; Nov 2026 sales $0 across all formats) and a note that the prequel's listing file (`outputs/amazon-listing-scarlet-foundation-v1.md`, ASIN `B0H88D3H58`) hasn't been re-verified against live KDP. Confirmed true: no Book 1 listing file exists anywhere in the repo (checked both this branch and `main`) — Muse's claim stands, nothing to reconcile.
+
+Muse also asked 3 questions for Lejohn, cross-checked against `main` (this branch is well behind `main` — see note below) rather than assumed:
+1. **"Is the Book 3 threat the Magazine Street lease?"** — Yes, confirmed: `main`'s Book 3 Ch. 2 commit (`4dab908`, 2026-10-18) explicitly "advances the lease-renewal threat (Baron never bought the land) as the Book 3 engine," consistent with the 2026-10-08 series-bible canon decision that Baron leases the land first and buys it later (purchase never shown on-page). No contradiction — passed to Lejohn as confirmed, not re-litigated.
+2. **"Does the Ep 5 Olivia podcast episode (Dec 17) still go out, given the Book 3 direction change?"** — No record anywhere in the repo (either branch) of a Dec 17 date or any production status for Episode 5 beyond its slot in the Season 1 lineup table (unscripted as of the concept doc's last status note, 2026-08-21: 3 of 8 scripts written). Can't confirm or deny — genuinely Lejohn's to answer, not something to guess at.
+3. **Book 1 categories/keywords** — not in the repo anywhere; Muse's own ask, nothing to file in response.
+
+**Flagging separately, not something Muse asked about:** this branch (`claude/book-amazon-upload-s9hppz`) is ~35 commits behind `main` — a parallel branch (`claude/upbeat-ride-2si8f4`) has been merging substantial new canon into `main` (the Book 3 chapters, a new character Kay Dorgenois, the lease-to-own decision above) that never flowed back here. Answering Muse's questions required reading `main` directly rather than this branch. Worth a merge/sync at some point so future continuity checks on this branch aren't working from stale canon.
+
 ## 2026-11-07, 14:35 UTC — checked, nothing new (daily automation)
 
 Checked Downloads, Publishing Team folder tree, and Turn folder (`modifiedTime > 2026-11-06T14:35:00Z`) — nothing new. Nothing due on the cross-platform posting check — no rows dated 2026-11-07 in the CSV. Meta Ads campaign still blocked on Page access — re-checked `ads_get_user_pages`, still only Bayou Boujee Seafood/Waterways Boutique/Mr. Everything Cafe NOLA, not Bayoubeaux1070. Yesterday's Episode 2 ("The Wall") TikTok flags (duration mismatch, missing full-audio file) remain unresolved.
