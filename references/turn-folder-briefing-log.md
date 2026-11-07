@@ -8,9 +8,188 @@ Append-only log tracking what's been surfaced from anything landing in `1rbE_Sd_
 
 ---
 
+## 2026-11-07, ~23:00 UTC — new doc from Muse surfaced: KDP findings + 3 open questions for Lejohn
+
+New doc `Muse to Claude - KDP findings Nov 7 2026` (created 2026-11-07T22:57 UTC, after today's 14:35 automation check) from Muse (Peekabeaux). Content: live KDP data for Book 1 (paperback $9.99/50pp/5.5x8.5in, pub date 2026-05-25, ASIN `B0H4S7QMT1`; Kindle $9.99/$0 w/ KU; Nov 2026 sales $0 across all formats) and a note that the prequel's listing file (`outputs/amazon-listing-scarlet-foundation-v1.md`, ASIN `B0H88D3H58`) hasn't been re-verified against live KDP. Confirmed true: no Book 1 listing file exists anywhere in the repo (checked both this branch and `main`) — Muse's claim stands, nothing to reconcile.
+
+Muse also asked 3 questions for Lejohn, cross-checked against `main` (this branch is well behind `main` — see note below) rather than assumed:
+1. **"Is the Book 3 threat the Magazine Street lease?"** — Yes, confirmed: `main`'s Book 3 Ch. 2 commit (`4dab908`, 2026-10-18) explicitly "advances the lease-renewal threat (Baron never bought the land) as the Book 3 engine," consistent with the 2026-10-08 series-bible canon decision that Baron leases the land first and buys it later (purchase never shown on-page). No contradiction — passed to Lejohn as confirmed, not re-litigated.
+2. **"Does the Ep 5 Olivia podcast episode (Dec 17) still go out, given the Book 3 direction change?"** — No record anywhere in the repo (either branch) of a Dec 17 date or any production status for Episode 5 beyond its slot in the Season 1 lineup table (unscripted as of the concept doc's last status note, 2026-08-21: 3 of 8 scripts written). Can't confirm or deny — genuinely Lejohn's to answer, not something to guess at.
+3. **Book 1 categories/keywords** — not in the repo anywhere; Muse's own ask, nothing to file in response.
+
+**Flagging separately, not something Muse asked about:** this branch (`claude/book-amazon-upload-s9hppz`) is ~35 commits behind `main` — a parallel branch (`claude/upbeat-ride-2si8f4`) has been merging substantial new canon into `main` (the Book 3 chapters, a new character Kay Dorgenois, the lease-to-own decision above) that never flowed back here. Answering Muse's questions required reading `main` directly rather than this branch. Worth a merge/sync at some point so future continuity checks on this branch aren't working from stale canon.
+
+## 2026-11-07, 14:35 UTC — checked, nothing new (daily automation)
+
+Checked Downloads, Publishing Team folder tree, and Turn folder (`modifiedTime > 2026-11-06T14:35:00Z`) — nothing new. Nothing due on the cross-platform posting check — no rows dated 2026-11-07 in the CSV. Meta Ads campaign still blocked on Page access — re-checked `ads_get_user_pages`, still only Bayou Boujee Seafood/Waterways Boutique/Mr. Everything Cafe NOLA, not Bayoubeaux1070. Yesterday's Episode 2 ("The Wall") TikTok flags (duration mismatch, missing full-audio file) remain unresolved.
+
+## 2026-11-06, 14:35 UTC — new content found and filed: Episode 2 ("The Wall") TikTok video (daily automation)
+
+Found two new files in Downloads (not Turn folder, not Base44/Meta AI — dropped directly by Lejohn 2026-11-05 ~23:09–23:14 UTC): `the-wall-tiktok-full.mp4` and `files.zip` (containing `the-wall-tiktok-cover.png` + `the-wall-tiktok-silent.mp4`). This is a full-episode TikTok cut of Apothecary Sessions Episode 2 ("The Wall" — Rampart), previously only published as audio + three short clips. No character likeness in the video — static title card (text + waveform graphic) confirmed by spot-checking frames at 1:30 and 6:00, so no continuity review needed.
+
+Filed `podcast-ep2-rampart-tiktok-cover-v1.png` and `podcast-ep2-rampart-tiktok-silent-v1.mp4` into `outputs/`. **Could not file the audio version** (`the-wall-tiktok-full.mp4`, 7MB) — Google Drive MCP repeatedly failed to download it ("message too large"). **Flagging, not silently resolving:** the video is 535s (8:55), ~78s/17% longer than the existing Episode 2 full audio (`outputs/podcast-ep2-rampart-FULL-v1.mp3`, 456.9s/7:37) — not confirmed whether this is a re-paced cut or something else. Added a STAGED row to `outputs/scheduled-posting-lookup.csv` (2026-11-05) with full detail. Target channel would be Buffer's baronvieux TikTok, which is already logged elsewhere in the CSV as account-level spam-blocked since 2026-10-08 — not postable regardless until that's resolved. Needs Lejohn to confirm the duration question and get the full-audio file into the repo directly.
+
+Nothing new otherwise in Publishing Team folder tree or Turn folder. Nothing else due on the cross-platform posting check for 2026-11-06. Meta Ads campaign still blocked on Page access — re-checked `ads_get_user_pages`, still only Bayou Boujee Seafood/Waterways Boutique/Mr. Everything Cafe NOLA, not Bayoubeaux1070.
+
+## 2026-11-05, 14:35 UTC — checked, nothing new (daily automation)
+
+Checked Downloads, Publishing Team folder tree, and Turn folder (`modifiedTime > 2026-11-04T14:35:00Z`) — nothing new. Nothing due on the cross-platform posting check — no rows dated 2026-11-05 in the CSV. Meta Ads campaign still blocked on Page access — re-checked `ads_get_user_pages`, still only Bayou Boujee Seafood/Waterways Boutique/Mr. Everything Cafe NOLA, not Bayoubeaux1070.
+
+## 2026-11-04, 14:35 UTC — checked, nothing new (daily automation)
+
+Checked Downloads, Publishing Team folder tree, and Turn folder (`modifiedTime > 2026-11-03T14:35:00Z`) — nothing new. Nothing due on the cross-platform posting check — no rows dated 2026-11-04 in the CSV. Meta Ads campaign still blocked on Page access — re-checked `ads_get_user_pages`, still only Bayou Boujee Seafood/Waterways Boutique/Mr. Everything Cafe NOLA, not Bayoubeaux1070.
+
+## 2026-11-03, 14:35 UTC — checked, nothing new (daily automation)
+
+Checked Downloads, Publishing Team folder tree, and Turn folder (`modifiedTime > 2026-11-02T15:51:00Z`) — nothing new. Nothing due on the cross-platform posting check — no rows dated 2026-11-03 in the CSV. Meta Ads campaign still blocked on Page access — re-checked `ads_get_user_pages`, still only Bayou Boujee Seafood/Waterways Boutique/Mr. Everything Cafe NOLA, not Bayoubeaux1070.
+
+## 2026-11-02, 15:51 UTC — checked, nothing new (daily automation)
+
+Checked Downloads, Publishing Team folder tree, and Turn folder (`modifiedTime > 2026-11-01T14:35:00Z`) — nothing new. Nothing due on the cross-platform posting check — no rows dated 2026-11-02 in the CSV. Meta Ads campaign still blocked on Page access — re-checked `ads_get_user_pages`, still only Bayou Boujee Seafood/Waterways Boutique/Mr. Everything Cafe NOLA, not Bayoubeaux1070.
+
+## 2026-11-01, 14:35 UTC — checked, nothing new (daily automation)
+
+Checked Downloads, Publishing Team folder tree, and Turn folder (`modifiedTime > 2026-10-31T14:35:00Z`) — nothing new. Nothing due on the cross-platform posting check — no rows dated 2026-11-01 in the CSV. Meta Ads campaign still blocked on Page access — re-checked `ads_get_user_pages`, still only Bayou Boujee Seafood/Waterways Boutique/Mr. Everything Cafe NOLA, not Bayoubeaux1070.
+
+## 2026-10-31, 14:35 UTC — checked, nothing new (daily automation)
+
+Checked Downloads, Publishing Team folder tree, and Turn folder (`modifiedTime > 2026-10-30T14:52:00Z`) — nothing new. Nothing due on the cross-platform posting check — no rows dated 2026-10-31 in the CSV. Meta Ads campaign still blocked on Page access — re-checked `ads_get_user_pages`, still only Bayou Boujee Seafood/Waterways Boutique/Mr. Everything Cafe NOLA, not Bayoubeaux1070.
+
+## 2026-10-30, 14:52 UTC — checked, nothing new (daily automation)
+
+Checked Downloads, Publishing Team folder tree, and Turn folder (`modifiedTime > 2026-10-29T14:40:00Z`) — nothing new. Nothing due on the cross-platform posting check — no rows dated 2026-10-30 in the CSV. Meta Ads campaign still blocked on Page access — re-checked `ads_get_user_pages`, still only Bayou Boujee Seafood/Waterways Boutique/Mr. Everything Cafe NOLA, not Bayoubeaux1070.
+
+## 2026-10-29, 14:40 UTC — checked, nothing new (daily automation)
+
+Checked Downloads, Publishing Team folder tree, and Turn folder (`modifiedTime > 2026-10-28T14:36:00Z`) — nothing new. Nothing due on the cross-platform posting check — no rows dated 2026-10-29 in the CSV. Meta Ads campaign still blocked on Page access — re-checked `ads_get_user_pages`, still only Bayou Boujee Seafood/Waterways Boutique/Mr. Everything Cafe NOLA, not Bayoubeaux1070.
+
+## 2026-10-28, 14:36 UTC — checked, nothing new (daily automation)
+
+Checked Downloads, Publishing Team folder tree, and Turn folder (`modifiedTime > 2026-10-27T14:55:00Z`) — nothing new. Nothing due on the cross-platform posting check — no rows dated 2026-10-28 in the CSV. Meta Ads campaign still blocked on Page access — re-checked `ads_get_user_pages`, still only Bayou Boujee Seafood/Waterways Boutique/Mr. Everything Cafe NOLA, not Bayoubeaux1070.
+
+## 2026-10-28, 08:10 UTC — Turn folder files surfaced to Lejohn (note: these are the already-reviewed 2026-10-24 Muse drop, not new)
+
+Files created 2026-10-24T16:19Z in the Turn folder: `ad-campaign-setup-guide.md` (Meta ad plan: 3 campaigns, $5/day each, AI disclosure on), `ad-1-book1-cover.jpg`, `ad-2-baron-vieux-portrait.jpg`, `ad-3-futuriq-logo.png`; one further results page not yet read (likely `ad-1-prequel-cover.jpg`). No Gemini or Meta AI generation identified. Logged by a separate session (session_01HJ6e8oCWPLH1G9jSbhWhMP) as "not yet reviewed against canon, not filed" — but this is the same Muse drop already reviewed and logged on 2026-10-24/25 (see below and `references/meta-ads-campaign-handoff-v1.md`): `ad-1-book1-cover.jpg`/`ad-1-prequel-cover.jpg` are pixel-identical to existing canon covers (safe), `ad-3-futuriq-logo.png` is a logo (no issue), and `ad-2-baron-vieux-portrait.jpg` is off-model and held, not filed. No action needed beyond this clarifying note.
+
+## 2026-10-27, 14:55 UTC — checked, nothing new (daily automation)
+
+Checked Downloads, Publishing Team folder tree, and Turn folder (`modifiedTime > 2026-10-26T14:35:00Z`) — nothing new. Nothing due on the cross-platform posting check — no rows dated 2026-10-27 in the CSV. Meta Ads campaign still blocked on Page access — re-checked `ads_get_user_pages`, still only Bayou Boujee Seafood/Waterways Boutique/Mr. Everything Cafe NOLA, not Bayoubeaux1070.
+
+## 2026-10-26, 14:35 UTC — checked, nothing new (daily automation)
+
+Checked Downloads, Publishing Team folder tree, and Turn folder — nothing new. Nothing due on the cross-platform posting check — no rows dated 2026-10-26 in the CSV. Meta Ads campaign still blocked on Page access — re-checked `ads_get_user_pages`, still only Bayou Boujee Seafood/Waterways Boutique/Mr. Everything Cafe NOLA, not Bayoubeaux1070.
+
+## 2026-10-25, 14:35 UTC — checked, nothing new (daily automation)
+
+Checked Downloads, Publishing Team folder tree, and Turn folder — nothing new since the 2026-10-24 Muse ad-campaign drop (already reviewed/logged). Nothing due on the cross-platform posting check — no rows dated 2026-10-25 in the CSV. Meta Ads campaign work remains blocked on Page access (see `references/meta-ads-campaign-handoff-v1.md`) — re-checked `ads_get_user_pages` in-session, still only sees Bayou Boujee Seafood/Waterways Boutique/Mr. Everything Cafe NOLA, not Bayoubeaux1070.
+
+## 2026-10-24, 14:35 UTC — checked, nothing new (daily automation)
+
+Checked Downloads, Publishing Team folder tree, and Turn folder (`modifiedTime > 2026-10-23T14:35:00Z`) — nothing new. Nothing due on the cross-platform posting check — no rows dated 2026-10-24 in the CSV. No new failures to report. Separately: Lejohn opened a Meta Ads campaign-planning conversation for Culinary Crescendo (book-traffic objective, reusing "The Turn" ad-ready creative, $20-30/day) — found the ad account (142417789) has no payment method and no Facebook Page linked, both blocking launch; plan is drafted and waiting on Lejohn to clear those two account items in Business Settings plus confirm exact budget/duration/audience.
+
+## 2026-10-23, 14:35 UTC — checked, nothing new (daily automation)
+
+Checked Downloads, Publishing Team folder tree, and Turn folder (`modifiedTime > 2026-10-22T14:35:00Z`) — nothing new. Nothing due on the cross-platform posting check — no rows dated 2026-10-23 in the CSV. No new failures to report. Separately: Lejohn asked in-session about a newly-created "BaronVieuxRoux" Google Flow video and a "recent copy" check — confirmed no such video exists anywhere in Drive (nothing created today at all as of that check) and the two manuscript files that showed a modified timestamp today (Book 1 PDF, Scarlet Foundation READ ME docx) are textually identical to the repo's canonical versions — no new copy.
+
+## 2026-10-22, 14:35 UTC — checked, nothing new (daily automation)
+
+Checked Downloads, Publishing Team folder tree, and Turn folder (`modifiedTime > 2026-10-21T14:35:00Z`) — nothing new. Nothing due on the cross-platform posting check — no rows dated 2026-10-22 in the CSV. No new failures to report.
+
+## 2026-10-21, 14:35 UTC — checked, nothing new (daily automation)
+
+Checked Downloads, Publishing Team folder tree, and Turn folder (`modifiedTime > 2026-10-20T14:35:00Z`) — nothing new. Nothing due on the cross-platform posting check — no rows dated 2026-10-21 in the CSV. No new failures to report.
+
+## 2026-10-20, 14:35 UTC — checked, nothing new (daily automation)
+
+Checked Downloads, Publishing Team folder tree, and Turn folder (`modifiedTime > 2026-10-19T14:35:00Z`) — nothing new. Nothing due on the cross-platform posting check — no rows dated 2026-10-20 in the CSV. No new failures to report.
+
+## 2026-10-19, 14:35 UTC — checked, nothing new (daily automation)
+
+Checked Downloads, Publishing Team folder tree, and Turn folder (`modifiedTime > 2026-10-18T14:35:00Z`) — nothing new. Nothing due on the cross-platform posting check — no rows dated 2026-10-19 in the CSV. No new failures to report.
+
+## 2026-10-18, 14:35 UTC — checked, nothing new (daily automation)
+
+Checked Downloads, Publishing Team folder tree, and Turn folder (`modifiedTime > 2026-10-17T14:47:00Z`) — nothing new. Nothing due on the cross-platform posting check — no rows dated 2026-10-18 in the CSV. No new failures to report.
+
+## 2026-10-17, 14:47 UTC — checked, nothing new (daily automation)
+
+Checked Downloads, Publishing Team folder tree, and Turn folder (`modifiedTime > 2026-10-16T14:47:00Z`) — nothing new. Nothing due on the cross-platform posting check — no rows dated 2026-10-17 in the CSV. No new failures to report.
+
+## 2026-10-16, 14:47 UTC — checked, nothing new (daily automation)
+
+Checked Downloads, Publishing Team folder tree, and Turn folder (`modifiedTime > 2026-10-15T14:47:00Z`) — nothing new. Nothing due on the cross-platform posting check — no rows dated 2026-10-16 in the CSV. No new failures to report.
+
+## 2026-10-15, 14:47 UTC — checked, nothing new (daily automation)
+
+Checked Downloads, Publishing Team folder tree, and Turn folder (`modifiedTime > 2026-10-14T14:47:00Z`) — nothing new. Nothing due on the cross-platform posting check — no rows dated 2026-10-15 in the CSV. No new failures to report.
+
+## 2026-10-14, 14:47 UTC — checked, nothing new (daily automation)
+
+Checked Downloads, Publishing Team folder tree, and Turn folder (`modifiedTime > 2026-10-13T14:48:00Z`) — nothing new. Nothing due on the cross-platform posting check — no rows dated 2026-10-14 in the CSV. No new failures to report.
+
+## 2026-10-13, 14:48 UTC — checked, nothing new (daily automation)
+
+Checked Downloads, Publishing Team folder tree, and Turn folder (`modifiedTime > 2026-10-12T14:47:00Z`) — nothing new. Nothing due on the cross-platform posting check — no rows dated 2026-10-13 in the CSV. No new failures to report.
+
+## 2026-10-12, 14:47 UTC — checked, nothing new (daily automation)
+
+Checked Downloads, Publishing Team folder tree, and Turn folder (`modifiedTime > 2026-10-11T14:47:00Z`) — nothing new. Nothing due on the cross-platform posting check — no rows dated 2026-10-12 in the CSV. No new failures to report.
+
+## 2026-10-11, 14:47 UTC — checked, nothing new (daily automation)
+
+Checked Downloads, Publishing Team folder tree, and Turn folder (`modifiedTime > 2026-10-10T14:47:00Z`) — nothing new. Nothing due on the cross-platform posting check — no rows dated 2026-10-11 in the CSV. No new failures to report.
+
+## 2026-10-10, 14:47 UTC — checked, nothing new (daily automation)
+
+Checked Downloads, Publishing Team folder tree, and Turn folder (`modifiedTime > 2026-10-09T14:47:00Z`) — nothing new. Nothing due on the cross-platform posting check — no rows dated 2026-10-10 in the CSV. No new failures to report.
+
+## 2026-10-09, 14:47 UTC — checked, nothing new (daily automation)
+
+Checked Downloads, Publishing Team folder tree, and Turn folder (`modifiedTime > 2026-10-08T14:48:00Z`) — nothing new. Nothing due on the cross-platform posting check — no rows dated 2026-10-09 in the CSV. No new failures to report.
+
+## 2026-10-08, 14:48 UTC — checked, nothing new (daily automation; covers missed 2026-10-07 check)
+
+Checked Downloads, Publishing Team folder tree, and Turn folder (`modifiedTime > 2026-10-06T14:48:00Z`, covering the gap since the 2026-10-07 check was skipped mid-session) plus a title search for 'base44' — nothing new (the base44 title search only surfaced pre-existing files from 2026-08-24/09-02). Nothing due on the cross-platform posting check — no rows dated 2026-10-07 or 2026-10-08 in the CSV. Separately today: at Lejohn's explicit request, retried all 4 TikTok posts Buffer had flagged as spam-blocked (via `edit_post`, mode `shareNow`, exact original content carried forward) — all 4 failed again with the identical error, spanning video and image assets and AI-flagged and non-AI content. Logged in `outputs/scheduled-posting-lookup.csv` and surfaced to Lejohn as likely an account-level TikTok block on @baronvieux rather than content-specific — awaiting his check of the account directly in the TikTok app.
+
 ## 2026-10-07 — checked, nothing new (session start)
 
-Checked The Turn folder for anything with `modifiedTime > 2026-09-11T14:32:00Z` (covers the gap since the last entry) — nothing. Title/full-text search for Bayou Boujee/Bayouboujee turned up only older, already-known files. Nothing to surface.
+Checked The Turn folder for anything with `modifiedTime > 2026-09-11T14:32:00Z` (covers the gap since the last entry) — nothing. Title/full-text search for Bayou Boujee/Bayouboujee turned up only older, already-known files. Nothing to surface. *(Entry recovered from `main` during the 2026-11-07 branch sync — this was the session the 2026-10-08 entry above notes as "skipped mid-session"; it had logged this much before stopping.)*
+
+## 2026-10-06, 14:48 UTC — checked, nothing new (daily automation)
+
+Checked Downloads, Publishing Team folder tree, and Turn folder (`modifiedTime > 2026-10-05T14:47:00Z`) plus a title search for 'base44' — nothing new. Nothing due on the cross-platform posting check — no rows dated 2026-10-06 in the CSV. The 4 TikTok spam-flag failures remain unresolved, awaiting Lejohn.
+
+## 2026-10-05, 14:47 UTC — checked, nothing new (daily automation)
+
+Checked Downloads, Publishing Team folder tree, and Turn folder (`modifiedTime > 2026-10-04T14:47:00Z`) plus a title search for 'base44' — nothing new. Nothing due on the cross-platform posting check — no rows dated 2026-10-05 in the CSV. The 4 TikTok spam-flag failures remain unresolved, awaiting Lejohn.
+
+## 2026-10-04, 14:47 UTC — checked, nothing new (daily automation)
+
+Checked Downloads, Publishing Team folder tree, and Turn folder (`modifiedTime > 2026-10-03T14:47:00Z`) plus a title search for 'base44' — nothing new. Nothing due on the cross-platform posting check — no rows dated 2026-10-04 in the CSV. The 4 TikTok spam-flag failures remain unresolved, awaiting Lejohn.
+
+## 2026-10-03, 14:47 UTC — checked, nothing new (daily automation)
+
+Checked Downloads, Publishing Team folder tree, and Turn folder (`modifiedTime > 2026-10-02T14:47:00Z`) plus a title search for 'base44' — nothing new. Nothing due on the cross-platform posting check — no rows dated 2026-10-03 in the CSV. The 4 TikTok spam-flag failures remain unresolved, awaiting Lejohn.
+
+## 2026-10-02, 14:47 UTC — checked, nothing new (daily automation)
+
+Checked Downloads, Publishing Team folder tree, and Turn folder (`modifiedTime > 2026-10-01T14:47:00Z`) plus a title search for 'base44' — nothing new. Nothing due on the cross-platform posting check — no rows dated 2026-10-02 in the CSV. The 4 TikTok spam-flag failures remain unresolved, awaiting Lejohn.
+
+## 2026-10-01, 14:47 UTC — checked, nothing new (daily automation)
+
+Checked Downloads, Publishing Team folder tree, and Turn folder (`modifiedTime > 2026-09-30T14:47:00Z`) plus a title search for 'base44' — nothing new. Nothing due on the cross-platform posting check — no rows dated 2026-10-01 in the CSV. The 4 TikTok spam-flag failures from 2026-09-30's check are still unresolved, awaiting Lejohn's call on retry vs. checking account standing first.
+
+## 2026-09-30, 14:47 UTC — checked, nothing new (daily automation)
+
+Checked Downloads, Publishing Team folder tree, and Turn folder (`modifiedTime > 2026-09-29T15:07:00Z`) plus a title search for 'base44' — nothing new. Nothing due on the cross-platform posting check — no rows dated 2026-09-30 in the CSV. Separately today: found and corrected 4 TikTok posts logged as sent/scheduled that had actually failed (TikTok spam-flag block) — see `outputs/scheduled-posting-lookup.csv` rows for 2026-09-05 (x2, backfilled — never previously logged) and 2026-09-21 (x2, corrected from SCHEDULED to FAILED). Awaiting Lejohn's call on retrying vs. checking TikTok account standing first.
+
+## 2026-09-29, 15:07 UTC — checked, nothing new (daily automation)
+
+Checked Downloads, Publishing Team folder tree, and Turn folder (`modifiedTime > 2026-09-28T14:47:00Z`) plus a title search for 'base44' — nothing new. Nothing due on the cross-platform posting check — no rows dated 2026-09-29 in the CSV.
+
+## 2026-09-28, 14:47 UTC — checked, nothing new (daily automation)
+
+Checked Downloads, Publishing Team folder tree, and Turn folder (`modifiedTime > 2026-09-27T14:47:00Z`) plus a title search for 'base44' — nothing new. Nothing due on the cross-platform posting check — no rows dated 2026-09-28 in the CSV.
 
 ## 2026-09-27, 14:47 UTC — checked, nothing new (daily automation)
 
