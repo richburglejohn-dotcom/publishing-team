@@ -8,6 +8,34 @@ Append-only log tracking what's been surfaced from anything landing in `1rbE_Sd_
 
 ---
 
+## 2026-11-08, ~04:30 UTC — Muse's YouTube question answered from the repo (manual check, prompted by Lejohn)
+
+New doc `Muse to Claude - YouTube channel details and next episodes Nov 7 2026` (created 2026-11-08T04:04:54 UTC — landed ~2 min after the 04:02 UTC 4h Muse check ran, so that automated pass missed it; caught by a manual "check turn folder" request instead). Muse is prepping the next YouTube episode and asked Claude 4 direct questions. Answered from the repo, not guessed:
+
+1. **Channel details:** YouTube channel ID `UCtWwedsXe1zQ1cGGKb0z9QA`, channel name "Baron Vieux - The Culinary Crescendo Series," linked in Metricool 2026-09-05 (`blogId 6854241`). No subscriber count stored anywhere in the repo — can't answer that part.
+2. **What's actually on the channel:** 6 YouTube entries in `outputs/scheduled-posting-lookup.csv` — Roe Velvet (Short, 2026-09-04), Dark Roux teaser (scheduled 2026-09-08), Redfish and Crawfish (2026-09-09), Jambalaya vs. Paella v2 (live 2026-09-10, confirmed URL), Dark Roux Episode 1 full (live 2026-09-11/12, confirmed URL), Deep Dive — The Website Itself (scheduled 2026-09-21). Status at time of filing varied (PENDING/PUBLISHING for a couple) — not independently re-verified live today.
+3. **Script doc link:** `references/baron-vieux-cooking-series-scope-v1.md` points to it — the "Base44 Review - Baron Vieux Scripts & Future IQ Copy" doc linked from the Strategy & Ideas Hub (`https://docs.google.com/document/d/1WLI9tg23Ic9NBwoBF0idyjjB1kiDwvbVTX2qMMQ6TVE/edit`).
+4. **Next-video order / Ep 2 Redfish Flow prompt:** confirmed no Flow prompt doc exists yet for the scripted Cooking Series' Episode 2 ("Cast-Iron Blackened Redfish with Charred Lemon Butter") — not to be confused with the already-published standalone "Redfish and Crawfish" video (2026-09-09), which is a different asset, not part of this 4-episode scripted pack. Per the scope doc, only Episode 1 (Dark Roux) of the scripted series is actually produced; Episodes 2–4 are scripted but never piloted through the stitching pipeline. Didn't offer a recommended order beyond what's already in the scope doc — that's a production call, not a repo fact.
+
+**Update 2026-11-08, ~04:09 UTC — posted back to Muse, per Lejohn's instruction.** Created `Claude to Muse - YouTube channel details Nov 8 2026` directly in the Turn folder (https://docs.google.com/document/d/19C3-1KOAIby1dSNPrTu5J5KwkjQl438VBoOEYx8gk84/edit) with the same 4 answers above. This establishes a precedent: Claude can now write reply docs into this folder for Muse when Lejohn asks, not just read from it.
+
+## 2026-11-08, 00:02 UTC — Muse full catch-up report surfaced; 2 corrections, 2 repo updates (4h Muse check)
+
+New doc `Muse to Claude - Full catch-up report Nov 7 2026` (created 2026-11-07T23:03 UTC, 6 min after the KDP-findings doc logged below) — Lejohn asked Muse to catch Claude up on everything since the Turn folder channel went quiet in September. Full report covers KDP/books, podcast, Apothecary ops, Notion/Mailchimp, money/billing, the ad campaign, and misc. open items (ACA enrollment, dentist balance, Antenna Micro Grant, etc. — personal/ops items relayed to Lejohn, not repo-actionable).
+
+**Self-correction:** the previous entry below stated the Book 3 lease threat as "confirmed" based on reading the chapter commit. That overstated it — `outputs/book3-chapter-2-the-second-day-v1.md`'s own flags section says plainly "Status: DRAFT for author review. Not canon until Lejohn approves... Confirm or redirect," and Muse confirms Lejohn has not yet answered. It's the current draft premise (a prior Claude session's invention), not an author-confirmed decision. Corrected to Lejohn directly in this session.
+
+**Repo updates made (unambiguous, resolves standing checklist items, no continuity risk):**
+- `references/meta-ads-campaign-handoff-v1.md`: portrait decision recorded — storage-room portrait confirmed, noir portrait rejected (both per Lejohn, relayed via Muse; decision itself dated 2026-10-27). Also recorded: payment method still missing on ad account `142417789`, and the "one time" budget question (Lejohn's words, 2026-10-27) is still unanswered.
+- `outputs/scheduled-posting-lookup.csv`, 2026-11-05 Episode 2 TikTok row: flagged that Muse's report says "Ep 2 posted to TikTok @jaemoneynola Nov 5" — a personal account outside the @baronvieux/Buffer pipeline this row was tracking. Not confirmed to be the exact same asset filed here; flagged, not asserted, pending Lejohn's confirmation.
+
+**Flagged, not silently resolved — awaiting Lejohn, not acted on:**
+- Lejohn reportedly refined the Olivia Book 3 direction to Muse on 2026-11-07 ("she does not have to be completely written out — she can stay as a background presence / outline / 'noise'"). `references/series-bible.md`'s Book 3 section still only has the 2026-10-18 decision. Consistent in direction, not contradictory, but this came via Muse relaying Lejohn's spoken words, not Lejohn directly — not written into the bible without his direct confirmation.
+- Genuine factual discrepancy confirmed: `docs/books.html` states Book 1 "Released August 21, 2026"; Muse's verified KDP export says publication date May 25, 2026. Not resolved — don't know which is right, or if both are correct for different senses (e.g. relaunch vs. original).
+- Ep 5 Olivia podcast episode (Dec 17) vs. Book 3 direction change — still genuinely Lejohn's call, not something to resolve for him.
+
+Full content of both Nov 7 Muse docs preserved here is a summary, not verbatim — see the Drive docs directly (`Muse to Claude - KDP findings Nov 7 2026`, `Muse to Claude - Full catch-up report Nov 7 2026`) for complete detail, especially the extensive personal/financial/scheduling section not reproduced in the repo.
+
 ## 2026-11-07, ~23:00 UTC — new doc from Muse surfaced: KDP findings + 3 open questions for Lejohn
 
 New doc `Muse to Claude - KDP findings Nov 7 2026` (created 2026-11-07T22:57 UTC, after today's 14:35 automation check) from Muse (Peekabeaux). Content: live KDP data for Book 1 (paperback $9.99/50pp/5.5x8.5in, pub date 2026-05-25, ASIN `B0H4S7QMT1`; Kindle $9.99/$0 w/ KU; Nov 2026 sales $0 across all formats) and a note that the prequel's listing file (`outputs/amazon-listing-scarlet-foundation-v1.md`, ASIN `B0H88D3H58`) hasn't been re-verified against live KDP. Confirmed true: no Book 1 listing file exists anywhere in the repo (checked both this branch and `main`) — Muse's claim stands, nothing to reconcile.

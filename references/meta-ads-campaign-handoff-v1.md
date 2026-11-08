@@ -37,8 +37,9 @@ Single campaign, not the 3-campaign "Muse" plan that dropped in the Turn folder 
 1. Lejohn identifies which Facebook account this Meta Ads connector authenticates as (via the connectors page, or by process of elimination/checking the two "UnclaimedBusinessUserFromPool" slots on Bayoubeaux1070's access list).
 2. That account gets added to Bayoubeaux1070's Page Access list (Advertiser role is enough).
 3. **A session restart is likely required** — connector permissions are read fresh at session start, not live mid-session, so even a correctly-granted access change may not show up without starting a new session.
-4. Once Bayoubeaux1070 shows up in `ads_get_user_pages`, build the creative (locked Baron portrait — candidates: `references/baron-vieux-storage-room-portrait-v1.jpg` or `references/baron-vieux-noir-portrait-v1.jpg`, Lejohn hasn't picked between the two yet) + ad under the existing draft campaign/ad set above, using `ads_create_creative` then `ads_create_ad`.
-5. Still also need: **payment method added to ad account `142417789`** (separate blocker, unconfirmed whether resolved).
+4. **Portrait decided 2026-10-27 (relayed via Muse 2026-11-07, not told to Claude directly before now):** `references/baron-vieux-storage-room-portrait-v1.jpg` is the pick. The noir portrait (`baron-vieux-noir-portrait-v1.jpg`) is rejected, out everywhere. Once Bayoubeaux1070 shows up in `ads_get_user_pages`, build the creative with the storage-room portrait + ad under the existing draft campaign/ad set above, using `ads_create_creative` then `ads_create_ad`.
+5. Still also need: **payment method added to ad account `142417789`** — per Muse's 2026-11-07 report, still no payment method as of that check.
+6. **Also still open per Muse's 2026-11-07 report:** what "one time" (Lejohn's words, 2026-10-27) means for the budget — asked, unanswered. Don't assume this means a one-time spend cap vs. a one-time setup; confirm with Lejohn before activating anything.
 
 ## Also flagged during this work, not yet resolved
 
