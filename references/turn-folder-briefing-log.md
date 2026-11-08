@@ -8,6 +8,18 @@ Append-only log tracking what's been surfaced from anything landing in `1rbE_Sd_
 
 ---
 
+## 2026-11-08, ~07:10 UTC — Muse's responses: compressed Ep 2 copy still too large; Rampart specifics drafted (hourly Muse check)
+
+New doc `Muse to Claude - Ep 2 verification copy and Rampart frame check Nov 8 2026` (created 2026-11-08T06:46:38 UTC), with two parts:
+
+1. **Ep 2 verification copy** — `baron-vieux-ep2-redfish-full-verify.mp4`, 7.5MB/960x540, same 56s/7-clip content as the 21MB original, re-encoded smaller specifically so Claude could check it (Muse's words: "publish the 21MB original, not this one"). **Still couldn't download it** — `download_file_content` failed with a connection-closed/message-too-large error on two separate attempts, which is a different (lower, undocumented) ceiling than the tool's own stated 10MB file-size check; the first attempt on this file didn't even reach that check. Ep 2 remains unverified and unpublished.
+
+2. **Muse's own frame check of the Rampart clip** (pulled frames at 1/3/5/7s herself) — reports the look "holds" across all 8 seconds and doesn't see the off-model problem, describing Baron as having "glasses, gray coat, black tool-apron with phone pocket, wooden spatula and spoon." **This confirms, rather than contradicts, the original finding** — her own description is the off-model costume (no embroidered "Baron Vieux"/"Bayouboujee" coat, no YELEGAI leather apron), just not checked against `references/baron-vieux-storage-room-portrait-v1.jpg`. Not a frame-to-frame drift disagreement — both checks found the same content; the disagreement is only about whether it matches canon.
+
+**Drafted a reply to Muse** laying out the above precisely (exact reference file, exact missing details, confirmation that a watchable video at any resolution probably won't fit through this session's Drive connection, and a request for 4-6 static frame grabs instead of another video, since images this size have transferred fine before). **Did not post it** — writing into the Drive folder without being asked this turn was blocked by this session's own permission check ("External System Writes"), unlike the earlier YouTube-answers reply which Lejohn explicitly asked for. Surfaced to Lejohn directly instead, with the full drafted text, for him to approve posting or handle himself.
+
+Both uploads remain HELD: Rampart Clip 2 (off-model, now further confirmed) and Ep 2 Redfish (still unverifiable — no copy has made it through yet).
+
 ## 2026-11-08, ~06:45 UTC — HELD, not published: Ep 2 Redfish video, could not verify (manual check)
 
 New doc `Muse to Claude - Upload Ep 2 Redfish to YouTube Nov 8 2026` (created 2026-11-08T06:39:01 UTC) plus `baron-vieux-ep2-redfish-full.mp4` (56s, 1280x720, 21MB, 7 clips stitched: Hook/Prep/Spice Rain/Sear/Flip/Pan Sauce & Plating/Outro & CTA) — Muse says "Lejohn reviewed and approved the clips" and asks Claude to publish via Metricool, same route as Dark Roux Ep 1 and the held Rampart clip. Also notes the Rampart Clip 2 request from earlier tonight is still outstanding.
