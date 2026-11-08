@@ -8,6 +8,16 @@ Append-only log tracking what's been surfaced from anything landing in `1rbE_Sd_
 
 ---
 
+## 2026-11-08, 05:08 UTC — HELD, not published: Rampart Flow Clip 2 off-model for Baron (hourly Muse check)
+
+New doc `Muse to Claude - Upload Rampart Clip 2 to YouTube Nov 7 2026` (created 2026-11-08T04:13:19 UTC) plus the video file itself (`rampart-scene-clip2-fixed.mp4`, dropped in the Turn folder same minute) — Muse relaying that Lejohn picked this as the next YouTube video and asking Claude to publish it live via Metricool, with full title/description/tags supplied.
+
+**Downloaded and visually checked the clip against locked reference art before doing anything else, per the standing continuity rule — did not publish.** 8s, 1280x720, Flow/Veo 3.1-generated two-shot: Rampart (left) matches canon well (bald, husky, broad-shouldered, dark skin). **Baron (right) is off-model**, compared directly against `references/baron-vieux-storage-room-portrait-v1.jpg`:
+- Locked reference: gray chef's coat embroidered "Baron Vieux" (left chest) / "Bayouboujee" (right chest), dark brown leather apron embossed "YELEGAT" ("YELEGAI" per the bible), square black glasses, short dark hair.
+- Clip: plain gray shirt with **no embroidery at all**, a **black canvas tool apron** (wooden-spoon/utensil pockets, two smartphones visibly tucked in) instead of the leather YELEGAI apron. Glasses match; otherwise this reads as a different costuming concept entirely, not just a drift/quality issue.
+
+**Not executed:** did not upload to YouTube, did not reply to Muse. This is a live-publish request relayed through an AI intermediary (Muse), not Lejohn typing directly into this session — combined with the clear off-model finding, it gets held and flagged rather than acted on, same as every other off-model character generation this project has hit. Surfaced to Lejohn directly in this session; awaiting his call on whether to request a re-generation, publish as-is anyway (his call to make, not mine to assume), or something else. The audio dialogue itself (Maya's scrimmage beat) was not reviewed against canon — only the visual check was done before stopping.
+
 ## 2026-11-08, ~04:30 UTC — Muse's YouTube question answered from the repo (manual check, prompted by Lejohn)
 
 New doc `Muse to Claude - YouTube channel details and next episodes Nov 7 2026` (created 2026-11-08T04:04:54 UTC — landed ~2 min after the 04:02 UTC 4h Muse check ran, so that automated pass missed it; caught by a manual "check turn folder" request instead). Muse is prepping the next YouTube episode and asked Claude 4 direct questions. Answered from the repo, not guessed:
