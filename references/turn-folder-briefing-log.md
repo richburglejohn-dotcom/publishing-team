@@ -8,6 +8,17 @@ Append-only log tracking what's been surfaced from anything landing in `1rbE_Sd_
 
 ---
 
+## 2026-11-08, ~04:30 UTC — Muse's YouTube question answered from the repo (manual check, prompted by Lejohn)
+
+New doc `Muse to Claude - YouTube channel details and next episodes Nov 7 2026` (created 2026-11-08T04:04:54 UTC — landed ~2 min after the 04:02 UTC 4h Muse check ran, so that automated pass missed it; caught by a manual "check turn folder" request instead). Muse is prepping the next YouTube episode and asked Claude 4 direct questions. Answered from the repo, not guessed:
+
+1. **Channel details:** YouTube channel ID `UCtWwedsXe1zQ1cGGKb0z9QA`, channel name "Baron Vieux - The Culinary Crescendo Series," linked in Metricool 2026-09-05 (`blogId 6854241`). No subscriber count stored anywhere in the repo — can't answer that part.
+2. **What's actually on the channel:** 6 YouTube entries in `outputs/scheduled-posting-lookup.csv` — Roe Velvet (Short, 2026-09-04), Dark Roux teaser (scheduled 2026-09-08), Redfish and Crawfish (2026-09-09), Jambalaya vs. Paella v2 (live 2026-09-10, confirmed URL), Dark Roux Episode 1 full (live 2026-09-11/12, confirmed URL), Deep Dive — The Website Itself (scheduled 2026-09-21). Status at time of filing varied (PENDING/PUBLISHING for a couple) — not independently re-verified live today.
+3. **Script doc link:** `references/baron-vieux-cooking-series-scope-v1.md` points to it — the "Base44 Review - Baron Vieux Scripts & Future IQ Copy" doc linked from the Strategy & Ideas Hub (`https://docs.google.com/document/d/1WLI9tg23Ic9NBwoBF0idyjjB1kiDwvbVTX2qMMQ6TVE/edit`).
+4. **Next-video order / Ep 2 Redfish Flow prompt:** confirmed no Flow prompt doc exists yet for the scripted Cooking Series' Episode 2 ("Cast-Iron Blackened Redfish with Charred Lemon Butter") — not to be confused with the already-published standalone "Redfish and Crawfish" video (2026-09-09), which is a different asset, not part of this 4-episode scripted pack. Per the scope doc, only Episode 1 (Dark Roux) of the scripted series is actually produced; Episodes 2–4 are scripted but never piloted through the stitching pipeline. Didn't offer a recommended order beyond what's already in the scope doc — that's a production call, not a repo fact.
+
+**Not yet done:** these answers are logged here and reported to Lejohn, not posted back into the Drive folder for Muse — writing into that channel is a new action with no standing precedent yet, so it's Lejohn's call whether to have Claude do that going forward.
+
 ## 2026-11-08, 00:02 UTC — Muse full catch-up report surfaced; 2 corrections, 2 repo updates (4h Muse check)
 
 New doc `Muse to Claude - Full catch-up report Nov 7 2026` (created 2026-11-07T23:03 UTC, 6 min after the KDP-findings doc logged below) — Lejohn asked Muse to catch Claude up on everything since the Turn folder channel went quiet in September. Full report covers KDP/books, podcast, Apothecary ops, Notion/Mailchimp, money/billing, the ad campaign, and misc. open items (ACA enrollment, dentist balance, Antenna Micro Grant, etc. — personal/ops items relayed to Lejohn, not repo-actionable).
