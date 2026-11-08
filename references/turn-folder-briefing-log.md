@@ -8,6 +8,12 @@ Append-only log tracking what's been surfaced from anything landing in `1rbE_Sd_
 
 ---
 
+## 2026-11-08, ~06:45 UTC — HELD, not published: Ep 2 Redfish video, could not verify (manual check)
+
+New doc `Muse to Claude - Upload Ep 2 Redfish to YouTube Nov 8 2026` (created 2026-11-08T06:39:01 UTC) plus `baron-vieux-ep2-redfish-full.mp4` (56s, 1280x720, 21MB, 7 clips stitched: Hook/Prep/Spice Rain/Sear/Flip/Pan Sauce & Plating/Outro & CTA) — Muse says "Lejohn reviewed and approved the clips" and asks Claude to publish via Metricool, same route as Dark Roux Ep 1 and the held Rampart clip. Also notes the Rampart Clip 2 request from earlier tonight is still outstanding.
+
+**Could not visually verify — did not publish.** `download_file_content` refused at 21MB ("over limit of 10 MB... use the standard Google Drive API"); `read_file_content` returned empty content (no transcript available for video without one). No tool in this session can pull a file this size. This is the second live-publish request from Muse tonight, immediately after the first (Rampart Clip 2) turned out off-model despite being called "the keeper" — that alone is reason for caution even setting the size problem aside. Not executing a publish to a public YouTube channel, with Baron's likeness, sight-unseen, regardless of Muse's claim that Lejohn already approved it secondhand. Surfaced to Lejohn directly: two requests now pending (Rampart Clip 2 — held, off-model; Ep 2 Redfish — held, unverifiable with current tools). Needs either a smaller/compressed copy, a direct share, or Lejohn's own confirmation to proceed without Claude's visual check this one time.
+
 ## 2026-11-08, 05:08 UTC — HELD, not published: Rampart Flow Clip 2 off-model for Baron (hourly Muse check)
 
 New doc `Muse to Claude - Upload Rampart Clip 2 to YouTube Nov 7 2026` (created 2026-11-08T04:13:19 UTC) plus the video file itself (`rampart-scene-clip2-fixed.mp4`, dropped in the Turn folder same minute) — Muse relaying that Lejohn picked this as the next YouTube video and asking Claude to publish it live via Metricool, with full title/description/tags supplied.
