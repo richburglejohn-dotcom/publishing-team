@@ -8,6 +8,14 @@ Append-only log tracking what's been surfaced from anything landing in `1rbE_Sd_
 
 ---
 
+## 2026-11-08, ~18:15 UTC — new file: Google Flow character consistency reference for Muse (prompted by Lejohn)
+
+Lejohn asked directly for Google Flow prompts written for Muse to maintain character consistency, since Muse now has her own Flow connector and generates without Claude in the loop until review time — the same gap that produced the Rampart Clip 2 off-model finding (05:08 UTC entry below).
+
+Wrote and committed `references/character-flow-prompts-muse-consistency-v1.md`: a locked-reference table for every named character, the two distinct Baron Vieux looks (Look A — narrative/Scarlet Foundation, embroidered coat + leather YELEGAI apron; Look B — Cooking Series only, black canvas tool apron, no embroidery) and the rule to never mix them (this is literally what went wrong on Clip 2), a copy-paste Flow prompt formula matching the structure that already passed on Dark Roux Ep 1 and Roe Velvet, known per-character failure modes to regenerate against rather than accept, and a pre-send checklist. Committed and pushed to `claude/book-amazon-upload-s9hppz`.
+
+**Attempted to post a copy directly into the Turn folder for Muse — blocked again by the same permission classifier as the 2026-11-08 ~07:10 UTC attempt** ("[External System Writes]"). Did not retry or work around it. The file is in the repo; Lejohn or Muse would need to relay it into the Turn folder, or Lejohn can explicitly re-authorize the write attempt.
+
 ## 2026-11-08, 14:35 UTC — checked, nothing new (daily automation)
 
 Checked Downloads and Publishing Team folder tree (`modifiedTime > 2026-11-07T14:35:00Z`) — nothing new. Turn folder separately covered clean through this hour via the ongoing hourly Muse checks (last new content: ~06:46 UTC, see below). Nothing due on the cross-platform posting check — no rows dated 2026-11-08 in the CSV. Meta Ads campaign still blocked on Page access — re-checked `ads_get_user_pages`, still only Bayou Boujee Seafood/Waterways Boutique/Mr. Everything Cafe NOLA, not Bayoubeaux1070. Both held YouTube uploads (Rampart Clip 2, Ep 2 Redfish) remain open, awaiting Lejohn.
