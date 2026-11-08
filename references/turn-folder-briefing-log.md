@@ -8,6 +8,23 @@ Append-only log tracking what's been surfaced from anything landing in `1rbE_Sd_
 
 ---
 
+## 2026-11-08, 00:02 UTC — Muse full catch-up report surfaced; 2 corrections, 2 repo updates (4h Muse check)
+
+New doc `Muse to Claude - Full catch-up report Nov 7 2026` (created 2026-11-07T23:03 UTC, 6 min after the KDP-findings doc logged below) — Lejohn asked Muse to catch Claude up on everything since the Turn folder channel went quiet in September. Full report covers KDP/books, podcast, Apothecary ops, Notion/Mailchimp, money/billing, the ad campaign, and misc. open items (ACA enrollment, dentist balance, Antenna Micro Grant, etc. — personal/ops items relayed to Lejohn, not repo-actionable).
+
+**Self-correction:** the previous entry below stated the Book 3 lease threat as "confirmed" based on reading the chapter commit. That overstated it — `outputs/book3-chapter-2-the-second-day-v1.md`'s own flags section says plainly "Status: DRAFT for author review. Not canon until Lejohn approves... Confirm or redirect," and Muse confirms Lejohn has not yet answered. It's the current draft premise (a prior Claude session's invention), not an author-confirmed decision. Corrected to Lejohn directly in this session.
+
+**Repo updates made (unambiguous, resolves standing checklist items, no continuity risk):**
+- `references/meta-ads-campaign-handoff-v1.md`: portrait decision recorded — storage-room portrait confirmed, noir portrait rejected (both per Lejohn, relayed via Muse; decision itself dated 2026-10-27). Also recorded: payment method still missing on ad account `142417789`, and the "one time" budget question (Lejohn's words, 2026-10-27) is still unanswered.
+- `outputs/scheduled-posting-lookup.csv`, 2026-11-05 Episode 2 TikTok row: flagged that Muse's report says "Ep 2 posted to TikTok @jaemoneynola Nov 5" — a personal account outside the @baronvieux/Buffer pipeline this row was tracking. Not confirmed to be the exact same asset filed here; flagged, not asserted, pending Lejohn's confirmation.
+
+**Flagged, not silently resolved — awaiting Lejohn, not acted on:**
+- Lejohn reportedly refined the Olivia Book 3 direction to Muse on 2026-11-07 ("she does not have to be completely written out — she can stay as a background presence / outline / 'noise'"). `references/series-bible.md`'s Book 3 section still only has the 2026-10-18 decision. Consistent in direction, not contradictory, but this came via Muse relaying Lejohn's spoken words, not Lejohn directly — not written into the bible without his direct confirmation.
+- Genuine factual discrepancy confirmed: `docs/books.html` states Book 1 "Released August 21, 2026"; Muse's verified KDP export says publication date May 25, 2026. Not resolved — don't know which is right, or if both are correct for different senses (e.g. relaunch vs. original).
+- Ep 5 Olivia podcast episode (Dec 17) vs. Book 3 direction change — still genuinely Lejohn's call, not something to resolve for him.
+
+Full content of both Nov 7 Muse docs preserved here is a summary, not verbatim — see the Drive docs directly (`Muse to Claude - KDP findings Nov 7 2026`, `Muse to Claude - Full catch-up report Nov 7 2026`) for complete detail, especially the extensive personal/financial/scheduling section not reproduced in the repo.
+
 ## 2026-11-07, ~23:00 UTC — new doc from Muse surfaced: KDP findings + 3 open questions for Lejohn
 
 New doc `Muse to Claude - KDP findings Nov 7 2026` (created 2026-11-07T22:57 UTC, after today's 14:35 automation check) from Muse (Peekabeaux). Content: live KDP data for Book 1 (paperback $9.99/50pp/5.5x8.5in, pub date 2026-05-25, ASIN `B0H4S7QMT1`; Kindle $9.99/$0 w/ KU; Nov 2026 sales $0 across all formats) and a note that the prequel's listing file (`outputs/amazon-listing-scarlet-foundation-v1.md`, ASIN `B0H88D3H58`) hasn't been re-verified against live KDP. Confirmed true: no Book 1 listing file exists anywhere in the repo (checked both this branch and `main`) — Muse's claim stands, nothing to reconcile.
