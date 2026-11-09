@@ -84,6 +84,8 @@ Dialogue audio not independently verified — no transcription capability used; 
 
 **Not yet approved.** Two real issues to resolve before this goes forward, let alone before the Rampart two-shot is attempted. Sent Muse a reply with findings and a recommendation to regenerate with explicit lighting-match and single-phone-only instructions rather than accept as-is — surfaced to Lejohn directly in-session for his call on whether the lighting mismatch is acceptable or needs a redo.
 
+**Update, same check-in — Lejohn's direction mid-turn: "correct extra phone."** Sent Muse a regenerate request for just the phone defect — explicit positive instruction this time ("only one phone, in the chest pocket, no additional phone or device anywhere else on the apron"), since the reference image alone didn't stop Veo from adding a second one. The lighting/environment mismatch is explicitly NOT folded into this request — Lejohn hasn't ruled on it yet, held as a separate open decision.
+
 ---
 
 ## 2026-11-08, ~18:15 UTC — new file: Google Flow character consistency reference for Muse (prompted by Lejohn)
