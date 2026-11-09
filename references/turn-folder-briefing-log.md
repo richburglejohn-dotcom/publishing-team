@@ -158,6 +158,16 @@ Committed `outputs/rampart-clip2-redo-FINAL-CUT.mp4` to the repo (on this branch
 
 ---
 
+## 2026-11-09, 14:35 UTC — checked, nothing new in Downloads/Publishing Team tree/Gemini doc; one CSV row due, already published (daily automation)
+
+Downloads folder and Publishing Team folder tree: nothing newer than `2026-11-08T14:35:23Z` — confirmed via a 50-file modifiedTime-sorted search, all 40 results in the last 24h landed in the Turn folder (already fully covered by the ongoing hourly Muse checks today, see entries above/below). Nothing repo-worthy to file.
+
+"Gemini to Claude Strategy & Ideas Hub - The Turn" doc: `modifiedTime` still `2026-09-03T19:48:40.632Z`, unchanged — no new Ideation Queue items, nothing newly marked "Ready for Claude."
+
+Cross-platform posting check: one row dated 2026-11-09 in the CSV (Rampart Clip 2 redo YouTube post) — already confirmed PUBLISHED (see entry above). Nothing else due today.
+
+---
+
 ## 2026-11-09, ~13:20 UTC — Ep 2 Redfish: still HELD, same download failure confirmed again; asked Muse for a smaller copy (manual, Lejohn present)
 
 Lejohn asked for an "Episode 2 upload check." Status unchanged since the 2026-11-08 ~06:45 UTC entry: both `baron-vieux-ep2-redfish-full.mp4` (21MB, 1280x720, the one to publish) and `baron-vieux-ep2-redfish-full-verify.mp4` (7.5MB, the verification copy) are still sitting in the Turn folder, still unverified, still unpublished.
