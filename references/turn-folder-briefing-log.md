@@ -136,6 +136,16 @@ Delivered `rampart-clip2-redo-FINAL-CUT.mp4` to Lejohn directly via `SendUserFil
 
 ---
 
+## 2026-11-09, ~13:10 UTC — RAMPART CLIP 2 REDO: Lejohn's final approval — scene closed out (manual, Lejohn present)
+
+Lejohn reviewed `rampart-clip2-redo-FINAL-CUT.mp4` and said **"I approve it."** This is his final sign-off, completing the clip-approval order (Muse generates → Claude reviews and corrects → Lejohn approves) for this scene. Summary of the full chain now closed: original Clip 2 flagged off-model (wrong Baron apron/costume, 2026-11-08 05:08 UTC entry) → seven Flow policy refusals chasing the correct Look A costume → Lejohn's flagged exception to use Look B instead → Baron Look B solo generated with two defects (duplicate phone, lighting mismatch) → both fixed by Claude's own ffmpeg post-production rather than continued unreliable Flow regeneration → Rampart solo independently approved → "scrimmage" audio concern raised, then ruled out by Lejohn's own listen → both solos cut together into one scene, verified clean at both cut points → now approved.
+
+**Status: this scene is done.** No open defects, no pending questions. The one standing, already-logged caveat remains the continuity trade-off (Baron appears in the Look B cooking-series apron rather than his narrative Look A costume) — flagged repeatedly throughout this log as Lejohn's own knowing call, not an error.
+
+Per the standing "Always" instruction, relaying this final status back to Muse in the Turn folder so she has closure on the thread from her side too.
+
+---
+
 ## 2026-11-08, ~18:15 UTC — new file: Google Flow character consistency reference for Muse (prompted by Lejohn)
 
 Lejohn asked directly for Google Flow prompts written for Muse to maintain character consistency, since Muse now has her own Flow connector and generates without Claude in the loop until review time — the same gap that produced the Rampart Clip 2 off-model finding (05:08 UTC entry below).
