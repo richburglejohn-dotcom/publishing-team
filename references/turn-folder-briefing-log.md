@@ -146,6 +146,16 @@ Per the standing "Always" instruction, relaying this final status back to Muse i
 
 ---
 
+## 2026-11-09, ~13:18 UTC — Rampart Clip 2 redo posted to YouTube (manual, Lejohn present)
+
+Lejohn: "post it to YouTube." Per `references/pipeline-tool-capabilities.md`, this clip (1280x720 landscape, 12.98s) can't go through Buffer — Buffer force-classifies any short-duration video as a YouTube Short and hard-rejects a non-portrait asset rather than posting it as a regular upload (confirmed precedent, 2026-09-04). Used **Metricool** instead, which has the explicit `youtubeData.type` toggle ("video" vs "short") that sidesteps this — same tool/pattern used for the Deep Dive — Website Itself post (2026-09-21 CSV entry).
+
+Committed `outputs/rampart-clip2-redo-FINAL-CUT.mp4` to the repo (on this branch, not yet merged to main) so Metricool could fetch it via a public `raw.githubusercontent.com` URL — verified reachable (HTTP 200, byte-exact) before scheduling. Wrote `outputs/rampart-clip2-redo-youtube-post-copy-v1.md` with title/description grounded in the actual source material — this scene is "Segment 3 — The wall almost came down" from *The Apothecary Sessions — Episode 2 ("The Wall")* (`outputs/podcast-episode-2-rampart-script-v1.md`), itself grounded in the manuscript. No pre-drafted title/description existed for this clip specifically, so I wrote both from that source rather than inventing unrelated copy — flagging that choice here in case Lejohn wants different framing.
+
+**Scheduled via Metricool**, post id `421807998`, blogId `6854241`, for `2026-11-09T07:25:00 America/Chicago` (~7 min out at request time), `autoPublish: true`, `youtubeData.type: "video"` (not Short), privacy public, `isAiGeneratedContent: true` (Flow-generated + ffmpeg-corrected), category Entertainment, made-for-kids false. Logged to `outputs/scheduled-posting-lookup.csv` per the standing rule. Will confirm actual publish status once the scheduled time passes rather than assuming success from the scheduling call alone.
+
+---
+
 ## 2026-11-08, ~18:15 UTC — new file: Google Flow character consistency reference for Muse (prompted by Lejohn)
 
 Lejohn asked directly for Google Flow prompts written for Muse to maintain character consistency, since Muse now has her own Flow connector and generates without Claude in the loop until review time — the same gap that produced the Rampart Clip 2 off-model finding (05:08 UTC entry below).
