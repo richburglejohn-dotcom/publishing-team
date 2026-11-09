@@ -156,6 +156,14 @@ Committed `outputs/rampart-clip2-redo-FINAL-CUT.mp4` to the repo (on this branch
 
 ---
 
+## 2026-11-09, ~13:20 UTC — Ep 2 Redfish: still HELD, same download failure confirmed again; asked Muse for a smaller copy (manual, Lejohn present)
+
+Lejohn asked for an "Episode 2 upload check." Status unchanged since the 2026-11-08 ~06:45 UTC entry: both `baron-vieux-ep2-redfish-full.mp4` (21MB, 1280x720, the one to publish) and `baron-vieux-ep2-redfish-full-verify.mp4` (7.5MB, the verification copy) are still sitting in the Turn folder, still unverified, still unpublished.
+
+**Retried the download on the 7.5MB verify copy — failed identically to Nov 8.** `download_file_content` closed the connection outright ("message too large") before any size check ran. This is the second time this exact failure has reproduced on this exact file across sessions — confirms it's a real, lower, undocumented transport ceiling, not a one-off flake, and not something worth retrying blind again. The largest file that *has* come through cleanly this session was ~4.8MB (the corrected Baron Look B solo clip), so the real ceiling sits somewhere between there and 7.5MB.
+
+Per Lejohn's instruction, asked Muse directly for a new, smaller verification copy — posted `Claude to Muse - Need smaller Ep 2 Redfish verification copy Nov 9 2026` to the Turn folder (confirmed landed), requesting a re-encode at 3MB or less (resolution/bitrate dropped further if needed — this copy is for visual check only, not publishing), same 56s/7-clip content and audio. Made clear the 21MB original stays put; only the verify copy needs to move. Still HELD — not publishing the 21MB original sight-unseen. Awaiting Muse's response.
+
 ## 2026-11-08, ~18:15 UTC — new file: Google Flow character consistency reference for Muse (prompted by Lejohn)
 
 Lejohn asked directly for Google Flow prompts written for Muse to maintain character consistency, since Muse now has her own Flow connector and generates without Claude in the loop until review time — the same gap that produced the Rampart Clip 2 off-model finding (05:08 UTC entry below).
