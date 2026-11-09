@@ -112,6 +112,12 @@ Presented Lejohn three real options: (1) accept take 1 and fix its two defects i
 
 Lejohn asked mid-task whether Claude can edit Muse's videos at all — confirmed yes (crop/color-grade/trim/cut existing footage), and was explicit about the limits (no new AI generation, no inpainting-style object removal, no audio transcription in this session).
 
+## 2026-11-09, ~05:24 UTC — Option 2 result: policy gate cleared, but wrong person entirely; confirms a real "scrimmage"→"skirmish" audio defect that likely affects the clip already sent to Lejohn (manual check, Lejohn present)
+
+Muse's `Take 4 generated but unusable, likeness missed Nov 8 2026`: the reworded prompt (dropping explicit phone/lighting correction language) **did clear the policy gate that refused takes 2 and 3** — confirms the correction wording was at least part of the trigger. But the clip is unusable: the rendered man is not Baron at all (East Asian, short black hair, plain gray T-shirt, no glasses/coat/apron/phone/tools) — the saved Character wasn't honored without the explicit trait-restating language the consistency doc calls for. Environment match was good (dim storage room, matches the Rampart half), but that doesn't matter with the wrong person in frame. Option 2 is a dead end; option 1 (the post-production fix already sent to Lejohn) is the live path.
+
+**New finding that affects the already-delivered clip:** Muse listened to take 4's actual audio twice (not the caption) and confirmed Veo consistently substitutes "skirmish" for "scrimmage" in Baron's line — a real pronunciation habit in the generated voice, not a transcription artifact. Take 1 (which the delivered corrected clip is built from) showed the same word discrepancy in its own transcript, never independently audio-checked before now. **Flagged to Lejohn directly: the clip already sent likely has this same audio defect** — no transcription tool available in this session to confirm or rule it out myself. Awaiting his direction on whether to live with it, or find a fix (would need either another Flow attempt on a still-unreliable gate, or a different audio-fix approach not yet explored).
+
 ---
 
 ## 2026-11-08, ~18:15 UTC — new file: Google Flow character consistency reference for Muse (prompted by Lejohn)
