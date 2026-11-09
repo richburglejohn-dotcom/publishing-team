@@ -6,6 +6,8 @@ Append-only log tracking what's been surfaced from anything landing in `1rbE_Sd_
 
 **Standing rule (see `CLAUDE.md`):** every session checks this folder against this log's last entry *before* other work, and surfaces anything new to Lejohn up front — not on request, not only on the scheduled daily-check Routine's timing. This is surfacing/notification, separate from the canon-review discipline in `references/drive-folder-reference.md` (character/continuity verification before anything Meta AI-generated becomes canon) — a new arrival gets flagged here immediately, and still goes through that review before it's filed as real.
 
+**Standing rule confirmed directly by Lejohn, 2026-11-09:** the clip-approval order is Muse generates → Muse sends the clip to Claude for review against locked reference art/canon first → only after Claude's check does it go to Lejohn for his final approval before anything publishes. This matches the existing "Claude is the approval hub" rule in `drive-folder-reference.md`, now explicitly confirmed as the order of operations (Claude's check is a gate before Lejohn sees it for sign-off, not a parallel/independent step). Both currently-held uploads (Rampart Clip 2, Ep 2 Redfish) already followed this order — this just confirms it as the ongoing pattern, not a one-off.
+
 ---
 
 ## 2026-11-08, ~18:15 UTC — new file: Google Flow character consistency reference for Muse (prompted by Lejohn)
