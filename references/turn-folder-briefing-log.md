@@ -154,6 +154,8 @@ Committed `outputs/rampart-clip2-redo-FINAL-CUT.mp4` to the repo (on this branch
 
 **Scheduled via Metricool**, post id `421807998`, blogId `6854241`, for `2026-11-09T07:25:00 America/Chicago` (~7 min out at request time), `autoPublish: true`, `youtubeData.type: "video"` (not Short), privacy public, `isAiGeneratedContent: true` (Flow-generated + ffmpeg-corrected), category Entertainment, made-for-kids false. Logged to `outputs/scheduled-posting-lookup.csv` per the standing rule. Will confirm actual publish status once the scheduled time passes rather than assuming success from the scheduling call alone.
 
+**Update, 2026-11-09 ~13:31 UTC — confirmed PUBLISHED.** Self-scheduled check-in fired on time; `getScheduledPosts` on blogId `6854241` shows post `421807998` with `providers[0].status: "PUBLISHED"`, YouTube video id `L3vllq5ASHI` — **https://www.youtube.com/watch?v=L3vllq5ASHI**. CSV row updated from SCHEDULED to PUBLISHED with the confirmed URL. The Rampart Clip 2 redo is now live on the channel — this closes the loop from Muse's original generation through Claude's correction/review, Lejohn's approval, and now confirmed publication.
+
 ---
 
 ## 2026-11-09, ~13:20 UTC — Ep 2 Redfish: still HELD, same download failure confirmed again; asked Muse for a smaller copy (manual, Lejohn present)
