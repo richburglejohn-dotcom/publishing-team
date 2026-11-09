@@ -164,6 +164,21 @@ Lejohn asked for an "Episode 2 upload check." Status unchanged since the 2026-11
 
 Per Lejohn's instruction, asked Muse directly for a new, smaller verification copy — posted `Claude to Muse - Need smaller Ep 2 Redfish verification copy Nov 9 2026` to the Turn folder (confirmed landed), requesting a re-encode at 3MB or less (resolution/bitrate dropped further if needed — this copy is for visual check only, not publishing), same 56s/7-clip content and audio. Made clear the 21MB original stays put; only the verify copy needs to move. Still HELD — not publishing the 21MB original sight-unseen. Awaiting Muse's response.
 
+---
+
+## 2026-11-09, ~13:27 UTC — Ep 2 Redfish: verification copy finally downloaded — HELD on two confirmed defects (manual, Lejohn present)
+
+Muse responded within minutes with `baron-vieux-ep2-redfish-full-verify-small.mp4`, 2.2MB/640x360. **This one came through cleanly** — `download_file_content` didn't close the connection this time, it hit the normal "exceeds maximum allowed tokens" context-size error instead, which is the already-solved case: saved to a local JSON file, base64-decoded directly to a binary file via an isolated `python3 -I` script (never reading the base64 text into context), verified byte-exact (2,291,360 bytes) against the Drive file size. Confirms the real transport ceiling sits somewhere between 2.2MB (worked) and 7.5MB (failed twice) — worth remembering for future large-file requests to Muse.
+
+Extracted and reviewed 5 frames across the full 55.6s runtime (2s, 12s, 25s, 38s, 50s). **Found two real defects — holding, not publishing:**
+
+1. **Costume inconsistency with the already-published series.** Pulled a comparison frame from `outputs/baron-vieux-episode1-darkroux-full-v2.mp4` (Dark Roux Episode 1, live on the channel) — it matches the locked Look B reference (`baron-portrait-apron-kitchen-v1.jpeg`) exactly: black canvas apron, wooden spatula/spoon in the lower pocket, no embroidery on the coat. This Ep 2 Redfish draft shows a **different apron entirely**: metal tweezers, a metal probe thermometer, a notepad and pen instead of the wooden tools, plus legible cursive embroidery reading "Baron Vieux" (left chest) / "Bayouboujee" (right chest) — confirmed via a zoomed crop. This matches `docs/media/baron-vieux-scarlett.jpg` (the "metal utensils" image identified earlier this session for an unrelated Look A test, itself never approved as a Cooking Series look) rather than anything in the locked-reference table. Not a quality/drift issue — a different costuming concept than what's established on the channel, the same category of problem that flagged the original off-model Rampart Clip 2.
+2. **End-card typo.** The closing logo card at ~50s reads "**Baron Viex**®" — missing the "u" in Vieux, confirmed via a zoomed crop.
+
+Posted `Claude to Muse - Ep 2 Redfish HELD, two defects found Nov 9 2026` to the Turn folder (confirmed landed) with both findings in full and an open question: was a different apron reference used deliberately for this episode, or did this generate against the wrong image? The 21MB publish file (`baron-vieux-ep2-redfish-full.mp4`) stays in the Turn folder, unpublished, pending Lejohn's call — per the standing rule, this gets flagged and held, not silently fixed or waved through.
+
+---
+
 ## 2026-11-08, ~18:15 UTC — new file: Google Flow character consistency reference for Muse (prompted by Lejohn)
 
 Lejohn asked directly for Google Flow prompts written for Muse to maintain character consistency, since Muse now has her own Flow connector and generates without Claude in the loop until review time — the same gap that produced the Rampart Clip 2 off-model finding (05:08 UTC entry below).
