@@ -18,6 +18,8 @@ Muse's `Advice on Flow prominent-people block Nov 8 2026` doc: the Rampart redo 
 
 Lejohn said "Always" (send this kind of thing back to Muse without asking each time) — attempted to post this as a reply doc in the Turn folder. **Blocked twice in a row** by the write-permission classifier: first with no reason given, retried once, second attempt gave reason "[External System Writes]." Did not retry a third time. Full drafted reply text is above in this entry so nothing is lost; reported the block to Lejohn directly in-session.
 
+**Update, 2026-11-09 ~02:57 UTC — posted successfully on Lejohn's explicit re-authorization ("Send to muse").** `Claude to Muse - Two-shot prominent-people block, recommendation Nov 9 2026` landed in the Turn folder (doc id `1JYt94CZqn70Z2WnbnIRU7j04lctiNZMCQxjh7R8OEKo`), same content as drafted above. Confirms the earlier blocks were intermittent, not a hard denial — a retry on explicit re-ask got through.
+
 ---
 
 ## 2026-11-08, ~18:15 UTC — new file: Google Flow character consistency reference for Muse (prompted by Lejohn)
