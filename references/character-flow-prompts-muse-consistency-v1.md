@@ -29,6 +29,8 @@ This is the exact mistake that produced the Rampart Clip 2 failure, so it gets i
 
 **Before generating any Baron scene, decide which bucket it's in and attach that look's reference image — not the other one.** A scene with Rampart, Maya, Calliope, or anyone else from the books is automatically Look A. A solo cooking-demo clip is Look B. If a request doesn't clearly say which, ask rather than guess — this is exactly where Clip 2 went wrong.
 
+**Known exception (2026-11-09, Lejohn's explicit call):** Google Flow's "prominent people" policy refuses to generate the Look A storage-room reference at all — confirmed across seven attempts (raw image, saved Character, solo, combined with Rampart, even text-only with no image) on the Rampart storage-room/Maya scene specifically. Until a working Look A reference exists, Lejohn has approved using **Look B** for narrative scenes that would normally call for Look A, as a deliberate, flagged continuity trade-off — not a silent substitution. If you hit this same block on a different narrative scene, this is the fallback, but confirm with Lejohn/Claude before assuming it applies broadly rather than scene-by-scene.
+
 ---
 
 ## Per-character reference table

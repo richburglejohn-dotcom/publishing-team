@@ -62,6 +62,16 @@ Muse's `Text-only Baron also blocked Nov 8 2026`: at Lejohn's direction, ran the
 
 **Status:** Muse has stopped running further variations — no more routes to try from her side — and is waiting on Lejohn's call. **Note:** this result predates any report back on the new `baron-vieux-scarlett-metalutensils-candidate-v1.jpg` test sent ~04:02 UTC (see entry above) — unclear whether that was tested yet or superseded by this broader finding. Given Muse's conclusion that the scene/description itself is the trigger, not the specific image, that candidate may not resolve this either — flagged to Lejohn directly in-session rather than assumed.
 
+## 2026-11-09, ~04:31 UTC — Lejohn's call: use Look B for the storage-room/Rampart scene (manual, Lejohn present)
+
+Lejohn pasted `baron-portrait-apron-kitchen-v1.jpeg` (the Look B reference — gray coat, black canvas tool apron, wooden spatula/spoon) directly and said "use this one." Confirmed this is the already-working Look B image (7/7 success rate in Ep 2), not a new asset.
+
+**Decision, relayed to Muse:** use Look B for the storage-room/Rampart scene instead of continuing to chase the blocked Look A costume — an explicit, flagged exception to the "never mix the two looks" rule, not a silent substitution. Sent Muse testing order: (1) Baron solo with Look B in the storage-room setting, confirm it clears the policy and actually renders the storage-room environment rather than defaulting to its own stainless-kitchen background; (2) if that passes, the two-shot with Rampart.
+
+**Continuity trade-off flagged explicitly, both to Muse and here:** the finished scene will show Baron in the cooking-series apron (no embroidery, black canvas, wooden tools) rather than the embroidered coat + leather YELEGAI apron his narrative scenes are supposed to use. This is Lejohn's knowing call to get the scene made, not an error.
+
+**Also updated `references/character-flow-prompts-muse-consistency-v1.md`** — added a "Known exception" note under the two-looks rule documenting this Flow limitation and the approved fallback, so a future session or Muse doesn't mistake it for drift.
+
 ---
 
 ## 2026-11-08, ~18:15 UTC — new file: Google Flow character consistency reference for Muse (prompted by Lejohn)
