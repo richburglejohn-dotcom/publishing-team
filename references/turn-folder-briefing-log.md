@@ -46,6 +46,14 @@ This rules out the Character-registration mechanism entirely — it was never ab
 
 **Status:** Rampart's solo clip remains approved and held (see entry above). Baron's half cannot be produced from the current Look A reference image via Flow at all — not a prompting problem. The decision of whether to source a new Look A reference image (new locked canon art, same costume: embroidered coat + leather YELEGAI apron) is explicitly Lejohn's call, surfaced to him directly in-session. Muse has stopped running further prompt variations per instruction.
 
+## 2026-11-09, ~04:02 UTC — Lejohn identified an older candidate reference image; sent to Muse for testing (manual, Lejohn present)
+
+Lejohn pointed to a different, older Baron image he described as "the original one we've been using from the beginning with the blue denim apron." Searched every Baron image in the repo's history (first commit 2026-08-21 onward) — found no literal blue-denim apron, but Lejohn then specified "the one with the metal utensils," which identified `docs/media/baron-vieux-scarlett.jpg` unambiguously: clean legible "Baron Vieux"/"Bayouboujee" embroidery, dark apron with metal tweezers and a metal probe thermometer (not the wooden spatula/spoon of the current locked Look B reference, not the leather YELEGAI apron of the blocked storage-room Look A).
+
+This exact file already existed in Drive (not just the repo) — copied it directly (`mcp__Google_Drive__copy_file`, no bytes round-tripped through this session) into the Turn folder as `baron-vieux-scarlett-metalutensils-candidate-v1.jpg` (doc id `140ojBKPXqpH52K3Dg4uJSejna40YwFEw`). Sent Muse instructions to test it as a fresh raw-attachment Baron solo (doc id `1k4VzcE5Li20MmLj9RJB1D3Vv1h11z09o5UdGZCmsoGw`) — same diagnostic discipline as before (solo first, don't jump to a two-shot). Awaiting her result.
+
+**Note:** this image is not currently in `character-generation-request-queue.md`'s "Filled" locked-reference list — it's a website/docs media asset (`docs/media.html`), not a formally logged character-art reference. If this passes Flow's policy and Lejohn wants it adopted going forward, it should be added to that queue file and to `references/character-flow-prompts-muse-consistency-v1.md` as a third Baron look (or a replacement for Look A) — not done yet, pending the test result.
+
 ---
 
 ## 2026-11-08, ~18:15 UTC — new file: Google Flow character consistency reference for Muse (prompted by Lejohn)
