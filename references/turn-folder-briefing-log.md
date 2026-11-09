@@ -96,6 +96,22 @@ Muse's `Take 2 refused, same Character that passed Nov 8 2026`: the regenerate w
 
 **Key data point:** since the exact same Character/setup produced a pass then a fail, the policy gate is inconsistent rather than reliably triggered by the added fix wording. This is a transient-failure situation, not a design/canon question, so — per the new "drive it to completion" standing instruction — handled it directly rather than escalating immediately: **sent Muse a one-more-retry request, same prompt unchanged (no further rewording, to avoid adding a new variable on top of an already-flaky signal).** Capped at one retry — if it fails again, stop and bring it to Lejohn with real options (keep retrying a flaky gate / accept take 1 with its two known defects / different route) rather than keep guessing.
 
+## 2026-11-09, ~05:08 UTC — Take 3 refused too; retry line exhausted; presented options to Lejohn (manual check, Lejohn present)
+
+Muse's `Take 3 refused, stopping here Nov 8 2026`: same prompt as take 2, same saved Character, refused again with the same policy error. No clip. Muse stopped as instructed (no fourth attempt). Her own read: since takes 2 and 3 (identical prompt) both failed while take 1 (different prompt) passed, the added fix wording may genuinely be part of the trigger, not pure flakiness — can't fully rule either explanation out.
+
+Presented Lejohn three real options: (1) accept take 1 and fix its two defects in post-production instead of via Flow, (2) one more regenerate with softer/more natural wording (avoid repeating "phone", avoid itemized lighting corrections) to test whether explicit correction language itself is the trigger, (3) abandon Flow for this clip and use a different tool (Meta AI/Higgsfield) for Baron's half. **Lejohn: "try one and two. try option two first."**
+
+**Option 2 — sent Muse a reworded Flow attempt** (doc id `1PpS7vLDgLtWwMhc5-4Ui7WaizKTBLAOYUvTIomAcK3Q`): naturally-phrased scene description, no "only one phone" line, no itemized lighting instruction — lets the reference image and plain scene-mood language carry it instead of explicit corrections. One attempt, result still pending as of this entry.
+
+**Option 1 — worked directly in parallel, didn't wait on option 2's result.** Downloaded take 1 (`rampart-clip2-redo-baron-solo-lookb-character-test.mp4`) into the scratchpad. Checked dense frames (0.0/0.5/1.0/1.5/2.0/2.5s) and found the duplicate phone is only in frame from 0–~2s, naturally cropped out once the shot's own push-in tightens past that point. Applied a static `ffmpeg` fix across the whole clip: `crop=1280:575:0:0,scale=1280:720` (removes the bottom ~145px strip where the second phone sits, scales back to full frame — reads as a tighter push-in from frame 1, not a visible edit) + `eq=gamma=0.75:contrast=1.02:saturation=0.92` for the lighting match. Calibrated the grade empirically: measured average luma via `signalstats` — original take 1 was 118.8, the approved Rampart solo clip is 97.0, target hit was 99.2 (close match, down from a crop-only baseline of 123.0).
+
+**Verified the corrected clip myself**, frames at 0/1/3/7/7.8s (full duration): extra phone absent throughout, embroidery still legible, likeness intact, lighting now reads as the same room as the Rampart half. No artifacts from the crop/scale noticed. Output: `baron-lookb-solo-corrected-v2.mp4`.
+
+**Could not route this through the Turn folder** — the corrected file's base64 size is too large to pass through Drive's `create_file` tool without reading it back into this session's context (unlike the earlier Drive-to-Drive `copy_file` trick, which only works for files that already exist in Drive; this one was edited locally and never existed there). **Sent it directly to Lejohn via `SendUserFile`** instead, with a caption explaining both fixes and that it's one half of the scene, still needing the approved Rampart solo clip for the full cut. Pending his review.
+
+Lejohn asked mid-task whether Claude can edit Muse's videos at all — confirmed yes (crop/color-grade/trim/cut existing footage), and was explicit about the limits (no new AI generation, no inpainting-style object removal, no audio transcription in this session).
+
 ---
 
 ## 2026-11-08, ~18:15 UTC — new file: Google Flow character consistency reference for Muse (prompted by Lejohn)
