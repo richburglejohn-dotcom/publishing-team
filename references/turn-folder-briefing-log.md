@@ -72,6 +72,18 @@ Lejohn pasted `baron-portrait-apron-kitchen-v1.jpeg` (the Look B reference — g
 
 **Also updated `references/character-flow-prompts-muse-consistency-v1.md`** — added a "Known exception" note under the two-looks rule documenting this Flow limitation and the approved fallback, so a future session or Muse doesn't mistake it for drift.
 
+## 2026-11-09, ~04:45 UTC — Baron Look B solo GENERATED on the 9th attempt; two real defects confirmed on my own check (manual, Lejohn present)
+
+Muse's `Look B Character solo GENERATED, with one defect Nov 8 2026`: the Look B swap worked — `rampart-clip2-redo-baron-solo-lookb-character-test.mp4` (7.93s, 1280x720, 3.5MB) cleared Flow's policy with no error, using the saved Look B Character via Flow's project switcher.
+
+**Downloaded and checked it myself** (frames at 1/3/5/7s against `baron-portrait-apron-kitchen-v1.jpeg`). Likeness is solid — same face, glasses, legible "Baron Vieux"/"Bayouboujee" embroidery, black canvas apron, tools match. **Confirmed both defects Muse flagged, independently:**
+1. **Lighting/environment mismatch with the approved Rampart half.** This clip's storage room is bright, with stainless kitchen equipment clearly visible in the background — not the dim, cramped, single-bare-bulb look of the approved Rampart solo clip. Cutting these two together as planned would likely look jarring, not like one continuous space.
+2. **Duplicate phone at 1s** — confirmed visually in the frame: the usual phone in the chest pocket, plus a second light-colored phone with a visible triple-camera tucked in the lower apron pocket near his hip. Real defect, not a reporting error — the Look B reference image itself only shows one phone.
+
+Dialogue audio not independently verified — no transcription capability used; Muse's own playback garbled two words ("Rampart"→"Rand Park", "scrimmage"→"skirmish") and she flagged this as unverified too.
+
+**Not yet approved.** Two real issues to resolve before this goes forward, let alone before the Rampart two-shot is attempted. Sent Muse a reply with findings and a recommendation to regenerate with explicit lighting-match and single-phone-only instructions rather than accept as-is — surfaced to Lejohn directly in-session for his call on whether the lighting mismatch is acceptable or needs a redo.
+
 ---
 
 ## 2026-11-08, ~18:15 UTC — new file: Google Flow character consistency reference for Muse (prompted by Lejohn)
