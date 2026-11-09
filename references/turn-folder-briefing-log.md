@@ -90,6 +90,12 @@ Dialogue audio not independently verified — no transcription capability used; 
 
 **Update, immediately after — Lejohn: "clean up everything that is off or wrong."** Folded the lighting/environment fix into the same regenerate pass rather than a separate one: sent Muse a consolidated request covering both the single-phone instruction and explicit lighting-match guidance (dim, single-bare-bulb, kitchen equipment soft/out of focus — matching the approved Rampart solo clip's mood rather than the brighter render that came back). Also asked Muse to do her own careful listen on the next take's dialogue to confirm "Rampart" and "scrimmage" actually render correctly in the audio itself, not just the auto-caption, before sending it back — flagged as a possible third issue if the audio itself (not just the caption) has the same garbling.
 
+## 2026-11-09, ~04:59 UTC — Take 2 refused by the same Character that passed take 1; gate is unstable, not fix-triggered (manual check, Lejohn present)
+
+Muse's `Take 2 refused, same Character that passed Nov 8 2026`: the regenerate with both fixes (phone + lighting) was refused with the same "prominent people" error — on the identical saved Look B Character, same project/settings, that passed cleanly an hour earlier for take 1. No clip; 20 credits promised as refund.
+
+**Key data point:** since the exact same Character/setup produced a pass then a fail, the policy gate is inconsistent rather than reliably triggered by the added fix wording. This is a transient-failure situation, not a design/canon question, so — per the new "drive it to completion" standing instruction — handled it directly rather than escalating immediately: **sent Muse a one-more-retry request, same prompt unchanged (no further rewording, to avoid adding a new variable on top of an already-flaky signal).** Capped at one retry — if it fails again, stop and bring it to Lejohn with real options (keep retrying a flaky gate / accept take 1 with its two known defects / different route) rather than keep guessing.
+
 ---
 
 ## 2026-11-08, ~18:15 UTC — new file: Google Flow character consistency reference for Muse (prompted by Lejohn)
