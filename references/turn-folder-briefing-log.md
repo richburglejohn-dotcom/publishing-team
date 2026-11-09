@@ -179,6 +179,16 @@ Posted `Claude to Muse - Ep 2 Redfish HELD, two defects found Nov 9 2026` to the
 
 ---
 
+## 2026-11-09, ~13:29 UTC — Ep 2 Redfish: costume question settled by Lejohn's explicit call; end-card typo still open (manual, Lejohn present)
+
+Lejohn: "use the scarlett reference going forward for this episode." Settles defect #1 from the entry above — the metal-tweezers/probe-thermometer/notepad apron and cursive "Baron Vieux"/"Bayouboujee" embroidery seen in the Ep 2 draft was a deliberate choice, not a wrong-reference mistake.
+
+**Logged as a scoped exception in `references/character-flow-prompts-muse-consistency-v1.md`**, same pattern as the existing Look A/B storage-room exception note: `docs/media/baron-vieux-scarlett.jpg` is now the reference for **Episode 2 specifically**, not a change to Look B for the Cooking Series generally. Ep 1 Dark Roux (already published) and Episodes 3/4 (not yet produced) still use the standard Look B reference (`baron-portrait-apron-kitchen-v1.jpeg`) unless Lejohn extends this explicitly — flagged in the doc itself so a future session doesn't misapply it series-wide or re-flag the apron as a defect.
+
+Relayed to Muse (`Claude to Muse - Ep 2 Redfish costume confirmed, typo still open Nov 9 2026`, confirmed landed): costume defect closed, but **defect #2 (the "Baron Viex" end-card typo) is still open** and still blocks publishing. Asked Muse to get a corrected end card and resend. The 21MB publish file stays in the Turn folder, unpublished, until the typo is fixed and I do a final check.
+
+---
+
 ## 2026-11-08, ~18:15 UTC — new file: Google Flow character consistency reference for Muse (prompted by Lejohn)
 
 Lejohn asked directly for Google Flow prompts written for Muse to maintain character consistency, since Muse now has her own Flow connector and generates without Claude in the loop until review time — the same gap that produced the Rampart Clip 2 off-model finding (05:08 UTC entry below).
