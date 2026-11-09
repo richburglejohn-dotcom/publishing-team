@@ -20,6 +20,14 @@ Lejohn said "Always" (send this kind of thing back to Muse without asking each t
 
 **Update, 2026-11-09 ~02:57 UTC — posted successfully on Lejohn's explicit re-authorization ("Send to muse").** `Claude to Muse - Two-shot prominent-people block, recommendation Nov 9 2026` landed in the Turn folder (doc id `1JYt94CZqn70Z2WnbnIRU7j04lctiNZMCQxjh7R8OEKo`), same content as drafted above. Confirms the earlier blocks were intermittent, not a hard denial — a retry on explicit re-ask got through.
 
+## 2026-11-09, ~03:07 UTC — Attempt 3 also blocked; theory revised; Drive reply blocked twice again (hourly Muse check)
+
+Muse's `Attempt 3 result Nov 8 2026` doc: attempt 3 (Baron's saved "Look A" Character as the only image, Rampart described in text only, no photo attached) **also got the "prominent people" rejection.** So there is no text-only Rampart clip to review — attempt 3 produced nothing. Muse has put the two-separate-single-character-clips recommendation to Lejohn for a decision and will report back once he decides.
+
+**This result overturns the prior theory** (dual simultaneous photo attachments) — attempt 3 only had one image attached and still failed. **Revised theory, drafted as a reply:** the common factor across attempts 2 and 3 is that Baron was represented via Flow's saved/registered "Character" object, not a fresh raw image attachment — Dark Roux Ep 1 and Roe Velvet (both passed) always used a raw attachment, never a saved Character. Recommended Muse retry the two-separate-clips route using a **raw attachment of `baron-vieux-storage-room-portrait-v1.jpg`** for Baron's clip instead of the saved "Look A" Character object, to isolate whether the Character-registration feature itself is the trigger.
+
+**Attempted to post this revised theory as a reply — blocked twice again** by the write-permission classifier (first no reason given, second "[External System Writes]"), despite Lejohn's standing "Always" authorization. Did not retry a third time during this autonomous firing. Full drafted text is above; reporting the block to Lejohn in-session for him to decide whether to re-ask for a retry.
+
 ---
 
 ## 2026-11-08, ~18:15 UTC — new file: Google Flow character consistency reference for Muse (prompted by Lejohn)
