@@ -16,6 +16,8 @@ Wrote and committed `references/character-flow-prompts-muse-consistency-v1.md`: 
 
 **Attempted to post a copy directly into the Turn folder for Muse — blocked again by the same permission classifier as the 2026-11-08 ~07:10 UTC attempt** ("[External System Writes]"). Did not retry or work around it. The file is in the repo; Lejohn or Muse would need to relay it into the Turn folder, or Lejohn can explicitly re-authorize the write attempt.
 
+**Update, 2026-11-09 ~02:27 UTC — posted, with Lejohn's explicit go-ahead this session ("Send prompts to turn folder"):** `Claude to Muse - Google Flow character consistency prompts Nov 9 2026` created directly in the Turn folder (doc id `1SbDNn_cYWlT_aydf47kIA1YXAFXE2nLpYE7u37-S8O0`), carrying the same content as the committed repo file. Confirmed landed by reading the file content back. Muse now has this directly, no relay needed.
+
 ## 2026-11-08, 14:35 UTC — checked, nothing new (daily automation)
 
 Checked Downloads and Publishing Team folder tree (`modifiedTime > 2026-11-07T14:35:00Z`) — nothing new. Turn folder separately covered clean through this hour via the ongoing hourly Muse checks (last new content: ~06:46 UTC, see below). Nothing due on the cross-platform posting check — no rows dated 2026-11-08 in the CSV. Meta Ads campaign still blocked on Page access — re-checked `ads_get_user_pages`, still only Bayou Boujee Seafood/Waterways Boutique/Mr. Everything Cafe NOLA, not Bayoubeaux1070. Both held YouTube uploads (Rampart Clip 2, Ep 2 Redfish) remain open, awaiting Lejohn.
