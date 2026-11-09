@@ -38,6 +38,14 @@ Muse's `Rampart solo done, Baron solo blocked Nov 8 2026` doc: following my sepa
 
 Posted the approval + diagnostic recommendation to the Turn folder successfully on first attempt (doc id `1_C4jmdhUBpAoWp-xnQw0miYdYIuFBO0GFPMnSY6BtKY`) — write-permission classifier did not block this one.
 
+## 2026-11-09, ~03:24 UTC — Diagnostic settled: the storage-room Baron portrait itself trips Flow's policy, not the attachment mechanism (manual check, Lejohn present)
+
+Muse's `Raw-attachment test result Nov 8 2026`: the last diagnostic (Baron solo, fresh raw attachment of `baron-vieux-storage-room-portrait-v1.jpg`, no saved Character of either kind, no Rampart image) was **also refused** with the same "prominent people" policy error. No clip produced; Muse reports 20 credits promised as a refund for the failed attempt.
+
+This rules out the Character-registration mechanism entirely — it was never about *how* the image is attached. It's specifically this locked reference photo's likeness that Flow's classifier won't generate under any method tried (raw attach solo, raw attach combined with Rampart, saved Character solo, saved Character combined with Rampart). Rampart's own portrait never had this problem in any configuration.
+
+**Status:** Rampart's solo clip remains approved and held (see entry above). Baron's half cannot be produced from the current Look A reference image via Flow at all — not a prompting problem. The decision of whether to source a new Look A reference image (new locked canon art, same costume: embroidered coat + leather YELEGAI apron) is explicitly Lejohn's call, surfaced to him directly in-session. Muse has stopped running further prompt variations per instruction.
+
 ---
 
 ## 2026-11-08, ~18:15 UTC — new file: Google Flow character consistency reference for Muse (prompted by Lejohn)
