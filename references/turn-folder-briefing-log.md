@@ -86,6 +86,8 @@ Dialogue audio not independently verified — no transcription capability used; 
 
 **Update, same check-in — Lejohn's direction mid-turn: "correct extra phone."** Sent Muse a regenerate request for just the phone defect — explicit positive instruction this time ("only one phone, in the chest pocket, no additional phone or device anywhere else on the apron"), since the reference image alone didn't stop Veo from adding a second one. The lighting/environment mismatch is explicitly NOT folded into this request — Lejohn hasn't ruled on it yet, held as a separate open decision.
 
+**Update, immediately after — Lejohn: "clean up everything that is off or wrong."** Folded the lighting/environment fix into the same regenerate pass rather than a separate one: sent Muse a consolidated request covering both the single-phone instruction and explicit lighting-match guidance (dim, single-bare-bulb, kitchen equipment soft/out of focus — matching the approved Rampart solo clip's mood rather than the brighter render that came back). Also asked Muse to do her own careful listen on the next take's dialogue to confirm "Rampart" and "scrimmage" actually render correctly in the audio itself, not just the auto-caption, before sending it back — flagged as a possible third issue if the audio itself (not just the caption) has the same garbling.
+
 ---
 
 ## 2026-11-08, ~18:15 UTC — new file: Google Flow character consistency reference for Muse (prompted by Lejohn)
