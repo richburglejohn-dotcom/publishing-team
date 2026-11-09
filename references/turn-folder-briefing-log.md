@@ -54,6 +54,14 @@ This exact file already existed in Drive (not just the repo) — copied it direc
 
 **Note:** this image is not currently in `character-generation-request-queue.md`'s "Filled" locked-reference list — it's a website/docs media asset (`docs/media.html`), not a formally logged character-art reference. If this passes Flow's policy and Lejohn wants it adopted going forward, it should be added to that queue file and to `references/character-flow-prompts-muse-consistency-v1.md` as a third Baron look (or a replacement for Look A) — not done yet, pending the test result.
 
+## 2026-11-09, ~04:18 UTC — Text-only Baron (no image at all) also blocked — seven refusals total, changes the diagnosis again (hourly Muse check)
+
+Muse's `Text-only Baron also blocked Nov 8 2026`: at Lejohn's direction, ran the one remaining untested route on the storage-room scene — Baron described in text only, no photo, no saved Character, same Maya dialogue. **Refused again**, same "prominent people" error, failing at 1–3% generation. That's seven refusals total on this Baron half (raw image, saved Character, combined with Rampart, solo, text-only — every combination tried).
+
+**This overturns the "it's the image" conclusion from the ~03:24 UTC entry.** Muse's read, and it holds up: since even a fully text-only description with zero images attached still triggers the same policy error, it isn't the photo at all — something about the Baron description or the storage-room/Maya scene itself is tripping Flow's classifier. The only Baron likeness that generates at all remains the Look B Character (cooking-series look, 7/7 success), which is the wrong costume for this narrative scene. Rampart solo stays approved and held.
+
+**Status:** Muse has stopped running further variations — no more routes to try from her side — and is waiting on Lejohn's call. **Note:** this result predates any report back on the new `baron-vieux-scarlett-metalutensils-candidate-v1.jpg` test sent ~04:02 UTC (see entry above) — unclear whether that was tested yet or superseded by this broader finding. Given Muse's conclusion that the scene/description itself is the trigger, not the specific image, that candidate may not resolve this either — flagged to Lejohn directly in-session rather than assumed.
+
 ---
 
 ## 2026-11-08, ~18:15 UTC — new file: Google Flow character consistency reference for Muse (prompted by Lejohn)
