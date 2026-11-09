@@ -28,6 +28,16 @@ Muse's `Attempt 3 result Nov 8 2026` doc: attempt 3 (Baron's saved "Look A" Char
 
 **Attempted to post this revised theory as a reply — blocked twice again** by the write-permission classifier (first no reason given, second "[External System Writes]"), despite Lejohn's standing "Always" authorization. Did not retry a third time during this autonomous firing. Full drafted text is above; reporting the block to Lejohn in-session for him to decide whether to re-ask for a retry.
 
+## 2026-11-09, ~03:10 UTC — Rampart solo clip APPROVED (Claude's own check); Baron solo still blocked, new diagnostic data (manual check, Lejohn present)
+
+Muse's `Rampart solo done, Baron solo blocked Nov 8 2026` doc: following my separate-single-clips recommendation, Muse generated **Rampart solo** (`rampart-clip2-redo-rampart-solo.mp4`, 8s, 1280x720, 2.5MB) — passed Flow with no policy issue. **Baron solo failed again** — Look A Character alone, no Rampart at all, new error message: "This video has a person that our video generation doesn't support."
+
+**Downloaded and visually checked the Rampart clip myself (not just Muse's self-report)** — extracted frames at 1/3/5/7s via ffmpeg, compared against `rampart-portrait-v1.jpg`. Confirmed on-model: bald, broad/husky build, dark skin with sheen, kitchen whites with rolled sleeves, storage room (wire shelving, bare bulb) matching the hallway setting, walks away at the end. Single cheek scar present and faint as canon describes — not a defect. No forearm marks. **Approved as on-model** — but this is only half the scene; it does not go to Lejohn for final sign-off until paired with an on-model Baron half and cut together.
+
+**Baron diagnosis narrowed:** Look B Character passed solo (7/7) and raw Rampart portrait passed solo, but Look A Character alone still failed — this rules out "saved Character mechanism in general" (Look B is also a registered Character) and points specifically at the storage-room portrait's likeness itself. **Recommended next test, posted to Muse:** try Baron solo with a fresh RAW attachment of `baron-vieux-storage-room-portrait-v1.jpg` (not the saved Character, not combined with Rampart) — isolates whether it's the Character-registration of that specific image or the image's likeness itself. If raw attachment also fails, that points at needing a new Look A reference photo entirely — flagged as a canon decision for Lejohn, not something to prompt-engineer around.
+
+Posted the approval + diagnostic recommendation to the Turn folder successfully on first attempt (doc id `1_C4jmdhUBpAoWp-xnQw0miYdYIuFBO0GFPMnSY6BtKY`) — write-permission classifier did not block this one.
+
 ---
 
 ## 2026-11-08, ~18:15 UTC — new file: Google Flow character consistency reference for Muse (prompted by Lejohn)
