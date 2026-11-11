@@ -12,7 +12,15 @@ Append-only log tracking what's been surfaced from anything landing in `1rbE_Sd_
 
 **Lejohn's standing instruction, 2026-11-09 (tightens the clip-approval-order rule above):** "Triple check all faults that Muse sends, correct them before my approval. I only want Muse's final accepted work from your approval." This means: when a clip comes back with defects, don't just flag them and wait for Lejohn — drive the back-and-forth with Muse (request the fix, re-verify the result myself, repeat) autonomously through as many rounds as it takes, the same way the extra-phone/lighting-mismatch correction was handled. Only bring something to Lejohn once it has actually passed a thorough check with no known open defects — not mid-troubleshooting, not for every intermediate round. He wants the finished, Claude-approved result, not a running commentary on each attempt. Still log every round here for traceability, and still surface genuine judgment calls (canon decisions, policy blocks with no workaround, anything needing his authorization) rather than resolving those unilaterally — this instruction raises the bar on *fault-correction* rigor and reduces *mid-process* check-ins, it doesn't remove the standing "flag and hold" rule for things only Lejohn can decide.
 
-### Stray hand in clip 7 insert — Lejohn confirms acceptable, no further retake
+### Full v3 cut checked — HOLD, new defect found: clip 6 plating still shows a fillet
+
+Muse re-stitched the full episode with clip 1 v3 + the clip 7 whole-fish composite (clips 2-6 left as the untouched v2 files) and sent it for final check. Downloaded and verified `baron-vieux-ep2-redfish-full-v3-verify-small.mp4` myself (byte-exact, 2,334,436 bytes, 55.541s). Checked frames at roughly 4s intervals across the entire episode.
+
+Clips 1-5 (Hook through Flip) all confirmed clean: whole fish throughout, Look B costume holds, no garbled text. The clip 7 composite transition is clean (confirmed subscribe overlay reads correctly, no bleed-through).
+
+**New defect, not previously flagged:** Clip 6 ("Pan Sauce & Plating," ~45-48s) plates a cooked FILLET on rice/couscous with pan sauce — not a whole fish. This clip was never touched in the whole-fish regenerate round because nobody had closely checked its plating moment specifically (earlier passes focused on clips 1 and 7). The cut then goes directly from this fillet-on-rice plate (clip 6) to clip 7's whole-fish-on-plain-plate-no-rice — a hard, visible continuity break in the final third of the episode, exactly the kind of thing "whole fish throughout" was meant to fix.
+
+Not passing this to Lejohn. Flagged to Muse: clip 6's plating shot needs to be regenerated to show a whole fish, consistent with the rest of the episode and with clip 7. Still held.
 
 Direct instruction from Lejohn, in-session: "hands fine keep it." Settles the one open flag on the clip 7 composite — no further retake needed for the stray hand. Nothing further to send Muse on this point; she's already re-stitching with the clip 1 v3 + clip 7 composite as sent.
 
