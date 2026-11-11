@@ -12,6 +12,10 @@ Append-only log tracking what's been surfaced from anything landing in `1rbE_Sd_
 
 **Lejohn's standing instruction, 2026-11-09 (tightens the clip-approval-order rule above):** "Triple check all faults that Muse sends, correct them before my approval. I only want Muse's final accepted work from your approval." This means: when a clip comes back with defects, don't just flag them and wait for Lejohn — drive the back-and-forth with Muse (request the fix, re-verify the result myself, repeat) autonomously through as many rounds as it takes, the same way the extra-phone/lighting-mismatch correction was handled. Only bring something to Lejohn once it has actually passed a thorough check with no known open defects — not mid-troubleshooting, not for every intermediate round. He wants the finished, Claude-approved result, not a running commentary on each attempt. Still log every round here for traceability, and still surface genuine judgment calls (canon decisions, policy blocks with no workaround, anything needing his authorization) rather than resolving those unilaterally — this instruction raises the bar on *fault-correction* rigor and reduces *mid-process* check-ins, it doesn't remove the standing "flag and hold" rule for things only Lejohn can decide.
 
+### Clip 6 regenerate paused — Lejohn's call, relayed by Muse
+
+Muse reports Lejohn's call: hold the clip 6 regenerate for now, nothing happening on it tonight. The rice-vs-plain-plate continuity question (flagged in the hold note above) stays open until he gives the word. The v3 cut stays parked as-is — not approved, not rejected outright, just paused. No action needed from this session until Muse sends new footage.
+
 ### Full v3 cut checked — HOLD, new defect found: clip 6 plating still shows a fillet
 
 Muse re-stitched the full episode with clip 1 v3 + the clip 7 whole-fish composite (clips 2-6 left as the untouched v2 files) and sent it for final check. Downloaded and verified `baron-vieux-ep2-redfish-full-v3-verify-small.mp4` myself (byte-exact, 2,334,436 bytes, 55.541s). Checked frames at roughly 4s intervals across the entire episode.
