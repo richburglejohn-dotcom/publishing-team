@@ -36,6 +36,10 @@ Muse regenerated both: clip 1 (Hook, with the Character) and clip 7 (a faceless 
 
 Editorial call on how to use the insert (left to Claude by Muse): composited the insert's video (whole fish, no face — avoids any lip-sync risk) with the original outro take's audio track as voiceover, plus the "Subscribe to Baron Vieux" lower-third. Verified full 1280x720/h264/AAC, ~7.92s, clean throughout. File committed to `outputs/baron-vieux-ep2-clip7-outro-cta-fixed-v2-wholefish.mp4`, sent to Muse via the raw.githubusercontent.com URL (verified live, byte-exact). Told her to re-stitch the full episode with clip 1 v3 + this clip 7 composite and send back for a final full-episode check before anything goes to Lejohn. Still held.
 
+## 2026-11-11 — Checked Turn folder; nothing newer than what is already logged below (site/Stripe session)
+
+Checked the Turn folder against this log: everything modified today is already covered by the entries below (Ep 2 v3 full cut HOLD for the clip 6 fillet plating, clip 6 regenerate paused on Lejohn's call, trailer v1 HOLD). Nothing new from Gemini or Meta AI. Surfaced those open holds to Lejohn in the session that touched `docs/` (Formulary / Blueprint checkout fixes).
+
 ## 2026-11-11 — Ep 2 Redfish fish-presentation question resolved: Lejohn says whole fish throughout
 
 Direct instruction from Lejohn, in-session: "whole fish throughout." Settles the creative/continuity question flagged above — the episode commits to whole-fish presentation, not a fillet, for both the raw/cooking shots and the final plated shot.
