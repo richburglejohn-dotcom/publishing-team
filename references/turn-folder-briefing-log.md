@@ -622,3 +622,7 @@ Surfaced to Lejohn: schedule/commitments for the day, Metricool onboarding note,
 Checked against: `modifiedTime` 2026-09-03T19:48:40.632Z, doc id `1JE2yRPTqR0togF51ZPsdfDqoMx0DRyhPOuxkZowJC4c`.
 
 Surfaced: Idea Item #4 ("Automated Social Cross-Promo for Daily Briefs") — Lejohn confirmed this matched what he'd actually asked Gemini for, scoped it in `references/automated-social-cross-promo-scope-v1.md`, and it's now implemented (posting-log backfill, standing logging rule, extended Daily social check Routine). Section 2 (pricing) was already executed earlier as "The Formulary" — see `outputs/` handoff log referenced in that doc.
+
+## 2026-11-11 (evening) — Lejohn: "Launch redfish clip" — read as lifting the clip 6 regenerate pause
+
+Lejohn's word on the paused clip 6 regenerate. Treated as go-ahead to regenerate, NOT as approval to publish: the v3 cut still has the clip 6 fillet defect and stays HELD. Plating spec sent to Muse: whole fish, plain plate, matching the clip 7 composite already approved. If Lejohn meant something else (e.g. publish v3 as-is, or rice on the plate), that needs his word. Nothing published.

@@ -42,3 +42,10 @@ and the trigger is manual as documented. Two small items, neither urgent:
 
 Not asking for anything else on this pass — this was a "when convenient"
 list, not a hold-up.
+
+## 2026-11-11 — Claude — Open
+
+Two requests for Koda. Neither blocks anything live.
+
+1. **Lead magnet form (needs a test).** New page `docs/free-kdp-launch-checklist.html` POSTs `FormData` (`name`, `email`, `path` = "Lead Magnet", `lead_tag` = "Lead Magnet - KDP Checklist") to the existing `formularyLead` endpoint, then redirects to `docs/kdp-launch-checklist.html` on `success === true`. The page is not linked from the site nav yet. Please confirm `formularyLead` accepts a submission with only those four fields (no `book_summary`, `audience`, etc.), creates the Kit subscriber, and applies the tag. If it requires the other fields, tell me which to relax or add a separate lightweight endpoint.
+2. **Kit sequence (needs loading).** I have no Kit credentials by design (`KIT_PROXY_KEY` stays on your side). Draft of five emails is in `outputs/kit-lead-magnet-sequence-v1.md`. Please create the sequence, trigger it on the tag above, and use the `Delay` values in the file headings (0, 2, 4, 7, 10 days). I removed the old "founding spot claimed" language from this sequence; do not re-add scarcity claims that aren't true.

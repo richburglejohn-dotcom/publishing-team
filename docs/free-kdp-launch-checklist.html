@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Free Amazon KDP Launch Checklist | FuturIQ</title>
+<meta name="description" content="A free step-by-step checklist for publishing your book on Amazon KDP.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,600&family=EB+Garamond:ital@0;1&family=Courier+Prime&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="nav-wrap">
+    <a href="index.html" class="brand">Culinary <span>Crescendo</span></a>
+    <button class="nav-toggle" aria-label="Toggle navigation">&#9776;</button>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="books.html">Books</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="media.html">Media</a></li>
+      <li><a href="formulary.html">Formulary</a></li>
+      <li><a href="index.html#newsletter">Newsletter</a></li>
+    </ul>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="container">
+    <span class="eyebrow">Free Checklist</span>
+    <h1>The Amazon KDP <em>Launch Checklist.</em></h1>
+    <p class="lede">Every step between a finished manuscript and a live Amazon listing, in one page: account, files, metadata, pricing, proof copy and launch week. Enter your email and get it instantly.</p>
+  </div>
+</section>
+
+<hr class="divider">
+
+<section>
+  <div class="container">
+    <form id="lm-form" style="max-width:480px;">
+      <p><label for="lm-name">First name</label><br><input type="text" id="lm-name" name="name" required style="width:100%;padding:12px;"></p>
+      <p><label for="lm-email">Email</label><br><input type="email" id="lm-email" name="email" required style="width:100%;padding:12px;"></p>
+      <input type="hidden" name="path" value="Lead Magnet">
+      <input type="hidden" name="lead_tag" value="Lead Magnet - KDP Checklist">
+      <button type="submit" id="lm-submit" class="btn btn-primary">Send me the checklist</button>
+      <p class="form-note" id="lm-error" hidden style="color:#a33;"></p>
+      <p class="form-note">No spam. Unsubscribe any time.</p>
+    </form>
+  </div>
+</section>
+
+<script>
+const LEAD_ENDPOINT = 'https://base44.app/api/apps/6a59d641bd5b07278467f2a4/functions/formularyLead';
+document.getElementById('lm-form').addEventListener('submit', async (e) => {
+  e.preventDefault();
+  const btn = document.getElementById('lm-submit'), err = document.getElementById('lm-error');
+  err.hidden = true; btn.disabled = true; btn.textContent = 'Sending…';
+  try {
+    const resp = await fetch(LEAD_ENDPOINT, { method: 'POST', body: new FormData(e.target) });
+    const r = await resp.json().catch(() => ({}));
+    if (!resp.ok || r.success !== true) throw new Error('failed');
+    window.location.href = 'kdp-launch-checklist.html';
+  } catch (x) {
+    err.textContent = 'Something went wrong. Please try again, or email bayoubeaux1070@gmail.com.';
+    err.hidden = false; btn.disabled = false; btn.textContent = 'Send me the checklist';
+  }
+});
+</script>
+
+<footer class="site-footer">
+  <div class="footer-brand">Lejohn Richburg III</div>
+  <ul class="footer-links">
+    <li><a href="books.html">Books</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="blog.html">Blog</a></li>
+    <li><a href="index.html#newsletter">Newsletter</a></li>
+  </ul>
+  <ul class="footer-social">
+    <li><a href="https://www.facebook.com/profile.php?id=61591666712856" target="_blank" rel="noopener">Facebook</a></li>
+    <li><a href="https://www.instagram.com/baron.vieux/" target="_blank" rel="noopener">Instagram</a></li>
+    <li><a href="https://www.tiktok.com/@baronvieux" target="_blank" rel="noopener">TikTok</a></li>
+    <li><a href="https://www.youtube.com/@BaronVieux-series" target="_blank" rel="noopener">YouTube</a></li>
+    <li><a href="https://x.com/BayoubeauxVieux" target="_blank" rel="noopener">X</a></li>
+  </ul>
+  <p class="footer-copy">&copy; 2026 FuturIQ / Bayoubeaux1070. All rights reserved.</p>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
