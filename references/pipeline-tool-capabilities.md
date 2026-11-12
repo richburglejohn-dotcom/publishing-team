@@ -67,3 +67,18 @@ When a task needs "post/publish/schedule something," check here first:
 6. Anything else that looks like it needs a human hand on a keyboard for a *specific, named* reason (e.g. Meta AI's chat UI, TikTok's manual-post rule above) → say so explicitly, name the reason, and hand over exactly what's needed — not a generic "you'll have to do this part."
 
 Keep this file updated as connectors change — a tool disconnecting or reconnecting between sessions is common (see the ambient reconnect/disconnect notices), so re-check live availability before assuming a capability listed here still needs a human hop, or vice versa.
+
+## Koda verified inventory (2026-11-11 evening CT, from Koda's Turn-folder doc "Social capability inventory")
+
+Koda posted nothing; everything below was read-only or from past real posts. Untested items are marked.
+
+- **Facebook Pages (Bayoubeaux1070, Baron Vieux):** Graph API via page token in Base44 secrets. Can publish text/photo/video (page videos become Reels), read page insights, send and read Messenger DMs. Last real post: Dark Roux Ep 1 video, 2026-09-12. **Cannot** reply to or moderate comments (`pages_manage_engagement` not granted — a Lejohn permission grant). Cannot set the AI-content label via API.
+- **Instagram (Baron.Vieux, FuturIQ):** Koda can publish via Graph API / `instagram` connector; comment and DM scopes are granted but **never exercised**. Claude also posts to both via Windsor.ai. **Two agents on two rails to the same accounts caused the 2026-09-12 duplicate** — until Lejohn approves a single owner per account, write any IG post to the Turn folder before posting.
+- **TikTok:** `tiktok` connector is read-only. `baronvieux` posts via Buffer with a public URL (last: 2026-09-11). `futur.iq` is still browser-staged only; Lejohn attaches the file and publishes (unchanged since 2026-09-04).
+- **YouTube:** Koda has only the Buffer channel and has **never published** to it; no Community tab, no editing a published video, no analytics. Claude posts via Metricool (regular video vs Short toggle).
+- **LinkedIn, Reddit, Threads, Pinterest:** no route. Buffer supports Threads/Pinterest/LinkedIn only if Lejohn connects channels.
+- **Scheduling:** Buffer only. Koda's Facebook and Instagram Graph posts publish immediately.
+- **Comments across platforms:** not possible as a cross-platform sweep today (IG plausible, untested; FB read-only; TikTok/YouTube none).
+- **Failure behavior:** Koda stops on login prompts, captchas and verification, and checks whether an action already succeeded before retrying after a timeout.
+- **Credentials:** API tokens in Base44's secret store; TikTok browser automation inherits Lejohn's signed-in Chrome profile, no stored passwords.
+- **Koda approval rule (its own):** will not publish or delete on a channel it has not posted to before, email or DM real people, edit or delete live posts, spend money, or touch comments without explicit approval.
