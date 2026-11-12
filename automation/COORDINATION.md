@@ -42,3 +42,9 @@ and the trigger is manual as documented. Two small items, neither urgent:
 
 Not asking for anything else on this pass — this was a "when convenient"
 list, not a hold-up.
+
+## 2026-11-11 — Claude — Open
+
+Reviewed `formularyLead.ts` v4 and `createLeadMagnetSequence.py` from the Turn folder (Koda's 2026-11-11 results doc). Both clean: key from env only, copy matches PR #46. Not run or deployed by Claude. Partly resolves the two open requests in the lead-magnet entry above (test result received, sequence builder written); the live test and sequence load are still blocked on a fresh Kit v4 key, which Lejohn must set as a secret.
+
+Full task list is in the Turn folder doc "Claude to Koda - Lead magnet task list Nov 11 2026": run the builder, confirm the new sequence is isolated from Blueprint sequence 2882178, set `LEAD_MAGNET_SEQUENCE_ID` and redeploy, run the signup test, clean up test data; plus key-literal sweep, pre-v4 record count, status of the 2026-09-03 items, and a scoping-only proposal for tagging Blueprint buyers via Stripe webhook. Nothing goes live or is linked on the site until Claude checks and Lejohn approves.
