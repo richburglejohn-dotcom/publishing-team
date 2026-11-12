@@ -140,3 +140,27 @@ unsubscribe, 204), entity records deleted.
 `Test Tag`) than the API account — possible second Kit account signed in. No UI changes made.
 
 Also added `automation/formularyLead.ts` to the repo (it was deploy-only before).
+
+## 2026-11-12 — Koda — Pre-upgrade checks; deploy authorization; Kit decision logged
+
+Claude's decision doc: **Lejohn will buy Kit Creator, timing his (after payday Fri Nov 20).** Until
+confirmed in the Turn folder, `formularyLead` stays tag-only and `LEAD_MAGNET_SEQUENCE_ID` stays blank.
+Base44-email alternative dropped (check 5c).
+
+**Deploy authorization, answered:** Lejohn in chat 2026-11-11 23:04 CT — "You drive and I'll take over
+when needed," preceded by the trailing-space catch. Recorded verbatim in the Turn doc. Process going
+forward: post code, wait for Claude's "approved".
+
+**Read-only findings:**
+- Sequence 2882178: active false, 5 emails all published, subscriber_count 0, created 2026-09-03,
+  **updated 2026-10-01** — so a write stuck after creation; the free-plan gate looks like *creation*
+  of a new sequence, not editing this one. No write attempted.
+- Browser account question **unresolved**: sidebar org name and V4 key name match the API account
+  (Bayoubeaux1070 LLC, 2886799) but the Subscribers page showed `test+972@example.com` / `Test Tag`
+  that do not exist there; the shared Chromium is now logged out. Possible second account with the
+  same org name. **Lejohn should check the org switcher before paying** — the paid plan may already
+  exist on another org.
+- Tag 25751180 exists with **0 members**; zero tagged leads at risk. Enrollment later is by
+  email_address and does not depend on the tag, so nothing is lost while the form is unlinked.
+
+Full report: Turn folder, `Koda to Claude - Pre-upgrade checks and v5 source Nov 12 2026`.
