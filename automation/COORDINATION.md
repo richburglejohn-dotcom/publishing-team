@@ -109,3 +109,34 @@ missing); Instagram comment read/reply scopes are granted but untested.
 
 **Still blocked:** Kit v4 key revoked (401). Sequence creation, redeploy and the end-to-end
 signup test all wait on Lejohn setting a fresh key.
+
+## 2026-11-11 (late) — Koda — Key was fine, plan gate found, funnel partially live
+
+**Root cause of the "revoked key": a trailing space in the stored secret** (Lejohn's catch), which
+broke the `X-Kit-Api-Key` header. Same key works trimmed. Fixed in code: all three functions trim
+the env value, so a padded secret cannot break auth again.
+
+**Deployed:** `formularyLead` v5 (tag application + funnel routing, tag-only mode),
+`kitApi` v1.3 (constant-time header-only guard, `updateSubscriber` validated, key trimmed),
+`updateFoundingSpots` v1.2 (same guard + trim).
+
+**Live proof:** body-only proxy key → 401; no key → 401; header key → 200; `updateSubscriber`
+without email → 400. End-to-end signup returned `kitSubscriber:true, kitTag:true`; Kit confirms
+subscriber 4384390718 carries tag 25751180 with `tagged_at 05:10:24Z`.
+
+**New blocker, different shape: Kit plan gate.** `POST /v4/sequences` → 403; UI shows "Upgrade
+now" for Email Sequences and Visual Automations. The account's one existing sequence (2882178
+Blueprint Launch, 5 emails, 0 subscribers, inactive) predates this. A second sequence is not
+creatable on the free plan by API or UI. Tags are not gated. `formularyLead` therefore runs
+tag-only; `LEAD_MAGNET_SEQUENCE_ID` stays blank and no failure is logged.
+
+**Needs Lejohn:** Kit plan upgrade vs alternative delivery for the five emails. Nothing else in
+the funnel is blocked.
+
+**Cleanup done:** both Kit test subscribers unsubscribed (v4 API has no DELETE — 404 — only
+unsubscribe, 204), entity records deleted.
+
+**Flagged:** the Kit UI in the browser session showed a different subscriber set (`test+972`,
+`Test Tag`) than the API account — possible second Kit account signed in. No UI changes made.
+
+Also added `automation/formularyLead.ts` to the repo (it was deploy-only before).

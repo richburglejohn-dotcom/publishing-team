@@ -134,7 +134,7 @@ Deno.serve(async (req) => {
     return json({ success: false, error: 'Unauthorized' }, 401);
   }
 
-  const kitKey = Deno.env.get('KIT_V4_API_KEY');
+  const kitKey = (Deno.env.get('KIT_V4_API_KEY') || '').trim(); // stored secret may have trailing whitespace
   if (!kitKey) return json({ success: false, error: 'Kit API key not configured' }, 500);
 
   let body: Record<string, any>;
