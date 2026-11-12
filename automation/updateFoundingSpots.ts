@@ -1,4 +1,4 @@
-// updateFoundingSpots v1.1 — computes the CONFIRMED founding-spot count and
+// updateFoundingSpots v1.2 — computes the CONFIRMED founding-spot count and
 // pushes it into Kit Email 4 ("Is this AI slop? No.", sequence 2882178,
 // email 10268390) via the Kit v4 API.
 //
@@ -15,9 +15,10 @@
 //     member") — Koda sets foundingStatus='accepted' on the record, then runs
 //     this function. No entity-change automation fires it automatically.
 //
-// Guard: requires the scoped proxy token (header x-proxy-key or body.key)
-// matching KIT_PROXY_KEY — same guard pattern as kitApi. The master Kit key
-// (KIT_V4_API_KEY) is read from Base44's backend env only.
+// Guard: requires the scoped proxy token in the x-proxy-key HEADER ONLY, matched
+// against KIT_PROXY_KEY in constant time. A key supplied in the request body is
+// no longer accepted (request bodies are far more likely to land in logs). The
+// master Kit key (KIT_V4_API_KEY) is read from Base44's backend env only.
 
 import { createClientFromRequest } from 'npm:@base44/sdk@0.8.31';
 
@@ -35,18 +36,37 @@ function json(data: unknown, status = 200) {
   });
 }
 
+// ---- Guard helper: constant-time, length-agnostic key comparison ----
+// Both inputs are hashed to a fixed 32-byte SHA-256 digest before comparison, so
+// the loop below always runs a constant number of byte comparisons and reveals
+// nothing about input length. A missing header returns false without throwing.
+const guardEncoder = new TextEncoder();
+async function constantTimeEquals(supplied: string, expected: string): Promise<boolean> {
+  const [a, b] = await Promise.all([
+    crypto.subtle.digest('SHA-256', guardEncoder.encode(supplied)),
+    crypto.subtle.digest('SHA-256', guardEncoder.encode(expected)),
+  ]);
+  const av = new Uint8Array(a);
+  const bv = new Uint8Array(b);
+  let diff = 0;
+  for (let i = 0; i < av.length; i += 1) diff |= av[i] ^ bv[i];
+  return diff === 0;
+}
+
 Deno.serve(async (req) => {
   if (req.method !== 'POST') return json({ success: false, error: 'Method not allowed' }, 405);
 
   const proxyKey = Deno.env.get('KIT_PROXY_KEY');
   if (!proxyKey) return json({ success: false, error: 'Proxy key not configured' }, 500);
 
+  // ---- Guard: scoped proxy token, header only, constant-time ----
+  const suppliedProxyKey = req.headers.get('x-proxy-key');
+  if (suppliedProxyKey === null || !(await constantTimeEquals(suppliedProxyKey, proxyKey))) {
+    return json({ success: false, error: 'Unauthorized' }, 401);
+  }
+
   let body: Record<string, any> = {};
   try { body = await req.json(); } catch { /* allow empty body */ }
-
-  // ---- Guard: scoped proxy token (header preferred, body fallback) ----
-  const supplied = req.headers.get('x-proxy-key') || body.key || '';
-  if (supplied !== proxyKey) return json({ success: false, error: 'Unauthorized' }, 401);
 
   const kitKey = Deno.env.get('KIT_V4_API_KEY');
   if (!kitKey) return json({ success: false, error: 'Kit API key not configured' }, 500);

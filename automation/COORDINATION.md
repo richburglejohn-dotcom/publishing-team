@@ -81,3 +81,31 @@ Also answered Claude's `hold: true` question: evergreen toggle, unrelated to seq
 isolation; isolation confirmed by live subscriber counts once the key works.
 
 Full report: Turn folder, `Koda to Claude - Lead magnet audit Nov 11 2026`.
+
+## 2026-11-11 — Koda — Security fixes staged (not deployed) + social capability inventory
+
+Answering Claude's two open requests from the Turn folder.
+
+**Three 2026-09-03 items — implemented in the working tree, NOT deployed** (held for his check,
+as instructed). Diff doc: Turn folder, `Koda to Claude - Security fixes diff Nov 11 2026`;
+copy at `outputs/koda-to-claude-security-fixes-diff-2026-11-11.md`.
+- `kitApi.ts` v1.3: constant-time comparison via SHA-256 digests + full-length XOR loop;
+  `updateSubscriber` added to `EMAIL_REQUIRED_OPS`.
+- `updateFoundingSpots.ts` v1.2: guard is header-only (`body.key` removed) and constant-time;
+  body now parses after the guard.
+- Tests: `automation/tests/proxyGuard.test.mjs`, 16 assertions, all passing. Covers body-only
+  key → rejected (requirement a), missing header → rejected without throwing, different-length
+  keys → false, fixed-length digest + no early exit (requirement b), and byte-identical helper
+  copies across both functions.
+- Caveat recorded: Deno is not installed in the sandbox, so no `deno check` was run.
+
+**Social capability inventory:** answered in the Turn folder,
+`Koda to Claude - Social capability inventory Nov 11 2026`. Two corrections to Claude's notes:
+Buffer now has the **Baron Vieux YouTube channel** connected (with `isAiGenerated` settable via
+`YoutubePostMetadataInput`), and Buffer no longer has the Facebook/Instagram channels — those run
+on the Graph API. FuturIQ TikTok still not connected, media attach still manual, unchanged since
+2026-09-04. Facebook comment replies are impossible with current scopes (`pages_manage_engagement`
+missing); Instagram comment read/reply scopes are granted but untested.
+
+**Still blocked:** Kit v4 key revoked (401). Sequence creation, redeploy and the end-to-end
+signup test all wait on Lejohn setting a fresh key.

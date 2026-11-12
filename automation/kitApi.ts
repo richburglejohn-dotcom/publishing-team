@@ -1,4 +1,4 @@
-// kitApi v1.2 — guarded, whitelisted proxy to the Kit (ConvertKit) v4 API.
+// kitApi v1.3 — guarded, whitelisted proxy to the Kit (ConvertKit) v4 API.
 // The master KIT_V4_API_KEY stays in Base44's backend env — it never reaches
 // the agent sandbox. Callers authenticate with the x-proxy-key header
 // (KIT_PROXY_KEY) and may only run the operations whitelisted below.
@@ -18,6 +18,23 @@ const num = (v: unknown): string | null => {
 };
 const emailOk = (v: unknown) =>
   typeof v === 'string' && /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v.trim());
+
+// ---- Guard helper: constant-time, length-agnostic key comparison ----
+// Both inputs are hashed to a fixed 32-byte SHA-256 digest before comparison, so
+// the loop below always runs a constant number of byte comparisons and reveals
+// nothing about input length. A missing header returns false without throwing.
+const guardEncoder = new TextEncoder();
+async function constantTimeEquals(supplied: string, expected: string): Promise<boolean> {
+  const [a, b] = await Promise.all([
+    crypto.subtle.digest('SHA-256', guardEncoder.encode(supplied)),
+    crypto.subtle.digest('SHA-256', guardEncoder.encode(expected)),
+  ]);
+  const av = new Uint8Array(a);
+  const bv = new Uint8Array(b);
+  let diff = 0;
+  for (let i = 0; i < av.length; i += 1) diff |= av[i] ^ bv[i];
+  return diff === 0;
+}
 
 type OpDef = {
   method: string;
@@ -104,14 +121,16 @@ const OPS: Record<string, OpDef> = {
   },
 };
 
-const EMAIL_REQUIRED_OPS = new Set(['createSubscriber', 'addSubscriberToSequence', 'tagSubscriber']);
+const EMAIL_REQUIRED_OPS = new Set(['createSubscriber', 'updateSubscriber', 'addSubscriberToSequence', 'tagSubscriber']);
 
 Deno.serve(async (req) => {
   if (req.method !== 'POST') return json({ success: false, error: 'Method not allowed' }, 405);
 
   // ---- Guard: scoped proxy token (not the Kit master key) ----
   const proxyKey = Deno.env.get('KIT_PROXY_KEY');
-  if (!proxyKey || req.headers.get('x-proxy-key') !== proxyKey) {
+  if (!proxyKey) return json({ success: false, error: 'Proxy key not configured' }, 500);
+  const suppliedProxyKey = req.headers.get('x-proxy-key');
+  if (suppliedProxyKey === null || !(await constantTimeEquals(suppliedProxyKey, proxyKey))) {
     return json({ success: false, error: 'Unauthorized' }, 401);
   }
 
