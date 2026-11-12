@@ -38,7 +38,7 @@ const STORE_CONFIG = {
   // Formulary page falls back to a "Join the Waitlist" mailto.
   futuriqBlueprint: {
     title: "FuturIQ Blueprint",
-    directBuyUrl: "https://buy.stripe.com/dRm8wR2RT1bFaX5gpT63K09",
+    directBuyUrl: "https://buy.stripe.com/4gMbJ3eAB07B5CL1uZ63K0a",
     directBuyEnabled: true
   }
 };
