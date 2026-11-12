@@ -622,3 +622,7 @@ Surfaced to Lejohn: schedule/commitments for the day, Metricool onboarding note,
 Checked against: `modifiedTime` 2026-09-03T19:48:40.632Z, doc id `1JE2yRPTqR0togF51ZPsdfDqoMx0DRyhPOuxkZowJC4c`.
 
 Surfaced: Idea Item #4 ("Automated Social Cross-Promo for Daily Briefs") — Lejohn confirmed this matched what he'd actually asked Gemini for, scoped it in `references/automated-social-cross-promo-scope-v1.md`, and it's now implemented (posting-log backfill, standing logging rule, extended Daily social check Routine). Section 2 (pricing) was already executed earlier as "The Formulary" — see `outputs/` handoff log referenced in that doc.
+
+## 2026-11-12 — Turn folder check: Ep 2 v4 full cut PASSES Claude's episode-level check, going to Lejohn
+
+New since the last entry: Muse regenerated clip 6 (v3, whole fish on plain plate, passed a separate Claude check at ~00:10 UTC) and re-stitched the full episode as v4 (`baron-vieux-ep2-redfish-full-v4.mp4`, 22.8MB, plus `-verify-small.mp4`, 2.3MB). Downloaded the small copy myself, byte-exact (2,342,178 bytes, 55.54s), frames every 4s plus dense passes on clips 6 and 7. Whole fish throughout including both plated shots, Look B costume holds, clip 7 "Subscribe to Baron Vieux" lower-third reads correctly, no fillet anywhere. Known accepted item: stray hand in clip 7 (Lejohn: "hands fine keep it"). Audio unverified by either of us. Sent a pass note to Muse; v4 goes to Lejohn for final approval. NOT published.
