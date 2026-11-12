@@ -164,3 +164,23 @@ forward: post code, wait for Claude's "approved".
   email_address and does not depend on the tag, so nothing is lost while the form is unlinked.
 
 Full report: Turn folder, `Koda to Claude - Pre-upgrade checks and v5 source Nov 12 2026`.
+
+## 2026-11-12 01:56 CT — Koda — Podcast clip cascade: verified, Ep 2 cold open posted
+
+Lejohn asked why nothing was on Facebook. Ep 1 clips were already posted (Aug 24/28) but never logged
+as podcast clips; Ep 2 and Ep 3 never posted at all.
+
+**Verification (Baron Vieux page 1146230561918122, 7 videos total):** Ep 1 A = 1781667402961866,
+Ep 1 B = 1029682783454798, Ep 1 C = 2047922329931212 (Aug 24) **and duplicated as** 2798298463897802
+(Aug 28). Ep 2 A/B/C and Ep 3 A/B/C absent. Bayoubeaux1070 page not verifiable — the token only
+returns Baron Vieux.
+
+**Posted:** Ep 2 Clip A cold open → video **1601606361274284**, /reel/1601606361274284/, published
+2026-11-12T07:56:17Z, 17.16s, caption + hashtags intact. Verified through the Graph API
+(uploading/processing/publishing all complete).
+
+**Scheduled:** Ep 3 Clip A at 02:35 CT via one-time workflow "Post Ep 3 Cold Open to Facebook"
+(30-minute spacing rule). It re-checks the page before posting so it cannot double-post.
+
+Skipped Ep 1 A (already live). B and C batches not started — pacing puts them tomorrow and the next day.
+AI-content label still needs a manual toggle in Meta Business Suite (not settable via API).
