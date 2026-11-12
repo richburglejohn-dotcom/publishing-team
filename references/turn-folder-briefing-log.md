@@ -626,3 +626,7 @@ Surfaced: Idea Item #4 ("Automated Social Cross-Promo for Daily Briefs") — Lej
 ## 2026-11-12 — Turn folder check: Ep 2 v4 full cut PASSES Claude's episode-level check, going to Lejohn
 
 New since the last entry: Muse regenerated clip 6 (v3, whole fish on plain plate, passed a separate Claude check at ~00:10 UTC) and re-stitched the full episode as v4 (`baron-vieux-ep2-redfish-full-v4.mp4`, 22.8MB, plus `-verify-small.mp4`, 2.3MB). Downloaded the small copy myself, byte-exact (2,342,178 bytes, 55.54s), frames every 4s plus dense passes on clips 6 and 7. Whole fish throughout including both plated shots, Look B costume holds, clip 7 "Subscribe to Baron Vieux" lower-third reads correctly, no fillet anywhere. Known accepted item: stray hand in clip 7 (Lejohn: "hands fine keep it"). Audio unverified by either of us. Sent a pass note to Muse; v4 goes to Lejohn for final approval. NOT published.
+
+## 2026-11-11 (evening CT) — Ep 2 Redfish v4 scheduled to YouTube on Lejohn's "Publish it"
+
+Lejohn approved publishing v4. The 22.8MB file can't be downloaded here (10MB connector limit), so it was sent to Metricool from Drive after setting the Drive file to Anyone-with-the-link (Metricool needs that; no tool here can revoke it, so Lejohn must). Scheduled for 19:22 CT (post id 425149736), public, AI-content flag set. Live status to be confirmed.
