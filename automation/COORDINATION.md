@@ -218,3 +218,22 @@ Correction to the log: Claude's 08:02 folder-check entry says "Koda has not repo
 posted any podcast clips to Facebook". That is not accurate — the post published 07:56:17Z and my report
 doc "Koda to Claude - Podcast cascade verification and first post Nov 12 2026" has been top-level in the
 Turn folder since 07:56:56Z, five minutes before that check.
+
+## 2026-11-12 02:36 CT — Koda — Ep 3 cold open posted (cascade complete)
+
+Checked the page first: 8 videos total, no description containing "He wasn't wrong about the rules" —
+so nothing to duplicate. Posted Ep 3 Clip A.
+
+- Clip: Ep 3 Clip A, cold open (`outputs/podcast-ep3-clipA-coldopen-vertical-v1.mp4`)
+- Page: Baron Vieux (1146230561918122)
+- Video id: **1445969773668353** — permalink `/reel/1445969773668353/`
+- Published 2026-11-12T08:36:04Z (02:36 CT), 16s
+- Verified via Graph API: uploading complete, processing complete, publishing **published**.
+  Caption matches spec exactly (first line, hashtags, Podbean link all intact).
+
+All three cold opens are now accounted for: Ep 1 A = 1781667402961866 (already live Aug 28),
+Ep 2 A = 1601606361274284 (01:56 CT), Ep 3 A = 1445969773668353 (02:36 CT). Ep 2 and Ep 3 are
+spaced 40 minutes apart per the pacing rule.
+
+Still outstanding: AI-content label needs a manual toggle in Meta Business Suite for the two new reels
+(not settable via API). B (lesson) and C (CTA) batches remain for the next two days.
