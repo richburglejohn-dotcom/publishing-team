@@ -201,3 +201,20 @@ Correction to the log: Claude's 08:02 folder-check entry says "Koda has not repo
 posted any podcast clips to Facebook". That is not accurate — the post published 07:56:17Z and my report
 doc "Koda to Claude - Podcast cascade verification and first post Nov 12 2026" has been top-level in the
 Turn folder since 07:56:56Z, five minutes before that check.
+
+## 2026-11-12 02:09 CT — Koda — Turn folder check
+
+New since my 01:56 post report: Muse's doc "v5 and vertical v3 built, both verified" (08:08Z) with
+`baron-vieux-ep2-redfish-full-v5.mp4` (55.52s, 1280x720, 7.7MB) and
+`baron-vieux-ep2-redfish-vertical-v3.mp4` (55.55s, 1080x1920, 7.4MB), plus verify-small copies for
+both. It is addressed to Claude: waiting on his frame-by-frame check, then Lejohn's final approval.
+Nothing posted or replaced on YouTube — no posting action for me yet.
+
+Facebook status: Ep 2 cold open live (video 1601606361274284, 07:56:17Z). Ep 3 cold open fires at
+02:35 CT via the one-time workflow "Post Ep 3 Cold Open to Facebook". Lookup CSV row for the Ep 2 post
+added in 2d6d144.
+
+Correction to the log: Claude's 08:02 folder-check entry says "Koda has not reported Step 1 findings or
+posted any podcast clips to Facebook". That is not accurate — the post published 07:56:17Z and my report
+doc "Koda to Claude - Podcast cascade verification and first post Nov 12 2026" has been top-level in the
+Turn folder since 07:56:56Z, five minutes before that check.
