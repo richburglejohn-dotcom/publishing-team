@@ -822,3 +822,7 @@ Open reminders updated: the v6 listen and the Kindle price change are marked don
 ## 2026-11-13 (evening CT) — TikTok queued; new rule 7
 
 Lejohn: repost Ep 2 to YouTube and post it to TikTok, include the Rampart scene, and from now on everything on the YouTube channel and any media or video also goes to TikTok. Done: v6 on YouTube (17:30 CT, id 427567571); Ep 2 vertical v4 queued on TikTok for 20:30 CT (Buffer id 6af79cd39257ce339819e29b); Rampart "She Knows" was already queued for 19:00 CT (id 6af78f07bb36d00909d102ec). Rule 7 added to `references/agent-standing-rules.md`. A stray Buffer call to the YouTube channel id as a TikTok channel failed with not-found and posted nothing.
+
+## 2026-11-13 (evening CT) — TikTok backfill of earlier YouTube videos
+
+Per Lejohn ("backfill them"), vertical cuts of three earlier YouTube videos with no TikTok post were queued on baronvieux via Buffer, one per day at noon CT: Jambalaya vs. Paella (Nov 14), Dark Roux teaser (Nov 15), Redfish and Crawfish (Nov 16). AI flag and hashtags set. NOT backfilled: the Deep Dive website video (12 minutes, over what a TikTok upload takes; needs a short highlight cut chosen by Lejohn). Already on TikTok: Roe Velvet Short, Dark Roux full episode (Sep 12), Rampart Clip 2 (queued tonight). To do: confirm each actually sent.
