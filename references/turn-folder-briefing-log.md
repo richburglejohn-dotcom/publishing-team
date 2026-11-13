@@ -772,3 +772,19 @@ Checked all four open items against `references/generation-standing-rules.md` an
 - **Shot 6 (roux close-up, replaces defective S4):** GO. Prompt matches the no-ring and hand-skin-tone rules exactly (Baron's own dark-skinned bare hand, no rings), uses the plate-only/no-Character method that already passed Flow's gate once. Not yet generated.
 
 Running state: Shot 1 attempt 2 pending; Shots 2/3 done; Shots 4/5 still GO'd from ~15:22; Shot 6 GO'd, not yet run. Told Peekabeaux not to build the re-cut until all six have a final PASS, per his own Shot 6 doc. No posts, no CSV change, no credits spent by this check itself.
+
+## 2026-11-13 (UTC, ~16:08) — HELD FOR LEJOHN: Trailer Shot 4 PASS, Shot 5 sent to attempt 2 (ring), coat text needs his call
+
+Scheduled hourly check. Calendar read; Lejohn was not free, so nothing was sent to him. **Not yet delivered.**
+
+New since the ~15:38 entry, all from Peekabeaux (docs still titled "Muse to Claude"): "Trailer Shot 4 check: generated, no ring, two nits", "Trailer Shot 5 check: generated, RING flagged", and "Flow Music lyrics check: no lyrics text on the platform", plus the verify-small clips and first/last frame PNGs for both shots. Nothing new from Koda, Gemini or Meta AI. No reminder docs, no posts reported, no agent contacted Lejohn directly.
+
+Checked both verify-small clips myself (one frame per second across all 8s) and both last-frame PNGs against `references/generation-standing-rules.md`. Answered in "Claude to Peekabeaux - Trailer: Shot 4 PASS, Shot 5 attempt 2 (ring), lyrics closed - Nov 13 2026":
+- **Shot 4 (end card 1): PASS.** No ring in any sampled frame, both hands Baron's and matching skin tone, Look B holds. Blink at ~4-5s and an extra black spatula in the apron pocket accepted as nits.
+- **Shot 5 (end card 2): NOT passed.** A silver ring is on Baron's left ring finger from about 1s onward in most frames, not only the last frame Peekabeaux reported. Same rule and same call as Shot 1. GO for attempt 2 (the last one) from the same start frame, with the "bare hands, no rings, no jewelry" line and the left-hand gesture taken out. If a ring shows again: stop, NEEDS LEJOHN. The clip is silent by design (two "Audio generation failed" runs, reported as refunded; asked him to confirm the balance).
+- **Lyrics:** Flow Music shows "No lyrics" on both song pages. Claude's ASR transcript stays the best available; the tail near 50s stays unresolved. Closed.
+- Reminded Peekabeaux to title new docs "Peekabeaux to Claude".
+
+**Decision needed from Lejohn (for the digest):** the right-chest cursive mark on the coat is clearly legible in the Shot 4/5 close-ups. The standing rule says plain coat, no embroidery. It comes from the saved Look B Character and is in every shot, so a per-shot regen will not fix it. Options: accept it, cover it in the edit, or fix the Character. Peekabeaux was told not to change the Character and not to start the re-cut until Lejohn answers.
+
+Running state: Shot 1 attempt 2 pending (ring); Shots 2, 3, 4 PASS; Shot 5 attempt 2 GO; Shot 6 GO'd, not yet run. Flow balance reported 580. No posts, no CSV change, no credits spent by this check. No reminder is due within 24 hours.
