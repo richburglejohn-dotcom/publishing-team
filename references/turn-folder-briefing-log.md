@@ -707,7 +707,7 @@ Lejohn approved three income steps. (1) Lead magnet: the opt-in page and checkli
 
 ## 2026-11-13 (UTC, ~09:15) — HELD FOR LEJOHN: Ep 2 fix prompts answered GO with three edits; Kindle change needs his hands
 
-Scheduled hourly check, inside the overnight window, so nothing was sent to Lejohn. Not yet delivered.
+Scheduled hourly check, inside the overnight window, so nothing was sent to Lejohn. **Delivered to Lejohn 2026-11-13 ~15:05 UTC** (digest notification).
 
 New from Muse since the last entry: four docs and one audio file.
 
@@ -715,7 +715,7 @@ New from Muse since the last entry: four docs and one audio file.
 - **Kindle $3.99, both books.** Lejohn's approval is in "Approvals log addition - 2026-11-13 - Co-Pilot first-client discount and Kindle prices to 3.99". Muse cannot do it: Amazon blocks Muse's browser. Muse wrote paste-ready steps for Lejohn's own browser. **Needs Lejohn's hands**; added to the open reminders. Paperbacks, KDP Select and categories stay untouched.
 - **Baron voice clone set for ElevenLabs** (baron-vieux-elevenlabs-clone-set-v1.mp3, 2:01, not listened to by Claude). Another Claude session answered Muse at about the same time as this check and told Muse to do the upload. This check added one fact for Muse: Muse's scope flag quotes the Aug 22 "ElevenLabs is not for Baron" line, which `references/baron-vieux-voice-reference-master-v1.md` superseded on 2026-09-12, and the repo already records a Baron clone (voice id in `outputs/podcast-episode-1-baron-script-v1.md`). **For Lejohn to know:** a new clone would sit beside that existing one; nothing was uploaded or created by this check.
 
-No posts reported, so no CSV rows. Koda: nothing new since the last entry. The trigger-prompt item in the 03:08 UTC held entry is overtaken: this all-agents hourly check is the replacement. That entry's remaining point (the Koda timing correction) is still undelivered. Also in this commit: a schedule detail was removed from the 03:08 UTC entry because the repo is public; it remains in git history.
+No posts reported, so no CSV rows. Koda: nothing new since the last entry. The trigger-prompt item in the 03:08 UTC held entry is overtaken: this all-agents hourly check is the replacement. That entry's remaining point (the Koda timing correction) was delivered 2026-11-13 ~15:05 UTC. Also in this commit: a schedule detail was removed from the 03:08 UTC entry because the repo is public; it remains in git history.
 
 ## 2026-11-13 (UTC, ~09:45) — Culinary Crescendo trailer: HOLD confirmed by Claude directly, fix list sent (Lejohn asked in chat)
 
@@ -740,3 +740,9 @@ Lejohn asked to check the folder. Two new docs from Peekabeaux: "Trailer fix pro
 Downloaded and checked both verify-small files myself, byte-exact (dark-roux-music-video-verify-small.mp4: 2,335,152 bytes, 52.5s). Confirmed independently: the embroidery typo, the three-outfit break, both audio tracks real and present. Then cross-checked the disputed roux-close-up shot against the TRAILER's own footage (not just the music video's) at 32-37s: **the same light-skinned hand is visible in the trailer at 35s too** — the trailer fix-prompts doc marks that shot "KEEP as-is, no Baron in frame," which is wrong. Peekabeaux already caught this in the later Dark Roux critique and said it needs a sixth regenerated shot, but the first doc — the one actually waiting on a GO — still has it marked clean. Caught before any GO was given.
 
 Sent "Claude to Peekabeaux - Trailer: GO on two shots, hold on three, add a sixth": GO on Shot 1 (opening kitchen) and Shot 3 (second kitchen), both clean. Asked for a new Shot 6 prompt (roux close-up, hand fix) before generating it — not yet GO. HELD Shots 2, 4, 5 (street walk, both end cards) on Peekabeaux's own open question: Baron appears to speak/sing on camera in those three and reusing the old audio under new lip movement risks breaking sync if there's an actual line. No agent can judge this — asked Lejohn directly whether there's assigned dialogue/lyrics there or not; waiting on his answer before those three get a GO.
+
+## 2026-11-13 (UTC, ~15:05) — Folder NOT checked (Drive connector down); held items delivered
+
+Scheduled hourly check. The Google Drive and Google Calendar connectors both failed to connect in this run (502 on connect), so the Turn folder was **not read**, no agent was answered, and no new reminder docs were picked up. **The next check should treat the ~11:06 UTC entry above as the last real folder check** and look for anything modified since then.
+
+Calendar could not be read, so the fallback rule applied and Lejohn was treated as free. Sent him one digest by notification covering the undelivered held items, now marked delivered: the ~09:15 UTC entry (Ep 2 clip 2 and 7 prompts answered GO with three edits; Kindle $3.99 needs his own browser; a new Baron voice clone would sit beside the existing one) and the Koda timing correction from the ~03:08 UTC entry. The digest also repeated the one open decision from ~11:06 UTC (whether trailer shots 2, 4 and 5 carry an assigned line or lyric) and said plainly that this run could not see the folder. No reminder is due within 24 hours. Nothing posted, no credits spent, no CSV change.
