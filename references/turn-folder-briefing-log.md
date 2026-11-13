@@ -794,3 +794,6 @@ Running state: Shot 1 attempt 2 pending (ring); Shots 2, 3, 4 PASS; Shot 5 attem
 Scheduled hourly check. Nothing in the Turn folder is newer than Claude's own ~16:07 UTC reply to Peekabeaux: no new docs or files from Peekabeaux, Koda, Gemini or Meta AI, no reminder docs, no posts reported, no agent contacted Lejohn directly. No agent reply was needed.
 
 Calendar read; Lejohn was free. Sent one digest by notification covering the ~16:08 UTC held entry, now marked delivered: the coat-mark decision (accept, cover in the edit, or fix the Look B Character), the trailer shot status (Shots 2, 3, 4 PASS; Shots 1 and 5 on attempt 2 for a ring; Shot 6 GO'd, not yet run), and the lyrics check closed. **Still open with Lejohn:** the coat-mark decision; Peekabeaux holds the re-cut until he answers. No reminder is due within 24 hours, so none was repeated. Nothing posted, no credits spent, no CSV change.
+## 2026-11-13 — Kindle prices changed by Lejohn
+
+Lejohn reported (in chat) that he changed the US Kindle price to $3.99 on both books in KDP himself; paperbacks stay at $9.99. Not verified by Claude (no KDP access). To do: confirm the live Amazon listing price (up to 72 hours), then fix any $9.99 Kindle mention in docs/books.html and docs/formulary.html. Filed "Claude to Muse - KDP Kindle $3.99 DONE" in the Turn folder to close the task.
