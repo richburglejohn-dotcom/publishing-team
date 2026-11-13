@@ -694,11 +694,11 @@ Lejohn's notes on v5: accent at 10-15s (clip 2), sizzle fine, light-skinned hand
 
 ## Open reminders for Lejohn
 
-- Listen to Ep 2 v6 when it is built (voice at 10-15s), then Claude reposts to YouTube. Filed by Claude. No date yet.
+- DONE 2026-11-13 (per the live session's log entry; v6 scheduled to YouTube): Listen to Ep 2 v6 when it is built (voice at 10-15s), then Claude reposts to YouTube. Filed by Claude.
 - Duplicate Ep 1 Clip C on the Baron Vieux Facebook page: delete or leave. Filed by Claude. No deadline.
 - AI-content label on the new Facebook reels (manual). Filed by Koda. No deadline.
 - Kit Creator purchase and Kit account check: Friday 2026-11-20. Filed by Claude.
-- Change the Kindle price to $3.99 (US) for both books in KDP, in his own browser (Amazon blocks Muse). Steps: Turn folder doc "Muse to Claude - Kindle 3.99 paste-ready KDP steps - Nov 13 2026". Filed by Claude from Muse's doc. No deadline.
+- DONE 2026-11-13 (Lejohn's report in chat; live Amazon price not verified by Claude): Change the Kindle price to $3.99 (US) for both books in KDP, in his own browser (Amazon blocks Muse). Steps: Turn folder doc "Muse to Claude - Kindle 3.99 paste-ready KDP steps - Nov 13 2026". Filed by Claude from Muse's doc. No deadline.
 - PR #46 review; Stripe webhook decision; Bayoubeaux1070 page token for Koda; restrict sharing on the Ep 2 v4 Drive file; sales tax registration. Filed by Claude. No deadlines.
 
 ## 2026-11-12 (late night CT) — Lead magnet page published; income items 1, 3, 4 approved
@@ -805,3 +805,16 @@ At Lejohn's request, built a vertical 1080x1920 cut of the Rampart Clip 2 redo (
 ## 2026-11-13 (evening CT) — Ep 2 v6 passed, reposted to YouTube
 
 Peekabeaux regenerated Ep 2 clip 2 (accent) and clip 7 (white hand), both first attempt (Flow 580 -> 540 credits). Claude passed clip 7 and the clip 2 picture; Lejohn's listen passed the clip 2 voice and then the full v6 ("loves it"). v6 and vertical v4 passed Claude's frame check (every hand dark-skinned; clip 4 ring is the accepted Ep 2 exception). v6 scheduled to YouTube via Metricool for 17:30 CT (post id 427567571), public, AI-content flag set. Metricool could not read the private Drive file, so it was fetched from the repo branch. To do: confirm live. Vertical v4 is not posted anywhere yet and has no post copy; waiting on Lejohn's word on where it goes.
+
+## 2026-11-13 (UTC, ~23:15) — Hourly check: everything new was already handled in the live session; branch merged without a reset
+
+Scheduled hourly check. New in the Turn folder since the ~16:30 UTC entry, all from Peekabeaux: "Ep 2 clip 2 fix check", "Ep 2 clip 7 fix check", "Ep 2 v6 and vertical v4 for check", "Lejohn approved v6, GO to repost", with verify-small clips, frame PNGs, and the two full files (full v6, vertical v4) uploaded at 23:02 UTC in answer to Claude's upload request. Each doc already has a "Claude to Peekabeaux" reply written in the live session with Lejohn (the three entries just above), so no new agent reply was needed. Nothing from Koda, Gemini or Meta AI. No reminder docs, no NEEDS LEJOHN docs, no agent contacted Lejohn on its own initiative.
+
+Checked rather than taken on trust:
+- **YouTube repost:** Metricool shows post 427567571 for 17:30 CT, status PENDING at the time of this check, public, AI-content flag set, and the video already copied to Metricool's own storage (so it no longer depends on the repo branch). Scope matches the 2026-11-12 night approvals addition (repost the fixed cut after Lejohn's listen). **Not yet confirmed live** — next check should confirm and update the CSV row to PUBLISHED with the YouTube id.
+- **CSV:** both new rows (Ep 2 v6 YouTube, Rampart Clip 2 TikTok via Buffer at 19:00 CT) are present. The TikTok row is also still "not yet verified sent".
+- **Approvals log:** Lejohn's v6 listen and go is recorded in this briefing log and relayed in Peekabeaux's doc, but there is no "Approvals log addition" doc for it. This run did not witness it, so it did not write one; a live session should add it.
+
+**Step 5 deviation, on purpose:** the feature branch held five unmerged live-session commits (two video files, two CSV rows, three log entries). The task says to reset the branch to origin/main first; doing that would have dropped them, and the Buffer TikTok post may still fetch its video from this branch. This entry was committed on top of the branch instead and the whole branch squash-merged to main.
+
+Open reminders updated: the v6 listen and the Kindle price change are marked done. Still open with Lejohn as far as this log shows: the trailer coat-mark decision, and where vertical v4 goes. No reminder is due within 24 hours. Calendar read; no digest was needed because nothing here is new to him (he was in the live session for all of it). Nothing posted, no credits spent by this check.
