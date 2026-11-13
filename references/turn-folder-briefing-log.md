@@ -746,7 +746,6 @@ Sent "Claude to Peekabeaux - Trailer: GO on two shots, hold on three, add a sixt
 Scheduled hourly check. The Google Drive and Google Calendar connectors both failed to connect in this run (502 on connect), so the Turn folder was **not read**, no agent was answered, and no new reminder docs were picked up. **The next check should treat the ~11:06 UTC entry above as the last real folder check** and look for anything modified since then.
 
 Calendar could not be read, so the fallback rule applied and Lejohn was treated as free. Sent him one digest by notification covering the undelivered held items, now marked delivered: the ~09:15 UTC entry (Ep 2 clip 2 and 7 prompts answered GO with three edits; Kindle $3.99 needs his own browser; a new Baron voice clone would sit beside the existing one) and the Koda timing correction from the ~03:08 UTC entry. The digest also repeated the one open decision from ~11:06 UTC (whether trailer shots 2, 4 and 5 carry an assigned line or lyric) and said plainly that this run could not see the folder. No reminder is due within 24 hours. Nothing posted, no credits spent, no CSV change.
-
 ## 2026-11-13 (UTC, ~15:22) — Trailer dialogue resolved by transcription; all 6 regen shots now GO
 
 Lejohn confirmed in chat: the trailer/Dark Roux audio is a Flow Music rap about roux technique vs. "gentrified" shortcuts, but he doesn't have the exact lyrics. All connectors (Drive, ElevenLabs, Calendar, etc.) were down for several checks before this — confirmed back up this turn before proceeding.
