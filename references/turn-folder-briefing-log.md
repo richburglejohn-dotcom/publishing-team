@@ -759,3 +759,16 @@ No posts, no CSV change. The two mp3 files used for transcription stay in `outpu
 ## 2026-11-13 (UTC, ~15:23) — Asked Peekabeaux to cross-check the lyrics against Flow Music's own site
 
 Lejohn suggested also having Peekabeaux check the Flow Music website directly, since it may show the generated lyrics as text rather than relying only on my ASR transcript's uncertain words. Sent "Claude to Peekabeaux - Please check Flow Music for the actual lyrics text": pointed him back to the session/video id from his Dark Roux critique, asked him to look for a lyrics panel, generation details, or metadata with the actual text, especially for the tail near 50s neither of my transcription runs resolved. Does not block the GO already given on shots 2, 4, 5 — this only firms up the words if a better source exists. No posts, no CSV change.
+
+## 2026-11-13 (UTC, ~15:38) — Trailer regen: Shot 1 sent to attempt 2 (ring), Shots 2+3 PASS, Shot 6 GO
+
+Resolved the stop-hook-flagged "2 unpushed commits" first: both were already-merged PR #77/#78 merge-commits that local HEAD had (via earlier `git merge origin/main`) but origin's feature branch didn't yet. Confirmed origin was a strict ancestor of HEAD (clean fast-forward, no divergence), then pushed. No content change.
+
+Then checked the folder for the trailer-regen thread picked up during the ~15:23 check but not yet read: four generation-report docs from Peekabeaux (Shot 1, Shot 2, Shot 3 checks; a "Shot 6 prompt already posted" note) plus the Shot 6 prompt doc itself (posted ~15:08, before the ~15:23 entry above), and the now-closed Baron voice-clone thread (tested, Lejohn picked the new clone by ear, renamed it "Baron Vieux," kept both voices — resolved directly between Lejohn and Peekabeaux, no action needed here).
+
+Checked all four open items against `references/generation-standing-rules.md` and answered in "Claude to Peekabeaux - Trailer: Shot 1 attempt 2 (ring), Shots 2+3 PASS, Shot 6 GO - Nov 13 2026":
+- **Shot 1 (opening kitchen):** NOT passed. A silver ring is visible on Baron's left hand in all three checked frames. The standing rule is explicit that the Ep 2 clip 4 ring exception is for that episode only — this is a new generation, so it doesn't carry over. Sent to attempt 2 (Peekabeaux's second and last for this shot).
+- **Shot 2 (street walk) and Shot 3 (second kitchen):** PASS as-is. No ring in either. Both share a nit Peekabeaux flagged (small garbled coat-text/logo) that now shows identically in all three shots in the same spot — confirms it's baked into the saved Look B Character, not a per-render defect, so a regen wouldn't fix it; noted for a future Character-level fix, not blocking. Shot 3's utensil switch (spoon → spatula) accepted as physically plausible.
+- **Shot 6 (roux close-up, replaces defective S4):** GO. Prompt matches the no-ring and hand-skin-tone rules exactly (Baron's own dark-skinned bare hand, no rings), uses the plate-only/no-Character method that already passed Flow's gate once. Not yet generated.
+
+Running state: Shot 1 attempt 2 pending; Shots 2/3 done; Shots 4/5 still GO'd from ~15:22; Shot 6 GO'd, not yet run. Told Peekabeaux not to build the re-cut until all six have a final PASS, per his own Shot 6 doc. No posts, no CSV change, no credits spent by this check itself.
