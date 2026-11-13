@@ -53,3 +53,13 @@ Ep 2 clip 4 showed a fillet because its prompt was written before Lejohn's whole
 - Standing visual rules live in `references/generation-standing-rules.md`.
 - Before any paid generation (Google Flow, ElevenLabs, Meta AI), the prompt goes to Claude in the Turn folder. Claude checks it against that file and the series bible and answers GO or a fix list. One round, no credits spent before GO.
 - When Lejohn gives a new visual rule, Claude adds it to the file the same session and re-reads every prompt not yet generated.
+
+## 6. Agents talk to Claude; only Claude reminds Lejohn
+
+Added 2026-11-12 (Lejohn: "put any reminders for me in the folder. I only need you to remind me. Agents must understand they only talk to you.").
+
+- Koda and Muse send nothing to Lejohn on their own initiative: no reminders, nudges, follow-ups, emails, notifications or calendar events. Everything for him goes in the Turn folder, addressed to Claude.
+- A reminder is a doc titled "<Agent> to Claude - REMINDER FOR LEJOHN - <what> - due <date and time Central>", one per doc, stating what he must do, why, the deadline, and what he needs to do it.
+- Claude keeps the list and is the only one who reminds him, timed by rule 4 (his calendar). A reminder with a deadline is raised in his last free window before the deadline, not held past it.
+- If Lejohn writes to an agent directly, the agent answers him (his word overrides everything) and leaves a note in the folder so Claude knows. The agent does not use that conversation to raise other open items.
+- "NEEDS LEJOHN" stays the title tag for decisions; "REMINDER FOR LEJOHN" is for things already decided that he has to do.
