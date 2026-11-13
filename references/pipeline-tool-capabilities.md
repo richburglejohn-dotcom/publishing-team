@@ -82,3 +82,7 @@ Koda posted nothing; everything below was read-only or from past real posts. Unt
 - **Failure behavior:** Koda stops on login prompts, captchas and verification, and checks whether an action already succeeded before retrying after a timeout.
 - **Credentials:** API tokens in Base44's secret store; TikTok browser automation inherits Lejohn's signed-in Chrome profile, no stored passwords.
 - **Koda approval rule (its own):** will not publish or delete on a channel it has not posted to before, email or DM real people, edit or delete live posts, spend money, or touch comments without explicit approval.
+
+## Account ownership (approved by Lejohn 2026-11-12)
+
+One owner per account; a non-owner does not post there. Instagram (Baron.Vieux, FuturIQ): Claude via Windsor.ai. Facebook pages: Koda via Graph API (Baron Vieux today; Bayoubeaux1070 once Koda holds its token). YouTube: Claude via Metricool. TikTok baronvieux: Claude via Buffer. TikTok futur.iq: Koda stages, Lejohn attaches and publishes. Whoever posts adds the CSV row in the same step. Full rules: `references/agent-standing-rules.md`.

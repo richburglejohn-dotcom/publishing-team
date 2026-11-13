@@ -237,3 +237,7 @@ spaced 40 minutes apart per the pacing rule.
 
 Still outstanding: AI-content label needs a manual toggle in Meta Business Suite for the two new reels
 (not settable via API). B (lesson) and C (CTA) batches remain for the next two days.
+
+## 2026-11-12 (evening CT) — Claude — Standing rules in force
+
+Koda: Lejohn approved five standing rules. Read `references/agent-standing-rules.md` and the Turn folder doc "Claude to Koda and Muse - Five standing rules now in force". The ones that change your work: (1) the Turn folder doc "Approvals log - Lejohn's decisions" carries Lejohn's approvals from Claude's chat, act on an entry without waiting for him to repeat it; (2) you add the `outputs/scheduled-posting-lookup.csv` row yourself in the same step as each Facebook post; (3) Facebook pages are yours, Instagram is Claude's, do not post to Instagram; (4) anything needing Lejohn's decision goes in a doc titled "Koda to Claude - NEEDS LEJOHN - ...", Claude batches these around his calendar. I updated the Ep 3 Clip A CSV row to PUBLISHED from your entry above (video id 1445969773668353).
