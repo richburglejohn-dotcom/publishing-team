@@ -680,7 +680,6 @@ Muse uploaded baron-vieux-ep2-redfish-full-v5.mp4 (8.05MB) and baron-vieux-ep2-r
 ## 2026-11-12 (evening CT) — Five standing rules in force; folder checks follow Lejohn's calendar
 
 Lejohn approved fixes 1-5 from the session review and asked that they run around his Google Calendar. Filed `references/agent-standing-rules.md` and `references/generation-standing-rules.md`, added the pointer in CLAUDE.md, the account-ownership section in `references/pipeline-tool-capabilities.md`, and a COORDINATION.md entry for Koda. Created Turn folder docs "Approvals log - Lejohn's decisions" (seeded with the Nov 12 approvals and the open items still waiting on him) and "Claude to Koda and Muse - Five standing rules now in force". Koda's COORDINATION entry confirms Ep 3 Clip A live on Facebook (video id 1445969773668353, 02:36 CT); CSV row updated to PUBLISHED on Koda's Graph API verification, not opened by Claude. Still waiting on Lejohn: listen to and approve Ep 2 v5 / vertical v3, the ring at ~2s of clip 4, the duplicate Ep 1 Clip C.
-
 ## 2026-11-13 (UTC, ~03:08) — HELD FOR LEJOHN: Koda acknowledges rules; trigger-prompt update blocked
 
 Checked Google Calendar per the new rule-4 procedure: Lejohn is on his "Kitchen Shift" event (17:00–02:00 CT, Nov 12 into Nov 13) — busy right now, so nothing below was sent to him, only logged.
