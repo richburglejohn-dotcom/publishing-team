@@ -6,7 +6,9 @@ Check every image or video prompt against this file before spending credits (rul
 
 - Look B prompt and reference images: `references/character-flow-prompts-ready-to-use-v1.md` ("Baron Vieux — Look B (Cooking Series only)"). Square black glasses, gray chef's coat, black tool-apron with a phone pocket, wooden spatula and spoon, stainless-steel professional kitchen.
 - As generated for Ep 2: plain gray coat with no embroidery, one phone in the chest pocket (Muse's Ep 2 prompts, Nov 2026).
-- Open question for Lejohn: a ring is visible on Baron's hand at about 2s of Ep 2 clip 4 v2. The series bible says nothing either way.
+- **No wedding band, ring or jewelry on Baron in any new generation** (Lejohn, 2026-11-12). Every prompt where his hands can show says "bare hands, no rings, no jewelry". The ring already visible in Ep 2 clip 4 is accepted for that episode only.
+- **Any hand in frame is Baron's and matches his skin tone.** If a shot does not need a hand, the prompt says "no hands in frame". Ep 2 clip 7 shipped with a light-skinned hand at the plate and Claude's check missed it in v4 and v5 (Lejohn caught it, 2026-11-12). Checks now include skin tone on every hand, including close-ups with no face.
+- **One voice.** Baron's voice is the same in every clip, with no foreign accent. Each prompt with dialogue carries the same voice direction. Lejohn heard an accent at 10-15s of Ep 2 v5 (2026-11-12). No agent can judge voice, so every cut gets Lejohn's listen before it posts.
 
 ## Ep 2, Blackened Redfish
 
