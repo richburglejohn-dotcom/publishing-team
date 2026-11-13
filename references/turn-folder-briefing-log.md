@@ -801,3 +801,7 @@ Lejohn reported (in chat) that he changed the US Kindle price to $3.99 on both b
 ## 2026-11-13 (afternoon CT) — Rampart Clip 2 queued for TikTok
 
 At Lejohn's request, built a vertical 1080x1920 cut of the Rampart Clip 2 redo ("She Knows.", already on YouTube Nov 9, no prior TikTok post) and scheduled it via Buffer for 7 PM CT tonight (post id 6af78f07bb36d00909d102ec, AI flag set). CSV row added. To do: confirm it actually sent (Buffer status), since earlier TikTok posts were blocked as spam on Oct 28.
+
+## 2026-11-13 (evening CT) — Ep 2 v6 passed, reposted to YouTube
+
+Peekabeaux regenerated Ep 2 clip 2 (accent) and clip 7 (white hand), both first attempt (Flow 580 -> 540 credits). Claude passed clip 7 and the clip 2 picture; Lejohn's listen passed the clip 2 voice and then the full v6 ("loves it"). v6 and vertical v4 passed Claude's frame check (every hand dark-skinned; clip 4 ring is the accepted Ep 2 exception). v6 scheduled to YouTube via Metricool for 17:30 CT (post id 427567571), public, AI-content flag set. Metricool could not read the private Drive file, so it was fetched from the repo branch. To do: confirm live. Vertical v4 is not posted anywhere yet and has no post copy; waiting on Lejohn's word on where it goes.
