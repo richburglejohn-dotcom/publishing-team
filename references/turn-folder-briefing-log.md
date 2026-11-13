@@ -797,3 +797,7 @@ Calendar read; Lejohn was free. Sent one digest by notification covering the ~16
 ## 2026-11-13 — Kindle prices changed by Lejohn
 
 Lejohn reported (in chat) that he changed the US Kindle price to $3.99 on both books in KDP himself; paperbacks stay at $9.99. Not verified by Claude (no KDP access). To do: confirm the live Amazon listing price (up to 72 hours), then fix any $9.99 Kindle mention in docs/books.html and docs/formulary.html. Filed "Claude to Muse - KDP Kindle $3.99 DONE" in the Turn folder to close the task.
+
+## 2026-11-13 (afternoon CT) — Rampart Clip 2 queued for TikTok
+
+At Lejohn's request, built a vertical 1080x1920 cut of the Rampart Clip 2 redo ("She Knows.", already on YouTube Nov 9, no prior TikTok post) and scheduled it via Buffer for 7 PM CT tonight (post id 6af78f07bb36d00909d102ec, AI flag set). CSV row added. To do: confirm it actually sent (Buffer status), since earlier TikTok posts were blocked as spam on Oct 28.
