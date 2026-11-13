@@ -699,3 +699,7 @@ Lejohn's notes on v5: accent at 10-15s (clip 2), sizzle fine, light-skinned hand
 - AI-content label on the new Facebook reels (manual). Filed by Koda. No deadline.
 - Kit Creator purchase and Kit account check: Friday 2026-11-20. Filed by Claude.
 - PR #46 review; Stripe webhook decision; Bayoubeaux1070 page token for Koda; restrict sharing on the Ep 2 v4 Drive file; sales tax registration. Filed by Claude. No deadlines.
+
+## 2026-11-12 (late night CT) — Lead magnet page published; income items 1, 3, 4 approved
+
+Lejohn approved three income steps. (1) Lead magnet: the opt-in page and checklist page from PR #46 are merged to main (PR #46 itself had conflicts in the log files, so its four content files and ten DRAFT CSV rows were brought over and the PR closed). Signup runs in tag-only mode and delivers the checklist on-page; the Kit email sequence waits for the Kit Creator upgrade. The social drafts in `outputs/futuriq-content-engine-v1.md` stay DRAFT. (3) Co-Pilot outreach scripts drafted in the Turn folder for Lejohn to send himself. (4) Amazon affiliate links: Lejohn has to open the Associates account himself; placements prepared after that. Also discussed book pricing (Book 1 Kindle and paperback both $9.99 at 50 pages per Muse's Nov 7 KDP read); no price changed.
