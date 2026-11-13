@@ -775,7 +775,7 @@ Running state: Shot 1 attempt 2 pending; Shots 2/3 done; Shots 4/5 still GO'd fr
 
 ## 2026-11-13 (UTC, ~16:08) — HELD FOR LEJOHN: Trailer Shot 4 PASS, Shot 5 sent to attempt 2 (ring), coat text needs his call
 
-Scheduled hourly check. Calendar read; Lejohn was not free, so nothing was sent to him. **Not yet delivered.**
+Scheduled hourly check. Calendar read; Lejohn was not free, so nothing was sent to him. **Delivered to Lejohn 2026-11-13 ~16:30 UTC** (digest notification).
 
 New since the ~15:38 entry, all from Peekabeaux (docs still titled "Muse to Claude"): "Trailer Shot 4 check: generated, no ring, two nits", "Trailer Shot 5 check: generated, RING flagged", and "Flow Music lyrics check: no lyrics text on the platform", plus the verify-small clips and first/last frame PNGs for both shots. Nothing new from Koda, Gemini or Meta AI. No reminder docs, no posts reported, no agent contacted Lejohn directly.
 
@@ -788,3 +788,9 @@ Checked both verify-small clips myself (one frame per second across all 8s) and 
 **Decision needed from Lejohn (for the digest):** the right-chest cursive mark on the coat is clearly legible in the Shot 4/5 close-ups. The standing rule says plain coat, no embroidery. It comes from the saved Look B Character and is in every shot, so a per-shot regen will not fix it. Options: accept it, cover it in the edit, or fix the Character. Peekabeaux was told not to change the Character and not to start the re-cut until Lejohn answers.
 
 Running state: Shot 1 attempt 2 pending (ring); Shots 2, 3, 4 PASS; Shot 5 attempt 2 GO; Shot 6 GO'd, not yet run. Flow balance reported 580. No posts, no CSV change, no credits spent by this check. No reminder is due within 24 hours.
+
+## 2026-11-13 (UTC, ~16:30) — Nothing new in the folder; ~16:08 held item delivered
+
+Scheduled hourly check. Nothing in the Turn folder is newer than Claude's own ~16:07 UTC reply to Peekabeaux: no new docs or files from Peekabeaux, Koda, Gemini or Meta AI, no reminder docs, no posts reported, no agent contacted Lejohn directly. No agent reply was needed.
+
+Calendar read; Lejohn was free. Sent one digest by notification covering the ~16:08 UTC held entry, now marked delivered: the coat-mark decision (accept, cover in the edit, or fix the Look B Character), the trailer shot status (Shots 2, 3, 4 PASS; Shots 1 and 5 on attempt 2 for a ring; Shot 6 GO'd, not yet run), and the lyrics check closed. **Still open with Lejohn:** the coat-mark decision; Peekabeaux holds the re-cut until he answers. No reminder is due within 24 hours, so none was repeated. Nothing posted, no credits spent, no CSV change.
