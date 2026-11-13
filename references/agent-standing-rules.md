@@ -1,13 +1,15 @@
-# Agent standing rules (Claude, Koda, Muse)
+# Agent standing rules (Claude, Koda, Peekabeaux)
 
 Approved by Lejohn in Claude's chat on 2026-11-12 (CT). These five rules came out of the Nov 11-12 session, where each gap below cost real time. They add to the existing rules (flag and hold; nothing goes live until Claude checks and Lejohn approves; no retry on a policy refusal; Koda posts code and waits for Claude's "approved" before deploying). They replace nothing.
 
+**Naming (Lejohn, 2026-11-13):** the Flow/ElevenLabs agent was previously called "Muse" in this repo. His actual name is **Peekabeaux**, and he is male (he/him) — an earlier misgendering in this repo's history is noted, not corrected retroactively in old log entries. Use "Peekabeaux" in every new doc or message from here on.
+
 ## 1. Approvals travel through one doc
 
-Lejohn gives most approvals in Claude's chat, which Koda and Muse cannot see. On Nov 12 Koda held an approved Facebook task for about an hour for that reason.
+Lejohn gives most approvals in Claude's chat, which Koda and Peekabeaux cannot see. On Nov 12 Koda held an approved Facebook task for about an hour for that reason.
 
 - Claude records every approval Lejohn gives in chat in the Turn folder doc **"Approvals log - Lejohn's decisions"**: date and time (CT), Lejohn's words or a close paraphrase, and the exact scope.
-- Koda and Muse treat an entry as Lejohn's approval for exactly the items listed, and nothing wider. They do not wait for Lejohn to repeat it in their own chat.
+- Koda and Peekabeaux treat an entry as Lejohn's approval for exactly the items listed, and nothing wider. They do not wait for Lejohn to repeat it in their own chat.
 - Anything Lejohn says directly to an agent overrides the log.
 - The log never covers spending money, deleting anything, creating accounts, or changing account settings. Those are confirmed with Lejohn directly each time.
 - Claude writes only what Lejohn actually said. A Claude proposal Lejohn has not answered is not an approval and is not logged as one.
@@ -39,7 +41,7 @@ A non-owner does not post to an account. If the owner is unavailable, the task w
 
 Lejohn asked "check folder" by hand many times on Nov 12, mostly while he was at his other job.
 
-- The Turn folder is checked hourly by a scheduled task covering every agent (Muse, Koda, Gemini, Meta AI drops). Claude answers the agents in the folder so work keeps moving. Scheduled tasks cannot run more often than hourly; during a live session Claude adds tighter in-session checks when Lejohn asks.
+- The Turn folder is checked hourly by a scheduled task covering every agent (Peekabeaux, Koda, Gemini, Meta AI drops). Claude answers the agents in the folder so work keeps moving. Scheduled tasks cannot run more often than hourly; during a live session Claude adds tighter in-session checks when Lejohn asks.
 - Each check reads Lejohn's Google Calendar first (Lejohn, 2026-11-12: "apply according to my schedule. Use my calendar"). While a busy block is in progress, or overnight, the check logs what it found and does not message him. The one exception is something already live that is wrong or harmful.
 - Everything held is delivered as one digest at the first check after he is free, ordered by what needs his decision first.
 - Requests that need his hands (a file attach, a manual label, a re-upload, a listen) are scheduled for his free hours, never for a busy block.
@@ -58,7 +60,7 @@ Ep 2 clip 4 showed a fillet because its prompt was written before Lejohn's whole
 
 Added 2026-11-12 (Lejohn: "put any reminders for me in the folder. I only need you to remind me. Agents must understand they only talk to you.").
 
-- Koda and Muse send nothing to Lejohn on their own initiative: no reminders, nudges, follow-ups, emails, notifications or calendar events. Everything for him goes in the Turn folder, addressed to Claude.
+- Koda and Peekabeaux send nothing to Lejohn on their own initiative: no reminders, nudges, follow-ups, emails, notifications or calendar events. Everything for him goes in the Turn folder, addressed to Claude.
 - A reminder is a doc titled "<Agent> to Claude - REMINDER FOR LEJOHN - <what> - due <date and time Central>", one per doc, stating what he must do, why, the deadline, and what he needs to do it.
 - Claude keeps the list and is the only one who reminds him, timed by rule 4 (his calendar). A reminder with a deadline is raised in his last free window before the deadline, not held past it.
 - If Lejohn writes to an agent directly, the agent answers him (his word overrides everything) and leaves a note in the folder so Claude knows. The agent does not use that conversation to raise other open items.
