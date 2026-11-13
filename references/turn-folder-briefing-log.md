@@ -826,3 +826,6 @@ Lejohn: repost Ep 2 to YouTube and post it to TikTok, include the Rampart scene,
 ## 2026-11-13 (evening CT) — TikTok backfill of earlier YouTube videos
 
 Per Lejohn ("backfill them"), vertical cuts of three earlier YouTube videos with no TikTok post were queued on baronvieux via Buffer, one per day at noon CT: Jambalaya vs. Paella (Nov 14), Dark Roux teaser (Nov 15), Redfish and Crawfish (Nov 16). AI flag and hashtags set. NOT backfilled: the Deep Dive website video (12 minutes, over what a TikTok upload takes; needs a short highlight cut chosen by Lejohn). Already on TikTok: Roe Velvet Short, Dark Roux full episode (Sep 12), Rampart Clip 2 (queued tonight). To do: confirm each actually sent.
+
+## 2026-11-13 — Deep Dive website video highlight for TikTok
+- Transcribed the first 150s (ElevenLabs Scribe), chose the food-truck / open-kitchen passage (79.0–128.6s, 49.6s) from the fact-checked opening; cut on silence gaps, vertical 1080x1920. Queued on TikTok baronvieux via Buffer for Nov 17 12:00 CT. CSV row added. Full 12-minute video not posted anywhere by me.
