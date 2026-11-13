@@ -818,3 +818,7 @@ Checked rather than taken on trust:
 **Step 5 deviation, on purpose:** the feature branch held five unmerged live-session commits (two video files, two CSV rows, three log entries). The task says to reset the branch to origin/main first; doing that would have dropped them, and the Buffer TikTok post may still fetch its video from this branch. This entry was committed on top of the branch instead and the whole branch squash-merged to main.
 
 Open reminders updated: the v6 listen and the Kindle price change are marked done. Still open with Lejohn as far as this log shows: the trailer coat-mark decision, and where vertical v4 goes. No reminder is due within 24 hours. Calendar read; no digest was needed because nothing here is new to him (he was in the live session for all of it). Nothing posted, no credits spent by this check.
+
+## 2026-11-13 (evening CT) — TikTok queued; new rule 7
+
+Lejohn: repost Ep 2 to YouTube and post it to TikTok, include the Rampart scene, and from now on everything on the YouTube channel and any media or video also goes to TikTok. Done: v6 on YouTube (17:30 CT, id 427567571); Ep 2 vertical v4 queued on TikTok for 20:30 CT (Buffer id 6af79cd39257ce339819e29b); Rampart "She Knows" was already queued for 19:00 CT (id 6af78f07bb36d00909d102ec). Rule 7 added to `references/agent-standing-rules.md`. A stray Buffer call to the YouTube channel id as a TikTok channel failed with not-found and posted nothing.

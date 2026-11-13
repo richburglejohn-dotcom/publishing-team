@@ -65,3 +65,12 @@ Added 2026-11-12 (Lejohn: "put any reminders for me in the folder. I only need y
 - Claude keeps the list and is the only one who reminds him, timed by rule 4 (his calendar). A reminder with a deadline is raised in his last free window before the deadline, not held past it.
 - If Lejohn writes to an agent directly, the agent answers him (his word overrides everything) and leaves a note in the folder so Claude knows. The agent does not use that conversation to raise other open items.
 - "NEEDS LEJOHN" stays the title tag for decisions; "REMINDER FOR LEJOHN" is for things already decided that he has to do.
+
+## Rule 7 — Everything on YouTube also goes to TikTok (approved by Lejohn 2026-11-13)
+
+- Every video posted to the YouTube channel is also posted to TikTok (baronvieux), and so is every other piece of media or video that is published anywhere. Lejohn: "all youtube channel post should go to tiktok as well as anything media or videos."
+- Owner: Claude, through Buffer (rule 3). TikTok futur.iq stays the exception: Koda stages, Lejohn publishes.
+- A landscape file needs a vertical 9:16 cut first (blurred-pad or crop, frame-checked), served from a public URL (the repo branch works; a private Drive file does not).
+- Every TikTok post carries the AI-generated flag when the content is generated, plus hashtags. Space posts at least 90 minutes apart: TikTok flagged earlier posts as spam on Oct 28.
+- Each post gets its CSV row the same step (rule 2). Agents that produce a video say in their note whether a vertical cut exists, so Claude can post both.
+- Still needs the normal gates: frame check, Lejohn's listen on anything new, and no TikTok post of a video that failed review.
