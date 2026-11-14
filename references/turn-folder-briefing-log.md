@@ -873,3 +873,11 @@ Follow-up the last entry left open, checked at the source:
 **For the digest when he is free** (with the ~01:10 and ~02:10 UTC items, still undelivered): the TikTok decision above comes first. Then: Ep 2 v6 is live on YouTube and Rampart "She Knows" was sent to TikTok. Still open: the trailer coat-mark decision (accept, cover in the edit, or fix the Look B Character; Peekabeaux holds the re-cut). The Deep Dive highlight ear check reads as closed by the Nov 13 approval; mention it once so he can say otherwise.
 
 Step 5: the feature branch had no changes beyond main, so it was reset to origin/main as instructed. Nothing posted, no credits spent, nothing deleted by this check.
+
+## 2026-11-14 (UTC, ~04:10) — HELD FOR LEJOHN: nothing new; the three held items stay undelivered
+
+Scheduled hourly check. Calendar read; Lejohn was not free, so nothing was sent to him. Nothing new in the Turn folder since the ~03:10 UTC entry (latest file is still the Deep Dive approvals addition, 02:05 UTC). Nothing from Peekabeaux, Koda, Gemini or Meta AI. No reminder docs, no NEEDS LEJOHN docs, no agent contacted Lejohn on its own initiative. No agent reply was needed. No reminder is due within 24 hours.
+
+No exception applied: nothing live is wrong or harmful (the blocked Ep 2 vertical never published), and the TikTok queue decision is due before noon CT Nov 14, which the calendar shows is after his next free time. The first check that finds him free should deliver the ~01:10, ~02:10 and ~03:10 UTC held entries as one digest, TikTok decision first. No TikTok post was due in this hour, so Buffer was not re-read; the four queued posts were left untouched.
+
+Step 5: the feature branch had no changes beyond main, so it was reset to origin/main as instructed. Nothing posted, no credits spent, nothing deleted by this check.
