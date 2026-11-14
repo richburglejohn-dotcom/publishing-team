@@ -930,3 +930,6 @@ New: Peekabeaux's Shot 6 trim check (3.9s/4.0s full-res frames). Claude opened t
 
 ## 2026-11-14 (UTC, ~06:10) — Lejohn delegated the Amazon tag; Claude decided bayoubeauxllc-20, Koda cleared
 Lejohn: not going back and forth, Koda should know which he meant. Claude read both Associates welcome emails (same login email; 02:20 UTC = bayoubeauxllc-20, 04:13 UTC = bayoubeauxl0c-20), judged them most likely one account with two tracking IDs (not confirmed), chose bayoubeauxllc-20. GO sent to Koda ("Claude to Koda - Amazon links GO with bayoubeauxllc-20"); approvals addition filed ("Approvals log addition - 2026-11-14 - Amazon tag decision delegated to Claude"). references/amazon-associates.md updated. Koda reports back to Claude only. Reversible via one-line tag change.
+
+## 2026-11-14 (UTC, ~06:20) — Live session: Lejohn asked "Check folder"; Koda's Amazon links live
+Koda posted "Amazon links POSTED (bayoubeauxllc-20), live verified": commit cbc5606 on main, edits 1-6 only, disclosure added on books.html and formulary.html. Claude independently fetched the live /js/store-config.js: both Amazon URLs end ?tag=bayoubeauxllc-20. Formulary/books pages not re-fetched by Claude. Nothing else new in the folder. Buffer: Jambalaya TikTok still scheduled for noon CT today (not due yet).
