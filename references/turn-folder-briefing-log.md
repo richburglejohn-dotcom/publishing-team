@@ -921,3 +921,6 @@ New since ~05:15 UTC: Peekabeaux's Shot 6 full-res frames (4.25/4.5/5.0/5.25s + 
 
 ## 2026-11-14 (UTC, ~05:56) — Lejohn decision: trailer Shot 6 trimmed to 4 seconds
 Lejohn: "Trim 4 seconds." Relayed to Peekabeaux in "Claude to Peekabeaux - Trailer Shot 6: Lejohn picked trim to 4 seconds, no regeneration": keep 0-4.0s only, check the last kept frame at full res, no credits. Re-cut still waits on Lejohn's coat-text decision.
+
+## 2026-11-14 (UTC, ~06:00) — Lejohn decision: fix the coat look (Look B Character)
+Lejohn: "Fix the coat look." Closes the coat-text decision (fix, not accept or cover). Relayed to Peekabeaux in "Claude to Peekabeaux - Trailer: Lejohn says fix the coat mark in the Look B Character": fix the Character first, report cost per shot and balance (480), regenerate only Shot 4 as the test (max 2 attempts), Claude checks before any other shot is redone, re-cut waits. Credits are spent only for that test until Claude checks it.
