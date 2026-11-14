@@ -818,7 +818,6 @@ Checked rather than taken on trust:
 **Step 5 deviation, on purpose:** the feature branch held five unmerged live-session commits (two video files, two CSV rows, three log entries). The task says to reset the branch to origin/main first; doing that would have dropped them, and the Buffer TikTok post may still fetch its video from this branch. This entry was committed on top of the branch instead and the whole branch squash-merged to main.
 
 Open reminders updated: the v6 listen and the Kindle price change are marked done. Still open with Lejohn as far as this log shows: the trailer coat-mark decision, and where vertical v4 goes. No reminder is due within 24 hours. Calendar read; no digest was needed because nothing here is new to him (he was in the live session for all of it). Nothing posted, no credits spent by this check.
-<<<<<<< HEAD
 
 ## 2026-11-13 (evening CT) — TikTok queued; new rule 7
 
@@ -830,8 +829,6 @@ Per Lejohn ("backfill them"), vertical cuts of three earlier YouTube videos with
 
 ## 2026-11-13 — Deep Dive website video highlight for TikTok
 - Transcribed the first 150s (ElevenLabs Scribe), chose the food-truck / open-kitchen passage (79.0–128.6s, 49.6s) from the fact-checked opening; cut on silence gaps, vertical 1080x1920. Queued on TikTok baronvieux via Buffer for Nov 17 12:00 CT. CSV row added. Full 12-minute video not posted anywhere by me.
-=======
->>>>>>> origin/main
 
 ## 2026-11-14 (UTC, ~01:10) — HELD FOR LEJOHN: Ep 2 v6 confirmed live on YouTube, Rampart "She Knows" confirmed sent on TikTok
 
