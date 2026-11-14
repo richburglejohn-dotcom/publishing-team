@@ -890,3 +890,28 @@ Lejohn posted the Ep 2 vertical v4 by hand in the TikTok app after Buffer's atte
 
 ## 2026-11-14 (UTC, ~05:15) — Lejohn decision: let the TikTok queue run
 Lejohn: "Let it run." The three backfills (noon CT Nov 14, 15, 16) and the Deep Dive highlight (Nov 17 noon CT) stay scheduled in Buffer as is. If any is flagged as spam, do not retry; report to Lejohn and hold the rest.
+
+## 2026-11-14 (UTC, ~05:15) — HELD FOR LEJOHN: trailer Shots 1 and 5 pass, Shot 6 on hold; Amazon tag in dispute, Koda's site edits held
+
+Scheduled hourly check. Calendar read; Lejohn was not free, so nothing was sent to him. Nothing live is wrong or harmful, and no reminder is due within 24 hours. The ~01:10, ~02:10 and ~03:10 UTC held items were delivered by the live session (~04:30 UTC entry) and the TikTok queue decision is answered ("Let it run"), so they are closed.
+
+New in the Turn folder since the ~04:10 UTC entry: three docs from Peekabeaux with verify clips and frames (trailer Shot 1 attempt 2, Shot 5 attempt 2, Shot 6), and "Koda to Claude - Amazon links and exact edits 2026-11-13" (also committed by Koda to main as `outputs/koda-to-claude-amazon-links-2026-11-13.md`). Nothing from Gemini or Meta AI. No reminder docs, no NEEDS LEJOHN docs, no posts reported.
+
+**Trailer (Peekabeaux).** Checked each verify-small clip at one frame per second with enlarged hand crops, the full-res last frames of Shots 1 and 5, and the full-res first frame of Shot 6, against `references/generation-standing-rules.md`. Not every PNG was opened. Answered in "Claude to Peekabeaux - Trailer: Shot 1 a2 PASS, Shot 5 a2 PASS, Shot 6 HOLD for full-res frames - Nov 14 2026":
+- **Shot 1 attempt 2: PASS.** No ring, both hands Baron's, Look B holds.
+- **Shot 5 attempt 2: PASS.** No ring. Both hands come up to gesture from about 4s, against Claude's own attempt-2 direction (not one of Lejohn's rules), accepted; the last frame has his mouth open, to be trimmed in the re-cut. No third attempt.
+- **Shot 6 (roux close-up): HOLD, no credits.** The light-skinned hand is gone and the hand is dark-skinned throughout, but between about 4.0s and 5.5s pale pink fingertips or nails show under the hand. Peekabeaux's frames (0s, 4s, 7.9s) did not cover it and the verify copy is too small to judge. Asked him for full-res frames at 4.25s, 4.5s, 5.0s, 5.25s. If doubtful: trim to the clean parts, or attempt 2 with no hands, Lejohn's pick.
+- Verify copies arrived as 640x360 (vertical picture squeezed into landscape); asked for the right shape next time.
+- Flow balance reported 480. Re-cut still waits on Shot 6 and on Lejohn's coat-text answer.
+
+**Amazon Associates (Koda).** Koda's inventory verified on main: four untagged Amazon links (`docs/js/store-config.js` 25 and 31, `docs/formulary.html` 869 and 884), no disclosure text on the site. Koda reports Lejohn told him in chat the tag is `bayoubeauxllc-20` (letters), which contradicts the `bayoubeauxl0c-20` (zero) Lejohn gave Claude's session, and that two Associates welcome emails exist, one per Store ID. Gmail confirms two welcome emails from Amazon Associates at 02:20 and 04:13 UTC Nov 14; the bodies were not opened. Answered in "Claude to Koda - Amazon links: edits verified, HOLD on going live until Lejohn settles the tag - Nov 14 2026": edits are technically right, nothing deploys until Lejohn confirms which account holds the payment and tax step; closing a duplicate account is his alone; the recorded approval covers preparing placements, not publishing. Rule 6 restated in case Koda asked Lejohn rather than the other way round. `references/amazon-associates.md` marked DISPUTED at the top; its original lines are left as written.
+
+**CSV.** No new posts reported, no rows to add. One repair, flagged here: a live-session commit on the feature branch had broken the quoting of the 2026-09-16 TikTok row (Ep 1 cold-open clip, Buffer 6aaa14599cae18ee0d3743cd), splitting its note across columns. Restored to the text on main. After that the only parsed difference from main is the Ep 2 vertical row (posted by hand by Lejohn, not verified live by Claude). No TikTok post was due this hour, so Buffer was not read; the noon CT Nov 14 backfill is the next one to confirm, and per Lejohn's decision a spam flag means no retry, report, and hold the rest.
+
+**For the digest when he is free**, decisions first:
+1. Amazon Associates: which Store ID is the real one (letters "llc" or zero "l0c"), and which account has the payment and tax details? Needs a look in Associates Central, in his own browser. Koda's site edits are ready and wait on this plus his go to publish.
+2. Trailer coat text: accept, cover in the edit, or fix the Look B Character (still open).
+3. Trailer Shot 6 fingertips, only if Peekabeaux's full-res frames leave doubt.
+Then: trailer Shots 1 and 5 passed (Shot 5 has a hand gesture he may want to see); five of six shots are done.
+
+Step 5: the feature branch held six unmerged live-session commits and main held two Koda commits. The branch was not reset; main was merged in (one log conflict, resolved by keeping the branch's longer log, which contains all of main's), this entry committed on top, and the branch squash-merged. Nothing posted, no credits spent, nothing deleted by this check.
