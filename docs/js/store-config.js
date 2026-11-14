@@ -22,13 +22,13 @@
 const STORE_CONFIG = {
   bookOne: {
     title: "A Symphony of Love in the Big Easy",
-    amazonUrl: "https://www.amazon.com/dp/B0H2WLJ8JF",
+    amazonUrl: "https://www.amazon.com/dp/B0H2WLJ8JF?tag=bayoubeauxllc-20",
     directBuyUrl: "https://buy.stripe.com/3cIeVfbop8E72qzflP63K03",
     directBuyEnabled: true
   },
   scarletFoundation: {
     title: "The Scarlet Foundation",
-    amazonUrl: "https://www.amazon.com/dp/B0H88D3H58",
+    amazonUrl: "https://www.amazon.com/dp/B0H88D3H58?tag=bayoubeauxllc-20",
     directBuyUrl: "https://buy.stripe.com/bJe4gBeAB1bF6GPflP63K04",
     directBuyEnabled: true
   },
