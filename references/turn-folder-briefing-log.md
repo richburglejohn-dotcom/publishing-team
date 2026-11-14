@@ -844,3 +844,15 @@ Follow-ups the last entries left open, checked at the source:
 **For the digest when he is free:** both posts above are live; the Ep 2 vertical goes to TikTok tonight. Still open with Lejohn: the trailer coat-mark decision (accept, cover in the edit, or fix the Look B Character; Peekabeaux holds the re-cut), and the ear check of the Deep Dive highlight audio before it posts Nov 17. "Where vertical v4 goes" is answered (TikTok) and closed.
 
 **Step 5 deviation, same as the ~23:15 entry:** the feature branch held seven unmerged live-session commits (rule 7, five CSV rows, vertical cuts, three log entries). It was not reset to origin/main, which would have dropped them; this entry was committed on top and the branch squash-merged to main, which also brings rule 7 and those rows onto main. Nothing posted, no credits spent, nothing deleted by this check.
+
+## 2026-11-14 (UTC, ~02:10) — HELD FOR LEJOHN: Deep Dive highlight approval recorded; nothing new from the agents
+
+Scheduled hourly check. Calendar read; Lejohn was not free, so nothing was sent to him. Nothing here is wrong or harmful, and no reminder is due within 24 hours.
+
+New in the Turn folder since the ~01:10 UTC entry: one doc, "Approvals log addition - 2026-11-13 - Deep Dive highlight", created 02:05 UTC. It matches a Claude commit on the feature branch a few seconds later ("Mark Deep Dive highlight approved"), which changes only the Nov 17 TikTok row in the CSV to say the highlight is approved. Scope as written: that one TikTok post (Buffer 6af7a0da81e1228421cffca6, Nov 17 noon CT), nothing wider. This run did not witness the approval; it is taken from the addition doc and the matching commit. Nothing new from Peekabeaux, Koda, Gemini or Meta AI. No reminder docs, no NEEDS LEJOHN docs, no agent contacted Lejohn on its own initiative. No agent reply was needed.
+
+Not yet due at the time of this check, so not confirmed: Ep 2 vertical v4 on TikTok (20:30 CT tonight, Buffer 6af79cd39257ce339819e29b). The next check should confirm it sent and update its CSV row, then the backfills at noon CT Nov 14-16 and the Deep Dive highlight Nov 17.
+
+**For the digest when he is free** (with the ~01:10 UTC item, still undelivered): Ep 2 v6 is live on YouTube and Rampart "She Knows" is on TikTok. Still open with Lejohn: the trailer coat-mark decision (accept, cover in the edit, or fix the Look B Character; Peekabeaux holds the re-cut). The Deep Dive highlight ear check reads as closed by the new approval; mention it once so he can say otherwise.
+
+Step 5: the feature branch held one unmerged live-session commit (the CSV change above). As in the last two entries it was not reset to origin/main; this entry was committed on top and the branch squash-merged. Nothing posted, no credits spent, nothing deleted by this check.
