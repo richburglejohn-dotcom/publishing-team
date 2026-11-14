@@ -951,7 +951,7 @@ Relayed from Lejohn via Peekabeaux. Peekabeaux's Shot 4 test: both attempts FAIL
 
 ## 2026-11-14 (UTC, ~07:10) — HELD FOR LEJOHN: Shot 4 no-Character test failed twice; generation on hold, coat-mark decision is his
 
-Scheduled hourly check. Calendar read; Lejohn was not free, so nothing was sent to him and no digest was written. Nothing live is wrong or harmful and no reminder is due within 24 hours, so no exception applies.
+Scheduled hourly check. Calendar read; Lejohn was not free, so nothing was sent to him and no digest was written. Nothing live is wrong or harmful and no reminder is due within 24 hours, so no exception applies. **Delivered to Lejohn 2026-11-14 ~08:00 UTC** (live session; he chose option (a), fix in the edit).
 
 **New since the ~06:20 UTC check.** Peekabeaux only; nothing from Koda, Gemini or Meta AI, no reminder docs, no NEEDS LEJOHN docs. Three docs, two of them already answered in the live session (entry ~06:45 above): "Look B Character fixed: coat plain, Shot 4 test next" (06:16 UTC) and "Shot 4 test: both attempts FAIL, coat mark persists" (06:25 UTC). The new one is "Peekabeaux to Claude - Shot 4 no-Character test: both attempts, mark stochastic, neither clean" (07:07 UTC), with 16 files.
 
@@ -969,3 +969,29 @@ Step 5: the feature branch held one unmerged live-session commit (the ~06:45 ent
 
 ## 2026-11-14 (UTC, ~08:00) — Live "Check folder": nothing new; coat-mark decision surfaced to Lejohn
 Turn folder searched for anything modified after 07:00 UTC: only the 07:07-07:10 items already logged (Peekabeaux's Shot 4 no-Character test docs/files and Claude's HOLD reply). Nothing from Koda, Gemini or Meta AI. Surfaced to Lejohn: Shot 4 failed 4 rolls total (2 Character, 2 no-Character), generation on hold at the two-attempt cap, his choice needed: (a) fix in the edit at no credits, (b) keep rolling at 20 credits a try, (c) accept the mark. Nothing posted, no credits spent.
+
+## 2026-11-14 (UTC, ~09:15) — HELD FOR LEJOHN: Shot 4 edit proofs back; patch not clean yet, reframe not usable, one more free proof requested
+
+Scheduled hourly check, inside the overnight window, so nothing was sent to Lejohn and no digest was written. Nothing live is wrong or harmful and no reminder is due within 24 hours (the only dated one is the Kit check on Nov 20), so no exception applies. The ~07:10 UTC held item (coat-mark decision) was delivered by the live session at ~08:00 UTC and is marked delivered above.
+
+**Not in the repo until now, taken from the Turn folder:** after the ~08:00 entry Lejohn answered the coat-mark question with option (a), fix it in the edit at no credits, no more Shot 4 rolls. Source: "Approvals log addition - 2026-11-14 - Trailer coat mark: fix in the edit (option a)" and "Claude to Peekabeaux - Coat mark: Lejohn chose fix in the edit, go ahead with the two no-credit jobs" (both 08:01 UTC). This check did not witness the approval.
+
+**New since the ~07:10 UTC check.** Peekabeaux only: "Peekabeaux to Claude - NEEDS LEJOHN - Trailer coat mark: inventory + Shot 4 edit proof - Nov 14 2026" (08:13 UTC) with 17 files. Nothing from Koda, Gemini or Meta AI, no reminder docs, no posts reported.
+
+**Inventory (Peekabeaux's read).** The mark is in frame in five of six trailer shots: high visibility in the two close-ups (Shots 4 and 5), moderate in Shots 1 and 3, low in Shot 2. Shot 6 shows no coat. In Shot 1 he reads it as a black emblem over legible "Baron Vieux" script. This check opened only the Shot 4 left-chest crop (white cursive, confirmed); the rest is his read.
+
+**Shot 4 edit proofs, both made free from Shot 4 v1.** Opened by this check: PATCH first and last frames, REFRAME first frame, and the PATCH clip at one frame per second with enlarged chest crops. Not opened: the REFRAME clip and its last frame.
+- **PATCH (delogo): HOLD.** Peekabeaux recommended it and called the leftover "a faint soft band, barely noticeable". The frames do not support that. The fixed box smears the apron edge and stitching and drags an orange leather tab sideways into the coat, there are vertical streaks through the whole shot that turn into bright white bars at about 7s and on the last frame, and because the box does not follow Baron the bottom of the cursive shows again at about 7s.
+- **REFRAME (crop + blur fill): not usable**, as Peekabeaux says himself: it cuts Baron's face at the right lens and leaves wide blurred bars.
+
+**Answered** in "Claude to Peekabeaux - Shot 4 edit proofs: PATCH HOLD (fix list), REFRAME not usable, one more no-credit proof - Nov 14 2026": one more free proof on Shot 4 v1 only, with the patch kept on coat fabric, following the mark through the shot, filled as plain cloth, and delivered with a one-frame-per-second chest contact sheet. If free tools cannot get it clean in one more try he is to say so and stop. No patch on Shots 1, 2, 3, 5, no re-cut, no credits. Lejohn's approval covers fixing the mark in the edit; the method that goes into the cut is still his call.
+
+Noticed, not re-judged: Shot 4 v1 (passed earlier) shows metal tongs and small tools in the apron pockets, which the Look B description does not list.
+
+**For the digest when he is free**, decision first:
+1. Trailer coat mark, edit fix: nothing to approve yet. The first patch left a visible smear and streaks, and the crop cuts his face. A second free patch proof is requested. If that also fails, the choice comes back to him: accept a soft patch, accept the mark, or spend credits on new rolls (about 400 left until Nov 25). The mark is on five of six shots, so whatever is chosen is applied five times.
+Then: no credits spent, balance 400 by Peekabeaux's report; re-cut still waiting.
+
+**CSV.** No post reported, no rows to add. No TikTok post was due this hour, so Buffer was not read; the noon CT Nov 14 backfill is the next to confirm (spam flag means no retry, report, hold the rest).
+
+Step 5: the feature branch held one unmerged live-session commit (the ~08:00 entry). The branch was not reset, so that entry is kept; main was merged in (one log conflict, resolved to the branch's version, which is main's log plus that entry) and this entry committed on top. Nothing posted, no credits spent, nothing deleted by this check.
