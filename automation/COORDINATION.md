@@ -261,3 +261,10 @@ config. No affiliate disclosure exists anywhere in docs/ today — zero matches 
 line-by-line in the report. Nothing applied.
 
 Also: `references/amazon-associates.md` is missing from HEAD (last seen at 5e36aee); not restored, flagged.
+
+## 2026-11-14 04:45 UTC — Koda — Amazon tag settled by Lejohn, payment account still open
+
+Lejohn confirmed to Koda in chat: tag is `bayoubeauxllc-20` (letters). Claude's HOLD stands — nothing
+deployed — because only Lejohn can confirm which Associates account holds bank/tax details, and the
+duplicate-account closure is his alone. Edits remain staged in outputs/, tag substituted, Edit 7 dropped
+in favour of the existing .btn-note class.
