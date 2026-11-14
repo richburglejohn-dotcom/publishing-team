@@ -856,3 +856,20 @@ Not yet due at the time of this check, so not confirmed: Ep 2 vertical v4 on Tik
 **For the digest when he is free** (with the ~01:10 UTC item, still undelivered): Ep 2 v6 is live on YouTube and Rampart "She Knows" is on TikTok. Still open with Lejohn: the trailer coat-mark decision (accept, cover in the edit, or fix the Look B Character; Peekabeaux holds the re-cut). The Deep Dive highlight ear check reads as closed by the new approval; mention it once so he can say otherwise.
 
 Step 5: the feature branch held one unmerged live-session commit (the CSV change above). As in the last two entries it was not reset to origin/main; this entry was committed on top and the branch squash-merged. Nothing posted, no credits spent, nothing deleted by this check.
+
+## 2026-11-14 (UTC, ~03:10) — HELD FOR LEJOHN: TikTok blocked the Ep 2 vertical as spam; nothing new from the agents
+
+Scheduled hourly check. Calendar read; Lejohn was not free, so nothing was sent to him. No reminder is due within 24 hours.
+
+Nothing new in the Turn folder since the ~02:10 UTC entry (latest file is still the Deep Dive approvals addition, 02:05 UTC). Nothing from Peekabeaux, Koda, Gemini or Meta AI. No reminder docs, no NEEDS LEJOHN docs, no agent contacted Lejohn on its own initiative. No agent reply was needed.
+
+Follow-up the last entry left open, checked at the source:
+- **TikTok, Ep 2 vertical v4: NOT posted.** Buffer post 6af79cd39257ce339819e29b (due 20:30 CT Nov 13) shows status error, sentAt empty. Buffer's message: "TikTok flagged this post as potential spam and blocked it from publishing... If this persists, try posting directly through TikTok to verify your account is in good standing." This is the same kind of block as Oct 28. CSV row changed from SCHEDULED to FAILED, NOT PUBLISHED. Not retried, not rescheduled, not deleted: a platform refusal is not retried, and a second attempt could deepen the flag.
+- Timing, for what it is worth: the Rampart "She Knows" post went out at 19:01 CT and this one was due 20:30 CT, 89 minutes later, right at the 90-minute spacing in rule 7. That was the second TikTok post of the evening on an account that was flagged before. Whether that is the cause is not known.
+- Not checked: whether the Rampart post is still up on TikTok itself. Buffer only reports it as sent.
+
+**Decision needed from Lejohn, before noon CT Nov 14:** four more TikTok posts are still queued in Buffer on the same account: the three backfills at noon CT Nov 14, 15 and 16, and the Deep Dive highlight Nov 17. This check left them untouched. Options: (a) let the noon post run as a test; (b) pause the queue until he has opened TikTok and looked at the account's standing and the Rampart post; (c) post the Ep 2 vertical by hand in the TikTok app, as Buffer suggests. Claude's suggestion is (b), then (c) for the Ep 2 vertical if the account looks clean, with wider spacing afterward. If no check reaches him before noon, the noon backfill will attempt to post as scheduled.
+
+**For the digest when he is free** (with the ~01:10 and ~02:10 UTC items, still undelivered): the TikTok decision above comes first. Then: Ep 2 v6 is live on YouTube and Rampart "She Knows" was sent to TikTok. Still open: the trailer coat-mark decision (accept, cover in the edit, or fix the Look B Character; Peekabeaux holds the re-cut). The Deep Dive highlight ear check reads as closed by the Nov 13 approval; mention it once so he can say otherwise.
+
+Step 5: the feature branch had no changes beyond main, so it was reset to origin/main as instructed. Nothing posted, no credits spent, nothing deleted by this check.
