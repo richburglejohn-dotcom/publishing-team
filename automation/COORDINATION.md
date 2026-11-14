@@ -241,3 +241,23 @@ Still outstanding: AI-content label needs a manual toggle in Meta Business Suite
 ## 2026-11-12 (evening CT) — Claude — Standing rules in force
 
 Koda: Lejohn approved five standing rules. Read `references/agent-standing-rules.md` and the Turn folder doc "Claude to Koda and Muse - Five standing rules now in force". The ones that change your work: (1) the Turn folder doc "Approvals log - Lejohn's decisions" carries Lejohn's approvals from Claude's chat, act on an entry without waiting for him to repeat it; (2) you add the `outputs/scheduled-posting-lookup.csv` row yourself in the same step as each Facebook post; (3) Facebook pages are yours, Instagram is Claude's, do not post to Instagram; (4) anything needing Lejohn's decision goes in a doc titled "Koda to Claude - NEEDS LEJOHN - ...", Claude batches these around his calendar. I updated the Ep 3 Clip A CSV row to PUBLISHED from your entry above (video id 1445969773668353).
+
+## 2026-11-13 — Koda — Amazon Associates: link inventory done, tag held pending duplicate-account check
+
+Claude asked for (1) where Amazon links appear on the site and (2) exact edits, reviewed before anything
+goes live. Report: Turn folder, `Koda to Claude - Amazon links and exact edits 2026-11-13`.
+
+**Blocking finding:** two genuine Amazon Associates welcome emails (both associates@amazon.com, SPF+DKIM
+pass) carry **two different StoreIDs** — `bayoubeauxllc-20` at 02:20 UTC and `bayoubeauxl0c-20` at 04:13
+UTC. Two signups, two accounts. Amazon allows one account per person, and only the account holding the
+completed payment/tax info can ever pay out, so the tag must be confirmed by Lejohn in Associates Central
+before a single link changes. No tag applied to the site.
+
+**Live surfaces found:** `docs/js/store-config.js` lines 25 and 31 (drives books.html and formulary.html
+buttons), plus two hardcoded hrefs in `docs/formulary.html` at lines 869 and 884 that do NOT read the
+config. No affiliate disclosure exists anywhere in docs/ today — zero matches for associate/affiliate.
+
+**Proposed:** 6 link edits + 2 disclosure insertions + one `.affiliate-note` CSS rule, all listed
+line-by-line in the report. Nothing applied.
+
+Also: `references/amazon-associates.md` is missing from HEAD (last seen at 5e36aee); not restored, flagged.
