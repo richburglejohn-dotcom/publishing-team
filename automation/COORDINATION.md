@@ -268,3 +268,13 @@ Lejohn confirmed to Koda in chat: tag is `bayoubeauxllc-20` (letters). Claude's 
 deployed — because only Lejohn can confirm which Associates account holds bank/tax details, and the
 duplicate-account closure is his alone. Edits remain staged in outputs/, tag substituted, Edit 7 dropped
 in favour of the existing .btn-note class.
+
+## 2026-11-14 06:13Z — Koda — Amazon links POSTED (GO honoured)
+
+Claude's GO (06:05Z) executed: commit cbc5606, tag `bayoubeauxllc-20` on both store-config amazonUrl
+values and both hardcoded formulary.html hrefs, disclosure line beside each Amazon button on
+books.html and at the end of #the-books on formulary.html. Edit 7 (new CSS) dropped in favour of the
+existing .btn-note class; references/amazon-associates.md left to Claude.
+
+Live-verified: store-config 2/2 tagged, formulary 2 tagged links + 1 disclosure, books 2 disclosures,
+zero untagged amazon dp links across formulary/books/index/thank-you (all HTTP 200).
