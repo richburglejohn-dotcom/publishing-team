@@ -972,6 +972,8 @@ Turn folder searched for anything modified after 07:00 UTC: only the 07:07-07:10
 
 ## 2026-11-14 (UTC, ~09:15) — HELD FOR LEJOHN: Shot 4 edit proofs back; patch not clean yet, reframe not usable, one more free proof requested
 
+**Delivered to Lejohn 2026-11-14 ~16:10 UTC** (digest notification).
+
 Scheduled hourly check, inside the overnight window, so nothing was sent to Lejohn and no digest was written. Nothing live is wrong or harmful and no reminder is due within 24 hours (the only dated one is the Kit check on Nov 20), so no exception applies. The ~07:10 UTC held item (coat-mark decision) was delivered by the live session at ~08:00 UTC and is marked delivered above.
 
 **Not in the repo until now, taken from the Turn folder:** after the ~08:00 entry Lejohn answered the coat-mark question with option (a), fix it in the edit at no credits, no more Shot 4 rolls. Source: "Approvals log addition - 2026-11-14 - Trailer coat mark: fix in the edit (option a)" and "Claude to Peekabeaux - Coat mark: Lejohn chose fix in the edit, go ahead with the two no-credit jobs" (both 08:01 UTC). This check did not witness the approval.
@@ -1049,5 +1051,17 @@ No new CSV row needed (nothing new filed by this check). No posts made, no credi
 Scheduled hourly check. Calendar read; Lejohn was not free at the time of this check, so nothing was sent to him and no digest was written. Nothing new in the Turn folder since the ~14:10 UTC entry: the latest file is still Claude's own 09:10 UTC reply to Peekabeaux on the Shot 4 edit proofs, and the second free patch proof has not been filed. Nothing from Koda, Gemini or Meta AI. No reminder docs, no new NEEDS LEJOHN docs, no posts reported (no CSV rows), no agent contacted Lejohn on its own initiative. No agent reply was needed.
 
 No exception applied: nothing live is wrong or harmful, and no reminder is due within 24 hours (the only dated one is the Kit check on Nov 20). The first check that finds him free should deliver the ~09:15 UTC held entry (trailer coat mark, edit fix: nothing to approve yet, second free proof requested). The Jambalaya vs. Paella TikTok backfill is still not due (noon CT), so Buffer was not read; the first check after 18:00 UTC should confirm it sent.
+
+Step 5: branch reset to origin/main and this entry committed on top. Nothing posted, no credits spent, nothing deleted by this check.
+
+## 2026-11-14 (UTC, ~16:10) — Digest delivered: the ~09:15 held item (coat-mark edit fix, nothing to approve yet)
+
+Scheduled hourly check. Calendar read; Lejohn was free, so the held item went to him as one short digest (notification) and the ~09:15 UTC entry is marked delivered above. The later "nothing new" held entries (~10:10 to ~15:10 UTC) carried no items of their own.
+
+Nothing new in the Turn folder since the ~15:10 UTC entry: the latest file is still Claude's own 09:10 UTC reply to Peekabeaux on the Shot 4 edit proofs, and the second free patch proof has not been filed. Nothing from Koda, Gemini or Meta AI. No reminder docs, no new NEEDS LEJOHN docs, no posts reported (no CSV rows), no agent contacted Lejohn on its own initiative. No agent reply was needed.
+
+**Digest as sent.** No decision needed now. Trailer coat mark, edit fix: the first free patch left a smear and streaks and the crop cuts Baron's face, both held; a second no-credit patch proof is requested and not back yet. If it also fails the choice returns to him (accept a soft patch, accept the mark, or spend credits on new rolls; the mark is on five of six shots). No credits spent, balance about 400 by Peekabeaux's report (not checked in Flow). Jambalaya vs. Paella TikTok scheduled in Buffer for noon CT (per the ~14:35 UTC daily check; Buffer not re-read by this check). Re-cut on hold. No reminder due within 24 hours (the only dated one is the Kit check on Nov 20); nothing needs his hands today.
+
+The first check after 18:00 UTC should confirm the TikTok sent.
 
 Step 5: branch reset to origin/main and this entry committed on top. Nothing posted, no credits spent, nothing deleted by this check.
