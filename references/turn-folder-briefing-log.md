@@ -918,3 +918,6 @@ Step 5: the feature branch held six unmerged live-session commits and main held 
 
 ## 2026-11-14 (UTC, ~05:55) — Live session: Lejohn asked "Check folder"; Shot 6 judged, decisions delivered
 New since ~05:15 UTC: Peekabeaux's Shot 6 full-res frames (4.25/4.5/5.0/5.25s + 4.5s hand crop, 05:43 UTC). Claude opened the 4.5s crop: hand dark, but a fingertip at the bottom edge is clearly pale pink/white. Shot 6 FAIL under generation-standing-rules (hand skin tone). Reply doc "Claude to Peekabeaux - Trailer Shot 6 FAIL on pale fingertip, waiting on Lejohn's pick": trim to before ~4.0s or attempt 2 with no hands. No generation, no credits. Delivered to Lejohn: Shot 6 pick, trailer coat-text decision, Amazon Store ID dispute (bayoubeauxllc-20 vs bayoubeauxl0c-20; Koda's edits held).
+
+## 2026-11-14 (UTC, ~05:56) — Lejohn decision: trailer Shot 6 trimmed to 4 seconds
+Lejohn: "Trim 4 seconds." Relayed to Peekabeaux in "Claude to Peekabeaux - Trailer Shot 6: Lejohn picked trim to 4 seconds, no regeneration": keep 0-4.0s only, check the last kept frame at full res, no credits. Re-cut still waits on Lejohn's coat-text decision.
