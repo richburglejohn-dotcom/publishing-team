@@ -818,3 +818,29 @@ Checked rather than taken on trust:
 **Step 5 deviation, on purpose:** the feature branch held five unmerged live-session commits (two video files, two CSV rows, three log entries). The task says to reset the branch to origin/main first; doing that would have dropped them, and the Buffer TikTok post may still fetch its video from this branch. This entry was committed on top of the branch instead and the whole branch squash-merged to main.
 
 Open reminders updated: the v6 listen and the Kindle price change are marked done. Still open with Lejohn as far as this log shows: the trailer coat-mark decision, and where vertical v4 goes. No reminder is due within 24 hours. Calendar read; no digest was needed because nothing here is new to him (he was in the live session for all of it). Nothing posted, no credits spent by this check.
+
+## 2026-11-13 (evening CT) — TikTok queued; new rule 7
+
+Lejohn: repost Ep 2 to YouTube and post it to TikTok, include the Rampart scene, and from now on everything on the YouTube channel and any media or video also goes to TikTok. Done: v6 on YouTube (17:30 CT, id 427567571); Ep 2 vertical v4 queued on TikTok for 20:30 CT (Buffer id 6af79cd39257ce339819e29b); Rampart "She Knows" was already queued for 19:00 CT (id 6af78f07bb36d00909d102ec). Rule 7 added to `references/agent-standing-rules.md`. A stray Buffer call to the YouTube channel id as a TikTok channel failed with not-found and posted nothing.
+
+## 2026-11-13 (evening CT) — TikTok backfill of earlier YouTube videos
+
+Per Lejohn ("backfill them"), vertical cuts of three earlier YouTube videos with no TikTok post were queued on baronvieux via Buffer, one per day at noon CT: Jambalaya vs. Paella (Nov 14), Dark Roux teaser (Nov 15), Redfish and Crawfish (Nov 16). AI flag and hashtags set. NOT backfilled: the Deep Dive website video (12 minutes, over what a TikTok upload takes; needs a short highlight cut chosen by Lejohn). Already on TikTok: Roe Velvet Short, Dark Roux full episode (Sep 12), Rampart Clip 2 (queued tonight). To do: confirm each actually sent.
+
+## 2026-11-13 — Deep Dive website video highlight for TikTok
+- Transcribed the first 150s (ElevenLabs Scribe), chose the food-truck / open-kitchen passage (79.0–128.6s, 49.6s) from the fact-checked opening; cut on silence gaps, vertical 1080x1920. Queued on TikTok baronvieux via Buffer for Nov 17 12:00 CT. CSV row added. Full 12-minute video not posted anywhere by me.
+
+## 2026-11-14 (UTC, ~01:10) — HELD FOR LEJOHN: Ep 2 v6 confirmed live on YouTube, Rampart "She Knows" confirmed sent on TikTok
+
+Scheduled hourly check. Calendar read; Lejohn was not free, so nothing was sent to him. Nothing here is wrong or harmful, and no reminder is due within 24 hours.
+
+New in the Turn folder since the ~23:15 UTC entry: one doc, "Approvals log addition - 2026-11-13 - YouTube and video posts also go to TikTok", written by Claude's live session at 23:27 UTC (it closes the gap the ~23:15 entry flagged: the v6 repost approval now has its addition doc, alongside the TikTok approvals and rule 7). Nothing new from Peekabeaux, Koda, Gemini or Meta AI. No reminder docs, no NEEDS LEJOHN docs, no agent contacted Lejohn on its own initiative. No agent reply was needed.
+
+Follow-ups the last entries left open, checked at the source:
+- **YouTube, Ep 2 v6:** Metricool post 427567571 now shows YouTube status Published, video id 6d4pcmDgGHY (https://www.youtube.com/watch?v=6d4pcmDgGHY), public, AI-content flag set. CSV row updated from SCHEDULED to PUBLISHED. Claude did not watch the live upload itself; the file is the v6 that passed the frame check and Lejohn's listen.
+- **TikTok, Rampart "She Knows":** Buffer post 6af78f07bb36d00909d102ec shows status sent at 01:01 UTC (19:01 CT), no error, AI flag on, TikTok video id 7707825682063068429. CSV row updated to PUBLISHED. Buffer reporting "sent" does not rule out a later TikTok-side takedown (the Oct 28 spam blocks); worth a look at the account when Lejohn is free.
+- **Still queued, not yet due:** Ep 2 vertical v4 on TikTok at 20:30 CT tonight (Buffer 6af79cd39257ce339819e29b), then the three backfills at noon CT Nov 14-16 and the Deep Dive highlight Nov 17. All five rows are in the CSV as SCHEDULED. Each matches the Nov 13 approvals addition (items 2 and 3) and is at least 90 minutes from its neighbor. Next checks should confirm each as it sends.
+
+**For the digest when he is free:** both posts above are live; the Ep 2 vertical goes to TikTok tonight. Still open with Lejohn: the trailer coat-mark decision (accept, cover in the edit, or fix the Look B Character; Peekabeaux holds the re-cut), and the ear check of the Deep Dive highlight audio before it posts Nov 17. "Where vertical v4 goes" is answered (TikTok) and closed.
+
+**Step 5 deviation, same as the ~23:15 entry:** the feature branch held seven unmerged live-session commits (rule 7, five CSV rows, vertical cuts, three log entries). It was not reset to origin/main, which would have dropped them; this entry was committed on top and the branch squash-merged to main, which also brings rule 7 and those rows onto main. Nothing posted, no credits spent, nothing deleted by this check.
