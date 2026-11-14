@@ -887,3 +887,6 @@ Read the hourly-check log (Drive folder search by parent is not supported by the
 
 ## 2026-11-14 (UTC, ~05:00) — Ep 2 vertical posted to TikTok manually by Lejohn
 Lejohn posted the Ep 2 vertical v4 by hand in the TikTok app after Buffer's attempt was blocked as spam. CSV row updated. Buffer queue decision (pause vs let run) for the noon CT Nov 14-16 backfills and Nov 17 Deep Dive highlight not yet answered; queue untouched.
+
+## 2026-11-14 (UTC, ~05:15) — Lejohn decision: let the TikTok queue run
+Lejohn: "Let it run." The three backfills (noon CT Nov 14, 15, 16) and the Deep Dive highlight (Nov 17 noon CT) stay scheduled in Buffer as is. If any is flagged as spam, do not retry; report to Lejohn and hold the rest.
