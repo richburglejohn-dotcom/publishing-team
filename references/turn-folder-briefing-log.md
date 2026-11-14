@@ -966,3 +966,6 @@ Then: five of six trailer shots stand as passed apart from the mark; Shot 6 is t
 **CSV.** No post reported, no rows to add. No TikTok post was due this hour, so Buffer was not read; the noon CT Nov 14 backfill is the next to confirm (spam flag means no retry, report, hold the rest).
 
 Step 5: the feature branch held one unmerged live-session commit (the ~06:45 entry). The branch was not reset, so that entry is kept; main was merged in and this entry committed on top. That first commit went to the feature branch with merge conflict markers left in this log around the ~06:45 entry (this check's mistake); a follow-up commit removed them before the squash-merge, so main never carried them. Nothing posted, no credits spent, nothing deleted by this check.
+
+## 2026-11-14 (UTC, ~08:00) — Live "Check folder": nothing new; coat-mark decision surfaced to Lejohn
+Turn folder searched for anything modified after 07:00 UTC: only the 07:07-07:10 items already logged (Peekabeaux's Shot 4 no-Character test docs/files and Claude's HOLD reply). Nothing from Koda, Gemini or Meta AI. Surfaced to Lejohn: Shot 4 failed 4 rolls total (2 Character, 2 no-Character), generation on hold at the two-attempt cap, his choice needed: (a) fix in the edit at no credits, (b) keep rolling at 20 credits a try, (c) accept the mark. Nothing posted, no credits spent.
