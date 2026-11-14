@@ -884,3 +884,6 @@ Step 5: the feature branch had no changes beyond main, so it was reset to origin
 
 ## 2026-11-14 (UTC, ~04:30) — Live session: Lejohn asked "Check folder"; held items delivered
 Read the hourly-check log (Drive folder search by parent is not supported by the connector). Nothing new from agents after 02:05 UTC. Delivered to Lejohn in chat: TikTok blocked the Ep 2 vertical as spam (Buffer 6af79cd39257ce339819e29b, FAILED); four TikTok posts still queued (noon CT Nov 14, 15, 16; Deep Dive Nov 17); decision needed before noon CT Nov 14. Also noted: Amazon Associates tag cleared, hand-off doc to Koda created.
+
+## 2026-11-14 (UTC, ~05:00) — Ep 2 vertical posted to TikTok manually by Lejohn
+Lejohn posted the Ep 2 vertical v4 by hand in the TikTok app after Buffer's attempt was blocked as spam. CSV row updated. Buffer queue decision (pause vs let run) for the noon CT Nov 14-16 backfills and Nov 17 Deep Dive highlight not yet answered; queue untouched.
