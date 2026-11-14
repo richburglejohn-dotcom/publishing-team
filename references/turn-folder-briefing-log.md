@@ -945,12 +945,9 @@ Folder listed by parent for everything modified after 04:00 UTC. Every agent doc
 Left as found, flagged: `references/amazon-associates.md` still carries the older lines with the zero tag (`Link format: append ?tag=bayoubeauxl0c-20`) under the DECIDED header that supersedes them. Anyone building a link should use the header, `bayoubeauxllc-20`. Still unconfirmed, as the header says: whether the two Store IDs are one Associates account. No TikTok post was due this hour, so Buffer was not read; the noon CT Nov 14 backfill is the next to confirm (spam flag means no retry, report, hold the rest). Open with Peekabeaux: the Look B Character coat fix and the Shot 4 test, not started as of this check.
 
 Step 5: the feature branch held four unmerged live-session commits and main held three Koda commits. The branch was not reset; main was merged in (conflicts in this log and `references/amazon-associates.md`, both resolved to the branch's version, which contains every line of main's log and the newer DECIDED header), this entry committed on top, and the branch squash-merged. Nothing posted, no credits spent, nothing deleted by this check.
-<<<<<<< HEAD
 
 ## 2026-11-14 (UTC, ~06:45) — Coat mark: Shot 4 test failed; Claude chose a no-Character start-frame attempt
 Relayed from Lejohn via Peekabeaux. Peekabeaux's Shot 4 test: both attempts FAIL (garbled cursive mark on left chest persists with the plain Character; attempt 2 added a silver ring on the left ring finger). Credits 480 -> 440. Claude opened the attempt-2 left-chest crop and confirmed the mark. Decision: try a no-Character start-frame generation of Shot 4 (start frame verified plain at full res first, coat/ring/hands spelled out in the prompt), max 2 attempts, stop at the first clean one. Fallback if both fail: reframe/crop or patch in the edit, Claude to decide. No re-cut, no other shots touched. Reply doc: "Claude to Peekabeaux - Shot 4: try no-Character start-frame generation for the coat, max 2 attempts".
-=======
->>>>>>> origin/main
 
 ## 2026-11-14 (UTC, ~07:10) — HELD FOR LEJOHN: Shot 4 no-Character test failed twice; generation on hold, coat-mark decision is his
 
@@ -968,4 +965,4 @@ Then: five of six trailer shots stand as passed apart from the mark; Shot 6 is t
 
 **CSV.** No post reported, no rows to add. No TikTok post was due this hour, so Buffer was not read; the noon CT Nov 14 backfill is the next to confirm (spam flag means no retry, report, hold the rest).
 
-Step 5: the feature branch held one unmerged live-session commit (the ~06:45 entry) and main held nothing the branch lacked. The branch was not reset, so that entry is kept; this entry was committed on top and the branch squash-merged. Nothing posted, no credits spent, nothing deleted by this check.
+Step 5: the feature branch held one unmerged live-session commit (the ~06:45 entry). The branch was not reset, so that entry is kept; main was merged in and this entry committed on top. That first commit went to the feature branch with merge conflict markers left in this log around the ~06:45 entry (this check's mistake); a follow-up commit removed them before the squash-merge, so main never carried them. Nothing posted, no credits spent, nothing deleted by this check.
