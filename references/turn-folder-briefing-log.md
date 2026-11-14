@@ -881,3 +881,6 @@ Scheduled hourly check. Calendar read; Lejohn was not free, so nothing was sent 
 No exception applied: nothing live is wrong or harmful (the blocked Ep 2 vertical never published), and the TikTok queue decision is due before noon CT Nov 14, which the calendar shows is after his next free time. The first check that finds him free should deliver the ~01:10, ~02:10 and ~03:10 UTC held entries as one digest, TikTok decision first. No TikTok post was due in this hour, so Buffer was not re-read; the four queued posts were left untouched.
 
 Step 5: the feature branch had no changes beyond main, so it was reset to origin/main as instructed. Nothing posted, no credits spent, nothing deleted by this check.
+
+## 2026-11-14 (UTC, ~04:30) — Live session: Lejohn asked "Check folder"; held items delivered
+Read the hourly-check log (Drive folder search by parent is not supported by the connector). Nothing new from agents after 02:05 UTC. Delivered to Lejohn in chat: TikTok blocked the Ep 2 vertical as spam (Buffer 6af79cd39257ce339819e29b, FAILED); four TikTok posts still queued (noon CT Nov 14, 15, 16; Deep Dive Nov 17); decision needed before noon CT Nov 14. Also noted: Amazon Associates tag cleared, hand-off doc to Koda created.
