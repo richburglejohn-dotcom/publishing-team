@@ -915,3 +915,6 @@ New in the Turn folder since the ~04:10 UTC entry: three docs from Peekabeaux wi
 Then: trailer Shots 1 and 5 passed (Shot 5 has a hand gesture he may want to see); five of six shots are done.
 
 Step 5: the feature branch held six unmerged live-session commits and main held two Koda commits. The branch was not reset; main was merged in (one log conflict, resolved by keeping the branch's longer log, which contains all of main's), this entry committed on top, and the branch squash-merged. Nothing posted, no credits spent, nothing deleted by this check.
+
+## 2026-11-14 (UTC, ~05:55) — Live session: Lejohn asked "Check folder"; Shot 6 judged, decisions delivered
+New since ~05:15 UTC: Peekabeaux's Shot 6 full-res frames (4.25/4.5/5.0/5.25s + 4.5s hand crop, 05:43 UTC). Claude opened the 4.5s crop: hand dark, but a fingertip at the bottom edge is clearly pale pink/white. Shot 6 FAIL under generation-standing-rules (hand skin tone). Reply doc "Claude to Peekabeaux - Trailer Shot 6 FAIL on pale fingertip, waiting on Lejohn's pick": trim to before ~4.0s or attempt 2 with no hands. No generation, no credits. Delivered to Lejohn: Shot 6 pick, trailer coat-text decision, Amazon Store ID dispute (bayoubeauxllc-20 vs bayoubeauxl0c-20; Koda's edits held).
