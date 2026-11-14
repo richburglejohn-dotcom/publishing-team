@@ -1043,3 +1043,11 @@ Separate daily Routine (trig_01V6MBsioHUtkPP5HKr8aY19), distinct from the hourly
 Cross-platform posting check: one CSV row dated today, 2026-11-14 — "Jambalaya vs. Paella" (TikTok backfill, `outputs/baron-jambalaya-vs-paella-vertical-v1.mp4`). Confirmed live in Buffer (post id 6af79e889257ce33981a7631, channel baronvieux): status still `scheduled`, dueAt 2026-11-14T18:00:00Z (noon CT) — not due for another ~3.5 hours, nothing to verify yet. Caption, ready to use: "Jambalaya vs. Paella: two dishes, one old argument. Chef Baron Vieux weighs in.\n\nA Culinary Crescendo cooking series video. AI-generated. Read the books: bayoubeauxllc.com\n\n#Jambalaya #Paella #BaronVieux #CulinaryCrescendo #NewOrleansCooking #AIgenerated". Posts via Buffer directly (Claude owns baronvieux TikTok per the one-owner-per-account table) — no Koda handoff or manual step needed. The next hourly check after 18:00Z should confirm it sent.
 
 No new CSV row needed (nothing new filed by this check). No posts made, no credits spent.
+
+## 2026-11-14 (UTC, ~15:10) — HELD FOR LEJOHN: nothing new; the ~09:15 held item stays undelivered
+
+Scheduled hourly check. Calendar read; Lejohn was not free at the time of this check, so nothing was sent to him and no digest was written. Nothing new in the Turn folder since the ~14:10 UTC entry: the latest file is still Claude's own 09:10 UTC reply to Peekabeaux on the Shot 4 edit proofs, and the second free patch proof has not been filed. Nothing from Koda, Gemini or Meta AI. No reminder docs, no new NEEDS LEJOHN docs, no posts reported (no CSV rows), no agent contacted Lejohn on its own initiative. No agent reply was needed.
+
+No exception applied: nothing live is wrong or harmful, and no reminder is due within 24 hours (the only dated one is the Kit check on Nov 20). The first check that finds him free should deliver the ~09:15 UTC held entry (trailer coat mark, edit fix: nothing to approve yet, second free proof requested). The Jambalaya vs. Paella TikTok backfill is still not due (noon CT), so Buffer was not read; the first check after 18:00 UTC should confirm it sent.
+
+Step 5: branch reset to origin/main and this entry committed on top. Nothing posted, no credits spent, nothing deleted by this check.
