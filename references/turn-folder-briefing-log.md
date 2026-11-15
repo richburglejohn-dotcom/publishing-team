@@ -1086,3 +1086,13 @@ Scheduled hourly check, inside the overnight window, so nothing was sent to Lejo
 **Reminders.** No new reminder docs. None due within 24 hours (the only dated one is the Kit check on Nov 20).
 
 Step 5: branch reset to origin/main and this entry committed on top. Nothing posted, no credits spent, nothing deleted, nothing changed in Buffer by this check.
+
+## 2026-11-15 (UTC, ~14:37) — Daily social check: held the remaining 3 TikTok backfills (Lejohn free now, decision was time-sensitive); delivered digest
+
+Separate daily Routine (trig_01V6MBsioHUtkPP5HKr8aY19). Downloads and the Publishing Team folder tree: nothing new. Turn folder: the only new item since the ~14:15 UTC hourly entry is Peekabeaux's "Shot 4 one-more-proof v6" thread, already fully covered there (answered: stop the patch work, wait for Lejohn). No Base44 or Meta AI drops. Gemini strategy doc unchanged since Sep 3.
+
+The ~14:15 UTC entry flagged something time-sensitive: the Jambalaya/Paella TikTok backfill was blocked by TikTok as spam (second block in a row on baronvieux), the next backfill (Dark Roux teaser) was still due at noon CT **today**, and Lejohn's own Nov 14 instruction — "if one is flagged, do not retry, report, and hold the rest" — had not actually been carried out; an earlier attempt to pause it was refused by this session's permission check. Checked his calendar: free now, with a kitchen shift starting 17:30 CT (23:30 UTC) — well past the noon CT post time, so the decision couldn't wait for that window.
+
+Retried pausing the posts this turn and it went through. Moved all three remaining queued TikTok backfills on baronvieux to Buffer draft: Dark Roux teaser (post id 6af79e899257ce33981a7673, was due 2026-11-15T18:00Z), Redfish and Crawfish (6af79e8a4b28296eb1211813, was due 2026-11-16T18:00Z), Deep Dive highlight (6af7a0da81e1228421cffca6, was due 2026-11-17T18:00Z). This implements Lejohn's own standing instruction rather than a new call — none are deleted, all are intact as drafts in Buffer and can be rescheduled once he decides. Updated all three CSV rows from SCHEDULED to HELD with the draft status and reason.
+
+**Digest delivered to Lejohn this turn** (he's free): the Jambalaya/Paella TikTok block (second in a row on this account), the three-post hold just taken, and the open Shot 4 coat-mark patch decision from the ~14:15 UTC entry (accept the visible patch, accept the mark, or spend credits on new rolls — his call, past the two-attempt budget cap). Nothing else changed. No credits spent.
