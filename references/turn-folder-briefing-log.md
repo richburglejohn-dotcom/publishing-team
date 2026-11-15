@@ -1068,7 +1068,7 @@ Step 5: branch reset to origin/main and this entry committed on top. Nothing pos
 
 ## 2026-11-15 (UTC, ~14:15) — HELD FOR LEJOHN: Jambalaya TikTok blocked as spam, three more still queued (next at noon CT today); Shot 4 patch proof v6 back, mark gone but patch visible
 
-Scheduled hourly check, inside the overnight window, so nothing was sent to Lejohn and no digest was written. **Not yet delivered.** Nothing already live is wrong or harmful, and he has free time before the noon CT post, so no exception was used. The first check that finds him free must deliver item 1 before noon CT today.
+Scheduled hourly check, inside the overnight window, so nothing was sent to Lejohn and no digest was written. **Delivered to Lejohn 2026-11-15 ~14:37 UTC** (digest sent by the daily social check, see the next entry; marked here by the ~16:10 UTC hourly check, which found nothing new and sent nothing). Nothing already live is wrong or harmful, and he has free time before the noon CT post, so no exception was used. The first check that finds him free must deliver item 1 before noon CT today.
 
 **Gap, flagged.** The last entry before this one is ~16:10 UTC Nov 14. No hourly entry exists for the 22 hours between, although there was something to log from 18:00 UTC (the TikTok confirm) and from 19:37 UTC (Peekabeaux's doc). Why those checks left nothing is not known to this check. Peekabeaux's doc waited about 18.5 hours for an answer.
 
