@@ -1065,3 +1065,24 @@ Nothing new in the Turn folder since the ~15:10 UTC entry: the latest file is st
 The first check after 18:00 UTC should confirm the TikTok sent.
 
 Step 5: branch reset to origin/main and this entry committed on top. Nothing posted, no credits spent, nothing deleted by this check.
+
+## 2026-11-15 (UTC, ~14:15) — HELD FOR LEJOHN: Jambalaya TikTok blocked as spam, three more still queued (next at noon CT today); Shot 4 patch proof v6 back, mark gone but patch visible
+
+Scheduled hourly check, inside the overnight window, so nothing was sent to Lejohn and no digest was written. **Not yet delivered.** Nothing already live is wrong or harmful, and he has free time before the noon CT post, so no exception was used. The first check that finds him free must deliver item 1 before noon CT today.
+
+**Gap, flagged.** The last entry before this one is ~16:10 UTC Nov 14. No hourly entry exists for the 22 hours between, although there was something to log from 18:00 UTC (the TikTok confirm) and from 19:37 UTC (Peekabeaux's doc). Why those checks left nothing is not known to this check. Peekabeaux's doc waited about 18.5 hours for an answer.
+
+**For the digest when he is free**, decisions first:
+
+1. **TikTok queue: decide before noon CT today (Nov 15).** The Jambalaya vs. Paella backfill did NOT post. Buffer post 6af79e889257ce33981a7631 (due noon CT Nov 14): status error, sentAt empty, "TikTok flagged this post as potential spam and blocked it from publishing." Not retried. This is the second block in a row on baronvieux through Buffer (Ep 2 vertical, Nov 13) and the same kind as Oct 28. His instruction on Nov 14 was: if one is flagged, do not retry, report, and hold the rest. **The rest is NOT held.** This check tried to move the next post to draft in Buffer and the action was refused by the session's permission check, so nothing in Buffer was changed. Still scheduled, read from Buffer at ~14:20 UTC: Dark Roux teaser (6af79e899257ce33981a7673, noon CT today Nov 15), Redfish and Crawfish (6af79e8a4b28296eb1211813, noon CT Nov 16), Deep Dive highlight (6af7a0da81e1228421cffca6, noon CT Nov 17). He needs to either pause those three in Buffer himself (or tell a live Claude session to), or say let them run. Posting by hand in the TikTok app worked for the Ep 2 vertical on Nov 13.
+2. **Trailer coat mark: the patch decision is back with him.** Peekabeaux's second free proof (v6, coat-only tracked patch on Shot 4 v1) removes the mark in every second and leaves the apron, stitching and leather tabs intact. But the patch itself shows: a flat pale rectangle on the left chest, visible at normal size without enlarging. Peekabeaux says free tools cannot do better. Choices: (a) use this patch as is on five shots, (b) accept the mark, (c) spend credits on new rolls (about 400 left until Nov 25 by Peekabeaux's report, not checked in Flow; past the two-attempt cap, so his own go is needed). Re-cut waits on this.
+
+**New since the ~16:10 UTC Nov 14 entry.** Peekabeaux only: "Peekabeaux to Claude - NEEDS LEJOHN - Shot 4 one-more-proof: coat-only tracked patch - Nov 14 2026" (19:37 UTC Nov 14) with four files (verify clip 1.75 MB, first frame, last frame, 1fps contact sheet). Nothing from Koda, Gemini or Meta AI. No reminder docs, no posts reported, no agent contacted Lejohn on its own initiative.
+
+**Shot 4 proof v6: HOLD.** Opened by this check: the verify clip, pulled at one frame per second (0s to 7s plus 7.8s) with the left chest enlarged 3x, and two frames at native size. Not opened separately: Peekabeaux's own contact sheet, first frame and last frame. Confirmed: mark gone in every pulled frame including the end, box follows the chest, apron edge, stitching and both tabs intact, no streaks or bars, no credits spent by his report. Read differently: he calls the leftover "a faint soft band" seen "at 2x enlargement"; in the frames it is a flat pale rectangle with straight top and left edges, visible at native size in every second, with a thin dark sliver between the apron stitching and the box from about 2s. **Answered** in "Claude to Peekabeaux - Shot 4 one-more-proof v6: mark gone, patch still visible, HOLD for Lejohn, stop the patch work - Nov 15 2026": stop the patch work, no further proofs, no patch on Shots 1, 2, 3, 5, nothing into the cut, no re-cut, no credits; wait for an Approvals log addition doc. Lejohn's Nov 14 approval covers fixing the mark in the edit; it does not cover putting a visible patch into the cut.
+
+**CSV.** The 2026-11-14 TikTok row (Jambalaya vs. Paella) changed from SCHEDULED to FAILED, not posted, not retried. The Nov 15, 16 and 17 rows stay SCHEDULED, which matches Buffer. No new rows.
+
+**Reminders.** No new reminder docs. None due within 24 hours (the only dated one is the Kit check on Nov 20).
+
+Step 5: branch reset to origin/main and this entry committed on top. Nothing posted, no credits spent, nothing deleted, nothing changed in Buffer by this check.
