@@ -1338,3 +1338,22 @@ Scheduled hourly check. Calendar read: Lejohn is free, so this went to him as on
 **Nothing else new.** Nothing from Koda, Gemini or Meta AI. No reminder docs; no reminder due within 24 hours (next dated one is the Kit check on Nov 20). No post reported by an agent.
 
 Nothing posted, no credits spent, nothing deleted by this check. Next check: read Buffer again before the Nov 17 noon CT post and look for the trailer re-cut.
+
+## 2026-11-16 (UTC, ~20:15) — Digest delivered: all 7 Ep 3 shots passed by Lejohn (live session, ElevenLabs); assembled cut awaits him; two TikTok backfills still scheduled, his call still open
+
+Scheduled hourly check. Calendar read: Lejohn is free, so this went to him as one short digest notification. No HELD FOR LEJOHN items were waiting.
+
+**Not logged before this entry (live session, ~19:14-19:37 UTC):** seven approvals docs filed by a Claude session in chat with Lejohn, all titled "Approvals log addition - 2026-11-16 - Ep 3 ...". This check read the docs; it did not see the chat or any clip (ElevenLabs files cannot be downloaded here, so Lejohn's watch and listen is the only check on these takes).
+
+- Shot 2 passed, then re-rolled for pronunciation and the re-roll passed ("Perfect"); Shot 3 passed; Shot 4 passed; Shot 5 attempt 1 failed (avocado stretched like fabric), attempt 2 passed; Shot 6 attempt 1 not accepted (he wants the plantain chips on the side), attempt 2 passed; Shot 7 (outro) passed.
+- Final takes (ElevenLabs generation ids): Shot 1 eiLyUMKGEVwHfGs9nZt3, Shot 2 JacIJD43OspXjG7Ss6nY, Shot 3 XzooEE1ILfmerMHcm1RI, Shot 4 C1u4ywEZg4vHexbxeWXm, Shot 5 TpTrlmtz9d4obzz0yhh0, Shot 6 RiXB3lO4qruzOQaAkivt, Shot 7 EZnQLe9n4ZCjDffaYxAA. Assembled in a composition node in ElevenLabs flow eeogbxBbvFCdKJunKthR. Reported spend: 11 generations, about $14.50 in ElevenLabs credits; Flow credits untouched.
+- **Not approved yet: the assembled episode.** Nothing is published. YouTube (Metricool) and TikTok (rule 7, Buffer) wait for his approval of the cut and a transcript check of the final audio. No CSV row yet, correctly.
+- **New standing rule from Lejohn:** "Peychaud's" is spoken as "Pay-shows" in every video; written phonetically in spoken-line prompts, spelled "Peychaud's" on screen and in captions. It was not in `references/generation-standing-rules.md`; this check added it (rule 5), plus the two Ep 3 lessons (chunky guacamole that holds its shape; plantain chips on a side plate).
+
+Continuity check by this check: the spoken lines quoted in the docs for Shots 2, 4, 5, 6 and 7 match `outputs/gulf-remedy-recipe-v1.md` and the Gulf Remedy entry in `references/series-bible.md` (three dashes of bitters, three avocados, jalapeno brine, red onion, Fresno chili, cilantro, chives, half the crab folded in, radish, micro-cilantro, chive blossoms, smoked paprika, mortar bowl, plantain chips). One small difference, flagged and not changed: the bible says "chilled mortar bowl" and the Shot 6 line says "dark mortar bowl" (the recipe file says "dark ceramic mortar", so both have a source).
+
+**Agents:** nothing new from Peekabeaux, Koda, Gemini or Meta AI since the ~19:15 UTC entry. No reply doc was needed. The trailer re-cut (cleared ~16:35 UTC) is still not back. No reminder docs; no reminder due within 24 hours (next dated one is the Kit check on Nov 20). No post reported by an agent, and no agent contacted Lejohn on its own initiative.
+
+**Still needs his decision: TikTok backfills.** Read from Buffer at ~20:12 UTC, both still scheduled, unchanged: Redfish and Crawfish (6af79e8a4b28296eb1211813, noon CT Nov 17) and Deep Dive highlight (6af7a0da81e1228421cffca6, noon CT Nov 18). No answer from Lejohn is recorded in the folder or the repo. This check did not try to edit them. Asked a third time in this digest (earlier asks ~18:15 and ~19:15 UTC). If there is still no answer, the next ask belongs in his first free check on the morning of Nov 17, before the noon CT post; checks in between need not repeat it unless something changes.
+
+Nothing posted, no credits spent, nothing deleted by this check. Next check: look for his answer on the two TikTok posts, the trailer re-cut, and his verdict on the assembled Ep 3 cut.
