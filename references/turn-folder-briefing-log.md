@@ -696,7 +696,8 @@ Lejohn's notes on v5: accent at 10-15s (clip 2), sizzle fine, light-skinned hand
 
 - DONE 2026-11-13 (per the live session's log entry; v6 scheduled to YouTube): Listen to Ep 2 v6 when it is built (voice at 10-15s), then Claude reposts to YouTube. Filed by Claude.
 - Duplicate Ep 1 Clip C on the Baron Vieux Facebook page: delete or leave. Filed by Claude. No deadline.
-- AI-content label on the new Facebook reels (manual). Filed by Koda. No deadline.
+- AI-content label, manual toggle in Meta Business Suite, on three Baron Vieux Facebook reels: Ep 2 cold open (1601606361274284), Ep 3 cold open (1445969773668353) and Ep 3 The Gulf Remedy (1002731552266588, added 2026-11-16). Filed by Koda. No deadline. Latest doc: "Koda to Claude - REMINDER FOR LEJOHN - AI-content label on the Ep 3 Facebook Reel - due no deadline".
+- AI-generated label on the Instagram Ep 3 The Gulf Remedy Reel (media id 18109222808202737), switched on in the Instagram app. Filed by Claude 2026-11-16 (from the approvals doc "Ep 3 to Instagram and Facebook; TikTok posted by Lejohn"). No deadline.
 - Kit Creator purchase and Kit account check: Friday 2026-11-20. Filed by Claude.
 - DONE 2026-11-13 (Lejohn's report in chat; live Amazon price not verified by Claude): Change the Kindle price to $3.99 (US) for both books in KDP, in his own browser (Amazon blocks Muse). Steps: Turn folder doc "Muse to Claude - Kindle 3.99 paste-ready KDP steps - Nov 13 2026". Filed by Claude from Muse's doc. No deadline.
 - PR #46 review; Stripe webhook decision; Bayoubeaux1070 page token for Koda; restrict sharing on the Ep 2 v4 Drive file; sales tax registration. Filed by Claude. No deadlines.
@@ -1363,3 +1364,27 @@ Nothing posted, no credits spent, nothing deleted by this check. Next check: loo
 - Surfaced/done: audio leveled to -14 LUFS (per-shot gain match, then loudnorm); 8-shot 64s episode and 9:16 vertical cut committed (13f4478c). YouTube scheduled via Metricool 17:30 CT (post 430626033); TikTok via Buffer 19:30 CT (post 6afb678ae9e30bcd5a8b16a8). CSV rows added.
 - Spend: Ep 3 ElevenLabs about $17 (13 generations); Flow credits untouched.
 - Caveats: Claude cannot download ElevenLabs clips here, so no transcript check; Lejohn's listen was the check. Shot 7 and Shot 8 both say "Read the books at bayoubeauxllc.com" (Lejohn passed it). Dark Roux TikTok was spam-blocked Nov 16; Redfish & Crawfish (Nov 17) and Deep Dive (Nov 18) still scheduled in Buffer.
+
+## 2026-11-16 (UTC, ~21:15) — Digest delivered: Ep 3 posted to Facebook by Koda (row confirmed); Koda given GO for the Ep 2/3 B and C podcast clips under the Nov 12 approval; AI-label reminders added; two TikTok backfills still scheduled
+
+Scheduled hourly check. Calendar read: Lejohn is free, so this went to him as one digest notification at ~21:13 UTC. No HELD FOR LEJOHN items were waiting.
+
+**Live-session docs since the ~20:15 UTC entry (read, not acted on):** four approvals additions, all 2026-11-16: "Ep 3 volume leveled; Shot 8 like-and-subscribe added", "Ep 3 Shot 8 take 2 passed; final assembly (8 shots)", "Ep 3 approved and scheduled; Lejohn posts TikTok by hand; Ep 4 gumbo go", "Ep 3 to Instagram and Facebook; TikTok posted by Lejohn". Two Claude go docs: Ep 4 script and shot list to Peekabeaux (no generation), Ep 3 Facebook post to Koda. The live session's own entry is the one just above this.
+
+**New from Koda (~20:46 UTC), two docs:**
+
+1. "Koda to Claude - Ep 3 Gulf Remedy POSTED to Facebook, row logged Nov 16 2026". Baron Vieux page, video id 1002731552266588, published 20:44 UTC (14:44 CT), 64s vertical, caption as written in the go doc. Inside the approval "Tik tok is posted. Also post to FB and IG." His CSV row is on main (commit 960e17a). This check confirmed the row; it did not open the page, so the live status is Koda's Graph API read. The working branch also carried a placeholder Facebook row ("HANDED TO KODA") from the live session; it was removed in favour of Koda's PUBLISHED row so the post has one row.
+2. "Koda to Claude - REMINDER FOR LEJOHN - AI-content label on the Ep 3 Facebook Reel - due no deadline". Added to the open reminders (merged into the existing Facebook reels line, now three reels). Also added, filed by Claude from the approvals doc: the AI label on the Instagram Ep 3 Reel. Koda filed this the rule 6 way; he did not contact Lejohn.
+
+**Koda's question, answered:** are the Ep 2 and Ep 3 podcast lesson (B) and CTA (C) clips still wanted on Facebook. The Approvals log entry of 2026-11-12 ("post the other podcast episodes to FB and IG if its not already") lists them as still to post by Koda, 30 minutes apart, B then C on following days, and nothing in the folder or this log withdraws it. Reply: "Claude to Koda - Ep 3 Facebook post confirmed; B and C podcast clips: GO under the Nov 12 approval - Nov 16 2026". GO inside that scope only: B clips Tuesday Nov 17, C clips Wednesday Nov 18, 30 minutes apart, Baron Vieux page, captions unchanged, dupe guard, CSV row each post, the duplicate Ep 1 Clip C untouched. Lejohn was told in the digest and can stop it with one word. Next checks: confirm Koda's rows as the clips go up.
+
+**Verified by this check (~21:10 UTC):**
+- YouTube Ep 3: Metricool post 430626033 still pending for 17:30 CT today, public, AI-content flag on. Not yet published; the next check should confirm it went out and update the CSV row.
+- TikTok Ep 3: Buffer post 6afb678ae9e30bcd5a8b16a8 is a draft, never sent, so it cannot double Lejohn's manual post. His manual post is his report; not verified live.
+- **Still needs his decision: TikTok backfills.** Both still scheduled, unchanged: Redfish and Crawfish (6af79e8a4b28296eb1211813, noon CT Nov 17) and Deep Dive highlight (6af7a0da81e1228421cffca6, noon CT Nov 18). No answer recorded. Not edited by this check. Asked again in this digest; if still unanswered, raise it in his first free check on the morning of Nov 17.
+
+**Agents otherwise:** nothing from Peekabeaux since the Ep 4 go (~20:31 UTC); the trailer re-cut is still not back. Nothing from Gemini or Meta AI. No reminder is due within 24 hours (next dated one is the Kit check on Nov 20).
+
+**Repo note:** the working branch held five live-session commits not yet on main (the Ep 3 video files that the scheduled posts are served from, CSV rows, a log entry). This check did not reset the branch to main, because that would have discarded them; it merged main into the branch and resolved the CSV and log conflicts by keeping both sides. This PR therefore carries the live session's Ep 3 files and rows to main along with this entry.
+
+Nothing posted, no credits spent, nothing deleted by this check.
