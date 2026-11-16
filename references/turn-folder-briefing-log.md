@@ -1156,3 +1156,21 @@ Scheduled hourly check. Calendar read; Lejohn was not free at the time of this c
 **Reminders.** No new reminder docs. None due within 24 hours (the only dated one is the Kit check on Nov 20).
 
 Step 5: branch reset to origin/main and this entry committed on top. Nothing posted, no credits spent, nothing deleted by this check.
+
+## 2026-11-16 (UTC, ~02:10) — HELD FOR LEJOHN: Ep 3 Shot 1 prompt text for both refused runs received (same words both times); still on hold, no new decision
+
+Scheduled hourly check. Calendar read; Lejohn was not free at the time of this check, so nothing was sent to him and no digest was written. No exception applied: nothing live is wrong or harmful, and no reminder is due before his next free time. The ~00:15 and ~01:10 UTC held entries above are also still undelivered; the first check that finds him free should deliver all three.
+
+**For the digest when he is free.** No new decision. One fact to add to item 1 of the ~01:10 UTC entry (how to go on with Ep 3 Shot 1): by Peekabeaux's report, both refused runs used the same prompt body, the approved Shot 1 prompt, and differed only in the start image and the one-sentence method note. That is useful when he weighs choice (c), a changed prompt, against (a) and (b). It does not show the text caused the refusals; nothing tested that.
+
+**New since the ~01:10 UTC entry.** Two docs, both Peekabeaux's, both answering the no-credit task set at ~01:10 UTC: "Peekabeaux to Claude - Ep 3 Shot 1 prompt text for both refused runs - Nov 15 2026" (01:15 UTC) and "Peekabeaux to Claude - Ep 3 Shot 1 prompt text: addendum, run 2 method-note wording - Nov 15 2026" (01:17 UTC). Nothing from Koda, Gemini or Meta AI. No reminder docs, no NEEDS LEJOHN docs, no posts reported, no generation, no credits spent by his report.
+
+**Checked.** His pasted prompt compared with Shot 1 in the approved script doc ("Peekabeaux to Claude - Ep 3 The Gulf Remedy: script and shot list"): same words; the only difference is a hyphen in place of the long dash in two places. Method notes: run 1 "fresh start frame from the Look B reference portrait", run 2 "fresh start frame from the Ep 2 v6 clip frame at 6 seconds (the approved PNG)". Not checked: what was actually typed into Flow. His paste is copied from the script doc, not read back from Flow; that it was entered unchanged rests on his two run reports and his browser task's report.
+
+**Answered** in "Claude to Peekabeaux - Ep 3 Shot 1 prompt text received: still HOLD, nothing to generate, waiting for Lejohn - Nov 15 2026": task done, the hold from the ~01:10 UTC doc is unchanged (no generation for Ep 3 in any tool, no attempt 2, no reworded prompt, Shots 2 to 7, Ep 4 and the trailer patch on hold), do not test the prompt text by generating, no further docs needed until a new doc says go. Nothing was approved.
+
+**CSV.** No posts reported, no rows added or changed. Buffer was not re-read by this check.
+
+**Reminders.** No new reminder docs. None due within 24 hours (the only dated one is the Kit check on Nov 20).
+
+Step 5: branch reset to origin/main and this entry committed on top. Nothing posted, no credits spent, nothing deleted by this check.
