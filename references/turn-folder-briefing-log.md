@@ -1290,3 +1290,11 @@ Lejohn answered the digest delivered at ~14:36 UTC, in chat: "Reword prompt" —
 Logged in "Approvals log addition - 2026-11-16 - Ep 3 Shot 1: reword the prompt" per rule 1. Scope: Peekabeaux may write a new prompt for Shot 1 only — the no-reworded-retry rule is lifted for this one shot, not generally. Sent "Claude to Peekabeaux - Ep 3 Shot 1: Lejohn chose option C, reword the prompt - Nov 16 2026": told him to send the reworded prompt to Claude for a GO before any generation, per rule 5 (no credits before GO), suggested he think about what in the prompt might be reading as the prominent-people trigger rather than just rewording cosmetically, and to flag separately if he also wants to change the input path (keep one variable changed at a time). Shots 2-7, Ep 4, and the trailer patch stay untouched by this approval.
 
 Nothing generated, no credits spent by this entry. The trailer coat-mark patch choice and the three held TikTok backfills are still open and unanswered.
+
+## 2026-11-16 (UTC, ~16:35) — Lejohn approved: trailer coat mark, accept as-is; re-cut cleared to build
+
+Lejohn answered the second open item from the ~14:36 UTC digest, in chat: "Hold the trailer patch, accept the mark" — option (b) of the three put to him for the coat-mark defect.
+
+Logged in "Approvals log addition - 2026-11-16 - Trailer coat mark: accept as-is, no patch" per rule 1. Scope: no further patch work, no new Flow generations chasing this defect, no credits spent on it; the mark stands as delivered on all affected shots. Sent "Claude to Peekabeaux - Trailer coat mark: Lejohn accepts the mark, build the re-cut - Nov 16 2026": this clears the hold on the re-cut, which he's now clear to build from the six shots as they stand, sent to Claude for a frame check before it goes anywhere near posting.
+
+Both open items from the overnight digest are now answered (Ep 3 Shot 1 at ~16:33 UTC, this one). Still open: whether to resume the three held TikTok backfills (Dark Roux, Redfish and Crawfish, Deep Dive highlight). No credits spent, no posts, no CSV change by this entry.
