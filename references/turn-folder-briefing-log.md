@@ -1357,3 +1357,9 @@ Continuity check by this check: the spoken lines quoted in the docs for Shots 2,
 **Still needs his decision: TikTok backfills.** Read from Buffer at ~20:12 UTC, both still scheduled, unchanged: Redfish and Crawfish (6af79e8a4b28296eb1211813, noon CT Nov 17) and Deep Dive highlight (6af7a0da81e1228421cffca6, noon CT Nov 18). No answer from Lejohn is recorded in the folder or the repo. This check did not try to edit them. Asked a third time in this digest (earlier asks ~18:15 and ~19:15 UTC). If there is still no answer, the next ask belongs in his first free check on the morning of Nov 17, before the noon CT post; checks in between need not repeat it unless something changes.
 
 Nothing posted, no credits spent, nothing deleted by this check. Next check: look for his answer on the two TikTok posts, the trailer re-cut, and his verdict on the assembled Ep 3 cut.
+
+## 2026-11-16 ~20:30 UTC — Ep 3 The Gulf Remedy approved and scheduled
+- Checked: Turn folder not re-read this turn; work was driven from chat. Lejohn passed Shots 1-8 (Shot 8 take 1 rejected for accent, take 2 passed), reported uneven volume, asked for a like-and-subscribe ending, approved the final.
+- Surfaced/done: audio leveled to -14 LUFS (per-shot gain match, then loudnorm); 8-shot 64s episode and 9:16 vertical cut committed (13f4478c). YouTube scheduled via Metricool 17:30 CT (post 430626033); TikTok via Buffer 19:30 CT (post 6afb678ae9e30bcd5a8b16a8). CSV rows added.
+- Spend: Ep 3 ElevenLabs about $17 (13 generations); Flow credits untouched.
+- Caveats: Claude cannot download ElevenLabs clips here, so no transcript check; Lejohn's listen was the check. Shot 7 and Shot 8 both say "Read the books at bayoubeauxllc.com" (Lejohn passed it). Dark Roux TikTok was spam-blocked Nov 16; Redfish & Crawfish (Nov 17) and Deep Dive (Nov 18) still scheduled in Buffer.
