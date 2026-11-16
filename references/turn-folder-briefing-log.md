@@ -1298,3 +1298,11 @@ Lejohn answered the second open item from the ~14:36 UTC digest, in chat: "Hold 
 Logged in "Approvals log addition - 2026-11-16 - Trailer coat mark: accept as-is, no patch" per rule 1. Scope: no further patch work, no new Flow generations chasing this defect, no credits spent on it; the mark stands as delivered on all affected shots. Sent "Claude to Peekabeaux - Trailer coat mark: Lejohn accepts the mark, build the re-cut - Nov 16 2026": this clears the hold on the re-cut, which he's now clear to build from the six shots as they stand, sent to Claude for a frame check before it goes anywhere near posting.
 
 Both open items from the overnight digest are now answered (Ep 3 Shot 1 at ~16:33 UTC, this one). Still open: whether to resume the three held TikTok backfills (Dark Roux, Redfish and Crawfish, Deep Dive highlight). No credits spent, no posts, no CSV change by this entry.
+
+## 2026-11-16 (UTC, ~16:37) — Lejohn approved: resume the 3 held TikTok backfills; rescheduled and logged
+
+Lejohn answered the last open item from the ~14:36 UTC digest, in chat: "Resume the three TikTok backfills."
+
+Logged in "Approvals log addition - 2026-11-16 - Resume the 3 held TikTok backfills" per rule 1. Moved all three off Buffer draft back to scheduled (the first edit attempt on each left status as draft even with dueAt/mode set; a second edit adding `saveToDraft: false` fixed it — noted in case this recurs). Their original dates had partly passed, so rescheduled at one-per-day spacing starting today rather than bunching them, as a precaution given the recent spam flag (Lejohn didn't specify spacing): Dark Roux teaser to 2026-11-16 noon CT (today, post id 6af79e899257ce33981a7673), Redfish and Crawfish to 2026-11-17 noon CT (6af79e8a4b28296eb1211813), Deep Dive highlight to 2026-11-18 noon CT (6af7a0da81e1228421cffca6). Updated all three CSV rows (dates and status back to SCHEDULED, new dueAt, resume note).
+
+All three open items from the overnight digest are now answered. If any of these three also gets flagged, Lejohn's hold-the-rest instruction still applies to whatever's left unposted — the next hourly check should confirm each one as it comes due, starting with Dark Roux today.
