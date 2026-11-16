@@ -14,6 +14,15 @@ Check every image or video prompt against this file before spending credits (rul
 
 - **Whole fish throughout.** No fillets, no cut fish, no knife work in any shot (Lejohn, 2026-11-11). The original script and prompt package were written for fillets, so every remaining Ep 2 prompt is re-read against this rule.
 
+## Spoken lines (all videos)
+
+- **"Peychaud's" is pronounced "Pay-shows".** In any spoken line, write it phonetically as "Pay-shows" in the prompt so the voice model says it right; on screen and in captions it stays "Peychaud's" (Lejohn, 2026-11-16, recorded in the Turn folder doc "Approvals log addition - 2026-11-16 - Ep 3 Shot 3 passed; Peychaud's pronounced "Pay-shows""). Ep 3 Shot 2 had to be re-rolled for this.
+
+## Ep 3, The Gulf Remedy (learned 2026-11-16)
+
+- Guacamole reads as thick and chunky: it holds its shape and breaks into clumps. Shot 5 attempt 1 failed because the avocado stretched and pulled like fabric (Lejohn).
+- Plantain chips sit on their own small plate beside the mortar bowl, not in it (Lejohn, Shot 6).
+
 ## Generation method
 
 - For a shot that must cut from or into an existing clip, use start-frame mode with the neighbouring clip's last frame, and leave the saved Character out. This passed Flow's "prominent people" gate first try on 2026-11-12 after the saved-Character path was refused.
