@@ -1134,3 +1134,25 @@ Scheduled hourly check. Calendar read; Lejohn was not free at the time of this c
 **Reminders.** No new reminder docs. None due within 24 hours (the only dated one is the Kit check on Nov 20).
 
 Step 5: branch reset to origin/main and this entry committed on top. Nothing posted, no credits spent, nothing deleted, nothing changed in Buffer by this check.
+
+## 2026-11-16 (UTC, ~01:10) — HELD FOR LEJOHN: Ep 3 Shot 1 REFUSED again on the option A frame; held, next input step is his call
+
+Scheduled hourly check. Calendar read; Lejohn was not free at the time of this check, so nothing was sent to him and no digest was written. No exception applied: nothing live is wrong or harmful, and no reminder is due before his next free time. The ~00:15 UTC held entry above is also still undelivered; the first check that finds him free should deliver both.
+
+**For the digest when he is free**, decisions first:
+
+1. **Ep 3 Shot 1: Flow refused it again, how does he want to go on?** The one attempt under option A (start frame from the Ep 2 v6 clip, no saved Character, prompt unchanged) was refused on the prominent-people policy and refunded. That is two refusals today on two different start images with the same prompt text. Choices: (a) attempt 2 of 2, same frame and prompt unchanged; (b) the saved Look B Character path (passed 7 of 7 for Ep 2, refused on other days); (c) allow a changed prompt for this shot, which means lifting the no-reworded-retry rule for it; (d) leave Shot 1 for now. This replaces item 3 of the ~00:15 UTC entry ("Shot 1 is moving"): it is not moving.
+2. Still open from earlier digests: the trailer coat-mark choice and the three TikTok backfills held as Buffer drafts.
+3. The Deep Dive TikTok date correction from the ~00:15 UTC entry still stands (it was Tuesday Nov 17, not Monday, and it is a held draft). Peekabeaux has now filed the missing folder note: Lejohn wrote to him first on Nov 14 and he answered, so no rule 6 breach; the only gap was the note.
+
+**New since the ~00:15 UTC entry.** Two docs, both Peekabeaux's: "Peekabeaux to Claude - Rule 6 note: what Lejohn was told Nov 14 about the Deep Dive TikTok date - Nov 15 2026" (00:21 UTC) and "Peekabeaux to Claude - Ep 3 Shot 1 attempt 1 (option A) REFUSED: prominent-people policy, no retry, credits 450 - Nov 15 2026" (00:28 UTC). Nothing from Koda, Gemini or Meta AI. No reminder docs, no NEEDS LEJOHN docs, no posts reported.
+
+**Ep 3 Shot 1 attempt 1: REFUSED, HOLD.** By Peekabeaux's report (not checked in Flow by this check): Frames-to-Video with the approved PNG unedited, no saved Character, no portrait, Veo 3.1 Fast 720p 8s, prompt as approved, about 6:25pm CT. Flow refused on its prominent-people policy; 450 credits before and after. No clip, so nothing to frame-check. No reworded retry, no other input path, failed tile left in place. This matches the ~00:15 UTC GO doc and `references/generation-standing-rules.md`. **Answered** in "Claude to Peekabeaux - Ep 3 Shot 1 option A refusal: HOLD, no attempt 2, next step is Lejohn's call; rule 6 note received - Nov 15 2026": no generation for Ep 3 in any tool until a new doc says go; Shots 2 to 7, Ep 4 and the trailer patch stay on hold. One no-credit task: paste the exact Shot 1 prompt text entered for both refused runs and say whether they were identical. Basis for holding: the option A approvals doc covers that input path only, and the standing rule says a different input path after a refusal needs Lejohn's go. Nothing was approved. That the prompt text is the common factor in both refusals is this check's inference, not something tested.
+
+**Rule 6 note: closed.** Peekabeaux states Lejohn wrote first on Nov 14 and he was answering; he will not correct the date himself and will file a same-day note in future. Acknowledged in the same reply doc.
+
+**CSV.** No posts reported, no rows added or changed. Buffer was not re-read by this check.
+
+**Reminders.** No new reminder docs. None due within 24 hours (the only dated one is the Kit check on Nov 20).
+
+Step 5: branch reset to origin/main and this entry committed on top. Nothing posted, no credits spent, nothing deleted by this check.
