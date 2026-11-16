@@ -1270,3 +1270,15 @@ Scheduled hourly check, inside the overnight window, so nothing was sent to Lejo
 No exception applied: nothing live is wrong or harmful, and no reminder is due within 24 hours (the only dated one is the Kit check on Nov 20). The first check that finds him free should deliver the three held entries above as one digest: the Ep 3 Shot 1 decision after two refusals (choices a to d in the ~01:10 UTC entry, with the same-prompt fact from ~02:10 UTC), the still-open trailer coat-mark choice and the three TikTok backfills held as Buffer drafts, and the Deep Dive TikTok date correction (Tuesday Nov 17, held draft). Buffer was not re-read by this check.
 
 Step 5: branch reset to origin/main and this entry committed on top. Nothing posted, no credits spent, nothing deleted by this check.
+
+## 2026-11-16 (UTC, ~14:36) — Digest delivered: Ep 3 Shot 1 decision, trailer patch, held TikTok backfills, Deep Dive date
+
+Daily social check (trig_01V6MBsioHUtkPP5HKr8aY19), distinct from the hourly all-agents check. Downloads and the Publishing Team folder tree: nothing new. Turn folder: nothing since the ~14:15 UTC hourly entry. No Base44 or Meta AI drops. Gemini strategy doc unchanged since Sep 3.
+
+Calendar read: Lejohn is free now (no event until his 5:00 PM CT kitchen shift today), so the digest that had sat undelivered since ~00:15 UTC overnight (carried forward through the ~01:10, ~02:10, and every "nothing new" hourly entry since) went to him this turn.
+
+**Digest as delivered:** (1) Ep 3 Shot 1 needs his call after two refusals on the prominent-people policy, same prompt both times: attempt 2 unchanged, the saved Look B Character path, a changed prompt (lifts the no-reworded-retry rule for this shot), or leave Shot 1 for now. (2) The trailer coat-mark patch choice is still open: accept the visible patch, accept the mark, or spend Flow credits on new rolls. (3) The three TikTok backfills (Dark Roux teaser, Redfish and Crawfish, Deep Dive highlight) are still held as Buffer drafts from the Nov 15 ~14:37 UTC hold; his call to resume them. (4) The Deep Dive highlight's correct Buffer date is Tuesday Nov 17 noon CT, not Monday — it's a held draft either way, so this is just a correction for when he decides.
+
+Cross-platform posting check: one CSV row dated today, 2026-11-16 — the Redfish and Crawfish TikTok backfill, still HELD as a Buffer draft per the hold above, not posting today pending his call. One other row dated today (X/Twitter "Tweet 1 — Stall points") is a DRAFT awaiting approval, not scheduled, no action needed. Nothing else due.
+
+No new CSV rows needed. No posts made, no credits spent by this check.
