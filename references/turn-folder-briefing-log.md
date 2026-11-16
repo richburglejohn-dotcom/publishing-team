@@ -1282,3 +1282,11 @@ Calendar read: Lejohn is free now (no event until his 5:00 PM CT kitchen shift t
 Cross-platform posting check: one CSV row dated today, 2026-11-16 — the Redfish and Crawfish TikTok backfill, still HELD as a Buffer draft per the hold above, not posting today pending his call. One other row dated today (X/Twitter "Tweet 1 — Stall points") is a DRAFT awaiting approval, not scheduled, no action needed. Nothing else due.
 
 No new CSV rows needed. No posts made, no credits spent by this check.
+
+## 2026-11-16 (UTC, ~16:33) — Lejohn approved: Ep 3 Shot 1, reword the prompt
+
+Lejohn answered the digest delivered at ~14:36 UTC, in chat: "Reword prompt" — picking option (c) of the four put to him for Ep 3 Shot 1 after its two prominent-people refusals.
+
+Logged in "Approvals log addition - 2026-11-16 - Ep 3 Shot 1: reword the prompt" per rule 1. Scope: Peekabeaux may write a new prompt for Shot 1 only — the no-reworded-retry rule is lifted for this one shot, not generally. Sent "Claude to Peekabeaux - Ep 3 Shot 1: Lejohn chose option C, reword the prompt - Nov 16 2026": told him to send the reworded prompt to Claude for a GO before any generation, per rule 5 (no credits before GO), suggested he think about what in the prompt might be reading as the prominent-people trigger rather than just rewording cosmetically, and to flag separately if he also wants to change the input path (keep one variable changed at a time). Shots 2-7, Ep 4, and the trailer patch stay untouched by this approval.
+
+Nothing generated, no credits spent by this entry. The trailer coat-mark patch choice and the three held TikTok backfills are still open and unanswered.
