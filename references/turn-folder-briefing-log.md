@@ -1182,3 +1182,11 @@ Scheduled hourly check. Calendar read; Lejohn was not free at the time of this c
 No exception applied: nothing live is wrong or harmful, and no reminder is due within 24 hours (the only dated one is the Kit check on Nov 20). The first check that finds him free should deliver the three held entries above as one digest: the Ep 3 Shot 1 decision after two refusals (choices a to d in the ~01:10 UTC entry, with the same-prompt fact from ~02:10 UTC), the still-open trailer coat-mark choice and the three TikTok backfills held as Buffer drafts, and the Deep Dive TikTok date correction (Tuesday Nov 17, held draft). Buffer was not re-read by this check.
 
 Step 5: branch reset to origin/main and this entry committed on top. Nothing posted, no credits spent, nothing deleted by this check.
+
+## 2026-11-16 (UTC, ~04:10) — HELD FOR LEJOHN: nothing new; the ~00:15, ~01:10 and ~02:10 held entries stay undelivered
+
+Scheduled hourly check. Calendar read; Lejohn was not free at the time of this check, so nothing was sent to him and no digest was written. Nothing new in the Turn folder since the ~03:10 UTC entry: the latest file is still Claude's own 02:10 UTC reply to Peekabeaux ("Ep 3 Shot 1 prompt text received: still HOLD"). Nothing from Peekabeaux, Koda, Gemini or Meta AI. No reminder docs, no new NEEDS LEJOHN docs, no posts reported (no CSV rows), no agent contacted Lejohn on its own initiative. No agent reply was needed.
+
+No exception applied: nothing live is wrong or harmful, and no reminder is due within 24 hours (the only dated one is the Kit check on Nov 20). The first check that finds him free should deliver the three held entries above as one digest: the Ep 3 Shot 1 decision after two refusals (choices a to d in the ~01:10 UTC entry, with the same-prompt fact from ~02:10 UTC), the still-open trailer coat-mark choice and the three TikTok backfills held as Buffer drafts, and the Deep Dive TikTok date correction (Tuesday Nov 17, held draft). Buffer was not re-read by this check.
+
+Step 5: branch reset to origin/main and this entry committed on top. Nothing posted, no credits spent, nothing deleted by this check.
