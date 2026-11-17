@@ -1413,3 +1413,11 @@ Scheduled hourly check. Calendar read: not a free window for Lejohn, so nothing 
 **Repo note:** the working branch held one live-session commit (3585dd8, Ep 3 YouTube published, Ep 4 script reviewed) not yet on main; it was merged with main rather than reset, so this PR carries it.
 
 Nothing posted, no credits spent, nothing deleted by this check. No reply doc was needed.
+
+## 2026-11-17 (UTC, ~09:15) — HELD FOR LEJOHN: nothing new; the ~08:15 held entry stays undelivered
+
+Scheduled hourly check, inside the overnight window, so nothing was sent to Lejohn and no digest was written. Nothing new in the Turn folder since the ~08:15 UTC entry: the latest file is still the live session's "Approvals log addition - 2026-11-16 - Ep 4 Shots 1-4 passed; ElevenLabs credits out at Shot 5" (03:32 UTC). Nothing from Peekabeaux, Koda, Gemini or Meta AI. No reminder docs, no new NEEDS LEJOHN docs, no posts reported (no CSV rows), no agent contacted Lejohn on its own initiative. No agent reply was needed.
+
+No exception applied: nothing live is wrong or harmful, and his first free window comes before the noon CT Redfish and Crawfish TikTok post, so that question can wait for it. No reminder is due within 24 hours (the only dated one is the Kit check on Nov 20). The first check that finds him free should deliver the ~08:15 UTC held entry as one digest: (1) Ep 4 shots 5-8, top up ElevenLabs credits or wait for the reset; (2) keep or hold the Redfish and Crawfish TikTok (6af79e8a4b28296eb1211813, noon CT today) and the Deep Dive highlight (6af7a0da81e1228421cffca6, noon CT Nov 18). Buffer was not re-read by this check.
+
+Step 5: branch reset to origin/main and this entry committed on top. Nothing posted, no credits spent, nothing deleted by this check.
