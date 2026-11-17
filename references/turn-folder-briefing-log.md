@@ -1461,3 +1461,19 @@ Scheduled hourly check, inside the overnight window, so nothing was sent to Lejo
 No exception applied: nothing live is wrong or harmful, and his first free window comes before the noon CT Redfish and Crawfish TikTok post. No reminder is due within 24 hours (the only dated one is the Kit check on Nov 20). The first check that finds him free should deliver the ~08:15 UTC held entry as one digest: (1) Ep 4 shots 5-8, top up ElevenLabs credits or wait for the reset; (2) keep or hold the Redfish and Crawfish TikTok (6af79e8a4b28296eb1211813, noon CT today) and the Deep Dive highlight (6af7a0da81e1228421cffca6, noon CT Nov 18). Buffer was not re-read by this check.
 
 Step 5: branch reset to origin/main and this entry committed on top. Nothing posted, no credits spent, nothing deleted by this check.
+
+## 2026-11-17 (UTC, ~14:36) — Daily check: held Redfish/Crawfish and Deep Dive TikTok (third spam flag on this account); Ep 4 ElevenLabs credits still awaiting Lejohn
+
+Daily social check (trig_01V6MBsioHUtkPP5HKr8aY19). Downloads and the Publishing Team folder tree: nothing new beyond what's already merged (docs/media.html and the Ep 2/Ep 3 media files from earlier hourly checks). Turn folder: extensive Ep 3 and Ep 4 activity since yesterday — already covered in detail by the ~17:41 UTC through ~08:15 UTC Nov 17 hourly entries (Ep 3 produced, approved, posted to Facebook/Instagram and TikTok by hand; Ep 4 Gumbo generation running, paused at Shot 5 on ElevenLabs quota). No Base44 or Meta AI drops. Gemini strategy doc unchanged.
+
+Checked Buffer directly on the two still-open TikTok items from the ~08:15 UTC held entry, since Redfish and Crawfish was due at noon CT **today** (~3.5 hours out) and the hold instruction had not actually been carried out:
+
+- **Dark Roux teaser confirmed blocked** — status `error`, same TikTok spam message as Jambalaya/Paella on Nov 14. Third flag on this account (Jambalaya, then Dark Roux's Nov 15 and Nov 16 slots — the Nov 16 resume hit the same wall). CSV already reflected this correctly.
+- **Redfish and Crawfish was still `scheduled`** for today's noon CT slot. Per Lejohn's standing hold-the-rest instruction (not a new decision — the instruction already exists, earlier hourly checks were just permission-blocked from carrying it out), moved it to Buffer draft this turn.
+- **Deep Dive highlight was still `scheduled`** for Nov 18 noon CT. Same hold applied, moved to draft.
+
+Updated both CSV rows to HELD. Both are intact as Buffer drafts, reschedulable once Lejohn decides. This is the third flag on baronvieux TikTok inside a week — worth him deciding whether to address the account's standing with TikTok directly rather than keep resuming into the same wall.
+
+**Still separately open:** Ep 4 Gumbo shots 5-8 need either an ElevenLabs credit top-up or waiting for the reset (his call, not Claude's to make); asked four times since the Nov 16 Dark Roux block, still unanswered as of the ~08:15 UTC entry.
+
+Calendar not re-checked by this entry (digest delivered to Lejohn separately, see next entry if applicable). No credits spent, no posts made.
