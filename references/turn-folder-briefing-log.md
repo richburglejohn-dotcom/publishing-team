@@ -1477,3 +1477,15 @@ Updated both CSV rows to HELD. Both are intact as Buffer drafts, reschedulable o
 **Still separately open:** Ep 4 Gumbo shots 5-8 need either an ElevenLabs credit top-up or waiting for the reset (his call, not Claude's to make); asked four times since the Nov 16 Dark Roux block, still unanswered as of the ~08:15 UTC entry.
 
 Calendar not re-checked by this entry (digest delivered to Lejohn separately, see next entry if applicable). No credits spent, no posts made.
+
+## 2026-11-17 (UTC, ~15:12) — Digest delivered: Ep 4 credits decision; two held TikTok backfills (moved to Buffer draft by the daily check) await his reschedule-or-keep-held call
+
+Scheduled hourly check, first check in a free window today. Nothing in the Turn folder modified since the ~14:15 UTC entry: no docs or files from Peekabeaux, Koda, Gemini or Meta AI, no reminder docs, no NEEDS LEJOHN docs, no posts reported, no agent contacted Lejohn on its own initiative. No agent reply was needed.
+
+Delivered as one digest: the ~08:15 UTC held entry (and the ~09:15 through ~14:15 nothing-new entries that carried it), updated with the ~14:36 UTC daily check. **HELD items from ~08:15 UTC through ~14:15 UTC are marked DELIVERED by this entry.**
+1. Ep 4 shots 5-8: top up ElevenLabs credits or wait for the reset. Still his call; Ep 4 paused.
+2. TikTok: Redfish and Crawfish (6af79e8a4b28296eb1211813) and the Deep Dive highlight (6af7a0da81e1228421cffca6) are Buffer drafts since the daily check (CSV rows say HELD). Asked: reschedule, keep held, or sort out the baronvieux account standing with TikTok first.
+
+Reminders: none due within 24 hours (Kit check Friday Nov 20). Still waiting on Koda's B podcast clips (due today, CSV rows to confirm) and Peekabeaux's trailer re-cut.
+
+Nothing posted, no credits spent, nothing deleted by this check.
