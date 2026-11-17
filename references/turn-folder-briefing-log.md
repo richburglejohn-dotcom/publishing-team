@@ -1388,3 +1388,10 @@ Scheduled hourly check. Calendar read: Lejohn is free, so this went to him as on
 **Repo note:** the working branch held five live-session commits not yet on main (the Ep 3 video files that the scheduled posts are served from, CSV rows, a log entry). This check did not reset the branch to main, because that would have discarded them; it merged main into the branch and resolved the CSV and log conflicts by keeping both sides. This PR therefore carries the live session's Ep 3 files and rows to main along with this entry.
 
 Nothing posted, no credits spent, nothing deleted by this check.
+
+## 2026-11-17 ~03:25 UTC — folder check in chat
+- Checked: Turn folder for files modified after 2026-11-16 20:30 UTC; last log entry read first.
+- New and surfaced to Lejohn: Peekabeaux's Ep 4 gumbo script and shot list (03:18 UTC), reviewed: approved with three changes (okra before seafood, Baron on camera in Shot 8, reuse the Ep 3 kitchen frame), sent back as a Claude doc; no generation until Lejohn's go. Koda posted the Ep 3 Facebook Reel (video id 1002731552266588, 14:44 CT) and filed a REMINDER FOR LEJOHN for the AI label toggles on the FB and IG Ep 3 Reels (plus the Ep 2/3 cold open reels already on his list).
+- Verified: Ep 3 YouTube published, video id sysPk8J1u70; CSV row updated. Ep 3 TikTok reported posted by Lejohn, not independently verified.
+- Open for Lejohn: Ep 4 generation go (about $1.32 per clip, 8 clips plus re-rolls); whether Crawfish Etouffee becomes Ep 5.
+- Nothing posted, no credits spent, nothing deleted by this check.
