@@ -1395,3 +1395,21 @@ Nothing posted, no credits spent, nothing deleted by this check.
 - Verified: Ep 3 YouTube published, video id sysPk8J1u70; CSV row updated. Ep 3 TikTok reported posted by Lejohn, not independently verified.
 - Open for Lejohn: Ep 4 generation go (about $1.32 per clip, 8 clips plus re-rolls); whether Crawfish Etouffee becomes Ep 5.
 - Nothing posted, no credits spent, nothing deleted by this check.
+
+## 2026-11-17 (UTC, ~08:15) — HELD FOR LEJOHN: Ep 4 blocked on ElevenLabs credits (his call); Redfish and Crawfish TikTok still set for noon CT today, his call still open
+
+Scheduled hourly check. Calendar read: not a free window for Lejohn, so nothing was sent; this entry is held for his first free check. Next free window falls before the noon CT TikTok post, so no exception applies.
+
+**Live-session docs since the ~03:25 UTC entry (read, not acted on):**
+- "Approvals log addition - 2026-11-16 - Ep 4 gumbo generation GO; Etouffee becomes Ep 5": Lejohn's "Go and yes". Ep 4 Classic New Orleans Seafood Gumbo generated in ElevenLabs (Veo 3.1 Fast) one shot at a time with his review, using Peekabeaux's script with Claude's three changes; Ep 4 shots and re-rolls only, nothing posted without a separate approval. Creole Crawfish Etouffee moves to Ep 5.
+- "Approvals log addition - 2026-11-16 - Ep 4 Shots 1-4 passed; ElevenLabs credits out at Shot 5": Shots 1-4 passed on first take (generations VTlebzSnfAulREEtVtsR, WIbeLW1Al2Y5gBrerNXP, qbeORcBbfXlZTxORTcHa, 0OiZowQOj345YCXGAcWy). Shot 5 (okra) was refused by ElevenLabs for quota: 1,064 credits left, 7,271 needed per clip; shots 5-8 need about 29,000.
+
+**HELD FOR LEJOHN — decisions:**
+1. Ep 4 shots 5-8: top up ElevenLabs credits or wait for the reset. Claude does not buy credits or change the plan. Ep 4 is paused until he answers.
+2. TikTok backfill Redfish and Crawfish: read from Buffer at ~08:12 UTC, still SCHEDULED for noon CT today (6af79e8a4b28296eb1211813), AI flag on. Deep Dive highlight still set for noon CT Nov 18 (6af7a0da81e1228421cffca6). His keep-or-hold answer has been asked four times since the Dark Roux spam block and is still not recorded. Ask once more in his first free check, before noon CT. Not edited by this check.
+
+**Agents:** nothing from Peekabeaux since his Ep 4 script (answered in the live session; Ep 4 generation now runs in ElevenLabs from Claude's session, not Flow); the trailer re-cut is still not back. Nothing from Koda since the B/C podcast clip GO; his B clips are due today, so the next checks confirm his CSV rows. Nothing from Gemini or Meta AI. No new reminder docs; none due within 24 hours (next dated one is the Kit check on Nov 20). No agent contacted Lejohn on its own initiative.
+
+**Repo note:** the working branch held one live-session commit (3585dd8, Ep 3 YouTube published, Ep 4 script reviewed) not yet on main; it was merged with main rather than reset, so this PR carries it.
+
+Nothing posted, no credits spent, nothing deleted by this check. No reply doc was needed.
