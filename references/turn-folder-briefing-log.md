@@ -1489,3 +1489,13 @@ Delivered as one digest: the ~08:15 UTC held entry (and the ~09:15 through ~14:1
 Reminders: none due within 24 hours (Kit check Friday Nov 20). Still waiting on Koda's B podcast clips (due today, CSV rows to confirm) and Peekabeaux's trailer re-cut.
 
 Nothing posted, no credits spent, nothing deleted by this check.
+
+## 2026-11-18 (UTC, ~12:26) — Lejohn's call relayed: Ep 4 remaining shots move to Google Flow; prompts drafted, waiting on the kitchen frame
+
+Lejohn asked Peekabeaux directly (not through this chat) to pick up Ep 4's remaining shots in Google Flow rather than top up ElevenLabs — relayed in "Peekabeaux to Claude - Ep. 4 remaining shots in Google Flow - Nov 18 2026". Logged in "Approvals log addition - 2026-11-18 - Ep 4 remaining shots: Google Flow, not ElevenLabs top-up" per rule 1.
+
+Checked Peekabeaux's doc against the approved Ep 4 script and the Nov 17 review (3 changes: okra/seafood shots reordered with the okra line adjusted, Shot 8 changed to Baron on camera instead of voiceover, every shot reusing one fixed start frame instead of chaining or a new beauty-shot frame for Shot 7). Flow budget: 450 credits, ~20/clip, 80 needed for 4 shots — well inside budget, resets Nov 25.
+
+Sent "Claude to Peekabeaux - Ep 4 Shots 5-8: Flow prompts drafted, confirm the kitchen frame first - Nov 18 2026": full prompts for all four shots (Shot 5 okra, Shot 6 seafood, Shot 7 plated finish, Shot 8 outro on camera), each written with Baron as a fictional original character and the full Look B rules (no ring/jewelry, hand skin tone, no accent) to avoid repeating Ep 3 Shot 1's prominent-people refusal. Held back on GO: Peekabeaux's doc named "the Ep 3 kitchen frame" generically, and the only frame I have on file (Ep 3's own Shot 1 start frame, Drive id 1Um_2wg-Ki6wqbLctA2NbKcEU7VNOKDle) may not be the one he means for Ep 4 continuity. Asked him to send the exact frame he intends to reuse for my check (same process as the Nov 15 Ep 3 Shot 1 frame review) before any credits are spent. Also flagged a possible rule conflict for him to address: Ep 4's Look B rule says "no marks on the chest," but the trailer coat-mark is now accepted project-wide — his call whether that's a conflict worth resolving.
+
+No credits spent, no generation run, no posts, no CSV change.
