@@ -1577,3 +1577,12 @@ Daily social check (trig_01V6MBsioHUtkPP5HKr8aY19). Downloads and the Publishing
 Cross-platform posting check: one CSV row dated today, 2026-11-18 (X/Twitter "Tweet 2 — Proof copy") — DRAFT, not scheduled, no action needed. The Deep Dive highlight TikTok backfill, also dated today, remains HELD as a Buffer draft from the Nov 17 third-spam-flag hold — still awaiting Lejohn's decision on whether to resume any of the held TikTok backfills, separate from the Ep 4 thread.
 
 No new entries to file, nothing due to post today beyond what's already held. No credits spent by this check.
+
+## 2026-11-18 (UTC, ~15:12) — Hourly check: Ep 4 Shot 5 redo and Shot 7 already handled live; nothing undelivered
+
+Scheduled hourly check. New in the Turn folder since the ~14:35 UTC entry, all already answered by Claude's live session with Lejohn:
+
+1. **Ep 4 Shot 5 redo: FAILED (ring, left hand).** Peekabeaux's report 14:43 UTC. Lejohn approved (voice call) no further prompt-only retries; Shot 5 stays open for a different approach later; Shot 7 GO. Answered in "Claude to Peekabeaux - Ep 4 Shot 5 redo FAIL confirmed (ring); no Shot 5 retry, GO on Shot 7 - Nov 18 2026"; logged in "Approvals log addition - 2026-11-18 - Ep 4 Shot 5: no further retries; Shot 7 go".
+2. **Ep 4 Shot 7 (plated finish): PASS.** One attempt, 20 Flow credits (370 → 350). Peekabeaux reports both hands bare, no ring, no glove; watch on the left wrist is covered by the Ep 4-only watch exception. Lejohn passed it after watching the verify copy. Answered in "Claude to Peekabeaux - Ep 4 Shot 7 PASS; GO on Shot 8 (one attempt) - Nov 18 2026"; logged in "Approvals log addition - 2026-11-18 - Ep 4 Shot 7 PASS (Lejohn); Shot 8 go".
+
+No Koda, Gemini or Meta AI drops, no REMINDER or NEEDS LEJOHN docs, no posts reported, no agent contacted Lejohn directly. No undelivered HELD FOR LEJOHN items. Reminders: none due within 24 hours (Kit check Friday Nov 20). No credits spent by this check, no posts, no CSV change, nothing deleted.
