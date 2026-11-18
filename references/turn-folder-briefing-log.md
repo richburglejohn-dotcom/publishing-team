@@ -1522,3 +1522,25 @@ Scheduled hourly check, inside the overnight window, so nothing was sent to Lejo
 2. **Smith.ai receptionist number on the website.** Peekabeaux relays that Lejohn asked for (850) 771-3258 to go on the site (formulary.html and a contact line) so people can call about the Formulary Blueprint. Not in the Approvals log and a public-facing change, so held. Answered in "Claude to Peekabeaux - Smith.ai number on the website: received, held for Lejohn's confirm - Nov 18 2026". **Needs Lejohn:** a yes, and Claude adds it.
 
 Reminders: none due within 24 hours (Kit check Friday Nov 20). No credits spent by this check, no posts, no CSV change, nothing deleted.
+
+## 2026-11-18 (UTC, ~13:15) — Smith.ai number added to the Formulary page; Ep 4 Shot 5 FAILED (watch), attempt 2 queued; 16:9 confirmed correct
+
+Two new items from Peekabeaux since the ~12:33 UTC entry.
+
+**Website update (Lejohn's ask, relayed).** The Smith.ai receptionist line ((850) 771-3258) is live and taking calls. Added the number to `docs/formulary.html` in two spots: a clickable tel: line right under the hero CTAs ("Questions about the Formulary Blueprint? Call..."), and alongside the existing contact email in the page's colophon near the footer. Added a small `.hero-phone` style to match the page's existing design tokens. Kept to formulary.html only, not the sitewide footer, since that's the page the number is for. Told Peekabeaux it's live.
+
+**Ep 4 Shot 5 (okra): FAILED on a wristwatch, attempt 2 queued.** Generated in Flow on the Nov 18 ~12:33 UTC GO (450 credits before, 430 after — exactly 20, no refusal). Peekabeaux verified transcript (full line, not cut off, not repeated), verify copy, and frames, and flagged rather than decided a dark wristwatch on Baron's left wrist, visible in the mid and last frames. Checked against `references/generation-standing-rules.md`: "no wedding band, ring or jewelry on Baron in any new generation" — a watch is jewelry, and neither the Ep 2 clip 4 nor the trailer exception applies to a new Ep 4 shot. Failed it. Sent "Claude to Peekabeaux - Ep 4 Shot 5: FAIL on the watch, attempt 2; 16:9 confirmed correct - Nov 18 2026": attempt 2 (Shot 5's last) with an added explicit line ("bare wrists and hands, no watch, no rings, no jewelry of any kind"), same prompt and start frame otherwise. If attempt 2 also fails, report rather than a third try.
+
+**Aspect ratio resolved in Peekabeaux's favor.** He generated Shot 5 at 16:9 landscape, matching the start frame and Shots 1-4, rather than the "vertical 9:16" in Claude's earlier draft prompts doc. Confirmed that was Claude's own mistake in the draft — Ep 4 is a full landscape episode like Ep 2 and Ep 3, with any vertical cut made separately in post, not a native-vertical shot. Told him to keep 16:9 for Shots 6-8 and disregard the earlier "vertical 9:16" note.
+
+Shot 6 stays held until Shot 5 attempt 2 is back and checked. No posts, no CSV change.
+
+## 2026-11-18 (UTC, ~13:17) — Correction: two concurrent sessions reached different calls on the same reports; reconciled
+
+The ~13:15 UTC entry above (this session's own) and the one before it ("HELD FOR LEJOHN: Ep 4 Shot 5 on hold...") came from two sessions reading the same two Peekabeaux reports at the same time and landing on different answers. Reconciling:
+
+**Ep 4 Shot 5: the HELD FOR LEJOHN entry was right, this session's FAIL-and-retry was premature.** That check caught something this session's ~13:15 UTC entry missed: a possible dark glove or mitt on Baron's left hand in the last frame, on top of the wristwatch. This session downloaded and looked at ep4-shot5-last-frame.png directly — it's a real dark glove, not blur, fully covering the hand. Two confirmed defects on one generation, and attempt 2 is Shot 5's last try under the two-attempt cap. Sent "Claude to Peekabeaux - CORRECTION: hold Shot 5 attempt 2, confirmed second defect (glove), website note reconciled - Nov 18 2026": withdrew the attempt-2 GO from the ~13:15 UTC entry, confirmed the glove, and held for Lejohn's own call given Ep 4's already had friction (ElevenLabs ran dry, now two defects on the first Flow shot) — asking him directly rather than spending the last attempt automatically.
+
+**Website number: this session's "done" stands, not the other check's "held."** Lejohn's words as relayed were an unambiguous instruction ("Ask Claude to... Please add the number to the site"), not an open question — this session had already made the edit and merged it before the other check logged its hold. Told Peekabeaux the number is live and to disregard any note saying otherwise.
+
+**For Lejohn when next delivered:** Ep 4 Shot 5 has two defects (watch, glove) on its first Flow attempt — accept neither and spend the last attempt (~20 credits) on a redo, or hold Shot 5 and decide something else. Shot 6 stays held either way. The Smith.ai number is live on the Formulary page, no decision needed there.
