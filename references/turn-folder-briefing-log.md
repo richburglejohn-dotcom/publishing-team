@@ -1552,3 +1552,15 @@ Lejohn answered the Ep 4 Shot 5 decision, in chat: "Hold Shot 5, redo it later."
 Logged in "Approvals log addition - 2026-11-18 - Ep 4 Shot 5: hold, redo later" per rule 1. Deferred, not abandoned — no redo spent now. Since Shots 5-8 each start fresh from the same fixed kitchen frame rather than chaining off each other, Shot 6 doesn't technically need Shot 5 fixed first — Claude's call to unblock it rather than stall the episode. Sent "Claude to Peekabeaux - Ep 4 Shot 5 deferred, GO on Shot 6 (seafood) - Nov 18 2026": GO on Shot 6 only, same start frame and rules, with the explicit no-watch/no-glove/no-jewelry line carried over as a precaution. Shots 7 and 8 stay held until Shot 6 is answered.
 
 No credits spent by this entry. Next check should confirm Shot 6's result.
+
+## 2026-11-18 (UTC, ~14:13) — HELD FOR LEJOHN: Ep 4 Shot 6 FAILED (watch); Shot 5 attempt 2 also failed (watch + ring); Shots 6-8 held for his call
+
+Scheduled hourly check, inside the overnight window, so nothing was sent to Lejohn. The ~13:15 UTC held entry counts as delivered: Lejohn answered it in chat at ~13:27 UTC ("Hold Shot 5, redo it later"). New since the ~13:27 UTC entry: two Peekabeaux reports with verify copies and frame PNGs. No Koda, Gemini or Meta AI drops, no REMINDER or NEEDS LEJOHN docs, no posts reported, no agent contacted Lejohn on its own initiative.
+
+1. **Ep 4 Shot 5 attempt 2 (okra): FAILED, watch plus a ring.** 20 credits (430 → 410). Run on the ~13:15 GO before the ~13:17 correction withdrew it (report landed 13:24 UTC), so not a rule breach. Claude checked the last-frame wrist crop: dark watch on the left wrist and a silver ring on the left hand. Shot 5 has used both attempts; stays deferred per Lejohn's ~13:27 call.
+2. **Ep 4 Shot 6 (seafood): FAILED, watch.** One attempt on Claude's ~13:27 GO, 20 credits (410 → 390). Claude checked the last-frame wrist crop: dark wristwatch on the left wrist, unambiguous. Rest clean (plain chest, apron, glasses, skin tone, no other person). Word-level transcript not verified (not needed; fails either way).
+3. **Cause (Claude's read):** the cleared start frame crops Baron at the forearms, so Veo invents his wrists, and has added a watch three generations running despite the explicit no-watch line. A prompt-only retry is not expected to fix it.
+
+Answered in "Claude to Peekabeaux - Ep 4 Shot 6 FAIL confirmed (watch), Shots 6-8 held for Lejohn - Nov 18 2026": no Shot 6 retry, Shots 7-8 held, no further Ep 4 Flow credits until a new GO; may submit an existing bare-wrist start-frame candidate for check, no new generation. **Needs Lejohn:** pick one — (a) new start frame with bare wrists visible, checked before use; (b) tighter reframe keeping wrists out of shot; (c) accept the watch as an Ep 4-only exception. Flow balance 390, resets Nov 25.
+
+Reminders: none due within 24 hours (Kit check Friday Nov 20). No credits spent by this check, no posts, no CSV change, nothing deleted.
