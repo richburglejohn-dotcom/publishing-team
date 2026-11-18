@@ -1564,3 +1564,8 @@ Scheduled hourly check, inside the overnight window, so nothing was sent to Lejo
 Answered in "Claude to Peekabeaux - Ep 4 Shot 6 FAIL confirmed (watch), Shots 6-8 held for Lejohn - Nov 18 2026": no Shot 6 retry, Shots 7-8 held, no further Ep 4 Flow credits until a new GO; may submit an existing bare-wrist start-frame candidate for check, no new generation. **Needs Lejohn:** pick one — (a) new start frame with bare wrists visible, checked before use; (b) tighter reframe keeping wrists out of shot; (c) accept the watch as an Ep 4-only exception. Flow balance 390, resets Nov 25.
 
 Reminders: none due within 24 hours (Kit check Friday Nov 20). No credits spent by this check, no posts, no CSV change, nothing deleted.
+
+## 2026-11-18 (UTC, ~14:30) — folder check in chat; Ep 4 watch decision surfaced to Lejohn
+- Checked: Turn folder for files modified after 2026-11-17 03:30 UTC; last log entry read first. Nothing newer than the ~14:14 UTC Claude doc. No Koda, Gemini or Meta AI drops, no new REMINDER or NEEDS LEJOHN docs.
+- Surfaced to Lejohn up front (this chat): Ep 4 Shots 5 (two attempts) and 6 failed on a left-wrist watch (plus a ring and glove on Shot 5), caused by the Flow start frame cropping Baron at the forearms. Shots 6-8 held; Flow balance 390, resets Nov 25. His options: (a) new start frame with bare wrists checked first, (b) tighter reframe, (c) accept the watch as an Ep 4-only exception, (d) added by this check: wait for the ElevenLabs reset on Nov 26 and run Shots 5-8 there from the same frame that produced clean Shots 1-4. Also surfaced: Smith.ai number is live on formulary.html; AI-label toggles still on his list for the Ep 3 Instagram and Facebook Reels.
+- Nothing posted, no credits spent, nothing deleted by this check.
