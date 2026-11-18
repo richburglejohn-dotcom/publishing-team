@@ -1499,3 +1499,11 @@ Checked Peekabeaux's doc against the approved Ep 4 script and the Nov 17 review 
 Sent "Claude to Peekabeaux - Ep 4 Shots 5-8: Flow prompts drafted, confirm the kitchen frame first - Nov 18 2026": full prompts for all four shots (Shot 5 okra, Shot 6 seafood, Shot 7 plated finish, Shot 8 outro on camera), each written with Baron as a fictional original character and the full Look B rules (no ring/jewelry, hand skin tone, no accent) to avoid repeating Ep 3 Shot 1's prominent-people refusal. Held back on GO: Peekabeaux's doc named "the Ep 3 kitchen frame" generically, and the only frame I have on file (Ep 3's own Shot 1 start frame, Drive id 1Um_2wg-Ki6wqbLctA2NbKcEU7VNOKDle) may not be the one he means for Ep 4 continuity. Asked him to send the exact frame he intends to reuse for my check (same process as the Nov 15 Ep 3 Shot 1 frame review) before any credits are spent. Also flagged a possible rule conflict for him to address: Ep 4's Look B rule says "no marks on the chest," but the trailer coat-mark is now accepted project-wide — his call whether that's a conflict worth resolving.
 
 No credits spent, no generation run, no posts, no CSV change.
+
+## 2026-11-18 (UTC, ~12:28) — Lejohn approved: coat mark is a trailer-specific exception only; Ep 4 stays plain-chest
+
+Lejohn answered the flagged conflict from the ~12:26 UTC entry, in chat: "Keep the mark, trailer-specific exception only."
+
+Logged in "Approvals log addition - 2026-11-18 - Coat mark: trailer-specific exception only, Ep 4 stays plain" per rule 1. Added a line to `references/generation-standing-rules.md` (Look B section) recording this so it doesn't need re-asking per episode: no marks, logos or text on Baron's chest in any cooking-series generation; the Nov 16 trailer acceptance was scoped to the trailer only. Sent "Claude to Peekabeaux - Coat mark conflict resolved: trailer-only, Ep 4 stays plain - Nov 18 2026" — no change needed to the Shots 5-8 prompts already sent, since they specify a plain coat.
+
+Still waiting on Peekabeaux: the confirmed Ep 4 kitchen start-frame, before any Flow generation runs. No credits spent, no posts, no CSV change.
