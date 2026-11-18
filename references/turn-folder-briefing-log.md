@@ -1586,3 +1586,11 @@ Scheduled hourly check. New in the Turn folder since the ~14:35 UTC entry, all a
 2. **Ep 4 Shot 7 (plated finish): PASS.** One attempt, 20 Flow credits (370 → 350). Peekabeaux reports both hands bare, no ring, no glove; watch on the left wrist is covered by the Ep 4-only watch exception. Lejohn passed it after watching the verify copy. Answered in "Claude to Peekabeaux - Ep 4 Shot 7 PASS; GO on Shot 8 (one attempt) - Nov 18 2026"; logged in "Approvals log addition - 2026-11-18 - Ep 4 Shot 7 PASS (Lejohn); Shot 8 go".
 
 No Koda, Gemini or Meta AI drops, no REMINDER or NEEDS LEJOHN docs, no posts reported, no agent contacted Lejohn directly. No undelivered HELD FOR LEJOHN items. Reminders: none due within 24 hours (Kit check Friday Nov 20). No credits spent by this check, no posts, no CSV change, nothing deleted.
+
+## 2026-11-18 (UTC, ~16:15) — Digest delivered: Ep 4 Shot 8 frame check PASS; awaits Lejohn's listen
+
+Scheduled hourly check. Calendar read; Lejohn was free, so a digest went to him. New in the Turn folder since the ~15:12 UTC entry: one Peekabeaux report with a verify copy and five frame PNGs. No Koda, Gemini or Meta AI drops, no REMINDER or NEEDS LEJOHN docs, no posts reported, no agent contacted Lejohn on its own initiative.
+
+1. **Ep 4 Shot 8 (outro, Baron on camera): frame check PASS.** One attempt on the ~15:10 UTC GO, 20 Flow credits (350 → 330, resets Nov 25). Claude checked the last frame and both hands crops: hands bare, skin tone matches, no ring, no glove, wrists out of frame; glasses, plain gray coat, plain left chest, apron, plated bowl, no other person, no on-screen text. Spoken line not transcript-checked; Lejohn's listen is the audio check, as with Shot 7. Answered in "Claude to Peekabeaux - Ep 4 Shot 8 frame check PASS; final pass waits on Lejohn's listen - Nov 18 2026": no retry, no further Ep 4 credits, no assembly or posting until he passes Shot 8 and decides Shot 5's approach.
+
+Asked of Lejohn in the digest: listen to the Shot 8 verify copy. Reminders: none due within 24 hours (Kit check Friday Nov 20). No credits spent by this check, no posts, no CSV change, nothing deleted.
