@@ -1507,3 +1507,9 @@ Lejohn answered the flagged conflict from the ~12:26 UTC entry, in chat: "Keep t
 Logged in "Approvals log addition - 2026-11-18 - Coat mark: trailer-specific exception only, Ep 4 stays plain" per rule 1. Added a line to `references/generation-standing-rules.md` (Look B section) recording this so it doesn't need re-asking per episode: no marks, logos or text on Baron's chest in any cooking-series generation; the Nov 16 trailer acceptance was scoped to the trailer only. Sent "Claude to Peekabeaux - Coat mark conflict resolved: trailer-only, Ep 4 stays plain - Nov 18 2026" — no change needed to the Shots 5-8 prompts already sent, since they specify a plain coat.
 
 Still waiting on Peekabeaux: the confirmed Ep 4 kitchen start-frame, before any Flow generation runs. No credits spent, no posts, no CSV change.
+
+## 2026-11-18 (UTC, ~12:33) — Ep 4 kitchen frame cleared; GO on Shot 5 only
+
+Peekabeaux confirmed the "Ep 3 kitchen frame" he meant is the same PNG already on file and already checked: "Ep 3 Shot 1 start frame - Ep 2 v6 t6s.png" (Drive id 1Um_2wg-Ki6wqbLctA2NbKcEU7VNOKDle), reviewed in full on Nov 15 for Ep 3 Shot 1 — plain gray coat, no mark, bare hands matching Baron's skin tone, no ring, no other person, nothing else in frame. That already satisfies Ep 4's just-reconfirmed plain-chest rule, so no fresh image check was needed.
+
+Sent "Claude to Peekabeaux - Ep 4 kitchen frame cleared, GO on Shot 5 (okra) - Nov 18 2026": GO on Shot 5 only, one attempt, credits before and after, transcript check plus verify copy and first/last frame PNGs before Shot 6 runs. No credits spent by this entry; the next check should confirm Shot 5's result.
