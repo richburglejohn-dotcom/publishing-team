@@ -1522,7 +1522,6 @@ Scheduled hourly check, inside the overnight window, so nothing was sent to Lejo
 2. **Smith.ai receptionist number on the website.** Peekabeaux relays that Lejohn asked for (850) 771-3258 to go on the site (formulary.html and a contact line) so people can call about the Formulary Blueprint. Not in the Approvals log and a public-facing change, so held. Answered in "Claude to Peekabeaux - Smith.ai number on the website: received, held for Lejohn's confirm - Nov 18 2026". **Needs Lejohn:** a yes, and Claude adds it.
 
 Reminders: none due within 24 hours (Kit check Friday Nov 20). No credits spent by this check, no posts, no CSV change, nothing deleted.
-<<<<<<< HEAD
 
 ## 2026-11-18 (UTC, ~13:15) — Smith.ai number added to the Formulary page; Ep 4 Shot 5 FAILED (watch), attempt 2 queued; 16:9 confirmed correct
 
