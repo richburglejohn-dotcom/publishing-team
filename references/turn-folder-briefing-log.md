@@ -1594,3 +1594,13 @@ Scheduled hourly check. Calendar read; Lejohn was free, so a digest went to him.
 1. **Ep 4 Shot 8 (outro, Baron on camera): frame check PASS.** One attempt on the ~15:10 UTC GO, 20 Flow credits (350 → 330, resets Nov 25). Claude checked the last frame and both hands crops: hands bare, skin tone matches, no ring, no glove, wrists out of frame; glasses, plain gray coat, plain left chest, apron, plated bowl, no other person, no on-screen text. Spoken line not transcript-checked; Lejohn's listen is the audio check, as with Shot 7. Answered in "Claude to Peekabeaux - Ep 4 Shot 8 frame check PASS; final pass waits on Lejohn's listen - Nov 18 2026": no retry, no further Ep 4 credits, no assembly or posting until he passes Shot 8 and decides Shot 5's approach.
 
 Asked of Lejohn in the digest: listen to the Shot 8 verify copy. Reminders: none due within 24 hours (Kit check Friday Nov 20). No credits spent by this check, no posts, no CSV change, nothing deleted.
+
+## 2026-11-19 (UTC, ~08:15) — HELD FOR LEJOHN: nothing new in the folder; Kit check reminder now within 24 hours
+
+Scheduled hourly check, inside the overnight window, so nothing was sent to Lejohn. Turn folder: nothing modified since the ~16:15 UTC Nov 18 entry except Claude's own "Claude to Peekabeaux - Ep 4 Shot 8 frame check PASS..." doc. No Peekabeaux, Koda, Gemini or Meta AI drops, no REMINDER or NEEDS LEJOHN docs, no posts reported, no agent contacted Lejohn on its own initiative.
+
+Held for the next digest:
+1. **Reminder due Friday 2026-11-20: Kit Creator purchase and Kit account check** (filed by Claude). Now within 24 hours; raise it in his next free window.
+2. Still open from the ~16:15 UTC Nov 18 digest (already delivered, not repeated unless he hasn't answered): his listen on the Ep 4 Shot 8 verify copy; Shot 5 approach.
+
+No credits spent by this check, no posts, no CSV change, nothing deleted.
