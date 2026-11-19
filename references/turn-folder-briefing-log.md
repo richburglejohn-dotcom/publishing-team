@@ -1604,3 +1604,7 @@ Held for the next digest:
 2. Still open from the ~16:15 UTC Nov 18 digest (already delivered, not repeated unless he hasn't answered): his listen on the Ep 4 Shot 8 verify copy; Shot 5 approach.
 
 No credits spent by this check, no posts, no CSV change, nothing deleted.
+
+## 2026-11-19 (UTC, ~09:15) — HELD FOR LEJOHN: nothing new; the ~08:15 held entry stays undelivered
+
+Scheduled hourly check, inside the overnight window, so nothing was sent to Lejohn. Turn folder: nothing modified since the ~08:15 UTC entry. No Peekabeaux, Koda, Gemini or Meta AI drops, no REMINDER or NEEDS LEJOHN docs, no posts reported, no agent contacted Lejohn on its own initiative. The Kit check reminder (due Friday 2026-11-20) stays held for his next free window, which comes before the deadline. No credits spent by this check, no posts, no CSV change, nothing deleted.
