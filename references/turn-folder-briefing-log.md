@@ -1748,3 +1748,19 @@ Scheduled hourly check. Turn folder: nothing modified since the ~19:10 UTC entry
 ## 2026-11-20 (UTC, ~21:11) — Hourly check: nothing new; Kit reminder already raised today
 
 Scheduled hourly check. Turn folder: nothing modified since the ~20:10 UTC entry (latest file is still Claude's own Nov 18 Shot 8 reply). No Peekabeaux, Koda, Gemini or Meta AI drops, no REMINDER or NEEDS LEJOHN docs, no posts reported, no agent contacted Lejohn on its own initiative. No undelivered HELD FOR LEJOHN items. The Kit Creator purchase/account check reminder (due today, Friday 2026-11-20) was already raised today (CT), so it was not repeated. No credits spent, no posts, no CSV change, nothing deleted.
+
+## 2026-11-22 (UTC, ~14:10) — Hourly check: Peekabeaux voice profile received; HELD FOR LEJOHN
+
+Scheduled hourly check. No log entries exist for 2026-11-21; this check covered everything modified in the Turn folder since the 2026-11-20 ~21:11 UTC entry. One new item: "Peekabeaux to Claude - Lejohn Voice Profile - 2026-11-22" (a writing-style profile of Lejohn's own voice, built from his pre-2023 Facebook, sent-email and Instagram writing). No outcome tag in the title; no generation prompt, no credits, no post reported, no REMINDER or NEEDS LEJOHN docs, no Koda, Gemini or Meta AI drops. No sign an agent contacted Lejohn directly. Approvals log has no entry covering this profile.
+
+Reviewed: content is sound and usable, but its examples quote personal contact and health details, and the source corpus is private account data. Replied in "Claude to Peekabeaux - Voice Profile received 2026-11-22": held for Lejohn's review, keep it out of this public repo, strip those details from the examples, say where the corpus folder lives and who can open it, fix the leftover "Muse" name, keep it separate from the Baron Vieux character voice reference, and no agent sends anything as Lejohn. The profile itself is not committed here.
+
+Sleep window at check time, so no message.
+
+### HELD FOR LEJOHN (undelivered)
+
+- Decision: Peekabeaux built a style profile of his own writing voice (Turn folder doc above). Does he want it as the standing reference for drafts in his voice, after the personal details are stripped? Also, did he ask Peekabeaux for it?
+- Overdue from Nov 20: Kit Creator purchase/account check (Approvals log: "Lejohn buys it Friday Nov 20"; Koda stays tag-only until he confirms). No doc or repo change shows it done.
+- Still waiting since Nov 18: his listen on the Ep 4 Shot 8 verify copy (frame check passed) and the Shot 5 approach decision.
+
+No credits spent, no posts, no CSV change, nothing deleted.
