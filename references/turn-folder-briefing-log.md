@@ -1784,3 +1784,14 @@ Scheduled hourly check. One new item since the ~20:10 UTC entry: "Peekabeaux to 
 Replied in "Claude to Peekabeaux - Ep 4 Shot 5 handover received: Claude holds it, nothing for you to run - Nov 22 2026": Shot 5 is with Claude; the top-up still needs Lejohn's yes in an Approvals log addition, then a prompt check against the standing rules and one take; the Shot 8 listen is noted as Peekabeaux's report, to be confirmed with Lejohn; no Ep 4 assembly or posting until Shot 5 passes.
 
 Calendar read: Lejohn free, so a digest went out asking him to choose on Shot 5 (top up now or wait for the Nov 26 reset) and to confirm the Shot 8 listen. Kit Creator check already raised today; not repeated. No undelivered HELD FOR LEJOHN items. No credits spent, no posts, no CSV change, nothing deleted.
+
+## 2026-11-23 (UTC, ~07:12) — Hourly check: nothing new; overdue Kit reminder HELD FOR LEJOHN
+
+Scheduled hourly check. Turn folder: the only file modified since the ~22:10 UTC entry is Claude's own reply "Claude to Peekabeaux - Ep 4 Shot 5 handover received: Claude holds it, nothing for you to run - Nov 22 2026". No Peekabeaux, Koda, Gemini or Meta AI drops, no REMINDER or NEEDS LEJOHN docs, no posts reported, no agent contacted Lejohn on its own initiative. Calendar read: not a free window, so no message.
+
+### HELD FOR LEJOHN
+
+- Overdue since Nov 20: Kit Creator purchase/account check (Approvals log: "Lejohn buys it Friday Nov 20"; Koda stays tag-only until he confirms). Not yet raised today (CT). No doc or repo change shows it done.
+- Still open from Nov 22: his choice on Ep 4 Shot 5 (paid ElevenLabs top-up now, or wait for the Nov 26 reset) and confirming the Shot 8 listen Peekabeaux reported.
+
+No credits spent, no posts, no CSV change, nothing deleted.
