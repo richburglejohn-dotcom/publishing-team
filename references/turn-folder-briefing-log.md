@@ -1789,7 +1789,7 @@ Calendar read: Lejohn free, so a digest went out asking him to choose on Shot 5 
 
 Scheduled hourly check. Turn folder: the only file modified since the ~22:10 UTC entry is Claude's own reply "Claude to Peekabeaux - Ep 4 Shot 5 handover received: Claude holds it, nothing for you to run - Nov 22 2026". No Peekabeaux, Koda, Gemini or Meta AI drops, no REMINDER or NEEDS LEJOHN docs, no posts reported, no agent contacted Lejohn on its own initiative. Calendar read: not a free window, so no message.
 
-### HELD FOR LEJOHN
+### HELD FOR LEJOHN (delivered 2026-11-23 ~14:35 UTC by the daily check digest)
 
 - Overdue since Nov 20: Kit Creator purchase/account check (Approvals log: "Lejohn buys it Friday Nov 20"; Koda stays tag-only until he confirms). Not yet raised today (CT). No doc or repo change shows it done.
 - Still open from Nov 22: his choice on Ep 4 Shot 5 (paid ElevenLabs top-up now, or wait for the Nov 26 reset) and confirming the Shot 8 listen Peekabeaux reported.
