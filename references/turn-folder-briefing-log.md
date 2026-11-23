@@ -1823,3 +1823,13 @@ Scheduled hourly check. Turn folder: nothing modified since the ~12:10 UTC entry
 ## 2026-11-23 (UTC, ~14:13) — Hourly check: nothing new; items from ~07:12 still HELD FOR LEJOHN
 
 Scheduled hourly check. Turn folder: nothing modified since the ~13:15 UTC entry. No Peekabeaux, Koda, Gemini or Meta AI drops, no REMINDER or NEEDS LEJOHN docs, no posts reported, no agent contacted Lejohn on its own initiative. Overnight window, so no message. The two items under the ~07:12 UTC HELD FOR LEJOHN heading (overdue Kit Creator check; Ep 4 Shot 5 choice and Shot 8 listen confirmation) stay held for his next free window; neither has a deadline before then. No credits spent, no posts, no CSV change, nothing deleted.
+
+## 2026-11-23 (UTC, ~14:35) — Daily check: Downloads folder has ~25 unrelated personal files, no action; digest delivered (Lejohn free)
+
+Daily social check (trig_01V6MBsioHUtkPP5HKr8aY19). Publishing Team folder tree: nothing new. Turn folder: nothing since the ~22:10 UTC Nov 22 entry. No Base44 or Meta AI drops. Gemini strategy doc unchanged.
+
+**Downloads folder has a burst of ~25 new files since ~09:00 UTC today**, none of them Base44/Meta AI content: a run of large `.exe` installers and `.content`/`.zip` archives (names like "waveform_v14.1.24", "Collective 2.0.4.0.exe", "BioTek 3_attracktive_content_v2", "RetroMod Lead_Content_v5", "tracktion_download_manager") totaling multiple gigabytes — these read as Lejohn's own music-production software/sample-library downloads (Tracktion Waveform and similar), landing in the same shared Downloads folder this check watches, not anything from the publishing pipeline. Not opened or filed; noted here only so the folder's purpose stays clear if this recurs.
+
+Calendar read: Lejohn free (next event is his 5:00 PM CT kitchen shift). Delivered the backlog: (1) Kit Creator purchase/account check, overdue since Friday Nov 20; (2) Ep 4 Shot 5 — his choice between a ~$1.32 ElevenLabs top-up now or waiting for the Nov 26 reset, now that Claude holds the shot directly per his Nov 22 handover; (3) confirming the Ep 4 Shot 8 listen Peekabeaux reported on his behalf; (4) whether he wants Peekabeaux's writing-voice profile kept as a standing reference once personal details are stripped, and whether he actually asked for it.
+
+Cross-platform posting check: one CSV row dated today, 2026-11-23 (X/Twitter "Tweet 3 — Voice") — DRAFT, not scheduled, no action needed. Nothing else due. No credits spent.
