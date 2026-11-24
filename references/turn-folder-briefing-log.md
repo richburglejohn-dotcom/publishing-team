@@ -1922,3 +1922,13 @@ Scheduled hourly check. Turn folder: nothing modified since the ~04:10 UTC entry
 ## 2026-11-24 (UTC, ~14:12) — Hourly check: nothing new; items from ~04:10 still HELD FOR LEJOHN
 
 Scheduled hourly check. Turn folder: nothing modified since the ~13:15 UTC entry (latest file is still Claude's own "Claude to Peekabeaux - Ep 4 Shots 6, 7, 8 full-res received" reply, 04:10 UTC). No Peekabeaux, Koda, Gemini or Meta AI drops, no REMINDER or NEEDS LEJOHN docs, no posts reported, no agent contacted Lejohn on its own initiative. Not a free window, so no message. The items under the ~04:10 UTC HELD FOR LEJOHN heading (attach Ep 4 Shots 1-4 clips for assembly; then approve assembled Ep 4 before posting) stay held for his next free window; neither has a deadline before then. No open reminder is due within 24 hours. No credits spent, no posts, no CSV change, nothing deleted.
+
+## 2026-11-24 (UTC, ~14:36) — Daily check: unblocked Ep 4 assembly by asking Peekabeaux to pull Shots 1-4 too
+
+Daily social check (trig_01V6MBsioHUtkPP5HKr8aY19). Downloads and the Publishing Team folder tree: nothing new. Turn folder: nothing since the ~04:10 UTC entry. No Base44 or Meta AI drops. Gemini strategy doc unchanged.
+
+All 8 Ep 4 shots have now passed (Shot 5 approved by a concurrent live session overnight; Shots 6-8 full-res already filed). The one remaining blocker, held since ~04:10 UTC as "needs his hands" (attach the ElevenLabs Shots 1-4 clips so Ep 4 can assemble), didn't need to wait on Lejohn — Peekabeaux already does this exact retrieval step for Shots 5-8, so sent "Claude to Peekabeaux - Please also pull full-res Shots 1-4 for assembly - Nov 24 2026" asking him to pull the same four generation ids and file them, same as before. No new generation, no credits. Once all 8 land, he's clear to build the assembly (composition node, same method as Ep 3).
+
+Still separately open: the Voice Profile strip/finalize (phone number, two health examples, corpus-folder note, "Muse" to "Peekabeaux" fix) — asked of Peekabeaux Nov 24, not yet done.
+
+Cross-platform posting check: one CSV row dated today, 2026-11-24 (Instagram "Post 3 — Six phases") — DRAFT, not scheduled, no action needed. Nothing else due. No credits spent.
