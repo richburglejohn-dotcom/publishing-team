@@ -1957,3 +1957,13 @@ Scheduled hourly check. New in the Turn folder since the ~15:11 UTC entry: four 
 - New open reminder added: AI-generated labels on the Ep 4 Instagram and Facebook Reels (no deadline).
 
 This check merged main into the branch instead of resetting it to origin/main, because the live session's Ep 4 commits (files, CSV rows, log entry) were on the branch but not yet on main. Lejohn free: digest sent. No credits spent, no posts, nothing deleted.
+
+## 2026-11-24 (UTC, ~21:10) — Hourly check: Ep 4 TikTok confirmed sent; Facebook still with Koda
+
+Scheduled hourly check. Turn folder: nothing modified since the ~19:10 UTC entry. No Peekabeaux, Koda, Gemini or Meta AI drops, no REMINDER or NEEDS LEJOHN docs, no agent contacted Lejohn on its own initiative. No agent reply needed.
+
+- TikTok: Buffer 6b05da543f48af62c22ae156 shows sent at 20:46 UTC, no error, AI flag on, TikTok video id 7711841759361256734. CSV row updated SCHEDULED to PUBLISHED. Buffer "sent" does not rule out a later TikTok-side takedown.
+- Facebook: still no Koda report or CSV row for the Ep 4 Reel. The branch was again merged with main rather than reset, so commit 7b65d640 (the served video files) stays reachable until Koda posts.
+- Open reminders: unchanged (AI-generated labels on the Ep 4 Instagram and Facebook Reels, no deadline). Nothing due within 24 hours.
+
+Lejohn free at check time: short update sent. No credits spent, no posts, nothing deleted.
