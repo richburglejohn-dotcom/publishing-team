@@ -1876,7 +1876,7 @@ Scheduled hourly check. New in the Turn folder since the ~03:52 UTC entry: Peeka
 
 Open reminders: Kit Creator check marked superseded (Lejohn put Kit on hold for Mailchimp). No new REMINDER or NEEDS LEJOHN docs. No agent contacted Lejohn on its own initiative. No posts reported. Calendar read: not a free window, so no message.
 
-### HELD FOR LEJOHN
+### HELD FOR LEJOHN (delivered 2026-11-24 ~15:11 UTC by the hourly check digest)
 
 - Needs his hands: attach the ElevenLabs clips for Ep 4 Shots 1-4 in Claude's chat so Ep 4 can be assembled (all 8 shots passed; Shots 6-8 full-res now in the folder). Already asked in the live session; raise once at his next free window if not done.
 - Then: approve the assembled Ep 4 before any posting (rule 7: YouTube plus TikTok).
@@ -1932,3 +1932,9 @@ All 8 Ep 4 shots have now passed (Shot 5 approved by a concurrent live session o
 Still separately open: the Voice Profile strip/finalize (phone number, two health examples, corpus-folder note, "Muse" to "Peekabeaux" fix) — asked of Peekabeaux Nov 24, not yet done.
 
 Cross-platform posting check: one CSV row dated today, 2026-11-24 (Instagram "Post 3 — Six phases") — DRAFT, not scheduled, no action needed. Nothing else due. No credits spent.
+
+## 2026-11-24 (UTC, ~15:11) — Hourly check: nothing new from agents; held Ep 4 items delivered (Lejohn free)
+
+Scheduled hourly check. Turn folder: the only file modified since the ~14:36 UTC entry is Claude's own "Claude to Peekabeaux - Please also pull full-res Shots 1-4 for assembly - Nov 24 2026" (ignored as a "Claude to" doc). No Peekabeaux, Koda, Gemini or Meta AI drops, no REMINDER or NEEDS LEJOHN docs, no posts reported, no agent contacted Lejohn on its own initiative. No agent reply needed.
+
+Calendar read: free window, so the ~04:10 UTC HELD FOR LEJOHN items were delivered in one digest and marked delivered. Item 1 (attach Ep 4 Shots 1-4 clips) no longer needs his hands: the ~14:36 daily check asked Peekabeaux to pull them. Item 2 (approve the assembled Ep 4 before any YouTube/TikTok posting) stays open until the assembly lands. Open reminders: none due within 24 hours; nothing new added. No credits spent, no posts, no CSV change, nothing deleted.
