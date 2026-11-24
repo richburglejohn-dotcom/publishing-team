@@ -700,6 +700,7 @@ Lejohn's notes on v5: accent at 10-15s (clip 2), sizzle fine, light-skinned hand
 - AI-generated label on the Instagram Ep 3 The Gulf Remedy Reel (media id 18109222808202737), switched on in the Instagram app. Filed by Claude 2026-11-16 (from the approvals doc "Ep 3 to Instagram and Facebook; TikTok posted by Lejohn"). No deadline.
 - SUPERSEDED 2026-11-24 (Lejohn: "Keep the kit on hold, going to merge everything to mailchimp"; see the ~03:52 UTC Nov 24 entry): Kit Creator purchase and Kit account check: Friday 2026-11-20. Filed by Claude.
 - DONE 2026-11-13 (Lejohn's report in chat; live Amazon price not verified by Claude): Change the Kindle price to $3.99 (US) for both books in KDP, in his own browser (Amazon blocks Muse). Steps: Turn folder doc "Muse to Claude - Kindle 3.99 paste-ready KDP steps - Nov 13 2026". Filed by Claude from Muse's doc. No deadline.
+- AI-generated label on the Ep 4 Seafood Gumbo Reels: Instagram (media id 18506683747098565) in the Instagram app, and Facebook once Koda posts it, in Meta Business Suite. Filed by Claude 2026-11-24 (from "Approvals log addition - 2026-11-24 - Ep 4 Seafood Gumbo released (YouTube, TikTok, Instagram, Facebook)"). No deadline.
 - PR #46 review; Stripe webhook decision; Bayoubeaux1070 page token for Koda; restrict sharing on the Ep 2 v4 Drive file; sales tax registration. Filed by Claude. No deadlines.
 
 ## 2026-11-12 (late night CT) — Lead magnet page published; income items 1, 3, 4 approved
@@ -1938,3 +1939,21 @@ Cross-platform posting check: one CSV row dated today, 2026-11-24 (Instagram "Po
 Scheduled hourly check. Turn folder: the only file modified since the ~14:36 UTC entry is Claude's own "Claude to Peekabeaux - Please also pull full-res Shots 1-4 for assembly - Nov 24 2026" (ignored as a "Claude to" doc). No Peekabeaux, Koda, Gemini or Meta AI drops, no REMINDER or NEEDS LEJOHN docs, no posts reported, no agent contacted Lejohn on its own initiative. No agent reply needed.
 
 Calendar read: free window, so the ~04:10 UTC HELD FOR LEJOHN items were delivered in one digest and marked delivered. Item 1 (attach Ep 4 Shots 1-4 clips) no longer needs his hands: the ~14:36 daily check asked Peekabeaux to pull them. Item 2 (approve the assembled Ep 4 before any YouTube/TikTok posting) stays open until the assembly lands. Open reminders: none due within 24 hours; nothing new added. No credits spent, no posts, no CSV change, nothing deleted.
+
+## 2026-11-24 (UTC, ~18:45) — Ep 4 Seafood Gumbo assembled, approved, released
+
+Lejohn asked "Check folder" in the text chat. New since the ~15:11 UTC entry: only Claude's own docs (approval and reminder) and the Shots 6-8 full-res files already noted; no Peekabeaux, Koda, Gemini or Meta AI drops. Peekabeaux's full-res Shots 1-4 pull was not needed: Lejohn attached the ElevenLabs Shots 1-4 clips in chat, Shot 5 and Shots 6-8 came from the Turn folder. Assembled all 8 shots in order, per-shot gain then two-pass loudnorm to -14 LUFS (whole episode -14.2, shots within about 0.6 dB), 63.9s; vertical 9:16 blurred-pad cut. Frame check: a dark watch looks visible on the left wrist in Shot 4 (about 24-28s) and in Shot 6; Lejohn viewed it and approved with the watch exception. Lejohn approved release by voice, then confirmed in text chat.
+
+Posted: YouTube scheduled 13:00 CT (Metricool 440724842), TikTok scheduled 14:45 CT (Buffer 6b05da54...; 105 min after YouTube), Instagram Reel published (media 18506683747098565), Facebook handed to Koda (go doc filed). CSV rows added for all four. Files served from commit 7b65d640. Lejohn to do: AI-generated labels on the Instagram and Facebook Reels. No credits spent this session step.
+
+## 2026-11-24 (UTC, ~19:10) — Hourly check: Ep 4 YouTube confirmed live; TikTok and Facebook still pending
+
+Scheduled hourly check. New in the Turn folder since the ~15:11 UTC entry: four docs, all written by Claude's live session around 18:37-18:42 UTC (two "Approvals log addition" docs for the Ep 4 Seafood Gumbo release, the "REMINDER - Claude - post Ep 4 gumbo when Lejohn opens the text chat" doc, and the "Claude to Koda" GO doc). No Peekabeaux, Koda, Gemini or Meta AI drops, no NEEDS LEJOHN docs, no agent contacted Lejohn on its own initiative. No agent reply needed (Koda already has his GO doc).
+
+- The "REMINDER - Claude" doc is DONE: the live session posted Ep 4 at ~18:41 UTC.
+- YouTube: Metricool 440724842 shows Published, video id 4OPqvrkceK4, AI-content flag on. CSV row updated SCHEDULED to PUBLISHED.
+- TikTok: Buffer 6b05da543f48af62c22ae156 still scheduled for 20:45 UTC, AI flag on, no error. Its video is served from commit 7b65d640 on this branch, so that commit must stay reachable (do not force-reset the branch before it sends). Next check should confirm it sent.
+- Facebook: no Koda report yet; his CSV row is pending.
+- New open reminder added: AI-generated labels on the Ep 4 Instagram and Facebook Reels (no deadline).
+
+This check merged main into the branch instead of resetting it to origin/main, because the live session's Ep 4 commits (files, CSV rows, log entry) were on the branch but not yet on main. Lejohn free: digest sent. No credits spent, no posts, nothing deleted.
