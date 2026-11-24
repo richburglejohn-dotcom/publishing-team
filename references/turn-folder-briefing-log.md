@@ -1833,3 +1833,14 @@ Daily social check (trig_01V6MBsioHUtkPP5HKr8aY19). Publishing Team folder tree:
 Calendar read: Lejohn free (next event is his 5:00 PM CT kitchen shift). Delivered the backlog: (1) Kit Creator purchase/account check, overdue since Friday Nov 20; (2) Ep 4 Shot 5 — his choice between a ~$1.32 ElevenLabs top-up now or waiting for the Nov 26 reset, now that Claude holds the shot directly per his Nov 22 handover; (3) confirming the Ep 4 Shot 8 listen Peekabeaux reported on his behalf; (4) whether he wants Peekabeaux's writing-voice profile kept as a standing reference once personal details are stripped, and whether he actually asked for it.
 
 Cross-platform posting check: one CSV row dated today, 2026-11-23 (X/Twitter "Tweet 3 — Voice") — DRAFT, not scheduled, no action needed. Nothing else due. No credits spent.
+
+## 2026-11-24 (UTC, ~00:10) — Hourly check: nothing new; overdue Kit reminder HELD FOR LEJOHN
+
+Scheduled hourly check. Turn folder: nothing modified since the ~14:35 UTC Nov 23 entry. No Peekabeaux, Koda, Gemini or Meta AI drops, no REMINDER or NEEDS LEJOHN docs, no posts reported, no agent contacted Lejohn on its own initiative. Calendar read: not a free window, so no message.
+
+### HELD FOR LEJOHN
+
+- Overdue since Nov 20: Kit Creator purchase/account check (Approvals log: "Lejohn buys it Friday Nov 20"; Koda stays tag-only until he confirms). Already raised once on Nov 23 (CT); raise again at his first free window on Nov 24 (CT). No doc or repo change shows it done.
+- Still open from Nov 22: his choice on Ep 4 Shot 5 (paid ElevenLabs top-up now, or wait for the Nov 26 reset) and confirming the Shot 8 listen Peekabeaux reported.
+
+No credits spent, no posts, no CSV change, nothing deleted.
