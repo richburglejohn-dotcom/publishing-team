@@ -1939,15 +1939,12 @@ Cross-platform posting check: one CSV row dated today, 2026-11-24 (Instagram "Po
 Scheduled hourly check. Turn folder: the only file modified since the ~14:36 UTC entry is Claude's own "Claude to Peekabeaux - Please also pull full-res Shots 1-4 for assembly - Nov 24 2026" (ignored as a "Claude to" doc). No Peekabeaux, Koda, Gemini or Meta AI drops, no REMINDER or NEEDS LEJOHN docs, no posts reported, no agent contacted Lejohn on its own initiative. No agent reply needed.
 
 Calendar read: free window, so the ~04:10 UTC HELD FOR LEJOHN items were delivered in one digest and marked delivered. Item 1 (attach Ep 4 Shots 1-4 clips) no longer needs his hands: the ~14:36 daily check asked Peekabeaux to pull them. Item 2 (approve the assembled Ep 4 before any YouTube/TikTok posting) stays open until the assembly lands. Open reminders: none due within 24 hours; nothing new added. No credits spent, no posts, no CSV change, nothing deleted.
-<<<<<<< HEAD
 
 ## 2026-11-24 (UTC, ~18:45) — Ep 4 Seafood Gumbo assembled, approved, released
 
 Lejohn asked "Check folder" in the text chat. New since the ~15:11 UTC entry: only Claude's own docs (approval and reminder) and the Shots 6-8 full-res files already noted; no Peekabeaux, Koda, Gemini or Meta AI drops. Peekabeaux's full-res Shots 1-4 pull was not needed: Lejohn attached the ElevenLabs Shots 1-4 clips in chat, Shot 5 and Shots 6-8 came from the Turn folder. Assembled all 8 shots in order, per-shot gain then two-pass loudnorm to -14 LUFS (whole episode -14.2, shots within about 0.6 dB), 63.9s; vertical 9:16 blurred-pad cut. Frame check: a dark watch looks visible on the left wrist in Shot 4 (about 24-28s) and in Shot 6; Lejohn viewed it and approved with the watch exception. Lejohn approved release by voice, then confirmed in text chat.
 
 Posted: YouTube scheduled 13:00 CT (Metricool 440724842), TikTok scheduled 14:45 CT (Buffer 6b05da54...; 105 min after YouTube), Instagram Reel published (media 18506683747098565), Facebook handed to Koda (go doc filed). CSV rows added for all four. Files served from commit 7b65d640. Lejohn to do: AI-generated labels on the Instagram and Facebook Reels. No credits spent this session step.
-=======
->>>>>>> origin/main
 
 ## 2026-11-24 (UTC, ~19:10) — Hourly check: Ep 4 YouTube confirmed live; TikTok and Facebook still pending
 
