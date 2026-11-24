@@ -698,7 +698,7 @@ Lejohn's notes on v5: accent at 10-15s (clip 2), sizzle fine, light-skinned hand
 - Duplicate Ep 1 Clip C on the Baron Vieux Facebook page: delete or leave. Filed by Claude. No deadline.
 - AI-content label, manual toggle in Meta Business Suite, on three Baron Vieux Facebook reels: Ep 2 cold open (1601606361274284), Ep 3 cold open (1445969773668353) and Ep 3 The Gulf Remedy (1002731552266588, added 2026-11-16). Filed by Koda. No deadline. Latest doc: "Koda to Claude - REMINDER FOR LEJOHN - AI-content label on the Ep 3 Facebook Reel - due no deadline".
 - AI-generated label on the Instagram Ep 3 The Gulf Remedy Reel (media id 18109222808202737), switched on in the Instagram app. Filed by Claude 2026-11-16 (from the approvals doc "Ep 3 to Instagram and Facebook; TikTok posted by Lejohn"). No deadline.
-- Kit Creator purchase and Kit account check: Friday 2026-11-20. Filed by Claude.
+- SUPERSEDED 2026-11-24 (Lejohn: "Keep the kit on hold, going to merge everything to mailchimp"; see the ~03:52 UTC Nov 24 entry): Kit Creator purchase and Kit account check: Friday 2026-11-20. Filed by Claude.
 - DONE 2026-11-13 (Lejohn's report in chat; live Amazon price not verified by Claude): Change the Kindle price to $3.99 (US) for both books in KDP, in his own browser (Amazon blocks Muse). Steps: Turn folder doc "Muse to Claude - Kindle 3.99 paste-ready KDP steps - Nov 13 2026". Filed by Claude from Muse's doc. No deadline.
 - PR #46 review; Stripe webhook decision; Bayoubeaux1070 page token for Koda; restrict sharing on the Ep 2 v4 Drive file; sales tax registration. Filed by Claude. No deadlines.
 
@@ -1869,3 +1869,16 @@ Lejohn answered the full backlog in chat, in one message:
 **Could not verify frames myself.** My session's shell/network can't reach `elevenlabsusercontent.com` (confirmed via direct curl and a web-fetch sub-agent, both blocked), and this session turns out to be one that was itself spawned by another session, so it can't be moved onto a different network environment either — tried `create_environment` (succeeded, environment `env_01J7J7vW2NezyHLaRDHxf6h6` now exists for a future session) and `switch_environment` (refused: "a session that another session created cannot be moved"). Asked Peekabeaux to do the same mechanical save-to-Drive step as every other shot: pull generation `9KYtRVIbFJWGRnJsnj4D` from flow `p6jAk1UoQYsyG46EDibX` and save the clip, a verify copy, and first/mid/last frames to the Turn folder for my check. This is not a new generation — nothing more is spent.
 
 Logged in "Approvals log addition - 2026-11-24 - Shot 8 approved; Voice Profile kept (Claude adopts it); Kit on hold for Mailchimp; Shot 5 ElevenLabs GO". No posts, no CSV change. Credits spent: 7,271 (~$1.32) on the Shot 5 generation — the only spend from this entry.
+
+## 2026-11-24 (UTC, ~04:10) — Hourly check: Ep 4 Shots 6-8 full-res filed by Peekabeaux; HELD FOR LEJOHN
+
+Scheduled hourly check. New in the Turn folder since the ~03:52 UTC entry: Peekabeaux's Shot 5 pull (clip, verify copy, three frames, hands crop, note), a live Claude session's approval docs for Shot 5 ("Approvals log addition - 2026-11-24 - Ep 4 Shot 5 approved (ElevenLabs take 1); finish and assemble") and its request for full-res Shots 6-8, then "Peekabeaux to Claude - Ep 4 Shots 6, 7, 8 full-res filed for assembly - Nov 23 2026" with the three files (3.0, 2.9, 2.0 MB; sizes match). Shot 5 review and approval were already handled in the live session; not re-reviewed here. Answered in "Claude to Peekabeaux - Ep 4 Shots 6, 7, 8 full-res received - Nov 24 2026": received, nothing more needed on Ep 4, Voice Profile strip/finalize still open on his side.
+
+Open reminders: Kit Creator check marked superseded (Lejohn put Kit on hold for Mailchimp). No new REMINDER or NEEDS LEJOHN docs. No agent contacted Lejohn on its own initiative. No posts reported. Calendar read: not a free window, so no message.
+
+### HELD FOR LEJOHN
+
+- Needs his hands: attach the ElevenLabs clips for Ep 4 Shots 1-4 in Claude's chat so Ep 4 can be assembled (all 8 shots passed; Shots 6-8 full-res now in the folder). Already asked in the live session; raise once at his next free window if not done.
+- Then: approve the assembled Ep 4 before any posting (rule 7: YouTube plus TikTok).
+
+No credits spent, no posts, no CSV change, nothing deleted.
