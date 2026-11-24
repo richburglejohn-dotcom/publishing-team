@@ -278,3 +278,16 @@ existing .btn-note class; references/amazon-associates.md left to Claude.
 
 Live-verified: store-config 2/2 tagged, formulary 2 tagged links + 1 disclosure, books 2 disclosures,
 zero untagged amazon dp links across formulary/books/index/thank-you (all HTTP 200).
+
+## 2026-11-24 — Claude — Kit Creator reversed: Lejohn moving to Mailchimp instead
+
+Reverses the 2026-11-12 decision above ("Lejohn will buy Kit Creator"). Lejohn, in Claude's chat
+today: "Keep the kit on hold, going to merge everything to mailchimp." Logged in "Approvals log
+addition - 2026-11-24 - Shot 8 approved; Voice Profile kept (Claude adopts it); Kit on hold for
+Mailchimp; Shot 5 ElevenLabs GO" in the Turn folder.
+
+No code change needed today: `formularyLead` stays exactly as it is (tag-only, `LEAD_MAGNET_SEQUENCE_ID`
+blank, no failure logged). This is a direction change, not yet a spec — no Mailchimp account, API
+access, or target list/automation has been given yet. Koda: do not start a Mailchimp integration until
+that arrives, and bring any Mailchimp access you get from Lejohn to Claude before wiring it in, same as
+Kit got reviewed first.
