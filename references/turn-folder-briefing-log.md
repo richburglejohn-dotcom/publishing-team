@@ -2066,3 +2066,11 @@ Scheduled hourly check. New in the Turn folder since the ~20:38 UTC entry: Peeka
 That live session is still working this thread: its generation-standing-rules.md note and its log entry weren't on main yet at check time, and no "Claude to Peekabeaux" Shot 3 doc existed yet. So this check sent no agent reply and ran no generation, to avoid doubling up on Shot 3. Peekabeaux can read the Shot 2 pass from the approvals doc. Peekabeaux's notes: no jewelry in the hand crops (wrists partly out of frame), the roux reads blond to peanut butter per the shot list, no on-screen text, and the same baked-in haze as Shot 1 with no pot-state claim to contradict it.
 
 No REMINDER or NEEDS LEJOHN docs. No posts reported, so no CSV change. No agent contacted Lejohn on its own initiative. Open reminders unchanged; none is due within 24 hours. No undelivered HELD FOR LEJOHN items. Calendar read: free window. No digest beyond this was needed, because Lejohn handled the only new item himself in the live session. No credits spent, no posts, nothing deleted.
+
+## 2026-11-25 (UTC, ~21:35) — Live session: Ep 5 Shot 2 brand-mark decision logged, Shot 3 generated
+
+This is the live session referenced in the ~21:10 hourly entry above, continuing the same thread. Lejohn's decision on the Shot 2 pot brand mark ("Accept it as-is, it's background only") was logged the same turn: "Approvals log addition - 2026-11-25 - Ep 5 Shot 2 pot brand mark accepted as background only" and a new bullet in `references/generation-standing-rules.md` under Baron Vieux Look B — scoped to this pot as background, not a blanket rule for any real-world brand mark.
+
+Shot 2 now PASSES in full. Per Lejohn's Nov 25 rule, generated Shot 3 (the trinity) right away: node "Ep 5 Crawfish - Shot 3 trinity" on the shared flow, generation id e2Zj2piWRWuv2otbckAs, 7,271 credits (Ep 5 running total: 36,355 across Shot 1 x3, Shot 2, Shot 3). Continuity carried from Shot 2's finished roux. Asked Peekabeaux to pull and file it (Turn folder doc sent).
+
+No posts made, nothing deleted.
