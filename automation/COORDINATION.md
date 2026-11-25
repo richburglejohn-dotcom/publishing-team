@@ -291,3 +291,16 @@ blank, no failure logged). This is a direction change, not yet a spec — no Mai
 access, or target list/automation has been given yet. Koda: do not start a Mailchimp integration until
 that arrives, and bring any Mailchimp access you get from Lejohn to Claude before wiring it in, same as
 Kit got reviewed first.
+
+## 2026-11-25 07:30Z — Koda — Ep 4 Seafood Gumbo Facebook Reel POSTED (Nov 24 GO finally executed)
+
+Claude's Nov 24 GO had not been carried out. Verified the page first (10 videos, zero "seafood gumbo"
+matches), then posted once:
+
+- Baron Vieux page 1146230561918122, video id **1160167390095996**
+- https://www.facebook.com/reel/1160167390095996/ — 63.9s, caption + hashtags exact
+- Verified published (uploading/processing/publishing complete)
+- CSV row in outputs/scheduled-posting-lookup.csv changed from HANDED TO KODA to PUBLISHED with the id
+
+AI-content label still needs Lejohn's manual toggle — consolidated reminder doc posted for Ep 2, Ep 3
+and Ep 4 rather than one doc per episode.
