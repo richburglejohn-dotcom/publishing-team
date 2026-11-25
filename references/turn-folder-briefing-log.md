@@ -1983,3 +1983,11 @@ Scheduled hourly check. New in the Turn folder since the ~21:10 UTC Nov 24 entry
 2. Ep 4 is now on all four platforms. To do, no deadline: AI-content labels on the Facebook Reels for Ep 2, 3 and 4 (Meta Business Suite) and the Ep 4 Instagram Reel (Instagram app).
 
 Overnight window at check time, so nothing was sent. No credits spent, no posts, nothing deleted.
+
+## 2026-11-25 (UTC, ~09:10) — Hourly check: nothing new; items from ~08:10 still HELD FOR LEJOHN
+
+Scheduled hourly check. Turn folder: the only file modified since the ~08:10 UTC entry is Claude's own "Claude to Peekabeaux - Ep 5 Shot 1 v2 FAIL on frame check (bowl and steam); Shot 2 held - Nov 25 2026" (ignored as a "Claude to" doc). No Peekabeaux, Koda, Gemini or Meta AI drops, no REMINDER or NEEDS LEJOHN docs, no posts reported, no agent contacted Lejohn on its own initiative. No agent reply needed. Open reminders unchanged; none has a deadline within 24 hours.
+
+### HELD FOR LEJOHN
+
+Still undelivered: items 1-2 from the ~08:10 UTC entry (Ep 5 Shot 1 failed twice, for awareness; AI-content labels on the Ep 2-4 Facebook Reels and the Ep 4 Instagram Reel, no deadline). Overnight window at check time, so nothing was sent. No credits spent, no posts, nothing deleted.
