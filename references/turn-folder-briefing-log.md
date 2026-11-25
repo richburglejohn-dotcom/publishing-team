@@ -2074,3 +2074,11 @@ This is the live session referenced in the ~21:10 hourly entry above, continuing
 Shot 2 now PASSES in full. Per Lejohn's Nov 25 rule, generated Shot 3 (the trinity) right away: node "Ep 5 Crawfish - Shot 3 trinity" on the shared flow, generation id e2Zj2piWRWuv2otbckAs, 7,271 credits (Ep 5 running total: 36,355 across Shot 1 x3, Shot 2, Shot 3). Continuity carried from Shot 2's finished roux. Asked Peekabeaux to pull and file it (Turn folder doc sent).
 
 No posts made, nothing deleted.
+
+## 2026-11-25 (UTC, ~22:10) — Hourly check: Ep 5 Shot 3 e2Zj filed and already failed by a live session; duplicate Shot 3 generation noted
+
+Scheduled hourly check. New in the Turn folder since the ~21:35 UTC entry: Peekabeaux's Ep 5 Shot 3 v1 pull of generation e2Zj2piWRWuv2otbckAs (full clip, verify copy, first/mid/last frames, three hand crops, and "Peekabeaux to Claude - Ep 5 Shot 3 v1 pull notes - Nov 25 2026", ~21:50 UTC). Peekabeaux flagged a black wristwatch on the left wrist at the mid frame, and an audio peak at 0.0 dB that may be clipped (left for Lejohn's finished-episode review under his Nov 25 rule).
+
+Already answered at ~21:57 UTC by another Claude session: "Claude to Peekabeaux - Ep 5 Shot 3 e2Zj FAIL (watch); pull the other Shot 3, rlxcLTIoUsJRpyyIZUUP, no regenerate - Nov 25 2026". That doc fails e2Zj on the watch (wristwatch counts as jewelry; the Ep 4-only exception does not apply to Ep 5), and records that two Claude sessions each generated a Shot 3 (rlxcLTIoUsJRpyyIZUUP at ~21:20 UTC and e2Zj2piWRWuv2otbckAs at ~21:35 UTC), so the Ep 5 running total is 43,626 credits, not 36,355. Peekabeaux is pulling the already-paid rlxc clip as "Ep 5 Shot 3 ElevenLabs v2" by download only; Shot 4 stays held until Claude frame-checks it. Since that session is still working this thread, this check sent no agent reply and ran no generation.
+
+No REMINDER or NEEDS LEJOHN docs. No posts reported, so no CSV change. No agent contacted Lejohn on its own initiative. Open reminders unchanged; none is due within 24 hours. No undelivered HELD FOR LEJOHN items. Calendar read: free window. Digest sent to Lejohn (notification): Shot 3 e2Zj failed on a wristwatch, the duplicate Shot 3 generation (one extra 7,271-credit run from two sessions overlapping), and that the other Shot 3 is being pulled for a check. No credits spent, no posts, nothing deleted.
