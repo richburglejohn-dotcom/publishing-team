@@ -700,7 +700,8 @@ Lejohn's notes on v5: accent at 10-15s (clip 2), sizzle fine, light-skinned hand
 - AI-generated label on the Instagram Ep 3 The Gulf Remedy Reel (media id 18109222808202737), switched on in the Instagram app. Filed by Claude 2026-11-16 (from the approvals doc "Ep 3 to Instagram and Facebook; TikTok posted by Lejohn"). No deadline.
 - SUPERSEDED 2026-11-24 (Lejohn: "Keep the kit on hold, going to merge everything to mailchimp"; see the ~03:52 UTC Nov 24 entry): Kit Creator purchase and Kit account check: Friday 2026-11-20. Filed by Claude.
 - DONE 2026-11-13 (Lejohn's report in chat; live Amazon price not verified by Claude): Change the Kindle price to $3.99 (US) for both books in KDP, in his own browser (Amazon blocks Muse). Steps: Turn folder doc "Muse to Claude - Kindle 3.99 paste-ready KDP steps - Nov 13 2026". Filed by Claude from Muse's doc. No deadline.
-- AI-generated label on the Ep 4 Seafood Gumbo Reels: Instagram (media id 18506683747098565) in the Instagram app, and Facebook once Koda posts it, in Meta Business Suite. Filed by Claude 2026-11-24 (from "Approvals log addition - 2026-11-24 - Ep 4 Seafood Gumbo released (YouTube, TikTok, Instagram, Facebook)"). No deadline.
+- AI-generated label on the Ep 4 Seafood Gumbo Reels: Instagram (media id 18506683747098565) in the Instagram app, and Facebook (reel 1160167390095996, posted by Koda 2026-11-25) in Meta Business Suite. Filed by Claude 2026-11-24 (from "Approvals log addition - 2026-11-24 - Ep 4 Seafood Gumbo released (YouTube, TikTok, Instagram, Facebook)"). No deadline.
+- AI-content label, manual toggle in Meta Business Suite, on the Baron Vieux Facebook Reels for Ep 2 cold open, Ep 3 cold open and Ep 4 Seafood Gumbo (consolidates the Facebook parts of the two lines above). Filed by Koda 2026-11-25. No deadline. Doc: "Koda to Claude - REMINDER FOR LEJOHN - AI-content labels on Facebook Reels (Ep 2, 3, 4) - Nov 25 2026".
 - PR #46 review; Stripe webhook decision; Bayoubeaux1070 page token for Koda; restrict sharing on the Ep 2 v4 Drive file; sales tax registration. Filed by Claude. No deadlines.
 
 ## 2026-11-12 (late night CT) — Lead magnet page published; income items 1, 3, 4 approved
@@ -1967,3 +1968,18 @@ Scheduled hourly check. Turn folder: nothing modified since the ~19:10 UTC entry
 - Open reminders: unchanged (AI-generated labels on the Ep 4 Instagram and Facebook Reels, no deadline). Nothing due within 24 hours.
 
 Lejohn free at check time: short update sent. No credits spent, no posts, nothing deleted.
+
+## 2026-11-25 (UTC, ~08:10) — Hourly check: Ep 5 Shot 1 v2 fails frame check; Ep 4 Facebook posted; HELD FOR LEJOHN
+
+Scheduled hourly check. New in the Turn folder since the ~21:10 UTC Nov 24 entry: a live Claude session with Lejohn (about 06:24-07:07 UTC) started Ep 5 Crawfish Etouffee (approvals docs, Shot 1 v1 failed, one ElevenLabs redo v2 run); Peekabeaux filed the Ep 5 script and shot list, Shot 1 v1 and v2 pulls with frames and hand crops, and a note on Lejohn's Ep 5 review rule; Koda filed a POSTED doc and a REMINDER doc. No Gemini or Meta AI drops. No agent contacted Lejohn on its own initiative.
+
+- **Ep 5 Shot 1 v2 (ElevenLabs GDqGkBHvSXp7U3ktDIax): FAIL on Claude's frame check.** Under the Nov 25 approvals addition, Claude and Peekabeaux pass or fail Ep 5 shots and Lejohn reviews only the finished episode. Hands bare and correct skin tone, plain coat, glasses, apron, no text: pass. Fails on the same two points as v1: the bowl holds shell-on crawfish including at least one whole crawfish with head and claws (Peekabeaux's note read it as peeled tails), and the large right-hand pot is steaming from 0.0s, which points to the start frame image rather than the prompt. Answered in "Claude to Peekabeaux - Ep 5 Shot 1 v2 FAIL on frame check (bowl and steam); Shot 2 held - Nov 25 2026": no regenerate from this check, start frame to be checked or replaced and the bowl dropped or framed out before any v3, Shot 2 held. Ep 5 ElevenLabs spend so far 14,542 credits (two Shot 1 runs).
+- **Ep 4 Facebook Reel: POSTED by Koda** (video 1160167390095996, Baron Vieux page, 07:30 UTC), after he checked the page for an earlier gumbo post and found none. His CSV row is on main (commit 95181b8). With all four Ep 4 posts done, commit 7b65d640 no longer needs to be served, so this check reset the branch to main as the task specifies (the Ep 4 files themselves are on main via #213). No reply to Koda needed.
+- **Reminder:** Koda's new doc consolidates the Facebook AI-content labels for Ep 2, 3 and 4; added to open reminders, Ep 4 line updated. No deadline.
+
+### HELD FOR LEJOHN
+
+1. For awareness (no decision needed from him under his Nov 25 rule unless he wants one): Ep 5 Shot 1 failed twice on the bowl and the steaming pot. v3 waits for a fixed start frame and prompt in a live session, at another 7,271 credits.
+2. Ep 4 is now on all four platforms. To do, no deadline: AI-content labels on the Facebook Reels for Ep 2, 3 and 4 (Meta Business Suite) and the Ep 4 Instagram Reel (Instagram app).
+
+Overnight window at check time, so nothing was sent. No credits spent, no posts, nothing deleted.
