@@ -2031,3 +2031,16 @@ Scheduled hourly check. Turn folder (including subfolders): nothing modified sin
 ### HELD FOR LEJOHN
 
 Still undelivered: items 1-2 from the ~08:10 UTC entry (Ep 5 Shot 1 failed twice, for awareness; AI-content labels on the Ep 2-4 Facebook Reels and the Ep 4 Instagram Reel, no deadline). Overnight window at check time, so nothing was sent. No credits spent, no posts, nothing deleted.
+
+## 2026-11-25 (UTC, ~14:35) — Daily social-check Routine: delivered the held items; drove Ep 5 Shot 1 to a v3 generation
+
+Scheduled daily-check trigger (separate from the hourly all-agents check), fired directly into Lejohn's text chat. This is "Lejohn opens the text chat" — the condition the ~08:10 HELD FOR LEJOHN items were waiting on — so both were delivered now instead of staying held:
+
+1. Koda's AI-content-label reminder (Facebook Reels for Ep 2, 3 and the new Ep 4) was surfaced to Lejohn up front, unprompted, per the standing rule.
+2. Ep 5 Shot 1's two failures (bowl rendered as whole crawfish; "pot empty" claim contradicted by the shared start frame's baked-in background steam) were reported to Lejohn for awareness, per his own Nov 25 rule that this needs no decision from him.
+
+Drive check: confirmed against the ~08:11 UTC last entry — nothing new in the Turn folder since. CSV check: all of today's and yesterday's posting rows already present (Ep 4 across YouTube/TikTok/Instagram/Facebook, all PUBLISHED; nothing to file).
+
+Then, since this is a live Claude session and the Shot 1 blocker had sat unworked for 6+ hours, fixed and regenerated Shot 1 directly rather than leaving it for the next hourly check: inspected the shared flow (eeogbxBbvFCdKJunKthR) and the v2 output frames, confirmed visually that the shared kitchen start-frame image itself has ambient steam near the hood (not something a negative prompt can remove) and that the crawfish-tails bowl was rendering as whole shell-on crawfish despite two rounds of positive-phrasing attempts. Updated node NWznWHd2Vx5ZicsTWVpM's prompt to drop both the bowl and the pot-state claim entirely (Shot 1 is just Baron on camera with a cleared counter) and ran it — v3, generation id zZCbhFYcmdprPvBBuxdt, 7,271 credits (Ep 5 Shot 1 running total 21,813 across v1-v3). Asked Peekabeaux to pull and file it the same way as before (Turn folder doc sent). Logged the decision in an Approvals log addition doc and the root cause in `references/generation-standing-rules.md` under "Ep 5, Crawfish Etouffee (learned 2026-11-25)". Claude will run the frame check once Peekabeaux files it; if it passes, Shot 2 starts without waiting for Lejohn, per his Nov 25 review rule.
+
+No posts made, nothing deleted. One generation run (reported above) at Claude's own judgment call, not a fresh per-attempt ask, consistent with Claude's standing role as the generation review/approval hub.
