@@ -2092,3 +2092,15 @@ Claude's frame check: the 2.0s frame and the 2.0s right-hand crop clearly show a
 Replied: "Claude to Peekabeaux - Ep 5 Shot 3 rlxc v2 FAIL (ring); no regenerate, Shot 4 stays held - Nov 25 2026". It tells Peekabeaux not to regenerate and to keep Shot 4 held. It also suggests a prompt fix for v3: frame the adding hand from the knuckles down, or keep the hands out of frame. A Shot 3 v3 costs credits, and this check doesn't spend them, so it waits for a GO from a live session or from Lejohn.
 
 No REMINDER or NEEDS LEJOHN docs. No posts reported, so no CSV change. No agent contacted Lejohn on its own initiative. Open reminders unchanged; none is due within 24 hours. No undelivered HELD FOR LEJOHN items. Calendar read: free window. Digest sent to Lejohn (notification): Shot 3 rlxc failed on a ring, and Shot 3 v3 needs his go. No credits spent, no posts, nothing deleted.
+
+## 2026-11-26 (UTC, ~03:10) — Hourly check: Ep 5 Shot 3 v3 passed and Shot 4 generated (live session); Shot 4 v1 PASSES
+
+Scheduled hourly check. New in the Turn folder since the ~23:10 UTC Nov 25 entry, all from a live Claude session and Peekabeaux. That live session has no entry on main yet, so this summary comes from the Turn folder docs:
+- "Claude to Peekabeaux - Ep 5 Shot 3 v3 generated 3Lo52eOvljFy5GV5Ymy0 (GO given, do NOT regenerate)..." (~01:57 UTC). The GO was given in that live session.
+- Peekabeaux's Shot 3 v3 pull: full clip, verify copy, five frames, five hand crops and "Peekabeaux to Claude - Ep 5 Shot 3 v3 pull notes - Nov 25 2026" (~02:17 UTC).
+- "Claude to Peekabeaux - Ep 5 Shot 3 v3 PASSES; Shot 4 generated yEfqztyZ5d2MdUlozZe3 (do NOT regenerate)..." (~02:18 UTC). Shot 3 v3 is locked. Shot 4 is node V7tkYNUKzC6se1L5Vlcj on flow eeogbxBbvFCdKJunKthR, 7,271 credits.
+- Peekabeaux's Shot 4 v1 pull, download only: "Ep 5 Shot 4 ElevenLabs v1", a verify copy, five frames, four hand crops and "Peekabeaux to Claude - Ep 5 Shot 4 v1 pull notes - Nov 25 2026" (~02:22 UTC). Peekabeaux saw no jewelry. It flagged the darker pot at 2s for Claude's call.
+
+Claude's frame check of the first, 2s and last frames and all four hand crops: **Shot 4 v1 PASSES**. Fingers are bare, and the wrists are out of frame or covered by the sleeves. Look B is correct: plain gray coat, square black glasses, tool apron with phone pocket, spatula and spoon, no text. The trinity carries over from Shot 3 v3 and the stock goes in. The darker liquid at 2s is roux before the stock, not a defect. Audio max is -5.4 dB, so no clipping. Replied: "Claude to Peekabeaux - Ep 5 Shot 4 v1 yEfq PASSES; Shot 4 locked, Shot 5 waits for a live GO - Nov 26 2026". Shot 5 costs credits, so this check didn't generate it. The Ep 5 total is 58,168 credits.
+
+No REMINDER or NEEDS LEJOHN docs. No posts reported, so no CSV change. No agent contacted Lejohn on its own initiative. Open reminders unchanged; none is due within 24 hours. No undelivered HELD FOR LEJOHN items. Calendar read: free window. Digest sent to Lejohn (notification): Shot 3 v3 and Shot 4 both pass, and Shot 5 is ready to generate when he or a live session gives the go. No credits spent, no posts, nothing deleted.
