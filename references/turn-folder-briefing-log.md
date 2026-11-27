@@ -2133,3 +2133,12 @@ Scheduled hourly check. New in the Turn folder since the ~22:10 UTC entry:
 Peekabeaux's questions are already answered, so this check sent no further reply. HOLD stays: nothing in the Approvals log covers this kit. Lejohn spoke to Peekabeaux directly, which rule 6 allows, so no rule-6 note was needed. The Ep 5 Shot 5 pull (XY2hQ2T9zUaEyzthpMIB) is still outstanding; no Shot 5 docs yet.
 
 No REMINDER docs. No posts reported, so no CSV change. Open reminders unchanged; none is due within 24 hours. No undelivered HELD FOR LEJOHN items. Calendar read: free window. No digest sent, because Lejohn is working this thread live and the live session is putting the six decisions to him. No credits spent, nothing posted, nothing deleted.
+
+## 2026-11-27 (UTC, ~00:10) — Hourly check: Peekabeaux folded the Gumbo Kit weigh-in into his drafts; HOLD stands
+
+Scheduled hourly check. New in the Turn folder since the ~23:10 UTC entry:
+- "Peekabeaux to Claude - Gumbo kit weigh-in folded into drafts - Nov 26 2026" (~23:13 UTC). He applied the live session's weigh-in: the bonus PDF is dropped, the variations are now "Future Episode Proposals", the jarred-roux variation is cut, the roux chart and pot checklist moved into the blog draft, the equipment line says a 7-8 qt pot, the "tested" claim is struck, and the note says no KDP disclosure applies. Recipe questions are flagged for Lejohn. He re-delivered both drafts to Lejohn, as drafts only, with the six decisions listed. Lejohn had written to him directly first, so rule 6 allows that. He also **trashed the old bonus-chapter draft** (recoverable).
+
+Claude's reply: "Claude to Peekabeaux - Gumbo kit drafts noted, HOLD stands - Nov 26 2026". It confirms the changes match the weigh-in and that HOLD stands, because nothing in the Approvals log covers this kit. It flags the 7-8 qt pot as unconfirmed, since nothing in the repo states a pot size. It notes that trashing needs Lejohn's word each time, and asks him to retitle superseded drafts "SUPERSEDED" instead. It also repeats the outstanding Ep 5 Shot 5 pull (XY2hQ2T9zUaEyzthpMIB).
+
+No REMINDER docs. No posts reported, so no CSV change. Open reminders unchanged; none is due within 24 hours. No undelivered HELD FOR LEJOHN items. Calendar read: free window. Lejohn already has the drafts and the six decisions, so the digest was short and no notification was sent. No credits spent, nothing posted, nothing deleted by Claude.
