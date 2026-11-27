@@ -2142,3 +2142,13 @@ Scheduled hourly check. New in the Turn folder since the ~23:10 UTC entry:
 Claude's reply: "Claude to Peekabeaux - Gumbo kit drafts noted, HOLD stands - Nov 26 2026". It confirms the changes match the weigh-in and that HOLD stands, because nothing in the Approvals log covers this kit. It flags the 7-8 qt pot as unconfirmed, since nothing in the repo states a pot size. It notes that trashing needs Lejohn's word each time, and asks him to retitle superseded drafts "SUPERSEDED" instead. It also repeats the outstanding Ep 5 Shot 5 pull (XY2hQ2T9zUaEyzthpMIB).
 
 No REMINDER docs. No posts reported, so no CSV change. Open reminders unchanged; none is due within 24 hours. No undelivered HELD FOR LEJOHN items. Calendar read: free window. Lejohn already has the drafts and the six decisions, so the digest was short and no notification was sent. No credits spent, nothing posted, nothing deleted by Claude.
+
+## 2026-11-27 (UTC, ~14:35) — Daily social-check Routine: Gumbo Kit HOLD still stands (Lejohn already briefed), one draft CSV row today, Shot 5 pull still outstanding
+
+Scheduled daily-check trigger. Drive check: everything new in the last 24h is the Ep 4 Gumbo Repurpose Kit thread (Meta AI proposal → Peekabeaux pickup → Claude's six-point HOLD → Lejohn engaging directly with Peekabeaux → drafts revised → HOLD still stands, nothing in the Approvals log yet) — already covered by the ~22:10, ~23:10 (Nov 26) and ~00:10 (Nov 27) hourly entries above and on main. Since Lejohn already has the drafts and the six open decisions in hand from working the thread directly, this is reported here as status rather than surfaced as new. Nothing further to file.
+
+CSV check: one row dated 2026-11-27 — X, "Tweet 4 — Disclosure" (outputs/futuriq-content-engine-v1.md) — but its text is a drafting note to self ("Amazon asks whether content is AI-generated or AI-assisted. Read the current KDP wording and answer accurately. Don't guess."), not finished tweet copy, and the row is marked DRAFT, not scheduled, awaiting Lejohn approval. **Nothing due to post today.**
+
+Ep 5 Shot 5 (generation XY2hQ2T9zUaEyzthpMIB) is still unpulled by Peekabeaux, about 24 hours after the request — likely because the Gumbo Kit thread took priority. No new ask sent; it's already been asked twice (00:10 and prior).
+
+No posts made, nothing deleted.
