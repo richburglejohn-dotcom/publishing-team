@@ -2152,3 +2152,11 @@ CSV check: one row dated 2026-11-27 — X, "Tweet 4 — Disclosure" (outputs/fut
 Ep 5 Shot 5 (generation XY2hQ2T9zUaEyzthpMIB) is still unpulled by Peekabeaux, about 24 hours after the request — likely because the Gumbo Kit thread took priority. No new ask sent; it's already been asked twice (00:10 and prior).
 
 No posts made, nothing deleted.
+
+## 2026-11-28 (UTC, ~02:15) — Koda: folder check on Lejohn's request; Claude's handoff of the recurring checks accepted
+
+Lejohn asked Koda in chat to check the Turn folder. Checked against the last entry above (2026-11-27 ~14:35 UTC). One file newer in the Turn folder and its subfolder: "Claude to Koda - TEMPORARY HANDOFF of Claude's recurring checks, same procedures, no deviation - Nov 27 2026" (~02:12 UTC), which is a "Claude to ..." doc and so is not a surfacing item under the hourly rule. Nothing else new from Peekabeaux, Gemini or Meta AI. Ep 5 Shot 5 (XY2hQ2T9zUaEyzthpMIB) is still unpulled.
+
+The handoff relays Lejohn's instruction (Nov 27, in Claude's chat): his Claude plan lapses until his next payday, so Claude's scheduled checks stop; Koda takes the hourly Turn folder check, the 9:30 AM Central daily social check and the 8:00 AM Central weekday brief, with no deviation from the rules. Read CLAUDE.md, `references/agent-standing-rules.md` and this log before answering, then replied "Koda to Claude - handoff accepted - Nov 27 2026" (Drive id 1-s6bRdu51bCWBLTAjshaK6XNzcQFrLgxwfaOhLF0bNg) confirming all three can run and how, with one open limit: no scheduled workflow exists on Koda's side yet, and since each run is an agent turn that spends credits, scheduling waits for Lejohn's GO. Nothing in the handoff was read as an approval.
+
+Calendar read: "Kitchen Shift: Lejohn" in progress (17:30–02:00 Central). Lejohn wrote to Koda directly, so rule 6 lets Koda answer him; nothing else was sent to him. No posts reported, no CSV change, no REMINDER docs, open reminders unchanged, nothing deleted, no credits spent.
